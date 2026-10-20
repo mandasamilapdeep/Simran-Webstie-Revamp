@@ -4491,6 +4491,7 @@ dd {
  * https://type-scale.com/
  */
 :root {
+  --font-16: 46px;
   --font-15: 46px;
   --font-14: 52px;
   --font-13: 50px;
@@ -4510,6 +4511,7 @@ dd {
 
 @media only screen and (min-width: 750px) and (max-width: 989px) {
   :root {
+    --font-16: 70px;
     --font-15: 60px;
     --font-14: 55px;
     --font-13: 50px;
@@ -4530,6 +4532,7 @@ dd {
 
 @media only screen and (min-width: 990px) {
   :root {
+    --font-16: 100px;
     --font-15: 82px;
     --font-14: 75px;
     --font-13: 69px;
@@ -4797,6 +4800,10 @@ p small {
 
 .heading-size-15 {
   font-size: calc(var(--font-15) * var(--FONT-ADJUST-HEADING));
+}
+
+.heading-size-16 {
+  font-size: calc(var(--font-16) * var(--FONT-ADJUST-HEADING));
 }
 
 .subheading-size-1 {

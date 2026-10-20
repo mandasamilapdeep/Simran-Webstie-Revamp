@@ -146,6 +146,7 @@
                   {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
                   {%- assign animation_order = animation_order | plus: 1 -%}
                   <h2
+                    style="max-width: {{ block.settings.heading_max_width }}px;"
                     class="hero__title {{ font_size_class }}"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
@@ -614,9 +615,19 @@
           "id": "heading_size",
           "label": "Size",
           "min": 1,
-          "max": 15,
+          "max": 16,
           "step": 1,
           "default": 11
+        },
+        {
+          "type": "range",
+          "id": "heading_max_width",
+          "label": "Heading Max Width",
+          "unit": "px",
+          "min": 250,
+          "max": 1000,
+          "step": 10,
+          "default": 600
         }
       ]
     },

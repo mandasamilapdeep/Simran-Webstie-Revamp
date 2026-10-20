@@ -27,7 +27,8 @@
           "type": "heading",
           "settings": {
             "title": "Spaces that work as hard as your business.",
-            "heading_size": 15
+            "heading_size": 16,
+            "heading_max_width": 940
           }
         },
         "text_aQkzEW": {
@@ -76,7 +77,7 @@
           "type": "heading_text_group",
           "settings": {
             "border_top_color": "#f2ede7",
-            "border_right_inner_blocks_color": "#F2EDE7",
+            "border_right_inner_blocks_color": "#f2ede7",
             "text_color": "",
             "first_heading": "25+",
             "first_heading_size": 8,
@@ -586,7 +587,7 @@
       "settings": {
         "layout": "",
         "height": "sixty-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Screenshot_2026-06-08_at_15.57.42.png",
         "image_link": "#",
@@ -610,237 +611,6 @@
         "color": "",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "section_multicolumn_rN3W6G": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "text_jAEmk8": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 44,
-            "title": "AS SEEN AT AND IN COLLABORATION WITH",
-            "heading_size": 1,
-            "heading_letter_spacing": 2,
-            "title_color": "#6b5a50",
-            "title_2": "",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "",
-            "text_size": 3,
-            "text_first_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "",
-            "text_size_2": 3,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "",
-            "text_2_letter_spacing": 0,
-            "text_2_margin_top": 10,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_Am6QE9": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 20,
-            "title": "",
-            "heading_size": 2,
-            "heading_letter_spacing": 2,
-            "title_color": "#6b5a50",
-            "title_2": "London Design Week",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "",
-            "text_size": 3,
-            "text_first_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "",
-            "text_size_2": 3,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "",
-            "text_2_letter_spacing": 0,
-            "text_2_margin_top": 10,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_X8jJna": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 11,
-            "title": "",
-            "heading_size": 2,
-            "heading_letter_spacing": 2,
-            "title_color": "#6b5a50",
-            "title_2": "Dulux",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "",
-            "text_size": 3,
-            "text_first_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "",
-            "text_size_2": 3,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "",
-            "text_2_letter_spacing": 0,
-            "text_2_margin_top": 10,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_FT9qxP": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 11,
-            "title": "",
-            "heading_size": 2,
-            "heading_letter_spacing": 2,
-            "title_color": "#6b5a50",
-            "title_2": "Altro",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "",
-            "text_size": 3,
-            "text_first_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "",
-            "text_size_2": 3,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "",
-            "text_2_letter_spacing": 0,
-            "text_2_margin_top": 10,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_EpbQ3w": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 14,
-            "title": "",
-            "heading_size": 2,
-            "heading_letter_spacing": 2,
-            "title_color": "#6b5a50",
-            "title_2": "Minotti London",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "",
-            "text_size": 3,
-            "text_first_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "",
-            "text_size_2": 3,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "",
-            "text_2_letter_spacing": 0,
-            "text_2_margin_top": 10,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "text_jAEmk8",
-        "text_Am6QE9",
-        "text_X8jJna",
-        "text_FT9qxP",
-        "text_EpbQ3w"
-      ],
-      "disabled": true,
-      "name": "Multicolumn",
-      "settings": {
-        "subtitle": "",
-        "subtitle_size": 5,
-        "subtitle_color": "",
-        "title": "",
-        "heading_size": 5,
-        "heading_max_width": 600,
-        "description": "",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "align_columns": "flex-align-top",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "first_button_text": "",
-        "first_button_url": "",
-        "second_button_text": "",
-        "second_button_url": "",
-        "padding_top": 50,
-        "padding_bottom": 0,
-        "layout_mobile": "1",
-        "equal_spacing_blocks": false,
-        "mobile_flex_row": true
-      }
-    },
-    "section_divider_yz3ykR": {
-      "type": "section-divider",
-      "disabled": true,
-      "name": "Divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "border_color": "#e3d3c9",
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "section_multicolumn_cr4Ump": {
@@ -1055,7 +825,8 @@
           "type": "heading",
           "settings": {
             "title": "An office the whole team calls a second home.",
-            "heading_size": 8
+            "heading_size": 8,
+            "heading_max_width": 600
           }
         },
         "text_hAa7MB": {
@@ -1758,6 +1529,7 @@
         "text_87kByJ",
         "buttons_pHyt4G"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "layout": "",
@@ -1788,6 +1560,78 @@
         "padding_bottom": 140
       }
     },
+    "customer_review_slider_dfbKnw": {
+      "type": "customer_review_slider",
+      "blocks": {
+        "review_4zJfCi": {
+          "type": "review",
+          "settings": {
+            "review_text": "“The final office space has completely transformed the way we work. It’s a space the whole team genuinely loves being in every day, and we constantly receive compliments on the design.”",
+            "author_name": "F. Santoro",
+            "author_info": "Infinitum Entertainment · Carnaby Street, London",
+            "review_url": ""
+          }
+        },
+        "review_wkGFX6": {
+          "type": "review",
+          "settings": {
+            "review_text": "“The space now embodies a luxurious, refined atmosphere that perfectly aligns with the premium service we strive to deliver. Everyone who walks through our doors immediately notices the difference.”",
+            "author_name": "Ultra Hair Clinic",
+            "author_info": "Clinic · Birmingham",
+            "review_url": ""
+          }
+        },
+        "review_8Ycbr9": {
+          "type": "review",
+          "settings": {
+            "review_text": "“She came back with creative, considered ideas that balanced ambition with a realistic budget. Rare to find someone who can translate a cultural brief into design so thoughtfully.”",
+            "author_name": "S. Virdee",
+            "author_info": "Darbar Arts and Heritage Trust · London",
+            "review_url": ""
+          }
+        },
+        "review_eYHLdX": {
+          "type": "review",
+          "settings": {
+            "review_text": "“It was in such a bad state before, but Simran started with a blank canvas and completely transformed the space. It’s unrecognisable now and she delivered exactly to her 3D plans.”",
+            "author_name": "A. Metha",
+            "author_info": "Park House HQ · Leicester",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_4zJfCi",
+        "review_wkGFX6",
+        "review_8Ycbr9",
+        "review_eYHLdX"
+      ],
+      "name": "Customer review slider",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "padding_top": 140,
+        "padding_bottom": 140,
+        "subheading": "CLIENT WORDS",
+        "heading": "Rated five stars by the businesses we design for.",
+        "heading_size": "h1",
+        "show_stars": true,
+        "star_count": 5,
+        "link_text": "READ MORE CLIENT STORIES",
+        "link_url": "",
+        "autoplay": true,
+        "autoplay_speed": 6,
+        "pause_on_hover": true,
+        "transition": "fade",
+        "wrap_around": true,
+        "show_controls": true,
+        "show_counter": true,
+        "quote_size": "large",
+        "bg_color": "#241c18",
+        "text_color": "#ffffff",
+        "accent_color": "#c5a880",
+        "text_muted_color": "#a89f91"
+      }
+    },
     "section_hero_RjPbxC": {
       "type": "section-hero",
       "blocks": {
@@ -1806,7 +1650,8 @@
           "type": "heading",
           "settings": {
             "title": "Begin your project.",
-            "heading_size": 10
+            "heading_size": 10,
+            "heading_max_width": 600
           }
         },
         "text_j6DPxF": {
@@ -1882,8 +1727,6 @@
     "section_announcement_NTQfgU",
     "section_divider_aYEUXF",
     "section_double_REpqYP",
-    "section_multicolumn_rN3W6G",
-    "section_divider_yz3ykR",
     "section_multicolumn_cr4Ump",
     "section_hero_Fm7ti3",
     "section_multicolumn_GfAQry",
@@ -1891,6 +1734,7 @@
     "section_multicolumn_F4AzFT",
     "section_multicolumn_yFM8rQ",
     "section_double_WyxnBd",
+    "customer_review_slider_dfbKnw",
     "section_hero_RjPbxC"
   ]
 }

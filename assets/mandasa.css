@@ -354,7 +354,10 @@ span.drawer__image_box_text h6 {
     left: 0;
 }
 
-
+.brick__block__image .image__hero__frame[data-parallax-wrapper] .image__hero__scale {
+    min-height: 100%;
+    max-height: 100%;
+}
 
 
 @media only screen and (min-width: 901px) {
@@ -388,10 +391,6 @@ span.drawer__image_box_text h6 {
 }
 
 @media screen and (min-width: 750px) {
-    .brick__block__image .image__hero__frame[data-parallax-wrapper] .image__hero__scale {
-        min-height: 100%;
-        max-height: 100%;
-    }
 
     .brick__block.brick__block--sixty {
         flex: 1 1 60%;
