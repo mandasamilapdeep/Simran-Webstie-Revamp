@@ -1,0 +1,907 @@
+<!-- /sections/customer_review_slider.liquid -->
+
+{%- liquid
+  assign bg_color = section.settings.bg_color | default: '#241C18'
+  assign text_color = section.settings.text_color | default: '#FFFFFF'
+  assign accent_color = section.settings.accent_color | default: '#C5A880'
+  assign text_muted = section.settings.text_muted_color | default: '#A89F91'
+  assign animation_anchor = '#CustomerReviews--' | append: section.id
+
+  assign autoplay = section.settings.autoplay
+  assign autoplay_speed = section.settings.autoplay_speed | times: 1000
+  assign pause_on_hover = section.settings.pause_on_hover
+  assign transition = section.settings.transition | default: 'fade'
+  assign wrap_around = section.settings.wrap_around
+
+  assign width_class = section.settings.width | default: 'wrapper--full-padded'
+-%}
+
+{%- style -%}
+  #CustomerReviews--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    --reviews-bg: {{ bg_color }};
+    --reviews-text: {{ text_color }};
+    --reviews-accent: {{ accent_color }};
+    --reviews-muted: {{ text_muted }};
+    background-color: var(--reviews-bg);
+    color: var(--reviews-text);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__container {
+    display: grid;
+    grid-template-columns: 4.5fr 7.5fr;
+    gap: 40px 80px;
+    align-items: start;
+  }
+
+  @media only screen and (max-width: 989px) {
+    #CustomerReviews--{{ section.id }} .customer-reviews__container {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+  }
+
+  /* Left Column (Fixed Text) */
+  #CustomerReviews--{{ section.id }} .customer-reviews__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__subheading {
+    color: var(--reviews-accent);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin: 0 0 18px 0;
+    line-height: 1.4;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__heading {
+    color: var(--reviews-text);
+    font-family: var(--FONT-STACK-HEADING);
+    margin: 0 0 24px 0;
+    font-weight: 300;
+    line-height: 1.22;
+    letter-spacing: -0.01em;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__heading--h1 {
+    font-size: clamp(34px, 4.2vw, 54px);
+  }
+  #CustomerReviews--{{ section.id }} .customer-reviews__heading--h2 {
+    font-size: clamp(28px, 3.2vw, 44px);
+  }
+  #CustomerReviews--{{ section.id }} .customer-reviews__heading--h3 {
+    font-size: clamp(22px, 2.4vw, 34px);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 0 20px 0;
+    color: var(--reviews-accent);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__star-icon {
+    width: 17px;
+    height: 17px;
+    fill: currentColor;
+    display: inline-block;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__link-wrap {
+    margin-top: 4px;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__link {
+    letter-spacing: 0.22em;
+    color: var(--reviews-accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--reviews-accent);
+    padding-bottom: 4px;
+    transition: color 0.3s ease, border-color 0.3s ease, opacity 0.3s ease;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__link:hover {
+    color: var(--reviews-text);
+    border-bottom: 1px solid  var(--reviews-text);
+  }
+
+  /* Right Column (Flickity Slider) */
+  #CustomerReviews--{{ section.id }} .customer-reviews__right {
+    width: 100%;
+    min-width: 0;
+    position: relative;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__slider {
+    width: 100%;
+    position: relative;
+    outline: none;
+  }
+
+  /* Prevent FOUC before Flickity initializes */
+  #CustomerReviews--{{ section.id }} .customer-reviews__slider:not(.flickity-enabled) .customer-reviews__slide:not(:first-child) {
+    display: none;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__slide {
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__slide-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__quote {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--reviews-text);
+    line-height: 1.45;
+    margin: 0 0 28px 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__quote--large {
+    font-size: clamp(22px, 2.3vw, 32px);
+  }
+  #CustomerReviews--{{ section.id }} .customer-reviews__quote--medium {
+    font-size: clamp(18px, 1.8vw, 25px);
+  }
+  #CustomerReviews--{{ section.id }} .customer-reviews__quote--extra-large {
+    font-size: clamp(26px, 2.7vw, 38px);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__author {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__author-name {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: var(--reviews-text);
+    line-height: 1.3;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__author-info {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--reviews-muted);
+    line-height: 1.4;
+  }
+
+  /* Smooth slide animations matching theme */
+  #CustomerReviews--{{ section.id }} .customer-reviews__slider.is-fade .customer-reviews__slide:not(.is-selected) .customer-reviews__quote {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  #CustomerReviews--{{ section.id }} .customer-reviews__slider.is-fade .customer-reviews__slide.is-selected .customer-reviews__quote {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__slider.is-fade .customer-reviews__slide:not(.is-selected) .customer-reviews__author {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  #CustomerReviews--{{ section.id }} .customer-reviews__slider.is-fade .customer-reviews__slide.is-selected .customer-reviews__author {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.12s;
+  }
+
+  /* Controls (Square buttons + Counter) */
+  #CustomerReviews--{{ section.id }} .customer-reviews__controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 44px;
+    position: relative;
+    z-index: 5;
+  }
+
+  @media only screen and (max-width: 749px) {
+    #CustomerReviews--{{ section.id }} .customer-reviews__controls {
+      margin-top: 32px;
+    }
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__arrow {
+    width: 52px;
+    height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    color: var(--reviews-text);
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.2s ease, opacity 0.3s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__arrow:hover:not(:disabled) {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: {{ section.settings.bg_color }};
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__arrow:active:not(:disabled) {
+    transform: scale(0.96);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__arrow:disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__arrow svg {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    fill: none;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__counter {
+    margin-left: 12px;
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    color: var(--reviews-accent);
+    font-variant-numeric: tabular-nums;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  #CustomerReviews--{{ section.id }} .customer-reviews__counter-sep {
+    opacity: 0.6;
+    margin: 0 2px;
+  }
+{%- endstyle -%}
+
+<div
+  id="CustomerReviews--{{ section.id }}"
+  class="customer-reviews section-padding"
+  data-section-id="{{ section.id }}"
+  data-section-type="customer-review-slider"
+>
+  <div class="{{ width_class }}">
+    <div class="customer-reviews__container">
+      <!-- Left Column (Fixed Text) -->
+      <div class="customer-reviews__left">
+        {%- if section.settings.subheading != blank -%}
+          <p
+            class="customer-reviews__subheading"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="1"
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quart"
+          >
+            {{ section.settings.subheading | escape }}
+          </p>
+        {%- endif -%}
+
+        {%- if section.settings.heading != blank -%}
+          <h2
+            class="customer-reviews__heading customer-reviews__heading--{{ section.settings.heading_size | default: 'h2' }}"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="2"
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quart"
+          >
+            {{ section.settings.heading | escape | newline_to_br }}
+          </h2>
+        {%- endif -%}
+
+        {%- if section.settings.show_stars -%}
+          <div
+            class="customer-reviews__stars"
+            aria-label="{{ section.settings.star_count | default: 5 }} out of 5 stars"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="3"
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quart"
+          >
+            {%- assign star_limit = section.settings.star_count | default: 5 -%}
+            {%- for i in (1..star_limit) -%}
+              <svg class="customer-reviews__star-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.link_text != blank -%}
+          <div
+            class="customer-reviews__link-wrap"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="4"
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quart"
+          >
+            <a
+              href="{{ section.settings.link_url | default: '#' }}"
+              class="customer-reviews__link btn btn--text btn--text-no-underline  btn--primary"
+            >
+              {{ section.settings.link_text | escape }}
+              {%- render 'icon-arrow-right' -%}
+            </a>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <!-- Right Column (Slider) -->
+      <div class="customer-reviews__right">
+        {%- if section.blocks.size > 0 -%}
+          <div
+            class="customer-reviews__slider"
+            data-reviews-slider
+            data-autoplay="{{ autoplay }}"
+            data-autoplay-speed="{{ autoplay_speed }}"
+            data-pause-on-hover="{{ pause_on_hover }}"
+            data-transition="{{ transition }}"
+            data-wrap-around="{{ wrap_around }}"
+          >
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign quote = block.settings.review_text | strip
+                assign author = block.settings.author_name | strip
+                assign info = block.settings.author_info | strip
+              -%}
+              <div
+                class="customer-reviews__slide{% if forloop.first %} is-selected{% endif %}"
+                data-slide="{{ block.id }}"
+                data-block-id="{{ block.id }}"
+                data-slide-index="{{ forloop.index0 }}"
+                {{ block.shopify_attributes }}
+              >
+                <div class="customer-reviews__slide-inner">
+                  {%- if quote != blank -%}
+                    <blockquote
+                      class="customer-reviews__quote customer-reviews__quote--{{ section.settings.quote_size | default: 'large' }}"
+                      data-aos="hero"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-order="2"
+                    >
+                      {%- unless quote contains '“' or quote contains '"' -%}“{%- endunless -%}
+                      {{ quote }}
+                      {%- unless quote contains '”' or quote contains '"' -%}”{%- endunless -%}
+                    </blockquote>
+                  {%- endif -%}
+
+                  {%- if author != blank or info != blank -%}
+                    <div
+                      class="customer-reviews__author"
+                      data-aos="hero"
+                      data-aos-anchor="{{ animation_anchor }}"
+                      data-aos-order="3"
+                    >
+                      {%- if author != blank -%}
+                        <div class="customer-reviews__author-name">{{ author }}</div>
+                      {%- endif -%}
+                      {%- if info != blank -%}
+                        <div class="customer-reviews__author-info">{{ info }}</div>
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+
+          {%- if section.settings.show_controls -%}
+            <div
+              class="customer-reviews__controls"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="4"
+              data-aos-duration="800"
+              data-aos-easing="ease-out-quart"
+            >
+              <button
+                type="button"
+                class="customer-reviews__arrow customer-reviews__arrow--prev"
+                data-reviews-prev
+                aria-label="Previous review"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="customer-reviews__arrow customer-reviews__arrow--next"
+                data-reviews-next
+                aria-label="Next review"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+
+              {%- if section.settings.show_counter -%}
+                <div class="customer-reviews__counter" data-reviews-counter>
+                  <span class="customer-reviews__counter-current" data-reviews-current>01</span>
+                  <span class="customer-reviews__counter-sep">/</span>
+                  <span class="customer-reviews__counter-total" data-reviews-total>
+                    {%- if section.blocks.size < 10 -%}0{%- endif -%}
+                    {{ section.blocks.size }}
+                  </span>
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+        {%- else -%}
+          {%- render 'no-blocks' -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    function initCustomerReviewSlider(section) {
+      if (!section) return;
+      var sliderEl = section.querySelector('[data-reviews-slider]');
+      if (!sliderEl) return;
+
+      // Prevent re-initialization if already running
+      if (sliderEl.classList.contains('flickity-enabled')) return;
+
+      var FlickityConstructor = (window.themeVendor && window.themeVendor.Flickity) || window.Flickity;
+      var FlickityFadeConstructor = (window.themeVendor && window.themeVendor.FlickityFade) || window.FlickityFade;
+
+      if (!FlickityConstructor) {
+        setTimeout(function () {
+          initCustomerReviewSlider(section);
+        }, 50);
+        return;
+      }
+
+      var prevBtn = section.querySelector('[data-reviews-prev]');
+      var nextBtn = section.querySelector('[data-reviews-next]');
+      var counterCurrent = section.querySelector('[data-reviews-current]');
+      var counterTotal = section.querySelector('[data-reviews-total]');
+      var slides = sliderEl.querySelectorAll('.customer-reviews__slide');
+      var slideCount = slides.length;
+
+      if (slideCount === 0) return;
+
+      var autoplay = sliderEl.getAttribute('data-autoplay') === 'true';
+      var autoplaySpeed = parseInt(sliderEl.getAttribute('data-autoplay-speed'), 10) || 5000;
+      var pauseOnHover = sliderEl.getAttribute('data-pause-on-hover') === 'true';
+      var transitionType = sliderEl.getAttribute('data-transition') || 'fade';
+      var isFade = transitionType === 'fade';
+      var wrapAround = sliderEl.getAttribute('data-wrap-around') === 'true';
+
+      if (slideCount <= 1) {
+        if (prevBtn) prevBtn.style.display = 'none';
+        if (nextBtn) nextBtn.style.display = 'none';
+        var counter = section.querySelector('[data-reviews-counter]');
+        if (counter) counter.style.display = 'none';
+        return;
+      }
+
+      var ActiveConstructor = isFade && FlickityFadeConstructor ? FlickityFadeConstructor : FlickityConstructor;
+
+      var flkty = new ActiveConstructor(sliderEl, {
+        cellSelector: '.customer-reviews__slide',
+        contain: true,
+        wrapAround: wrapAround,
+        adaptiveHeight: true,
+        fade: isFade,
+        prevNextButtons: false,
+        pageDots: false,
+        autoPlay: autoplay ? autoplaySpeed : false,
+        pauseAutoPlayOnHover: pauseOnHover,
+        selectedAttraction: 0.05,
+        friction: 0.8,
+        on: {
+          ready: function () {
+            updateCounter(this.selectedIndex);
+            updateNavState(this.selectedIndex);
+          },
+          change: function (index) {
+            updateCounter(index);
+            updateNavState(index);
+
+            // Re-trigger theme data-aos="hero" animation on the newly selected slide
+            var activeSlide = slides[index];
+            if (activeSlide) {
+              var aosElements = activeSlide.querySelectorAll('[data-aos]');
+              if (aosElements.length) {
+                aosElements.forEach(function (el) {
+                  el.classList.remove('aos-animate');
+                  requestAnimationFrame(function () {
+                    setTimeout(function () {
+                      el.classList.add('aos-animate');
+                    }, 0);
+                  });
+                });
+              }
+            }
+          },
+        },
+      });
+
+      flkty.on('select', function () {
+        updateCounter(this.selectedIndex);
+        updateNavState(this.selectedIndex);
+      });
+
+      function formatNum(num) {
+        return num < 10 ? '0' + num : String(num);
+      }
+
+      function updateCounter(index) {
+        if (counterCurrent) {
+          counterCurrent.textContent = formatNum(index + 1);
+        }
+        if (counterTotal) {
+          counterTotal.textContent = formatNum(slideCount);
+        }
+      }
+
+      function updateNavState(index) {
+        if (!wrapAround) {
+          if (prevBtn) prevBtn.disabled = index === 0;
+          if (nextBtn) nextBtn.disabled = index === slideCount - 1;
+        }
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          flkty.previous();
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          flkty.next();
+        });
+      }
+
+      // Support Shopify Theme Editor interactions
+      section.addEventListener('shopify:block:select', function (e) {
+        var blockId = e.detail && e.detail.blockId;
+        if (!blockId) return;
+        var target = sliderEl.querySelector('[data-block-id="' + blockId + '"]');
+        if (target) {
+          var targetIndex = Array.prototype.indexOf.call(slides, target);
+          if (targetIndex !== -1) {
+            flkty.select(targetIndex);
+            if (flkty.player && typeof flkty.player.stop === 'function') {
+              flkty.player.stop();
+            }
+          }
+        }
+      });
+
+      section.addEventListener('shopify:block:deselect', function () {
+        if (autoplay && flkty.player && typeof flkty.player.play === 'function') {
+          flkty.player.play();
+        }
+      });
+
+      section.addEventListener('shopify:section:unload', function () {
+        if (flkty && typeof flkty.destroy === 'function') {
+          flkty.destroy();
+        }
+      });
+    }
+
+    function initAllSliders() {
+      var sections = document.querySelectorAll('[data-section-type="customer-review-slider"]');
+      sections.forEach(function (sec) {
+        initCustomerReviewSlider(sec);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAllSliders);
+    } else {
+      initAllSliders();
+    }
+
+    document.addEventListener('shopify:section:load', function (e) {
+      if (e.target && e.target.getAttribute('data-section-type') === 'customer-review-slider') {
+        initCustomerReviewSlider(e.target);
+      }
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Customer review slider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal width" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 80
+    },
+    {
+      "type": "header",
+      "content": "Left column"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "CLIENT WORDS"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Rated five stars by the businesses we design for."
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "Extra large" },
+        { "value": "h2", "label": "Large" },
+        { "value": "h3", "label": "Medium" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_stars",
+      "label": "Show rating stars",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "star_count",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "label": "Star count",
+      "default": 5
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text",
+      "default": "READ MORE CLIENT STORIES —"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "header",
+      "content": "Slider settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Enable autoplay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "min": 3,
+      "max": 12,
+      "step": 1,
+      "unit": "s",
+      "label": "Autoplay change slides every",
+      "default": 6
+    },
+    {
+      "type": "checkbox",
+      "id": "pause_on_hover",
+      "label": "Pause autoplay on hover",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "transition",
+      "label": "Transition style",
+      "default": "fade",
+      "options": [
+        { "value": "fade", "label": "Fade" },
+        { "value": "slide", "label": "Slide" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "wrap_around",
+      "label": "Infinite loop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_controls",
+      "label": "Show navigation arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_counter",
+      "label": "Show slide counter",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "quote_size",
+      "label": "Quote text size",
+      "default": "large",
+      "options": [
+        { "value": "medium", "label": "Medium" },
+        { "value": "large", "label": "Large" },
+        { "value": "extra-large", "label": "Extra large" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#241C18"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent color",
+      "default": "#C5A880",
+      "info": "Used for stars, subheading, counter and link"
+    },
+    {
+      "type": "color",
+      "id": "text_muted_color",
+      "label": "Muted text color",
+      "default": "#A89F91",
+      "info": "Used for author subtitle/location"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review slide",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Quote text",
+          "default": "She came back with creative, considered ideas that balanced ambition with a realistic budget. Rare to find someone who can translate a cultural brief into design so thoughtfully."
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author name",
+          "default": "S. Virdee"
+        },
+        {
+          "type": "text",
+          "id": "author_info",
+          "label": "Author title / location",
+          "default": "Darbar Arts and Heritage Trust · London"
+        },
+        {
+          "type": "url",
+          "id": "review_url",
+          "label": "Review link (optional)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Customer review slider",
+      "blocks": [
+        {
+          "type": "review",
+          "settings": {
+            "review_text": "She came back with creative, considered ideas that balanced ambition with a realistic budget. Rare to find someone who can translate a cultural brief into design so thoughtfully.",
+            "author_name": "S. Virdee",
+            "author_info": "Darbar Arts and Heritage Trust · London"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "review_text": "Exceptional attention to detail and a truly collaborative spirit. The transformation of our commercial clinic space has surpassed every expectation.",
+            "author_name": "H. Patel",
+            "author_info": "Private Client · Leicester"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "review_text": "Working with Simran was seamless from concept to completion. The vision was executed with unmatched elegance, bespoke craftsmanship, and refined taste.",
+            "author_name": "A. Sharma",
+            "author_info": "Studio Director · London"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "review_text": "A masterclass in spatial balance and understated luxury. Our workspace now reflects the exact calm sophistication and purpose we envisioned.",
+            "author_name": "Dr. M. Kaur",
+            "author_info": "Wellness Clinic · Birmingham"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

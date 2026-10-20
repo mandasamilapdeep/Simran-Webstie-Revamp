@@ -9,109 +9,13 @@
  */
 {
   "sections": {
-    "section_hero_jnmnYG": {
-      "type": "section-hero",
-      "blocks": {
-        "text_jggPYr": {
-          "type": "text",
-          "settings": {
-            "description": "<p>FEATURED CASE STUDY · WORKSPACE · DUBAI</p>",
-            "text_size": 2,
-            "description_letter_spacing": 2,
-            "description_text_color": "#7a5f32",
-            "text_style": "font-heading"
-          }
-        },
-        "heading_aRX38T": {
-          "type": "heading",
-          "settings": {
-            "title": "An office the whole team calls a second home.",
-            "heading_size": 8
-          }
-        },
-        "text_yFmwex": {
-          "type": "text",
-          "settings": {
-            "description": "<p>Designed remotely from Leicester and delivered in Jumeirah Lake Towers, Maptalent's workspace shows how our process travels without losing a single detail.</p>",
-            "text_size": 4,
-            "description_letter_spacing": 0,
-            "description_text_color": "#574840",
-            "text_style": "font-body"
-          }
-        },
-        "heading_text_group_bzxNWm": {
-          "type": "heading_text_group",
-          "settings": {
-            "border_color": "#e3d3c9",
-            "text_color": "#6b5a50",
-            "first_heading": "[ RESULT ]",
-            "first_heading_size": 7,
-            "text_1": "Add a measurable outcome",
-            "text_size_1": 2,
-            "second_heading": "[ WEEKS ]",
-            "second_heading_size": 7,
-            "text_2": "Design to handover",
-            "text_size_2": 2
-          }
-        },
-        "button_wmBq8F": {
-          "type": "button",
-          "settings": {
-            "width_full": false,
-            "link_text": "Read the case study",
-            "link": "#",
-            "button_type": "btn--secondary",
-            "button_size": "btn--large",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "button_fJiRzE": {
-          "type": "button",
-          "settings": {
-            "width_full": false,
-            "link_text": "Read the case study",
-            "link": "#",
-            "button_type": "btn--secondary",
-            "button_size": "btn--large",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "text_jggPYr",
-        "heading_aRX38T",
-        "text_yFmwex",
-        "heading_text_group_bzxNWm",
-        "button_wmBq8F",
-        "button_fJiRzE"
-      ],
-      "disabled": true,
-      "name": "Image banner",
-      "settings": {
-        "height": "screen-height-full",
-        "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Infinitum_Entertainment_Carnaby_Street.webp",
-        "link": "",
-        "mobile_height": "screen-height-two-thirds--mobile",
-        "image_marign_bottom_desktop": 0,
-        "text_box_max_width": 550,
-        "flex_align_desktop": "align--middle-left-desktop",
-        "flex_align_mobile": "align--middle-left-mobile",
-        "overlay_opacity": 30,
-        "overlay_color": "#2b1e19",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff"
-      }
-    },
     "section_hero_VXeefJ": {
       "type": "section-hero",
       "blocks": {
         "text_VgtMbF": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>COMMERCIAL INTERIOR DESIGN · UK, EUROPE AND THE UAE</p>",
             "text_size": 2,
             "description_letter_spacing": 2,
@@ -129,6 +33,7 @@
         "text_aQkzEW": {
           "type": "text",
           "settings": {
+            "text_max_width": 530,
             "description": "<p>Interiors for salons, clinics, workspaces and hospitality venues, designed to attract the right clients and make every square metre count.</p>",
             "text_size": 4,
             "description_letter_spacing": 0,
@@ -140,24 +45,55 @@
           "type": "button",
           "settings": {
             "width_full": false,
-            "link_text": "Explore our work",
+            "link_text": "Begin your project",
             "link": "#",
-            "button_type": "btn--secondary",
+            "button_type": "btn--white",
             "button_size": "btn--large",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": true
           }
         },
         "button_PcPtb7": {
           "type": "button",
           "settings": {
             "width_full": false,
-            "link_text": "View packages",
+            "link_text": "Explore our work",
             "link": "#",
-            "button_type": "btn--secondary",
+            "button_type": "btn--white",
             "button_size": "btn--large",
             "button_style": "btn--outline",
             "show_arrow": false
+          }
+        },
+        "divider_DYRmeF": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 30
+          }
+        },
+        "heading_text_group_CURNah": {
+          "type": "heading_text_group",
+          "settings": {
+            "border_top_color": "#f2ede7",
+            "border_right_inner_blocks_color": "#F2EDE7",
+            "text_color": "",
+            "first_heading": "25+",
+            "first_heading_size": 8,
+            "text_1": "Brands and businesses designed for",
+            "text_size_1": 2,
+            "second_heading": "3",
+            "second_heading_size": 8,
+            "text_2": "Countries: UK, Germany, UAE",
+            "text_size_2": 2,
+            "third_heading": "5★",
+            "third_heading_size": 8,
+            "text_3": "Rated by clients on Google",
+            "text_size_3": 2,
+            "fourth_heading": "1",
+            "fourth_heading_size": 8,
+            "text_4": "Studio, from brief to opening day",
+            "text_size_4": 2
           }
         }
       },
@@ -166,7 +102,12 @@
         "heading_qXHRTB",
         "text_aQkzEW",
         "button_aM6TbW",
-        "button_PcPtb7"
+        "button_PcPtb7",
+        "divider_DYRmeF",
+        "heading_text_group_CURNah"
+      ],
+      "custom_css": [
+        "@media (min-width: 991px) {.hero__content {padding-left: 0; padding-right: 0; padding-bottom: 20px; }}"
       ],
       "name": "Image banner",
       "settings": {
@@ -177,6 +118,7 @@
         "mobile_height": "screen-height-two-thirds--mobile",
         "image_marign_bottom_desktop": 0,
         "text_box_max_width": 1000,
+        "text_box_full_width": true,
         "flex_align_desktop": "align--bottom-left-desktop",
         "flex_align_mobile": "align--middle-left-mobile",
         "overlay_opacity": 30,
@@ -534,7 +476,140 @@
         "border_color": "",
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 50
+        "padding_bottom": 0
+      }
+    },
+    "section_double_REpqYP": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_4Rja4z": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "THE STUDIO",
+            "subheading_color": "#7a5f32",
+            "text_size": 1,
+            "sub_title_letter_spacing": 2,
+            "padding_bottom": 6
+          }
+        },
+        "heading_VqhnyC": {
+          "type": "heading",
+          "settings": {
+            "title": "Interiors that bring in the right clients, lift your brand and make every square metre earn its place.",
+            "text_size": 10,
+            "letter_spacing": 0,
+            "padding_bottom": 16
+          }
+        },
+        "text_3ipCTG": {
+          "type": "text",
+          "settings": {
+            "icon_width": 16,
+            "text_color": "#574840",
+            "text": "<p>From our Leicester studio we design for ambitious business owners across the UK, Europe and the Middle East. Every project is led personally by our founder, with planning, compliance and trades coordinated for you.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_text_group_8rrLGV": {
+          "type": "heading_text_group",
+          "settings": {
+            "border_color": "#2b1e19",
+            "text_color": "",
+            "first_heading": "2021",
+            "first_heading_size": 8,
+            "text_1": "Studio founded",
+            "text_size_1": 2,
+            "second_heading": "25+",
+            "second_heading_size": 8,
+            "text_2": "Commercial clients",
+            "text_size_2": 2,
+            "third_heading": "6",
+            "third_heading_size": 8,
+            "text_3": "Sectors, from clinics to hospitality",
+            "text_size_3": 2
+          }
+        },
+        "divider_w8Megj": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "heading_MVgXnk": {
+          "type": "heading",
+          "settings": {
+            "title": "<em>Simran Kotecha</em>",
+            "text_size": 5,
+            "letter_spacing": 0,
+            "padding_bottom": 6
+          }
+        },
+        "heading_7x7gHi": {
+          "type": "heading",
+          "settings": {
+            "title": "FOUNDER AND DIRECTOR",
+            "text_size": 1,
+            "letter_spacing": 2,
+            "padding_bottom": 10
+          }
+        },
+        "buttons_xY3B63": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Meet the studio",
+            "button_url": "#",
+            "button_type": "btn--black",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4Rja4z",
+        "heading_VqhnyC",
+        "text_3ipCTG",
+        "heading_text_group_8rrLGV",
+        "divider_w8Megj",
+        "heading_MVgXnk",
+        "heading_7x7gHi",
+        "buttons_xY3B63"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.brick__block__text {flex-basis: 100%; padding: 0 0 0 175px; }}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Screenshot_2026-06-08_at_15.57.42.png",
+        "image_link": "#",
+        "button_text": "VIEW OUR WORK",
+        "button_url": "",
+        "button_type": "btn--white",
+        "button_size": "btn--large",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "image_width": "one-half",
+        "subtitle": "",
+        "subtitle_color": "#000000",
+        "sub_title_size": 8,
+        "title": "",
+        "title_size": 8,
+        "text_alignment": "text-left",
+        "text_placement": "center",
+        "text_bg_color": "#ffffff",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_multicolumn_rN3W6G": {
@@ -768,91 +843,6 @@
         "padding_bottom": 50
       }
     },
-    "section_multicolumn_nK6RLz": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "icon_MF3bWD": {
-          "type": "icon",
-          "settings": {
-            "column_width": 66,
-            "enable_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_alignment": "icon--top",
-            "icon_color": "#545454",
-            "title": "We design commercial interiors that attract the right clients, elevate your brand and make every square metre count.",
-            "heading_size": 8,
-            "text": "",
-            "text_size": 3
-          }
-        },
-        "text_xCnb3y": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 34,
-            "title": "",
-            "heading_size": 4,
-            "heading_letter_spacing": 0,
-            "title_color": "#545454",
-            "title_2": "",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "<p>From a Leicester studio, we design for ambitious business owners across the UK, Europe and the Middle East, from Carnaby Street offices to clinics in Frankfurt and workspaces in Dubai.<br/><br/>Every project is led personally by our founder, with the planning, compliance and trade coordination handled for you.</p>",
-            "text_size": 4,
-            "text_first_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "<h5><em>Simran Kotecha</em></h5><p>FOUNDER AND DIRECTOR</p>",
-            "text_size_2": 2,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "#e3d3c9",
-            "text_2_letter_spacing": 2,
-            "text_2_margin_top": 15,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "icon_MF3bWD",
-        "text_xCnb3y"
-      ],
-      "name": "Multicolumn",
-      "settings": {
-        "subtitle": "",
-        "subtitle_size": 5,
-        "subtitle_color": "",
-        "title": "",
-        "heading_size": 5,
-        "heading_max_width": 600,
-        "description": "",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "align_columns": "flex-align-top",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "first_button_text": "",
-        "first_button_url": "",
-        "second_button_text": "",
-        "second_button_url": "",
-        "padding_top": 50,
-        "padding_bottom": 20,
-        "layout_mobile": "1",
-        "equal_spacing_blocks": false,
-        "mobile_flex_row": false
-      }
-    },
     "section_multicolumn_cr4Ump": {
       "type": "section-multicolumn",
       "blocks": {
@@ -1040,7 +1030,7 @@
         "first_button_url": "shopify://pages/case-studies",
         "second_button_text": "",
         "second_button_url": "",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 100,
         "layout_mobile": "1",
         "equal_spacing_blocks": true,
@@ -1053,6 +1043,7 @@
         "text_gzPgGr": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>FEATURED CASE STUDY · WORKSPACE · DUBAI</p>",
             "text_size": 1,
             "description_letter_spacing": 2,
@@ -1070,6 +1061,7 @@
         "text_hAa7MB": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>A Dubai workspace for Maptalent Recruitment in Jumeirah Lake Towers, designed by our Leicester studio around how the team works, meets and welcomes clients.</p>",
             "text_size": 4,
             "description_letter_spacing": 0,
@@ -1087,6 +1079,7 @@
         "text_YPxbp8": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p><em>“Our office in JLT, Dubai is stunning because of her and all our employees are just happy to call it ‘second home’.”</em></p>",
             "text_size": 4,
             "description_letter_spacing": 0,
@@ -1097,6 +1090,7 @@
         "text_itKtbT": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>A. MADAERO · MAPTALENT RECRUITMENT</p>",
             "text_size": 1,
             "description_letter_spacing": 2,
@@ -1108,7 +1102,8 @@
           "type": "heading_text_group",
           "disabled": true,
           "settings": {
-            "border_color": "#e3d3c9",
+            "border_top_color": "",
+            "border_right_inner_blocks_color": "",
             "text_color": "#6b5a50",
             "first_heading": "[ RESULT ]",
             "first_heading_size": 7,
@@ -1117,7 +1112,15 @@
             "second_heading": "[ WEEKS ]",
             "second_heading_size": 7,
             "text_2": "Design to handover",
-            "text_size_2": 2
+            "text_size_2": 2,
+            "third_heading": "Image banner",
+            "third_heading_size": 11,
+            "text_3": "Tell your brand's story through images.",
+            "text_size_3": 5,
+            "fourth_heading": "Image banner",
+            "fourth_heading_size": 11,
+            "text_4": "Tell your brand's story through images.",
+            "text_size_4": 5
           }
         },
         "divider_qjgkYG": {
@@ -1164,6 +1167,7 @@
         "mobile_height": "seven-fifty-height-hero--mobile",
         "image_marign_bottom_desktop": 0,
         "text_box_max_width": 550,
+        "text_box_full_width": false,
         "flex_align_desktop": "align--middle-right-desktop",
         "flex_align_mobile": "align--bottom-left-mobile",
         "overlay_opacity": 30,
@@ -1299,6 +1303,13 @@
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Screenshot_2026-03-11_at_10.21.02.png",
+        "image_link": "",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
         "image_width": "sixty",
         "subtitle": "",
         "subtitle_color": "#000000",
@@ -1653,7 +1664,7 @@
       "settings": {
         "subtitle": "HOW WE WORK",
         "subtitle_size": 1,
-        "subtitle_color": "#7A5F32",
+        "subtitle_color": "#7a5f32",
         "title": "A considered process, from first call to opening day.",
         "heading_size": 9,
         "heading_max_width": 720,
@@ -1754,6 +1765,13 @@
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper",
         "image_1": "shopify://shop_images/Screenshot_2026-04-16_at_16.48.35.png",
+        "image_link": "",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
         "image_width": "thirty-five-percent",
         "subtitle": "",
         "subtitle_color": "#000000",
@@ -1776,6 +1794,7 @@
         "text_LMT37L": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>LIMITED COMMISSIONS EACH QUARTER</p>",
             "text_size": 2,
             "description_letter_spacing": 2,
@@ -1793,6 +1812,7 @@
         "text_j6DPxF": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>Answer six quick questions about your space and Simran will personally call you within one working day.</p>",
             "text_size": 4,
             "description_letter_spacing": 0,
@@ -1845,6 +1865,7 @@
         "mobile_height": "screen-height-two-thirds--mobile",
         "image_marign_bottom_desktop": 0,
         "text_box_max_width": 590,
+        "text_box_full_width": false,
         "flex_align_desktop": "align--middle-left-desktop",
         "flex_align_mobile": "align--middle-left-mobile",
         "overlay_opacity": 0,
@@ -1856,14 +1877,13 @@
     }
   },
   "order": [
-    "section_hero_jnmnYG",
     "section_hero_VXeefJ",
     "section_rich_text_xcqH76",
     "section_announcement_NTQfgU",
     "section_divider_aYEUXF",
+    "section_double_REpqYP",
     "section_multicolumn_rN3W6G",
     "section_divider_yz3ykR",
-    "section_multicolumn_nK6RLz",
     "section_multicolumn_cr4Ump",
     "section_hero_Fm7ti3",
     "section_multicolumn_GfAQry",

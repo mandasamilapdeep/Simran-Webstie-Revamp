@@ -138,6 +138,13 @@
   }
 {% endstyle %}
 
+{%- liquid
+  assign button_style_image = section.settings.button_style
+  if button_style_image == 'btn--text' and section.settings.show_arrow
+    assign button_style_image = button_style_image | append: ' btn--text-no-underline'
+  endif
+-%}
+
 {%- capture section_images -%}
   {%- if image_1 != blank -%}
     <div class="brick__block__image wide-image"
@@ -157,10 +164,26 @@
                     {{ section.settings.title }}
                   </h2>
                 {%- endif -%}
+      {% if section.settings.image_link != blank %}
+      <a class="image_link" href="{{ section.settings.image_link }}">
+      {%- endif -%}
+        {%- render 'image-hero' image: image_1, sizes: sizes, desktop_height: desktop_height, mobile_height: mobile_height -%}
+      {% if section.settings.image_link != blank %}
+        <span
+                        class="btn image_link_btn {{ button_style_image }} {{ section.settings.button_size }} {{ section.settings.button_type }}"
+                      >
+                        <span>{{ section.settings.button_text }}</span>
 
-      {%- render 'image-hero' image: image_1, sizes: sizes, desktop_height: desktop_height, mobile_height: mobile_height -%}
+                        {%- if section.settings.show_arrow -%}
+                          {%- render 'icon-arrow-right' -%}
+                        {%- endif -%}
+                      </span>
+      </a>
+        {%- endif -%}
     </div>
   {%- endif -%}
+
+
 
   {%- if image_2 != blank -%}
     <div class="brick__block__image wide-image"
@@ -181,7 +204,13 @@
                   </h2>
                 {%- endif -%}
       {%- endunless -%}
-      {%- render 'image-hero' image: image_2, sizes: sizes, desktop_height: desktop_height, mobile_height: mobile_height -%}
+      {% if section.settings.image_link != blank %}
+      <a href="{{ section.settings.image_link }}">
+      {%- endif -%}
+        {%- render 'image-hero' image: image_2, sizes: sizes, desktop_height: desktop_height, mobile_height: mobile_height -%}
+      {% if section.settings.image_link != blank %}
+      </a>
+        {%- endif -%}
     </div>
   {%- endif -%}
 
@@ -440,7 +469,7 @@
 
                   {%- when 'heading_text_group' -%}
                     <div
-                      class="hero__text-group"
+                      class="hero__text-group {% if block.settings.third_heading != blank %}hero__text-group_three{% else %}hero__text-group_two{% endif %}"
                       style="{% if block.settings.border_color != '' %}border-top: 1px solid {{ block.settings.border_color }}; padding-top: 15px;{% endif %}"
                     >
                       <div class="hero__text-group_single">
@@ -498,6 +527,35 @@
                             {{ block.shopify_attributes }}
                           >
                             {{ block.settings.text_2 }}
+                          </p>
+                        {%- endif -%}
+                      </div>
+                      <div class="hero__text-group_single">
+                        {%- if block.settings.third_heading != '' -%}
+                          {%- assign font_size_class = block.settings.third_heading_size | prepend: 'heading-size-' -%}
+                          {%- assign animation_order = animation_order | plus: 1 -%}
+                          <h2
+                            class="hero__title {{ font_size_class }}"
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ animation_order }}"
+                            {{ block.shopify_attributes }}
+                          >
+                            {{ block.settings.third_heading | escape }}
+                          </h2>
+                        {%- endif -%}
+                        {%- if block.settings.text_3 != '' -%}
+                          {%- assign font_size_class = block.settings.text_size_3 | prepend: 'body-size-' -%}
+                          {%- assign animation_order = animation_order | plus: 1 -%}
+                          <p
+                            style="color:{{ block.settings.text_color }}"
+                            class="hero__description {{ font_size_class }}"
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ animation_order }}"
+                            {{ block.shopify_attributes }}
+                          >
+                            {{ block.settings.text_3 }}
                           </p>
                         {%- endif -%}
                       </div>

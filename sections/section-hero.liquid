@@ -128,10 +128,15 @@
         <div
           class="hero__content{% if hero_transparent %} hero__content--transparent{% if show_overlay_text %} backdrop--radial{% endif %}{% endif %}"
           style="
-            {% if show_header_backdrop %}
-            --overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};
-            {% endif %}
-             max-width: {{ section.settings.text_box_max_width }}px;
+                    {% if show_header_backdrop %}
+                    --overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};
+                    {% endif %}
+                    {% if section.settings.text_box_full_width == false %}
+                    max-width: {{ section.settings.text_box_max_width }}px;
+                    {% else %}
+                    width: 100%;
+            max-width: 100%;
+                    {% endif %}
           "
         >
           {%- for block in section.blocks -%}
@@ -152,9 +157,28 @@
                 {%- endif -%}
 
               {%- when 'heading_text_group' -%}
+                <style>
+                  @media(min-width:991px){
+                    {% if block.settings.border_right_inner_blocks_color != blank %}
+                    .hero__text-group_{{ section.id }}_{{ block.id }} .hero__text-group_single:not(:last-child) {
+                      border-right: 1px solid {{ block.settings.border_right_inner_blocks_color }};
+                    }
+                    .hero__text-group_{{ section.id }}_{{ block.id }} {
+                      padding-top: 0 !important;
+                    }
+                    .hero__text-group_{{ section.id }}_{{ block.id }} .hero__text-group_single {
+                      padding-top: 15px;
+                    }
+                    .hero__text-group_{{ section.id }}_{{ block.id }} .hero__text-group_single .hero__description {
+                      margin-bottom: 0;
+                    }
+                    {% endif %}
+                  }
+                </style>
+
                 <div
-                  class="hero__text-group"
-                  style="{% if block.settings.border_color != '' %}border-top: 1px solid {{ block.settings.border_color }}; border-bottom: 1px solid {{ block.settings.border_color }}; padding-top: 15px; margin-bottom: 15px;{% endif %}"
+                  class="hero__text-group hero__text-group_{{ section.id }}_{{ block.id }} {% if block.settings.fourth_heading != '' or block.settings.text_4 != '' %} hero__text-group_four-desktop {%- endif -%}"
+                  style="{% if block.settings.border_top_color != '' %}border-top: 1px solid {{ block.settings.border_top_color }}; padding-top: 15px; margin-bottom: 15px;{% endif %}"
                 >
                   <div class="hero__text-group_single">
                     {%- if block.settings.first_heading != '' -%}
@@ -214,6 +238,64 @@
                       </p>
                     {%- endif -%}
                   </div>
+                  <div class="hero__text-group_single">
+                    {%- if block.settings.third_heading != '' -%}
+                      {%- assign font_size_class = block.settings.third_heading_size | prepend: 'heading-size-' -%}
+                      {%- assign animation_order = animation_order | plus: 1 -%}
+                      <h2
+                        class="hero__title {{ font_size_class }}"
+                        data-aos="hero"
+                        data-aos-anchor="{{ animation_anchor }}"
+                        data-aos-order="{{ animation_order }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{ block.settings.third_heading | escape }}
+                      </h2>
+                    {%- endif -%}
+                    {%- if block.settings.text_3 != '' -%}
+                      {%- assign font_size_class = block.settings.text_size_3 | prepend: 'body-size-' -%}
+                      {%- assign animation_order = animation_order | plus: 1 -%}
+                      <p
+                        style="color:{{ block.settings.text_color }}"
+                        class="hero__description {{ font_size_class }}"
+                        data-aos="hero"
+                        data-aos-anchor="{{ animation_anchor }}"
+                        data-aos-order="{{ animation_order }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{ block.settings.text_3 }}
+                      </p>
+                    {%- endif -%}
+                  </div>
+                  <div class="hero__text-group_single">
+                    {%- if block.settings.fourth_heading != '' -%}
+                      {%- assign font_size_class = block.settings.fourth_heading_size | prepend: 'heading-size-' -%}
+                      {%- assign animation_order = animation_order | plus: 1 -%}
+                      <h2
+                        class="hero__title {{ font_size_class }}"
+                        data-aos="hero"
+                        data-aos-anchor="{{ animation_anchor }}"
+                        data-aos-order="{{ animation_order }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{ block.settings.fourth_heading | escape }}
+                      </h2>
+                    {%- endif -%}
+                    {%- if block.settings.text_4 != '' -%}
+                      {%- assign font_size_class = block.settings.text_size_4 | prepend: 'body-size-' -%}
+                      {%- assign animation_order = animation_order | plus: 1 -%}
+                      <p
+                        style="color:{{ block.settings.text_color }}"
+                        class="hero__description {{ font_size_class }}"
+                        data-aos="hero"
+                        data-aos-anchor="{{ animation_anchor }}"
+                        data-aos-order="{{ animation_order }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{ block.settings.text_4 }}
+                      </p>
+                    {%- endif -%}
+                  </div>
                 </div>
 
               {%- when 'text' -%}
@@ -221,7 +303,7 @@
                   {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
                   {%- assign animation_order = animation_order | plus: 1 -%}
                   <div
-                    style="letter-spacing: {{ block.settings.description_letter_spacing }}px; color: {{ block.settings.description_text_color }};"
+                    style="letter-spacing: {{ block.settings.description_letter_spacing }}px; color: {{ block.settings.description_text_color }}; max-width: {{ block.settings.text_max_width }}px"
                     class="hero__description {{ font_size_class }} {{ block.settings.text_style }}"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
@@ -406,6 +488,12 @@
       "default": 600
     },
     {
+      "type": "checkbox",
+      "id": "text_box_full_width",
+      "label": "Text Box Full Width",
+      "default": false
+    },
+    {
       "type": "select",
       "id": "flex_align_desktop",
       "label": "Desktop alignment",
@@ -539,8 +627,13 @@
       "settings": [
         {
           "type": "color",
-          "id": "border_color",
-          "label": "Border Color"
+          "id": "border_top_color",
+          "label": "Border top Color"
+        },
+        {
+          "type": "color",
+          "id": "border_right_inner_blocks_color",
+          "label": "Border right inner blocks Color"
         },
         {
           "type": "color",
@@ -601,7 +694,67 @@
         {
           "type": "range",
           "id": "text_size_2",
-          "label": "Text Size 1",
+          "label": "Text Size 2",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "third_heading",
+          "label": "Third Heading",
+          "default": "Image banner"
+        },
+        {
+          "type": "range",
+          "id": "third_heading_size",
+          "label": "Third Heading Size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 11
+        },
+        {
+          "type": "textarea",
+          "id": "text_3",
+          "label": "Text 3",
+          "default": "Tell your brand's story through images."
+        },
+        {
+          "type": "range",
+          "id": "text_size_3",
+          "label": "Text Size 3",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "fourth_heading",
+          "label": "Fourth Heading",
+          "default": "Image banner"
+        },
+        {
+          "type": "range",
+          "id": "fourth_heading_size",
+          "label": "Fourth Heading Size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 11
+        },
+        {
+          "type": "textarea",
+          "id": "text_4",
+          "label": "Text 4",
+          "default": "Tell your brand's story through images."
+        },
+        {
+          "type": "range",
+          "id": "text_size_4",
+          "label": "Text Size 4",
           "min": 1,
           "max": 15,
           "step": 1,
@@ -614,6 +767,16 @@
       "name": "Text",
       "limit": 4,
       "settings": [
+        {
+          "type": "range",
+          "id": "text_max_width",
+          "label": "Text Max Width",
+          "unit": "px",
+          "min": 250,
+          "max": 1000,
+          "step": 10,
+          "default": 1000
+        },
         {
           "type": "richtext",
           "id": "description",
