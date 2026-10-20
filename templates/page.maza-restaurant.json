@@ -1,0 +1,422 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Maza At Eighty-Six",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "restaurant interior design",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "CAMBRIDGE | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-03-10_at_16.58.58.webp",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xykVd9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Yq6GFy": {
+          "type": "heading",
+          "settings": {
+            "title": "A Bold, Contemporary Restaurant Concept on Mill Road, Cambridge ",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_Wc4Vwb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Maza at Eighty-Six is a new Pakistani and Indian restaurant concept located in the heart of Cambridge, designed and delivered by Simran Design from concept to completion. The brief: to create a casual, characterful space that feels modern, inclusive, and rooted in culture – appealing to students, families, and food lovers alike.</p><p>We led the full creative process – from naming and branding to interior concept, material sourcing, and final installation. Inspired by Eastern warmth with a Western edge, the space features rich textures, graphic signage, and a relaxed layout that invites guests to dine in or take away.</p><p><strong>Location:</strong> Mill Road, Cambridge<br/><strong>Scope:</strong> Full branding, restaurant concept, naming, interior design, FF&E sourcing, installation</p>",
+            "text_size": 2,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_deKB9A": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_JLr7JP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<ul><li><strong>A new private call room</strong> has been introduced to support confidential conversations and focused work<br/></li><li><strong>Bespoke booth seating</strong> with integrated LED lighting, providing comfortable breakout seating while adding a subtle, atmospheric design feature<br/></li><li><strong>Acoustic design strategy</strong> incorporating wall panelling, acoustic carpeting, and ceiling-suspended baffles to enhance sound control and overall comfort within the space</li><li><strong>Open-plan office redesign</strong> to encourage collaboration while maintaining a structured, professional feel<br/></li><li><strong>Refreshed reception area and meeting room</strong> creating a strong first impression for clients and visitors<br/></li><li><strong>Conversion of an existing shower room into a secondary WC</strong>, improving staff facilities and usability<br/></li><li><strong>Bold, brand-led colour palette</strong> of black, white, and deep red applied in a refined, contemporary way</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yq6GFy",
+        "text_Wc4Vwb",
+        "heading_deKB9A",
+        "text_JLr7JP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 16
+      }
+    },
+    "section_columns_eKwggh": {
+      "type": "section-columns",
+      "blocks": {
+        "image_qXwWXY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_16.58.50.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_QPQDae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/screenshot-2025-03-10-at-170041-1755706568.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xdqFyJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/screenshot-2025-03-10-at-165958-1755706566.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ymkbJG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_16.58.58.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_d8HN3T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_16.59.34.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_8Bahwk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_16.58.33.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MNJbYD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1751975895442.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_qXwWXY",
+        "image_QPQDae",
+        "image_xdqFyJ",
+        "image_ymkbJG",
+        "image_d8HN3T",
+        "image_8Bahwk",
+        "image_MNJbYD"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations - restaurant",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_4DqtT9": {
+      "type": "section-columns",
+      "blocks": {
+        "image_WMAiw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Projecting_Signage_Mockup.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_k7C9Mw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Repeat_print_V1_negative_simple_mockup.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_WMAiw3",
+        "image_k7C9Mw"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Branding by simran design",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "2"
+      }
+    },
+    "section_hero_CqVMF6": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_KaTm6U": {
+          "type": "heading",
+          "settings": {
+            "title": "Material Board",
+            "heading_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "heading_KaTm6U"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/86_Mill_Road_Design_Presentation_copy.jpg",
+        "link": "",
+        "mobile_height": "image-height--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--top-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#ffffff"
+      }
+    },
+    "section_divider_VfBje4": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_xykVd9",
+    "section_columns_eKwggh",
+    "section_columns_4DqtT9",
+    "section_hero_CqVMF6",
+    "section_divider_VfBje4"
+  ]
+}

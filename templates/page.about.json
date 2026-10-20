@@ -1,0 +1,1485 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_NayUwj": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_KwABdf": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "heading_size": 8
+          }
+        },
+        "text_hb7Jhi": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KwABdf",
+        "text_hb7Jhi"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-04-16_at_12.52.34.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_image": "shopify://shop_images/Screenshot_2026-04-16_at_12.52.34.png",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 65,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_RmWDff": {
+      "type": "section-double",
+      "blocks": {
+        "heading_YXdeWD": {
+          "type": "heading",
+          "settings": {
+            "title": "Simran",
+            "text_size": 6,
+            "padding_bottom": 2
+          }
+        },
+        "subheading_YW8C4V": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Founder + director",
+            "text_size": 3,
+            "padding_bottom": 20
+          }
+        },
+        "text_yfqndf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design delivers a high-end design style with a focus on commercial interiors and an intense commitment to creating interiors with atmosphere and ambience. We welcome clients who value the transformative power of design, and we are always open to new and exciting briefs.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_YXdeWD",
+        "subheading_YW8C4V",
+        "text_yfqndf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-06-08_at_16.01.51.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_qaHCKp": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_cLfcQw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_EkK9zU": {
+          "type": "heading",
+          "settings": {
+            "title": "Trusted by ➔",
+            "text_size": 5,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_EkK9zU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "press-logos": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_TzqLVB": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/1_48c32c67-186b-43e0-a7b8-3bba083bae01.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Dallas Burston Polo Club | Leamington, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo-item-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/17.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Scan Computers HQ and Showroom | Bolton, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_9wHjir": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/19.png",
+            "logo_width": 120,
+            "link": "https://www.infinitumgroup.co.uk/",
+            "description": "<p>Infinitum Entertainment HQ | Soho, London, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo-item-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Screenshot_2026-03-01_at_17.00.22.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Darbar Arts and Heritage Trust HQ | London, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_wdkAyJ": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos_e124493b-31d9-4db4-9cf4-e111f7e1bf19.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Scancom Distribution Ltd HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_wY6Kxw": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/2.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Furniture Online HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_b6mCKN": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/5.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>DG Private Hire HQ | Nottingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_RFRQeD": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/6.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>IXL Events Centre | Leamington Spa, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_qKDWtW": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/15.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Ultra Hair Clinic HQ | Birmingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_rLCBLp": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/14.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Highcross Law Solicitors HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_em8qPc": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/branch_logo_67130_0001.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Arch Living HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_FkQ6K8": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Studio 30 Barbershop | Cambridge, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_aNNjhr": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/11.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Amid Palace Indian Restaurant | Nuneaton, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_nhJXhN": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/23.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Nautilus Designs HQ | Wolverhampton, UK </p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_akiXNJ": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/9.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>RHC Clinics | Frankfurt, Germany + Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_Lzycyc": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/20.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p> The Salon | Birmingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_rxMCaW": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/13.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Herdays Cafe | Kirkby-in-Ashfield, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_XdtH9R": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/7.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Mabel & Woods | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_KNi3Qw": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/4.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>AA+D Atelier Architects | Tring, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo-item-3": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/3.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Paramour HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_Vd6pAm": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/22.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Maza At Eighty Six Restaurant | Cambridge, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_7YjM3k": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/8.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Maptalent Recruitment HQ | Dubai, UAE</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_QERq3M": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/16.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Ahri Catering HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_3jkDTz": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos_a77708f6-c27e-48fa-a46f-ba724f7c3f1e.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>AV2RENT Head Office | Birmingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_N4mBFM": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos_copy.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Trust We Care Head Office | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_TzqLVB",
+        "logo-item-2",
+        "logo_item_9wHjir",
+        "logo-item-1",
+        "logo_item_wdkAyJ",
+        "logo_item_wY6Kxw",
+        "logo_item_b6mCKN",
+        "logo_item_RFRQeD",
+        "logo_item_qKDWtW",
+        "logo_item_rLCBLp",
+        "logo_item_em8qPc",
+        "logo_item_FkQ6K8",
+        "logo_item_aNNjhr",
+        "logo_item_nhJXhN",
+        "logo_item_akiXNJ",
+        "logo_item_Lzycyc",
+        "logo_item_rxMCaW",
+        "logo_item_XdtH9R",
+        "logo_item_KNi3Qw",
+        "logo-item-3",
+        "logo_item_Vd6pAm",
+        "logo_item_7YjM3k",
+        "logo_item_QERq3M",
+        "logo_item_3jkDTz",
+        "logo_item_N4mBFM"
+      ],
+      "settings": {
+        "title": "",
+        "enable_heading_slider": true,
+        "text_style": "font-body",
+        "logo_opacity": 85,
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_rWNQgY": {
+      "type": "section-columns",
+      "blocks": {
+        "image_AGEmmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_4_6e74a619-89a3-4668-b6aa-2e276e077725.jpg",
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Simran K.",
+            "heading_size": 4,
+            "text": "<p>Founder and Director</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://pages/about",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_JwaKRB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-04-14_at_17.02.45.png",
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Shreya V.",
+            "heading_size": 4,
+            "text": "<p>Interior Designer</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://pages/about",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_AGEmmx",
+        "image_JwaKRB"
+      ],
+      "settings": {
+        "title": "Meet Your Designers",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_double_yxRfwU": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_FB8a8f": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 4
+          }
+        },
+        "heading_bbgGz3": {
+          "type": "heading",
+          "settings": {
+            "title": "The Studio",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "text_BLNLqi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Based in our studio in Meridian Business Park, Leicester, we support business owners across the Midlands and UK-wide.</p><p>We have a full sample library kitted with commercial materials, ready to be specified in projects. </p><p></p><p>If you're local to Leicester and interesting in working with us, reach out, and we can set up a meeting in the studio. </p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FB8a8f",
+        "heading_bbgGz3",
+        "text_BLNLqi"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-06-08_at_16.01.41.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_WGfraW": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_AJegJa": {
+          "type": "heading",
+          "settings": {
+            "title": "testimonials",
+            "text_size": 6,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_AJegJa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_fCHGtj": {
+      "type": "section-columns",
+      "blocks": {
+        "image_TqWnyf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.01.22.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Infinitum Entertainment Group",
+            "heading_size": 3,
+            "text": "<p><strong>WORKSPACE | LONDON </strong></p><p><em>\"We had an excellent experience working with Simran Design Services on the design and fit-out of the Infinitum Entertainment & Creator office on Carnaby Street.<br/><br/>From the initial design concepts through to full project management, the team were exceptional. They managed the entire process seamlessly, coordinating all tradesmen, overseeing regulations and compliance, and making what could have been a stressful project feel easy and well organised throughout.<br/><br/>Their approach was highly collaborative - they really listened to what we wanted as a business and translated it into a space that feels creative, welcoming and functional. The attention to detail, communication and professionalism were outstanding from start to finish.<br/><br/>The final office space has completely transformed the way we work. It’s a space the whole team genuinely loves </em>being in every day, and we constantly receive compliments on the design.<br/><em><br/>We loved working with Simran and Shreya and would use them again in a heartbeat.\"</em></p><p>- F. Santoro</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://g.co/kgs/fTfvh7d",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_HRKdkq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0014_00b2c3b0-2445-4f02-afc6-d0b606e866ea.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "maptalent recruitment",
+            "heading_size": 3,
+            "text": "<p><strong>WORKSPACE | DUBAI </strong></p><p><em>Simran has always been the best in what she does. Expect nothing but a high level of professionalism and unique talent from her. She gives full attention in listening and learning what the clients need, executes the plan properly and exceeds expectations. Our office in JLT, Dubai is stunning because of her and all our employees are just happy to call it “second home” She is highly recommended!</em></p><p></p><p>- A. Madaero</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://g.co/kgs/fTfvh7d",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_GCkihL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "darbar arts & heritage trust",
+            "heading_size": 3,
+            "text": "<p><strong>STUDIO, OFFICES, CAFE | LONDON </strong></p><p><em>Simran led the design brief for our Darbar Arts Works project in London - an arts hub for emerging musicians and the experience was excellent from start to finish. She's genuinely professional, an attentive listener who took the time to understand our vision, and she came back with creative, considered ideas that balanced ambition with a realistic budget. Rare to find someone who can translate a cultural brief into design so thoughtfully. Highly recommended.</em></p><p>- S. Virdee</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/4WrBwuyC2rfAffTSA",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_gt7Djb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/screenshot-2025-08-30-at-202416-1756581930.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "MERIDIAN personal training gym",
+            "heading_size": 3,
+            "text": "<p><strong>GYM | LEICESTER </strong></p><p><em>Simran designed a gym for me to use to train clients daily, her drawings and ideas were first class. Communication was professional and a she has a great humble personality. Once drawings were agreed the quality of work was exceptional the finishing was outstanding. Work was completed at a fast rate. The imagination is truly a work of art. I fully recommend Simran to any one who wants design and implementation. Very happy with the outcome. You will not regret choosing her.</em></p><p>- M. Patel</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://g.co/kgs/6vNLkm9",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_U6FAtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-01_at_16.50.14.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Furniture Online HQ",
+            "heading_size": 3,
+            "text": "<p><strong>GAMES ROOM BAR | LEICESTER </strong></p><p><em>We worked with Simran Design to create a chill-out room in our office and they did a fantastic job. The space has been transformed into a relaxing and stylish area that the team really enjoys. Simran and the team were professional, creative and easy to work with throughout. Highly recommend them for any office design projects.</em></p><p>- S. Majithia</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/BN7Q1DF7krZL8Xkw7",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_qiGUkt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/archsynth_image_2.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Ahri Catering HQ",
+            "heading_size": 3,
+            "text": "<p><strong>HOSPITALITY UNIT | LEICESTER </strong></p><p><em>Simran Design were contracted to redesign our office space. The team listened to the brief of what we required and delivered a stunning design. They delivered above and beyond what was expected. I can not recommend them highly enough. They were a highly professional and motivated team which delivered a project within a very tight deadline.</em></p><p>- A. Madaero</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/uhZWasu3MTJ9DJzP8",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_fEF4aM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_f4b2dd5b7c95485c983f54914d561fa5_mv2.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "park house hq",
+            "heading_size": 3,
+            "text": "<p><strong>OFFICE KITCHEN | LEICESTER </strong></p><p><em>Simran Design did an amazing job creating a beautiful kitchen and dining space for our office in Leicester. The whole process was so smooth – they listened to what we wanted and came up with a design that looks amazing and is super practical for all the staff and visitors to use every day. It was in such a bad state before, but Simran started with a blank canvas and completely transformed the space! It's unrecognisable now and she delivered exactly to her 3D plans - definitely recommend their interior design services!</em></p><p>- A. Metha</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/DbyteKiuP6FcrCfe7",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_DW9zNn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_12.58.51.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "AM DEVELOPMENTS",
+            "heading_size": 3,
+            "text": "<p><strong>OFFICE | LONDON</strong></p><p><em>I’ve worked with Simran Design on a number of commercial projects over the 4 years. Simran always had a clear vision and detailed plans which makes the job smooth and efficient. She also has an in-depth knowledge of modern trends and client vision, and truly knows how to make spaces come to life. We’ve problem-solved together on-site many times and always found great solutions as a team. Always a pleasure to work with and will be working with her many more times in the future!</em></p><p>- A. Maimoon</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/aJY4SwRx1ydufABL8",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_gY4jxn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_1.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Scancom HQ",
+            "heading_size": 3,
+            "text": "<p><strong>ENTRANCE | LEICESTER </strong></p><p><em>Simran Design did the design and fit out of our office entrance/waiting area with custom shelving, storage, branding and new flooring. They sourced and bought all the furniture and lighting too. It works perfectly with our branding colours and style now - a massive change from what it used to look like! Really easy to work with and a swift process from start to finish.</em></p><p>- D. Vithlani</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/k2tE7Ncx8BoPeK3U9",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_JnjiQN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.06.32.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "curl jar ltd",
+            "heading_size": 3,
+            "text": "<p><strong>RETAIL | BIRMINGHAM </strong></p><p><em>Thanks for a lovely experience. Simran designed our retail events and trade shows with commitment to our tight deadlines. As well as re-imagining our personal home office , great work! Always timely and very well informed with the industry trends. Recommended for brands, business and home interior requirements all-in-one solution. Thank you 🙏</em></p><p>- P. Kotecha</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://g.co/kgs/yrbkaAN",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_pbANPL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.40.21.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Cranky Fish HQ",
+            "heading_size": 3,
+            "text": "<p><strong>OFFICE | BIRMINGHAM </strong></p><p><em>Simran Design transformed our office into a modern, functional space that perfectly suits our needs. Their creativity and attention to detail exceeded expectations - highly recommend!</em></p><p>- R. Ogier</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://g.co/kgs/exfBkA2",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_WKCpGp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-31_at_14.10.14.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "the salon",
+            "heading_size": 3,
+            "text": "<p><strong>SALON | SUTTON COLDFIELD </strong></p><p><em>Outstanding service from start to finish, would highly recommend the attention to detail is unreal.</em></p><p>- G. Travers</p>",
+            "text_size": 2,
+            "button_text": "READ THE 5* Google Review",
+            "button_url": "https://maps.app.goo.gl/CVBunqHtXr6G6toi6",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_WdbFAj": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-design-studio-final-13_ba610fcd-679d-4fc8-9975-50734962d7bb.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Journey art therapy",
+            "heading_size": 3,
+            "text": "<p><strong>STUDIO OFFICE | LEICESTER </strong></p><p><em>Working with Simran was an incredible experience from start to finish.<br/>She truly listened to me, every hope I had for the space, every detail that mattered, and captured my vision with such care and precision. The therapy space she created is not only beautiful but deeply aligned with the purpose it serves. It feels warm, safe, and grounded—exactly what my clients need to feel supported and at ease. This space has become an essential part of the healing work I do, and I’m so grateful for her ability to turn my vision into something so tangible and powerful.</em></p><p>- J. Patel</p>",
+            "text_size": 2,
+            "button_text": "Google Review",
+            "button_url": "https://share.google/coRldp2lSbM6RY4ey",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_TqWnyf",
+        "image_HRKdkq",
+        "image_GCkihL",
+        "image_gt7Djb",
+        "image_U6FAtB",
+        "image_qiGUkt",
+        "image_fEF4aM",
+        "image_DW9zNn",
+        "image_gY4jxn",
+        "image_JnjiQN",
+        "image_pbANPL",
+        "image_WKCpGp",
+        "image_WdbFAj"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_custom_content_LMdbX3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_dpXJpF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/29_b1538231-935b-43d4-8a23-aa78b1f15cbd.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_e3JfHw": {
+          "type": "text",
+          "settings": {
+            "subheading": "testimonial | birmingham",
+            "subheading_size": 3,
+            "title": "ultra hair clinic",
+            "heading_size": 5,
+            "text": "<p><em>Working with Simran Design LTD has been an exceptional experience from start to finish. From our very first consultation, Simran and her team demonstrated a true understanding of our vision, paired with a level of professionalism and expertise that immediately put us at ease.</em></p><p><em><br/>They carried out a thorough and thoughtful assessment of our clinic space, taking into consideration not only aesthetics but also functionality, flow, and client experience. Their advice throughout was honest, knowledgeable, and clearly rooted in a deep understanding of design within a clinical setting.<br/><br/>The entire team was incredibly polite, warm, and welcoming at every interaction. Communication was seamless, timelines were adhered to, and every stage of the process was handled with efficiency and care. What truly stood out was their meticulous attention to detail, nothing was overlooked, and every element was carefully considered to create a cohesive and elevated finish.<br/><br/>The design plans were delivered promptly and with clarity, and Simran remained open and receptive to our feedback and ideas throughout. This collaborative approach made the journey not only smooth but genuinely enjoyable, as we felt fully supported and involved at every step.<br/><br/>Simran herself brought such a positive energy to the project. Her passion, creativity, and commitment to excellence were evident throughout, and she guided us through each stage with patience, enthusiasm, and a genuine desire to achieve the very best outcome.<br/><br/>We are absolutely thrilled with the transformation of Ultra Hair Clinic. The space now embodies a luxurious, refined atmosphere that perfectly aligns with the premium service we strive to deliver. It has elevated not only the look and feel of the clinic but also the overall client experience.<br/><br/>Our staff and clients alike have been incredibly complimentary! Everyone who walks through our doors immediately notices the difference. It is now a space we are truly proud of and love welcoming both new and returning clients into.<br/><br/>We cannot recommend Simran Design LTD highly enough. If you are looking for a team that combines creativity, precision, and professionalism with a truly personal touch, they are simply outstanding.</em></p>",
+            "text_size": 1,
+            "button_text": "Read the google review",
+            "button_url": "https://share.google/rKVvLd6QjhamNn2Y4",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ffffff",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dpXJpF",
+        "text_e3JfHw"
+      ],
+      "name": "Ultra Review",
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_d7f7pB": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_KhQkAW": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "Ultra Hair Clinic, Birmingham",
+            "review_text": "Working with Simran Design LTD has been an exceptional experience from start to finish. From our very first consultation, Simran and her team demonstrated a true understanding of our vision, paired with a level of professionalism and expertise that immediately put us at ease.\n\nThey carried out a thorough and thoughtful assessment of our clinic space, taking into consideration not only aesthetics but also functionality, flow, and client experience. Their advice throughout was honest, knowledgeable, and clearly rooted in a deep understanding of design within a clinical setting.\n\nThe entire team was incredibly polite, warm, and welcoming at every interaction. Communication was seamless, timelines were adhered to, and every stage of the process was handled with efficiency and care. What truly stood out was their meticulous attention to detail, nothing was overlooked, and every element was carefully considered to create a cohesive and elevated finish.\n\nThe design plans were delivered promptly and with clarity, and Simran remained open and receptive to our feedback and ideas throughout. This collaborative approach made the journey not only smooth but genuinely enjoyable, as we felt fully supported and involved at every step.\n\nSimran herself brought such a positive energy to the project. Her passion, creativity, and commitment to excellence were evident throughout, and she guided us through each stage with patience, enthusiasm, and a genuine desire to achieve the very best outcome.\n\nWe are absolutely thrilled with the transformation of Ultra Hair Clinic. The space now embodies a luxurious, refined atmosphere that perfectly aligns with the premium service we strive to deliver. It has elevated not only the look and feel of the clinic but also the overall client experience.\n\nOur staff and clients alike have been incredibly complimentary! Everyone who walks through our doors immediately notices the difference. It is now a space we are truly proud of and love welcoming both new and returning clients into.\n\nWe cannot recommend Simran Design LTD highly enough. If you are looking for a team that combines creativity, precision, and professionalism with a truly personal touch, they are simply outstanding.",
+            "featured_image": "shopify://shop_images/51.png",
+            "review_url": "https://maps.app.goo.gl/i7f3efwAcjbPo8Aa9"
+          }
+        },
+        "review_MjRbhc": {
+          "type": "review",
+          "settings": {
+            "title": "A. Patel",
+            "subheading": "Ahri Catering",
+            "review_text": "Simran Design were contracted to redesign our office space. The team listened to the brief of what we required and delivered a stunning design. They delivered above and beyond what was expected. I can not recommend them highly enough. They were a highly professional and motivated team which delivered a project within a very tight deadline.",
+            "featured_image": "shopify://shop_images/DONE_18c1e99d-4fd8-433f-8b48-89313db29727.png",
+            "review_url": "https://maps.app.goo.gl/uhZWasu3MTJ9DJzP8"
+          }
+        },
+        "review_cXAgzN": {
+          "type": "review",
+          "settings": {
+            "title": "A. Madero",
+            "subheading": "Maptalent UAE, Recruitment",
+            "review_text": "Simran has always been the best in what she does. Expect nothing but high-level of professionalism and unique talent from her. She gives full attention in listening and learning what the clients need, executes the plan properly and exceeds expectations. Our office in JLT, Dubai is stunning because of her and all our employees are just happy to call it “second home” She is highly recommended!",
+            "featured_image": "shopify://shop_images/IMG-20220731-WA0014.jpg",
+            "review_url": "https://g.co/kgs/fTfvh7d"
+          }
+        },
+        "review_HcqxtV": {
+          "type": "review",
+          "settings": {
+            "title": "S. Majithia",
+            "subheading": "Furniture Online UK HQ, Director",
+            "review_text": "We worked with Simran Design to create a chill out room in our office and they did a fantastic job. The space has been transformed into a relaxing and stylish area that the team really enjoys. Simran and the team were professional, creative and easy to work with throughout. Highly recommend them for any office design projects.",
+            "featured_image": "shopify://shop_images/Screenshot_2025-02-28_at_12.29.12.png",
+            "review_url": "https://maps.app.goo.gl/BN7Q1DF7krZL8Xkw7"
+          }
+        },
+        "review_CPNpdf": {
+          "type": "review",
+          "settings": {
+            "title": "M. Patel",
+            "subheading": "Personal Trainer, UK",
+            "review_text": "Simran designed a gym for me to use to train clients daily, her drawings and ideas were first class. Communication was professional and a she has a great humble personality.\n\nOnce drawings were agreed the quality of work was exceptional the finishing was outstanding. Work was completed at a fast rate. The imagination is truly a work of art.\n\nI fully recommend Simran to any one who wants design and implementation.\n\nVery happy with the outcome. You will not regret choosing her.",
+            "featured_image": "shopify://shop_images/gym_with_black_ceiling_copy_568727f2-3e3d-4808-9ef4-176267b07cd6.jpg",
+            "review_url": "https://g.co/kgs/6vNLkm9"
+          }
+        },
+        "review_7GEHXU": {
+          "type": "review",
+          "settings": {
+            "title": "A. Metha",
+            "subheading": "Customer Service Director",
+            "review_text": "Simran Design did an amazing job creating a beautiful kitchen and dining space for our office in Leicester. The whole process was so smooth – they listened to what we wanted and came up with a design that looks amazing and is super practical for all the staff and visitors to use every day. It was in such a bad state before before but Simran started with a blank canvas and completely transformed the space! It's unrecognisable now and she delivered exactly to her 3D plans - definitely recommend their interior design services!",
+            "featured_image": "shopify://shop_images/732aad_e16d7223973e4a35b84dc7c62f7e1517_mv2.webp",
+            "review_url": "https://maps.app.goo.gl/DbyteKiuP6FcrCfe7"
+          }
+        },
+        "review_8KR44T": {
+          "type": "review",
+          "settings": {
+            "title": "P. Kotecha",
+            "subheading": "Curl Jar UK, Director",
+            "review_text": "Thanks for a lovely experience. Simran designed our retail events and trade shows with commitment to our tight deadlines. As well as re-imagining our personal home office , great work! Always timely and very well informed with the industry trends. Recommended for brands, business and home interior requirements all-in-one solution. Thank you 🙏",
+            "featured_image": "shopify://shop_images/Unnamed_Space-16_1b1bf099-252c-4f28-9f3d-708c8c8dd838.jpg",
+            "review_url": "https://g.co/kgs/yrbkaAN"
+          }
+        },
+        "review_Vhm3te": {
+          "type": "review",
+          "settings": {
+            "title": "R. Ogier",
+            "subheading": "Cranky Fish UK, Director",
+            "review_text": "Simran Design transformed our office into a modern, functional space that perfectly suits our needs. Their creativity and attention to detail exceeded expectations - highly recommend!",
+            "featured_image": "shopify://shop_images/View0006_a8be03cb-d2c3-4fe6-8c9d-fe6796d35294.png",
+            "review_url": "https://g.co/kgs/exfBkA2"
+          }
+        }
+      },
+      "block_order": [
+        "review_KhQkAW",
+        "review_MjRbhc",
+        "review_cXAgzN",
+        "review_HcqxtV",
+        "review_CPNpdf",
+        "review_7GEHXU",
+        "review_8KR44T",
+        "review_Vhm3te"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 2,
+        "bg_color": "#ffffff",
+        "color": "#000000",
+        "card_bg_color": "#f2ede7",
+        "padding_top": 50,
+        "padding_bottom": 25
+      }
+    },
+    "featured_posts_HTtbKB": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_9GYYDw": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "blog/meet-simran-design",
+            "subheading": "Featured post",
+            "image": "shopify://shop_images/IMG_9746.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_9GYYDw"
+      ],
+      "name": "Featured blog posts",
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 25,
+        "padding_bottom": 25
+      }
+    },
+    "section_highlights_mMN8KC": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_fejQyP": {
+          "type": "highlight",
+          "settings": {
+            "heading": "",
+            "url": "https://share.google/MYPy79if2Ifs6MYiF",
+            "image": "shopify://shop_images/Screenshot_2026-04-17_at_16.49.27.png",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_rUibey": {
+          "type": "highlight",
+          "settings": {
+            "heading": "",
+            "url": "https://www.bark.com/en/gb/b/simran-design-ltd/wVNZn/",
+            "image": "shopify://shop_images/Screenshot_2026-04-17_at_16.45.55_81ff63f6-9b2f-420a-a170-fd69245a626c.png",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_4qeJdX": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "url": "https://www.bark.com/en/gb/b/simran-design-ltd/wVNZn/",
+            "image": "shopify://shop_images/Screenshot_2026-04-17_at_16.41.25.png",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_fejQyP",
+        "highlight_rUibey",
+        "highlight_4qeJdX"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "style": "rectangle",
+        "grid": 4,
+        "width": "wrapper",
+        "heading": "",
+        "heading_position": "text-left",
+        "heading_size": 8,
+        "text_size": 3,
+        "color": "",
+        "bg_color": "",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 25
+      }
+    },
+    "section_rich_text_CQqwYk": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_LTP8f3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "we're on",
+            "text_size": 3,
+            "padding_bottom": 6
+          }
+        },
+        "heading_eQVKLx": {
+          "type": "heading",
+          "settings": {
+            "title": "BArK.com",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_KHwBTh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our commercial interior design services are also listed on Bark.com, where businesses can discover and connect with us for expert commercial interior design services. If you found us through Bark, you’re in the right place - explore our full portfolio and services here.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_A7FMkK": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "simran design ltd on bark",
+            "button_url": "https://www.bark.com/en/gb/b/simran-design-ltd/wVNZn/",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "image_BEcwdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-30_at_15.12.31.png",
+            "image_width": 90,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LTP8f3",
+        "heading_eQVKLx",
+        "text_KHwBTh",
+        "buttons_A7FMkK",
+        "image_BEcwdA"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "section_blog_CYF3fj": {
+      "type": "section-blog",
+      "disabled": true,
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "blog",
+        "title": "More Blog posts",
+        "heading_size": 5,
+        "width": "wrapper--full-padded",
+        "grid": 3,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "title_size": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_jVat3x": {
+      "type": "section-double",
+      "blocks": {
+        "heading_p7njrr": {
+          "type": "heading",
+          "settings": {
+            "title": "Still have questions?",
+            "text_size": 5,
+            "padding_bottom": 16
+          }
+        },
+        "text_bm6XiU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send us a message at <a>hello@simrandesign.co.uk</a> or use our 'Quote Me' form. We’d love to learn more about your project!</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_ajLjf8": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Quote Me",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_p7njrr",
+        "text_bm6XiU",
+        "buttons_ajLjf8"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-07-02_at_21.57.52_fa5b80c0-16b0-4553-b591-f674c0c2d835.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordion_group_6BXJCK": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_6mjaQp": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "question_Gg3RBp": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What types of spaces do you design?",
+            "content": "<p>Simran Design Ltd specialises in <strong>commercial interiors</strong> - including offices, cafés, salons, clinics, restaurants, wellness spaces, and hospitality venues. </p><p>We work with clients across the UK (and internationally via E-Design) to create environments that are functional, memorable, and brand-aligned.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_4PWQ7m": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What interior design services do you offer?",
+            "content": "<p>We have various interior design packages that include the services below, and can be tailored according to your project. Some of the services we offer include:</p><ul><li>Space planning and CAD floor plan drawings (furniture layouts, lighting and electrical layouts)</li><li>Mood boards</li><li>Physical and Digital Material boards</li><li>Brand development</li><li>3D visualisations</li><li>Sourcing - furniture, lighting, accessories</li><li>Shopping Lists and a live client portal </li><li>Detailed drawings and handover documentation</li></ul>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_XpDpef": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How much do your interior design services cost?",
+            "content": "<p>After an initial discussion, we’ll email you a bespoke quotation with a scope of work, timeline and breakdown of costs - no guesswork or hidden fees.</p><p>Each design project is different, so we tailor our services and provide clear pricing based on the size and complexity of your space. </p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_An87CA": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How long does an interior design project usually take?",
+            "content": "<p>Timelines can vary depending on the size and scope of the project, but as a guide:</p><ul><li><strong>E-Design</strong> projects take approximately 2–4 weeks per space.</li><li><strong>Full-service interior design</strong> can take approximately 4-6 weeks for the design work, and 6–12+ weeks for design + installation, depending on complexity.</li><li><strong>Larger commercial fit-outs</strong> may take longer if structural works or planning approvals are needed.</li></ul><p>We’ll always provide you with a realistic schedule from the start and updates at each stage to keep your project moving efficiently. </p><p></p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_YVJXdx": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What is E-Design, and is it right for my business?",
+            "content": "<p>E-Design is a <strong>remote interior design service</strong> delivered entirely online - ideal for clients who want expert input without full project management. </p><p>You'll receive mood boards, material boards, floor plans, sourcing/shopping lists, and 3D visualisations, depending on the level of detail you require - all professionally curated and ready to implement.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_e3bhHP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Where do you take on design projects?",
+            "content": "<p>We’re based in Leicester and take on commercial projects across the UK, with some past projects to date covering London, Birmingham, Manchester, Nottingham, and Cambridge and more.</p><p>Our E-Design services are remote and available <strong>globally </strong>- we have designed internationally, including offices in Dubai and clinics in Germany.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_zEzGJe": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do you offer site visits and in-person consultations?",
+            "content": "<p>Yes. We offer site visits for UK-based projects, location dependent, during the design process and installation phase. For international clients or remote projects, we offer detailed online consultations and support throughout your project.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_VPKBjP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can you organise the installation phase too?",
+            "content": "<p>We design every detail, then work closely with trusted fit-out contractors to quote and execute the installation phase. </p><p>We also offer annotated drawings and material schedules to ensure seamless communication from concept to completion. </p><p>If you would like to organise the fit-out yourself, we can supply detailed plans for your contacts to execute the design work to completion.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_7hMWPT": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can you work with a specific budget?",
+            "content": "<p>Absolutely. We aim to design with purpose, not excess. During our consultation, we’ll discuss your priorities and budget so we can propose a plan that fits your needs and delivers high impact. We will always be realistic in advising what you can achieve and can recommend a minimum budget if you are unsure. </p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_44B7k7": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "I’m just starting out, can I still get in touch?",
+            "content": "<p>Absolutely. Whether you’re opening your first space, expanding or just refreshing your business, we’re happy to guide you. We can support you from design concept development right through to your final finishes.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6mjaQp",
+        "question_Gg3RBp",
+        "question_4PWQ7m",
+        "question_XpDpef",
+        "question_An87CA",
+        "question_YVJXdx",
+        "question_e3bhHP",
+        "question_zEzGJe",
+        "question_VPKBjP",
+        "question_7hMWPT",
+        "question_44B7k7"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "columns": "2",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "border_color": "#ab8c52",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "text_promo_zK9JYM": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_xrGEAB": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 6
+          }
+        },
+        "text_xxGBP4": {
+          "type": "text",
+          "settings": {
+            "content": "Simran Design delivers a high-end design style with a focus on commercial interiors and an intense commitment to creating interiors with atmosphere and ambience.\n\nOur diverse set of experiences span across various project types and scales: from large technology offices in the UK to clinics in Germany, villas in Dubai and podcast studios, our passion for unique interior design extends to every endeavour.\n\nSimran Design welcome clients who similarly value the transformative power of exceptional design, and we are always open to new and exciting briefs.",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_xrGEAB",
+        "text_xxGBP4"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full",
+        "border": true,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "inner_padding": 50,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_NayUwj",
+    "section_double_RmWDff",
+    "section_divider_qaHCKp",
+    "section_rich_text_cLfcQw",
+    "press-logos",
+    "section_columns_rWNQgY",
+    "section_double_yxRfwU",
+    "section_rich_text_WGfraW",
+    "section_columns_fCHGtj",
+    "section_custom_content_LMdbX3",
+    "section_reviews_d7f7pB",
+    "featured_posts_HTtbKB",
+    "section_highlights_mMN8KC",
+    "section_rich_text_CQqwYk",
+    "section_blog_CYF3fj",
+    "section_double_jVat3x",
+    "section_accordion_group_6BXJCK",
+    "text_promo_zK9JYM"
+  ]
+}

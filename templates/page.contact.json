@@ -1,0 +1,493 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_6bnfp7": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_GjQXTx": {
+          "type": "heading",
+          "settings": {
+            "title": "Let's Create Something Beautiful",
+            "heading_size": 7
+          }
+        },
+        "text_8VPAqF": {
+          "type": "text",
+          "settings": {
+            "description": "Start your free quote in seconds",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GjQXTx",
+        "text_8VPAqF"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-04-16_at_16.48.35.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 70,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_UVKxND": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_xnVtUd": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Get in Touch",
+            "heading_size": 4,
+            "text": "<p>hello@simrandesign.co.uk</p><p>07388967828</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#ab8c52",
+            "color": "#fafafa"
+          }
+        },
+        "text_rXGWPn": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Social Media",
+            "heading_size": 4,
+            "text": "<p>Instagram: <a href=\"https://www.instagram.com/simrankotecha/\" target=\"_blank\" title=\"https://www.instagram.com/simrankotecha/\">@simrankotecha</a></p><p>LinkedIn: <a href=\"https://www.linkedin.com/in/simran-kotecha/\" target=\"_blank\" title=\"https://www.linkedin.com/in/simran-kotecha/\">@simrankotecha</a></p><p></p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": true,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#ab8c52",
+            "color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "text_xnVtUd",
+        "text_rXGWPn"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 45
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "form_heading_aTrnMw": {
+          "type": "formHeading",
+          "settings": {
+            "title": "No commitment required. We'll follow up with a quick discovery call and custom design quote tailored to your project."
+          }
+        },
+        "radio_L4eTq8": {
+          "type": "radio",
+          "settings": {
+            "title": "Project Type",
+            "required": true,
+            "label-one": "Commercial",
+            "label-two": "Residential",
+            "label-three": "",
+            "label-four": "",
+            "label-five": "",
+            "label-six": ""
+          }
+        },
+        "text_Jnx8aH": {
+          "type": "text",
+          "settings": {
+            "title": "Project Location *",
+            "required": true
+          }
+        },
+        "text_hJ3hCD": {
+          "type": "text",
+          "settings": {
+            "title": "Approximate Budget *",
+            "required": true
+          }
+        },
+        "select_46knNX": {
+          "type": "select",
+          "settings": {
+            "title": "Timescale *",
+            "label-one": "- Please select an option -",
+            "label-two": "0-6 Months",
+            "label-three": "6-12 Months",
+            "label-four": "12+ Months",
+            "label-five": "",
+            "label-six": ""
+          }
+        },
+        "select_D7QLzN": {
+          "type": "select",
+          "settings": {
+            "title": "Current Stage *",
+            "label-one": "- Please select an option -",
+            "label-two": "Viewing premises",
+            "label-three": "Just got the keys",
+            "label-four": "Building work has started",
+            "label-five": "Existing space, but needs an upgrade",
+            "label-six": ""
+          }
+        },
+        "select_hY4afj": {
+          "type": "select",
+          "settings": {
+            "title": "How did you hear about Simran Design?",
+            "label-one": "-Please select an option -",
+            "label-two": "Word of Mouth / Referral",
+            "label-three": "Instagram",
+            "label-four": "LinkedIn",
+            "label-five": "Google",
+            "label-six": "Trade Show"
+          }
+        },
+        "Name": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name *",
+            "required": true
+          }
+        },
+        "Email": {
+          "type": "email",
+          "settings": {
+            "title": "Email Address *",
+            "required": true
+          }
+        },
+        "telephone_7k9VFz": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number *",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "form_heading_aTrnMw",
+        "radio_L4eTq8",
+        "text_Jnx8aH",
+        "text_hJ3hCD",
+        "select_46knNX",
+        "select_D7QLzN",
+        "select_hY4afj",
+        "Name",
+        "Email",
+        "telephone_7k9VFz"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Quote Me",
+        "terms": true,
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "apps_PLzfem": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_RWN9Yg": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Follow us on instagram",
+            "title_color": "",
+            "title_size_v2": 20,
+            "alignment": "center",
+            "instafeed_margin_top": 25,
+            "instafeed_margin_bottom": 25,
+            "instafeed_margin_sides": 25,
+            "show_instagram_link": true,
+            "link_alignment": "center",
+            "link_color": "#000000",
+            "background_color": "#ffffff",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_RWN9Yg"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_highlights_aD9H8y": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_bVfXGk": {
+          "type": "highlight",
+          "settings": {
+            "heading": "",
+            "url": "https://share.google/MYPy79if2Ifs6MYiF",
+            "image": "shopify://shop_images/Screenshot_2026-04-17_at_16.49.27.png",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_jH3Ajf": {
+          "type": "highlight",
+          "settings": {
+            "heading": "",
+            "url": "https://www.bark.com/en/gb/b/simran-design-ltd/wVNZn/",
+            "image": "shopify://shop_images/Screenshot_2026-04-17_at_16.45.55_81ff63f6-9b2f-420a-a170-fd69245a626c.png",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_PjVrbA": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "url": "https://www.bark.com/en/gb/b/simran-design-ltd/wVNZn/",
+            "image": "shopify://shop_images/Screenshot_2026-04-17_at_16.41.25.png",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_bVfXGk",
+        "highlight_jH3Ajf",
+        "highlight_PjVrbA"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "style": "rectangle",
+        "grid": 4,
+        "width": "wrapper",
+        "heading": "",
+        "heading_position": "text-left",
+        "heading_size": 8,
+        "text_size": 3,
+        "color": "",
+        "bg_color": "",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 25
+      }
+    },
+    "17774781641e6479ad": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_multicolumn_Y6pQKG": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_9ddyz7": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-email",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Get in touch",
+            "heading_size": 4,
+            "text": "<p>hello@simrandesign.co.uk</p><p>07388967828</p>",
+            "text_size": 3
+          }
+        },
+        "icon_rDm6Bx": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Social Media",
+            "heading_size": 4,
+            "text": "<p>Instagram:   <a href=\"https://www.instagram.com/simrankotecha/\" target=\"_blank\" title=\"https://www.instagram.com/simrankotecha/\">@simrankotecha</a></p><p>LinkedIn:   <a href=\"https://www.linkedin.com/in/simran-kotecha/\" target=\"_blank\" title=\"https://www.linkedin.com/in/simran-kotecha/\">@simrankotecha </a></p>",
+            "text_size": 3
+          }
+        },
+        "icon_nNPaMj": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Head Office",
+            "heading_size": 4,
+            "text": "<p>18A Park House, Meridian Business Park, </p><p>Leicester, United Kingdom</p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_9ddyz7",
+        "icon_rDm6Bx",
+        "icon_nNPaMj"
+      ],
+      "disabled": true,
+      "name": "Multicolumn",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_nraEYB": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_cqMx88": {
+          "type": "heading",
+          "settings": {
+            "title": "Now that you're here...",
+            "heading_size": 3
+          }
+        },
+        "heading_rFtChd": {
+          "type": "heading",
+          "settings": {
+            "title": "Let's Stay Connected",
+            "heading_size": 7
+          }
+        },
+        "text_zQANBf": {
+          "type": "text",
+          "settings": {
+            "description": "Follow along the design journey for free content, project updates and industry insights.",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "button_7UzThC": {
+          "type": "button",
+          "settings": {
+            "link_text": "LinkedIn",
+            "link": "https://www.linkedin.com/in/simran-kotecha/",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "button_T8atDb": {
+          "type": "button",
+          "settings": {
+            "link_text": "Instagram",
+            "link": "https://www.instagram.com/simrankotecha/?hl=en",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_cqMx88",
+        "heading_rFtChd",
+        "text_zQANBf",
+        "button_7UzThC",
+        "button_T8atDb"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "section_hero_6bnfp7",
+    "section_custom_content_UVKxND",
+    "contact",
+    "apps_PLzfem",
+    "section_highlights_aD9H8y",
+    "17774781641e6479ad",
+    "section_multicolumn_Y6pQKG",
+    "main",
+    "section_hero_nraEYB"
+  ]
+}

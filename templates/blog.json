@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_i9bVfG": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_FkT9wk": {
+          "type": "heading",
+          "settings": {
+            "title": "BLOG",
+            "heading_size": 7
+          }
+        },
+        "text_9yyJWJ": {
+          "type": "text",
+          "settings": {
+            "description": "Design Insights and Inspiration",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FkT9wk",
+        "text_9yyJWJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/732aad_a393c09ce7b945d9b14098833c4fc26b_mv2.webp",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 45,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_t6Q6DU": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_gbXwXq": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_6nqNwj": {
+          "type": "text",
+          "settings": {
+            "subheading": "launching soon...",
+            "subheading_size": 3,
+            "title": "Stay Tuned!",
+            "heading_size": 8,
+            "text": "<p>Exciting News - Our Blog is Launching Soon!<br/>Stay tuned for insightful articles, design tips, and inspiration to transform your spaces.</p><p></p><p>In the mean time, if you have any questions or comments feel free to reach out to us using the contact form or contact details below :)</p>",
+            "text_size": 4,
+            "button_text": "Contact Simran Design",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gbXwXq",
+        "text_6nqNwj"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "featured": {
+      "type": "featured-posts",
+      "blocks": {
+        "feat": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "feat"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_rss": true,
+        "show_tag_nav": true,
+        "grid": 4,
+        "rows": 4,
+        "aspect_ratio": 1,
+        "title_size": 4,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_button": true,
+        "show_comments": false,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "section_blog_YdFBY8": {
+      "type": "section-blog",
+      "disabled": true,
+      "settings": {
+        "blog_name": "",
+        "title": "Blog posts",
+        "heading_size": 5,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "title_size": 4,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_button": true,
+        "show_comments": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    }
+  },
+  "order": [
+    "section_hero_i9bVfG",
+    "section_custom_content_t6Q6DU",
+    "featured",
+    "main",
+    "section_blog_YdFBY8"
+  ]
+}

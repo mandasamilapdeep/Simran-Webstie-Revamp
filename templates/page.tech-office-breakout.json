@@ -1,0 +1,425 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "SCAN COMPUTERS HQ",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "CO-WORKING & BREAKOUT SPACE",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "BOLTON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/View0007_1c21f3a5-08e4-4498-9b20-9ab288406584.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 65,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_Re4iXB": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_zd6WgM": {
+          "type": "heading",
+          "settings": {
+            "title": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_GkhCMk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This breakout space was part of a full workplace transformation for a leading tech company in Bolton. Designed to give staff a stylish, relaxed place to pause, recharge, and socialise, the breakout area is a key feature of the wider wellness-focused design.</p><p>The layout includes lounge seating, layered textures, and warm tones that contrast with the industrial base palette used throughout the rest of the office. Acoustic lighting, soft furnishings, and biophilic elements create a calming corner within a high-performance workspace.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_4Qw96W": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "key features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_7i3HeF": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Bespoke joinery hexagon seat / planter feature with custom suspended pendant light above</li><li>Half-height walls with matt black box planters</li><li>Commercially rated fabric from Vescom</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_zd6WgM",
+        "text_GkhCMk",
+        "subheading_4Qw96W",
+        "text_7i3HeF"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_hNarMm": {
+      "type": "section-columns",
+      "blocks": {
+        "image_FVqfzA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9524.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_M9hViw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9531.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_hhL9xD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9541.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_DYC8hQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/edited_2_8ac92da0-f47b-4e71-9104-bebcc4888ecd.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_FVqfzA",
+        "image_M9hViw",
+        "image_hhL9xD",
+        "image_DYC8hQ"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "PHOTOGRAPHY",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_cDAkx4": {
+      "type": "section-columns",
+      "blocks": {
+        "image_WVgwTJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0001_1c6fc8ab-74d7-406e-8f68-82890b58fd51.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Krkegw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0005_f372ff13-3be0-42f5-befc-c478c03ad586.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zcRjqR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0007_1c21f3a5-08e4-4498-9b20-9ab288406584.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_D3QzTB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0009_d6f8f7b6-efaa-4671-8c52-2a2bddaaf5ea.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XeQJYy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0006_a8be03cb-d2c3-4fe6-8c9d-fe6796d35294-1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JqGijH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0004_282aa3e9-6b91-4fb2-8653-b76981af9a30.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_WVgwTJ",
+        "image_Krkegw",
+        "image_zcRjqR",
+        "image_D3QzTB",
+        "image_XeQJYy",
+        "image_JqGijH"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3D VISUALISATIONS",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_custom_content_HDghUg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Jkf93x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0001_1c6fc8ab-74d7-406e-8f68-82890b58fd51.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Jkf93x"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_Re4iXB",
+    "section_columns_hNarMm",
+    "section_columns_cDAkx4",
+    "section_custom_content_HDghUg"
+  ]
+}

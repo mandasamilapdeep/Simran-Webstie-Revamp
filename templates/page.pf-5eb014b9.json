@@ -1,0 +1,466 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-5eb014b9": {
+      "type": "pf-5eb014b9",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_3gxRcD": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_TRydd8": {
+          "type": "heading",
+          "settings": {
+            "title": "AMID PALACE INDIAN RESTAURANT",
+            "heading_size": 7
+          }
+        },
+        "text_y4bg97": {
+          "type": "text",
+          "settings": {
+            "description": "NUNEATON | UNITED KINGDOM",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TRydd8",
+        "text_y4bg97"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Booths_3.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "section_double_7g6KCz": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_3QcEKD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "PROJECT OVERVIEW",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_gYg4hQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_T6NrGW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_e3h8YU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3QcEKD",
+        "text_gYg4hQ",
+        "subheading_T6NrGW",
+        "text_e3h8YU"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_Ljwrmp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_jEDkGt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Restaurant_4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_jEDkGt"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_nhNaBE": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_hiKbaV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Restaurant.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_hiKbaV"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_YkJWqa": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_dkVnmB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Table_Top_3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_djDKUt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Table_Top_2.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_dkVnmB",
+        "image_djDKUt"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_AwVAd3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_3EraiV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fire_door.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_pkrPCx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mirror_Wall_045c281b-9494-4a32-b224-cb298cc0f8ff.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_3EraiV",
+        "image_pkrPCx"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_t9ipQr": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_xxfbiz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_dea2a236-6f2c-464a-baa7-6acd3c6bd890.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FGrCVU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_a38f6418-8fac-4672-bcf1-36196e0294ad.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_xxfbiz",
+        "image_FGrCVU"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_maBy3Q": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_j7ymBz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Photo_Wall.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zCrTNA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Seating_2_aded18b1-d063-4c38-b436-a68d5dcc1e44.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_j7ymBz",
+        "image_zCrTNA"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "pf-5eb014b9",
+    "section_hero_3gxRcD",
+    "section_double_7g6KCz",
+    "section_custom_content_Ljwrmp",
+    "section_custom_content_nhNaBE",
+    "section_custom_content_YkJWqa",
+    "section_custom_content_AwVAd3",
+    "section_custom_content_t9ipQr",
+    "section_custom_content_maBy3Q"
+  ]
+}

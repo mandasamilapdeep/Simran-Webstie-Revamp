@@ -1,0 +1,539 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_custom_content_Pd3pwM": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_9QQtqL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/29_b1538231-935b-43d4-8a23-aa78b1f15cbd.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_PAJaU6": {
+          "type": "text",
+          "settings": {
+            "subheading": "testimonial | birmingham",
+            "subheading_size": 3,
+            "title": "ultra hair clinic",
+            "heading_size": 5,
+            "text": "<p><em>Working with Simran Design LTD has been an exceptional experience from start to finish. From our very first consultation, Simran and her team demonstrated a true understanding of our vision, paired with a level of professionalism and expertise that immediately put us at ease.</em></p><p><em><br/>They carried out a thorough and thoughtful assessment of our clinic space, taking into consideration not only aesthetics but also functionality, flow, and client experience. Their advice throughout was honest, knowledgeable, and clearly rooted in a deep understanding of design within a clinical setting.<br/><br/>The entire team was incredibly polite, warm, and welcoming at every interaction. Communication was seamless, timelines were adhered to, and every stage of the process was handled with efficiency and care. What truly stood out was their meticulous attention to detail, nothing was overlooked, and every element was carefully considered to create a cohesive and elevated finish.<br/><br/>The design plans were delivered promptly and with clarity, and Simran remained open and receptive to our feedback and ideas throughout. This collaborative approach made the journey not only smooth but genuinely enjoyable, as we felt fully supported and involved at every step.<br/><br/>Simran herself brought such a positive energy to the project. Her passion, creativity, and commitment to excellence were evident throughout, and she guided us through each stage with patience, enthusiasm, and a genuine desire to achieve the very best outcome.<br/><br/>We are absolutely thrilled with the transformation of Ultra Hair Clinic. The space now embodies a luxurious, refined atmosphere that perfectly aligns with the premium service we strive to deliver. It has elevated not only the look and feel of the clinic but also the overall client experience.<br/><br/>Our staff and clients alike have been incredibly complimentary! Everyone who walks through our doors immediately notices the difference. It is now a space we are truly proud of and love welcoming both new and returning clients into.<br/><br/>We cannot recommend Simran Design LTD highly enough. If you are looking for a team that combines creativity, precision, and professionalism with a truly personal touch, they are simply outstanding.</em></p>",
+            "text_size": 1,
+            "button_text": "Read the google review",
+            "button_url": "https://share.google/rKVvLd6QjhamNn2Y4",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9QQtqL",
+        "text_PAJaU6"
+      ],
+      "name": "Ultra Review",
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Ultra Hair Clinic",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "Non-Surgical clinic | CONSULTATION ROOM, RECEPTION & WAITING ROOM",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "BIRMINGHAM | UNITED KINDGOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/48.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xykVd9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Yq6GFy": {
+          "type": "heading",
+          "settings": {
+            "title": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_Wc4Vwb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Infinitum Entertainment’s Soho office was reimagined as a bold, urban workspace that reflects the brand’s creative energy while introducing a more refined and professional environment. Located in the heart of Central London, the project involved the interior design and fit-out of multiple areas within the office, transforming the space into a confident, contemporary workplace.</p><p>The design moves away from the previous pastel, student-style aesthetic and introduces a sophisticated palette of black, white, and deep red - aligning the interior with Infinitum Entertainment’s brand identity in a grown-up, considered way. The result is a workspace that feels modern, cohesive, and distinctly tailored to the needs of a creative entertainment business.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_deKB9A": {
+          "type": "heading",
+          "settings": {
+            "title": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_JLr7JP": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>A new private call room</strong> has been introduced to support confidential conversations and focused work<br/></li><li><strong>Bespoke booth seating</strong> with integrated LED lighting, providing comfortable breakout seating while adding a subtle, atmospheric design feature<br/></li><li><strong>Acoustic design strategy</strong> incorporating wall panelling, acoustic carpeting, and ceiling-suspended baffles to enhance sound control and overall comfort within the space</li><li><strong>Open-plan office redesign</strong> to encourage collaboration while maintaining a structured, professional feel<br/></li><li><strong>Refreshed reception area and meeting room</strong> creating a strong first impression for clients and visitors<br/></li><li><strong>Conversion of an existing shower room into a secondary WC</strong>, improving staff facilities and usability<br/></li><li><strong>Bold, brand-led colour palette</strong> of black, white, and deep red applied in a refined, contemporary way</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yq6GFy",
+        "text_Wc4Vwb",
+        "heading_deKB9A",
+        "text_JLr7JP"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 16
+      }
+    },
+    "section_columns_eKwggh": {
+      "type": "section-columns",
+      "blocks": {
+        "image_qXwWXY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/29_b1538231-935b-43d4-8a23-aa78b1f15cbd.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_QPQDae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/32.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xdqFyJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/53.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ymkbJG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Reception_FFE_Board.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_qXwWXY",
+        "image_QPQDae",
+        "image_xdqFyJ",
+        "image_ymkbJG"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations - waiting area",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_4bW6Rc": {
+      "type": "section-columns",
+      "blocks": {
+        "image_G9akcm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/45.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_cTTFDm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_kngArB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/46.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Vqh6rk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Consultation_Room_FFE_Board.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_G9akcm",
+        "image_cTTFDm",
+        "image_kngArB",
+        "image_Vqh6rk"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations - consultation room",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_4DqtT9": {
+      "type": "section-columns",
+      "blocks": {
+        "image_k7C9Mw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/37.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_WMAiw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/54.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JJagwq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/40.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_m8AEBE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Upstairs_Reception_Hallway_FFE_Board.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_k7C9Mw",
+        "image_WMAiw3",
+        "image_JJagwq",
+        "image_m8AEBE"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations - stairway, upstairs reception",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_divider_VfBje4": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_custom_content_Pd3pwM",
+    "section_rich_text_xykVd9",
+    "section_columns_eKwggh",
+    "section_columns_4bW6Rc",
+    "section_columns_4DqtT9",
+    "section_divider_VfBje4"
+  ]
+}

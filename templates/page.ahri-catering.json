@@ -1,0 +1,538 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Ahri Catering",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "hospitality suite & offices",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/archsynth_image_3.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xykVd9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Yq6GFy": {
+          "type": "heading",
+          "settings": {
+            "title": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_Wc4Vwb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design was commissioned to design the <strong>hospitality suite and headquarters for Ahri Catering in Leicester</strong>, creating a professional environment that reflects the brand’s growth within the catering and events industry.</p><p>Working closely with the client and fit-out partners Mabel & Woods, the design focused on translating Ahri’s visual identity into a cohesive interior experience. </p><p>Our scope included <strong>space planning, concept design, material selection, visualisations and sourcing</strong> across key areas of the HQ including the entrance and stairway, waiting area, meeting room and supporting spaces. </p><p>Check out the <strong>3D visualisations and material boards created by us below...</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yq6GFy",
+        "text_Wc4Vwb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 16
+      }
+    },
+    "section_columns_fgFiLk": {
+      "type": "section-columns",
+      "blocks": {
+        "image_EkLPNG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/V2_Ahri_Catering_Entrance__1.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_YzJCgn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_2.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_yP9aQV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_dd7e752f-635c-47d0-be22-5f6464ad30e0.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_BLqLrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_3.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_EkLPNG",
+        "image_YzJCgn",
+        "image_yP9aQV",
+        "image_BLqLrR"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Entrance - material board & visualisations",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_hF8YgW": {
+      "type": "section-columns",
+      "blocks": {
+        "image_7FFd4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/V2_Ahri_Catering_Meeting_Room2.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_j6fJMV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/archsynth_image_1.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_iaGFqD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/jNnxnuLE9z-X6TQ6CMd28_UoNAeLJc.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GTqGaa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/archsynth_image_3_copy.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_7FFd4J",
+        "image_j6fJMV",
+        "image_iaGFqD",
+        "image_GTqGaa"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "meeting room - material board & visualisations",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_V48rJQ": {
+      "type": "section-columns",
+      "blocks": {
+        "image_X4hWEW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ahri_Catering_Waiting_Room_5.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xqPBi3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_18c1e99d-4fd8-433f-8b48-89313db29727.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_gjQMke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_3_7a5dd022-19d6-4c44-ba99-549520f387d4.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_jDQ9c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_4.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_X4hWEW",
+        "image_xqPBi3",
+        "image_gjQMke",
+        "image_jDQ9c7"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "waiting room - material board & visualisations",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_3LjNVz": {
+      "type": "section-columns",
+      "blocks": {
+        "image_J8xJnd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ahri_catering_wc_2_229fead3-2512-4563-a28a-f38de07eb51b.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GgeD9r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_eaVbJq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/78.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_J8xJnd",
+        "image_GgeD9r",
+        "image_eaVbJq"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "WC - material board & visualisations",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_divider_VfBje4": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_xykVd9",
+    "section_columns_fgFiLk",
+    "section_columns_hF8YgW",
+    "section_columns_V48rJQ",
+    "section_columns_3LjNVz",
+    "section_divider_VfBje4"
+  ]
+}

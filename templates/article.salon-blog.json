@@ -1,0 +1,966 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_eCcbCt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QAkq4w": {
+          "type": "heading",
+          "settings": {
+            "title": "༶ BLog post ༶",
+            "heading_size": 2
+          }
+        },
+        "heading_kapBND": {
+          "type": "heading",
+          "settings": {
+            "title": "Designing a Salon Experience",
+            "heading_size": 7
+          }
+        },
+        "text_3eqqPd": {
+          "type": "text",
+          "settings": {
+            "description": "3D Visualisations & Space Planning in Sutton Coldfield",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "button_hWYjTV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAkq4w",
+        "heading_kapBND",
+        "text_3eqqPd",
+        "button_hWYjTV"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Notion_Background_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_wVnDzg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CzrqGD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Partition.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_6EVrhk": {
+          "type": "text",
+          "settings": {
+            "subheading": "༶ Estimated Reading Time: 4-5 minutes ༶",
+            "subheading_size": 1,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>When designing a salon, it’s never just about selecting the right chairs, mirrors, or treatments. It’s about how people <em>feel</em> the moment they walk in. Great design balances energy with calm, practicality with beauty – and that’s exactly what this Sutton Coldfield concept deisgn & visualisation project achieved.</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ab8c52",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CzrqGD",
+        "text_6EVrhk"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_7Lb9dX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_yJ7qgd": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>1. <strong>Designing the Vision</strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_VQhBG3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The client came to us with an old Chinese takeaway shop that was a blank canvas ready to transform into a spa-like salon. </p><p>Our role was to provide mood boards, a material palette, precise floor plans, joinery drawings and high-quality 3D visuals that captured the mood, flow, and function of the salon – giving the client a clear roadmap to execute with their contractors.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ7qgd",
+        "text_VQhBG3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_EWijPU": {
+      "type": "section-columns",
+      "blocks": {
+        "image_jnyhFN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Social_Media_Posts_-_Instagram.jpg",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Overall Scheme",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JWBLHq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/55.jpg",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Cafe",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_AMyN6q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/53.jpg",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Nail Bar",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_9hWKBk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/54.jpg",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Private Treatment Room",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_QnQe3N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/56.jpg",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Hair Salon",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_jnyhFN",
+        "image_JWBLHq",
+        "image_AMyN6q",
+        "image_9hWKBk",
+        "image_QnQe3N"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Mood Boards",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_6fbNzN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_xT3htA": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>2. <strong>Key Zones in the Salon</strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TTRkwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every great design tells a story through its layout. Here’s how we zoned the space:</p><ul><li><strong>Café & Outdoor Hatch</strong> – A curved counter, luxe shelving, and ambient lighting create a warm, welcoming café experience, extending outside with community-focused touches.</li><li><strong>Nail Bar</strong> – Three arches showcase polish displays under soft, ambient light – a playful yet refined transition between salon and spa.</li><li><strong>Treatment Rooms</strong> – Calm, chic spaces designed for facials, brows, lashes, and tanning, complete with sinks and storage.</li><li><strong>Hair Stations, Colour Lab and Hair-wash Zone  </strong>– Backlit mirrors, fluted wall panels, and brass accents combine glamour with everyday functionality.</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_xT3htA",
+        "text_TTRkwU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 10
+      }
+    },
+    "section_custom_content_i7VhRC": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_BXtqL7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_14.46.33.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ypmtEV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.35.59.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_BXtqL7",
+        "image_ypmtEV"
+      ],
+      "disabled": true,
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_rich_text_7XbMG6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_iFjgpq": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>3. <strong>Overcoming Design Challenges</strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TbRMpQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every project has hurdles, and this one pushed us to innovate:</p><ul><li><strong>Zoning hair and café areas</strong> – Kept food and treatments separate while still connecting the experience. Ensuring each zone had adequate space without overcrowding the floor plan was a challenge, which took many thumbnail sketches and alternative solutions before finalising the layout!</li><li><strong>The tanning room</strong> – A tricky layout with strict ventilation and fire exit rules, solved with a smart cubicle-style design.</li><li><strong>Multiple entrances</strong> – We used partitions, seating, and sightlines to guide clients intuitively through the space.</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_iFjgpq",
+        "text_TbRMpQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_gVH9Xk": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_UW4qmE": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>4. <strong>Materials and Mood</strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_frVNVW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here’s a look at the <strong>digital material board</strong> we designed for our Sutton Coldfield salon project, using Mattoboard. We’re able to present clients with a tactile snapshot of how their space will feel - from flooring and fabrics to fixtures and finishes. The salon’s identity was shaped by a palette of <strong>earthy neutrals, textured wallpapers, brass accents, and rattan details</strong>.</p><ul><li><strong>Flooring:</strong> Durable, commercial-grade LVT for practicality.</li><li><strong>Walls:</strong> Ash tiles and taupe wallpaper add spa-like calm. Incorporating rattan adds a grounding, natural material. Fluted panelling adds flexibility (it can be painted any colour and refreshed), and dimension for ambient lights to interact with.</li><li><strong>Lighting:</strong> Each zone tells its own story – bold front and backlit mirrors for ultimate functionality, soft pendant café lighting for warmth, and ambient glow in the treatment rooms for retreat-like relaxation.</li><li><strong>Accessories: </strong>We've incorporated additional objects and materials like ribbed glassware for the cafe, stones and pebbles for planters, brushed brass to feature on handles and wall decor frames for example.</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_UW4qmE",
+        "text_frVNVW"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_custom_content_qpXHXJ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_TRD3wz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Social_Media_Posts_-_Instagram_copy.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_HaCR4W": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "4. Materials & Mood",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TRD3wz",
+        "text_HaCR4W"
+      ],
+      "disabled": true,
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_PchCLn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Bh8Hkf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/The_Salon_10.jpg",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_xXwfFW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/The_Salon_12.jpg",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_Bh8Hkf",
+        "image_xXwfFW"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_R4M8fV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_pMXgjJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>4. The Final Visualisations</h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_qVHUae": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through carefully crafted 3D visuals, the client was able to <strong>see, refine, and feel their salon before it was built</strong>.</p><p>This wasn’t just a design – it was the creation of a <strong>destination</strong>. A place where beauty meets community, where every corner has purpose, and where clients will feel cared for from entry to exit.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_GmP3bY": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "click to reveal the full visuals",
+            "button_url": "shopify://pages/the-salon",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_pMXgjJ",
+        "text_qVHUae",
+        "buttons_GmP3bY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_columns_YpWTzY": {
+      "type": "section-columns",
+      "blocks": {
+        "image_D3M4id": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Partition.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_8Kjbqk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_9.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7mXrHa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-31_at_14.10.14.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Nnapc9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails_Corner.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_3hKRUp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_1.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Khxp9q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cafe_3.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_D3M4id",
+        "image_8Kjbqk",
+        "image_7mXrHa",
+        "image_Nnapc9",
+        "image_3hKRUp",
+        "image_Khxp9q"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Snapshots of the final salon renders",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 15,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_rich_text_9xtHhP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_DChDbB": {
+          "type": "heading",
+          "settings": {
+            "title": "Do you need professional interior design help?",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "text_jrYaia": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Simran Design Ltd, we remain focused on designing <strong>commercial spaces across the Midlands and beyond</strong> that, elevate brands, inspire people, and perform beautifully in practice. If you're a busy business owner who needs to upgrade your space, contact us today for a free quotation.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "buttons_NMCNgV": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact Us Today",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_DChDbB",
+        "text_jrYaia",
+        "buttons_NMCNgV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "image_WTXAjJ": {
+          "type": "image",
+          "settings": {
+            "title": ""
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "image_WTXAjJ",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "bg_color": "",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_eay8qG": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "#fafafa",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_bw6trA": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_9bc8Yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Join Our Newsletter",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_XcB9T8": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Let’s Stay Connected",
+            "heading_size": 7,
+            "text": "<p>Want more behind-the-scenes insights, design tips, and exclusive previews of our commercial interior projects?</p><p></p><p>We’d love to have you along for the journey.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f2ede7",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true
+          }
+        }
+      },
+      "block_order": [
+        "image_9bc8Yh",
+        "newsletter_XcB9T8"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_eCcbCt",
+    "section_custom_content_wVnDzg",
+    "section_rich_text_7Lb9dX",
+    "section_columns_EWijPU",
+    "section_rich_text_6fbNzN",
+    "section_custom_content_i7VhRC",
+    "section_rich_text_7XbMG6",
+    "section_rich_text_gVH9Xk",
+    "section_custom_content_qpXHXJ",
+    "section_columns_PchCLn",
+    "section_rich_text_R4M8fV",
+    "section_columns_YpWTzY",
+    "section_rich_text_9xtHhP",
+    "main",
+    "section_divider_eay8qG",
+    "section_newsletter_bw6trA"
+  ]
+}

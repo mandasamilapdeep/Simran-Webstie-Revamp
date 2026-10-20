@@ -1,0 +1,320 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "'MAPTALENT'",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "BUSINESS DISTRICT RECRUITMENT OFFICE",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "DUBAI | UNITED ARAB EMIRATES",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/IMG-20220731-WA0023_75906fa1-de2f-4bf0-bf0f-aab52a48d741.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 60,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_F4DMhr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qjpKbN": {
+          "type": "heading",
+          "settings": {
+            "title": "project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_te4GQX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This recruitment office in Dubai was designed entirely remotely by Simran Design, with a full service that included space planning, 3D visuals, sourcing, and installation guidance.</p><p>Working closely with the client across time zones, we delivered a modern, light-filled workspace that balances professionalism with personality. From layout and finishes to furnishings and styling, every detail was considered – with digital communication and clear documentation ensuring smooth delivery and installation on-site.</p><p> </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        },
+        "subheading_wRE4hp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "key features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_t9D9km": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>16-person workspace layout and new private glass meeting room</li><li>Neutral palette of soft grey, branding blue and matt black accents</li><li>Bespoke kitchenette and small seating area</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_qjpKbN",
+        "text_te4GQX",
+        "subheading_wRE4hp",
+        "text_t9D9km"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_XzyyTc": {
+      "type": "section-columns",
+      "blocks": {
+        "image_z9eGw4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0014_00b2c3b0-2445-4f02-afc6-d0b606e866ea.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ww9mLR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0024_43eb8fdb-1960-4761-8a71-018ac2d58b91.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Kpm33F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220730-WA0024_4ec1a031-9dab-4bf5-84cd-ff0fb6c5cda8.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_wbqFgm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0023_75906fa1-de2f-4bf0-bf0f-aab52a48d741.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_aCqELb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0012_2a195d6f-ce06-4ba5-9b1a-34cb40e5b207.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_wRwY6F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220729-WA0039_f6c5b259-98f9-4e9e-9036-7e2ea4c3557a.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XkRjmy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0017_be0adfbf-21f1-4bf8-a433-a640f4772c66.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GXryRD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0029_4fcc3482-cffe-47ed-9651-1e5bf668ce80.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_z9eGw4",
+        "image_ww9mLR",
+        "image_Kpm33F",
+        "image_wbqFgm",
+        "image_aCqELb",
+        "image_wRwY6F",
+        "image_XkRjmy",
+        "image_GXryRD"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_F4DMhr",
+    "section_columns_XzyyTc"
+  ]
+}

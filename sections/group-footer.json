@@ -1,0 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_eagAdX": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Vector2.png",
+            "image_width": 170,
+            "title": "",
+            "text": "<p>Commercial interior design studio in Leicester, with<br/>projects across the UK, Germany and the UAE.</p>",
+            "column_width": 35
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "studio",
+            "title": "STUDIO",
+            "column_width": 20
+          }
+        },
+        "linklist_TW9CKF": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "follow",
+            "title": "FOLLOW",
+            "column_width": 20
+          }
+        },
+        "text_KtdkLa": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "CONTACT",
+            "text": "<p><a href=\"mailto:hello@simrandesign.co.uk\" title=\"mailto:hello@simrandesign.co.uk\">hello@simrandesign.co.uk</a></p><p><a href=\"tel:+447388967828\" title=\"tel:+447388967828\">07388 967828</a></p><p>18A Park House, East Link,<br/>Meridian Business Park,<br/>Leicester LE19 1WZ</p><p></p>",
+            "column_width": 25
+          }
+        }
+      },
+      "block_order": [
+        "text_eagAdX",
+        "footer-1",
+        "linklist_TW9CKF",
+        "text_KtdkLa"
+      ],
+      "settings": {
+        "bg_color": "#2b1e19",
+        "title_color": "#cbb68c",
+        "link_hover_color": "#ffffff",
+        "logo_image_width": 300,
+        "overlay_opacity": 100,
+        "overlay_color": "#000000",
+        "border_color": "#fafafa",
+        "padding_top": 96,
+        "padding_bottom": 40
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "bg_color": "#2b1e19",
+        "border_color": "#45352d",
+        "linklist": "useful-information",
+        "footer_payment_enable": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}

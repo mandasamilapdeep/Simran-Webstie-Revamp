@@ -1,0 +1,954 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "London Road Full home",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "residential interior design project",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/333_GF_Entrance.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xykVd9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Yq6GFy": {
+          "type": "heading",
+          "settings": {
+            "title": "Full Home Interior Design Project | Leicester",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_Wc4Vwb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This residential interior design project on London Road in Leicester involved transforming a period home into a refined and cohesive living space inspired by the elegance of a classic London townhouse.</p><p>While the architectural bones of the property and kitchen were already in place, the client wanted a fully considered interior that balanced modern comfort with timeless character, while still respecting the home's existing period features.</p><p>Working closely with the client, we delivered a tailored interior design package focused on space planning, furniture layout and full sourcing to bring the home together in a cohesive and liveable way.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_deKB9A": {
+          "type": "heading",
+          "settings": {
+            "title": "A Fast Turnaround Project",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_JLr7JP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The design process started in October, with the goal of completing the home before Christmas.</p><p>This required a fast and collaborative approach, working closely with our trusted network of local trades and suppliers in Leicester to coordinate deliveries, installations and final styling.</p><p>Alongside the design work, we also supported the client with project management and supplier coordination to ensure the home was ready on schedule.</p><p>Spaces Designed: Entrance hallway, Formal lounge, Open plan living and dining area, Stairway and landing, Master bedroom, Two guest bedrooms. </p><p></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yq6GFy",
+        "text_Wc4Vwb",
+        "heading_deKB9A",
+        "text_JLr7JP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 16
+      }
+    },
+    "section_columns_hF8YgW": {
+      "type": "section-columns",
+      "blocks": {
+        "image_7FFd4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_12.57.12.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_7FFd4J"
+      ],
+      "disabled": true,
+      "name": "Text columns with images",
+      "settings": {
+        "title": "photography",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_att36L": {
+      "type": "section-columns",
+      "blocks": {
+        "image_AKWMyD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1F_Hallway_d6b78368-4a50-4769-9bd8-62c5a57ed908.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7UYKRw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_GF_Entrance_4a8ff957-7848-43f3-ae8d-43f2e6cf9acf.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_QxBN4R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_17.51.56.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_fMDjjA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GF_Entrance.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_AKWMyD",
+        "image_7UYKRw",
+        "image_QxBN4R",
+        "image_fMDjjA"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Entrance →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_yyCUwk": {
+      "type": "section-columns",
+      "blocks": {
+        "image_tf3j7r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GF_Front_Living_Room.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_A8d8nE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_GF_Front_Living_1.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6jCqR6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_17.55.00.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Daqe6C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_17.55.48.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_tf3j7r",
+        "image_A8d8nE",
+        "image_6jCqR6",
+        "image_Daqe6C"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Formal Lounge →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_TcUnP8": {
+      "type": "section-columns",
+      "blocks": {
+        "image_kGijYV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GF_Open_Plan.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_G4MP4W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_GF_Open_Living_Dining.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6QrTFf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.05.35.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_crMaLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.06.27.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board Part I</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FLJQWV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.06.40.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board Part II</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_kGijYV",
+        "image_G4MP4W",
+        "image_6QrTFf",
+        "image_crMaLm",
+        "image_FLJQWV"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Open Plan Living-Dining →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_GgHw9F": {
+      "type": "section-columns",
+      "blocks": {
+        "image_RGbtCM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1F_Guest_Bedroom_1.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_hwzLYw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_Guest_Bedroom.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_tGhLDa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.19.32.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_itGJK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.27.29.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RGbtCM",
+        "image_hwzLYw",
+        "image_tGhLDa",
+        "image_itGJK7"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Guest Bedroom 1 →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_ghBEtw": {
+      "type": "section-columns",
+      "blocks": {
+        "image_YknzCj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_London_Road_Leicester_1_247a25c3-1f09-40b0-8cad-66a6eaa1f48b.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_NPkpXi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_Guest_Bedroom_2_3.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_BQ37F3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.28.36.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_jRMmUm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.29.17.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_YknzCj",
+        "image_NPkpXi",
+        "image_BQ37F3",
+        "image_jRMmUm"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Guest Bedroom 2 →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_8CCxkG": {
+      "type": "section-columns",
+      "blocks": {
+        "image_hmUrtJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_London_Road_Leicester_1_7c48c262-2740-4920-a614-6aca49c779a2.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_X9H3Lg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_Master_Bedroom_1.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_9Ce3tG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.16.52.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_efKFAa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.17.32.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_hmUrtJ",
+        "image_X9H3Lg",
+        "image_9Ce3tG",
+        "image_efKFAa"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Master Bedroom →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_cUdxJg": {
+      "type": "section-columns",
+      "blocks": {
+        "image_RGEgRj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1F_Hallway_4dde6cbb-49bf-4e89-bc9e-b56b1671566d.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Mood Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ziVCEz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/333_1F_Landing.jpg",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Digital Material Board</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6yJxie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.13.40.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Elevations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_YpKnnM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-12_at_18.14.58.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Sourcing Board </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RGEgRj",
+        "image_ziVCEz",
+        "image_6yJxie",
+        "image_YpKnnM"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Stairway and Landing →",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_divider_VfBje4": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_xykVd9",
+    "section_columns_hF8YgW",
+    "section_columns_att36L",
+    "section_columns_yyCUwk",
+    "section_columns_TcUnP8",
+    "section_columns_GgHw9F",
+    "section_columns_ghBEtw",
+    "section_columns_8CCxkG",
+    "section_columns_cUdxJg",
+    "section_divider_VfBje4"
+  ]
+}

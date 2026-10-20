@@ -1,0 +1,328 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_i9bVfG": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_FkT9wk": {
+          "type": "heading",
+          "settings": {
+            "title": "BLOG Title",
+            "heading_size": 7
+          }
+        },
+        "text_9yyJWJ": {
+          "type": "text",
+          "settings": {
+            "description": "Blog subheading",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FkT9wk",
+        "text_9yyJWJ"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/732aad_a393c09ce7b945d9b14098833c4fc26b_mv2.webp",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 45,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_qy6kPT": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_XiY4na": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_PMYNt3": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_9GA7HF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_itw4EW": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XiY4na",
+        "heading_PMYNt3",
+        "text_9GA7HF",
+        "buttons_itw4EW"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_custom_content_xghnQ8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Fed9mm": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_BDXnqx": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Custom content",
+            "heading_size": 8,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_size": 4,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Fed9mm",
+        "text_BDXnqx"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_7zTGw3": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_qnhy3n": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_AYpXJn": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_wr3peB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_yMD7X4": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qnhy3n",
+        "heading_AYpXJn",
+        "text_wr3peB",
+        "buttons_yMD7X4"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_newsletter_zmbXMx": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_pAgNrQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-studio-sesh-collection-final-11.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_mPwgHj": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Sign up",
+            "heading_size": 7,
+            "text": "<p>Sign up to receive free design tips, exclusive industry insights and updates from Simran Design!</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true
+          }
+        }
+      },
+      "block_order": [
+        "image_pAgNrQ",
+        "newsletter_mPwgHj"
+      ],
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_46Lepc": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "blog",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "show_rss": true,
+        "show_tag_nav": true,
+        "grid": 4,
+        "rows": 4,
+        "aspect_ratio": 1,
+        "title_size": 4,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_button": true,
+        "show_comments": false,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_i9bVfG",
+    "section_rich_text_qy6kPT",
+    "section_custom_content_xghnQ8",
+    "section_rich_text_7zTGw3",
+    "section_newsletter_zmbXMx",
+    "section_divider_46Lepc",
+    "main"
+  ]
+}

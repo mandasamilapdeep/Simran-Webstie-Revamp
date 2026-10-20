@@ -1,0 +1,730 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_multicolumn_Q3bqFr": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_CJUndn": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 61,
+            "title": "CASE STUDIES AND TESTIMONIALS",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Proof, in every square metre.",
+            "heading_size_2": 14,
+            "title_2_color": "",
+            "text": "<p>From Carnaby Street to Jumeirah Lake Towers, see how business owners use design to win clients, retain teams and raise their standards.</p>",
+            "text_size": 5,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_efDb6A": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": true,
+            "column_width": 13,
+            "title": "25+",
+            "heading_size": 8,
+            "heading_letter_spacing": 0,
+            "title_color": "#2b1e19",
+            "title_2": "commercial clients",
+            "heading_size_2": 1,
+            "title_2_color": "#6b5a50",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_F9X8qz": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": true,
+            "padding_left_desktop_zero": true,
+            "padding_right_desktop_zero": true,
+            "column_width": 13,
+            "title": "3",
+            "heading_size": 8,
+            "heading_letter_spacing": 0,
+            "title_color": "#2b1e19",
+            "title_2": "countries",
+            "heading_size_2": 1,
+            "title_2_color": "#6b5a50",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_YYWJWn": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": true,
+            "padding_left_desktop_zero": true,
+            "padding_right_desktop_zero": false,
+            "column_width": 13,
+            "title": "5★",
+            "heading_size": 8,
+            "heading_letter_spacing": 0,
+            "title_color": "#2b1e19",
+            "title_2": "Google reviews",
+            "heading_size_2": 1,
+            "title_2_color": "#6b5a50",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_3D4FmP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 20,
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "Add a title or tagline",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_CJUndn",
+        "text_efDb6A",
+        "text_F9X8qz",
+        "text_YYWJWn",
+        "text_3D4FmP"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-bottom",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
+    },
+    "section_double_dKmDrQ": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_PY9XGn": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INFINITUM ENTERTAINMENT GROUP",
+            "subheading_color": "#2b1e19",
+            "text_size": 1,
+            "padding_bottom": 6
+          }
+        },
+        "heading_rWTJGe": {
+          "type": "heading",
+          "settings": {
+            "title": "A Carnaby Street headquarters the whole team loves being in.",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_V3MaWG": {
+          "type": "text",
+          "settings": {
+            "text_color": "#000000",
+            "text": "<p>Design, trade coordination, compliance and full project management for a creative office in the heart of Soho.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_text_group_RhwTax": {
+          "type": "heading_text_group",
+          "settings": {
+            "border_color": "#d9c6b8",
+            "text_color": "",
+            "first_heading": "[RESULT]",
+            "first_heading_size": 7,
+            "text_1": "Add a measurable outcome",
+            "text_size_1": 2,
+            "second_heading": "[SQ FT]",
+            "second_heading_size": 7,
+            "text_2": "Space designed",
+            "text_size_2": 2
+          }
+        },
+        "buttons_UfxYgG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "READ THE STORY",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PY9XGn",
+        "heading_rWTJGe",
+        "text_V3MaWG",
+        "heading_text_group_RhwTax",
+        "buttons_UfxYgG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Screenshot2026-04-16at12.09.49.png",
+        "image_width": "sixty",
+        "text_alignment": "text-left",
+        "text_bg_color": "#f2ede7",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_columns_eNGmRb": {
+      "type": "section-tab-columns",
+      "blocks": {
+        "tab_9tH6Ak": {
+          "type": "tab",
+          "settings": {
+            "heading": "Workspace"
+          }
+        },
+        "tab_N4cE74": {
+          "type": "tab",
+          "settings": {
+            "heading": "Hospitality"
+          }
+        },
+        "tab_LgbnF9": {
+          "type": "tab",
+          "settings": {
+            "heading": "Salons and Clinics"
+          }
+        },
+        "tab_8BDJjz": {
+          "type": "tab",
+          "settings": {
+            "heading": "Wellness"
+          }
+        },
+        "tab_HQQaEr": {
+          "type": "tab",
+          "settings": {
+            "heading": "Retail and Culture"
+          }
+        },
+        "image_nprfYH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.15.00.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Workspace",
+            "location": "· Dubai",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>MAPTALENT RECRUITMENT <strong>An office the whole team calls a second home. </strong><em>\"Our office in JLT, Dubai is stunning because of her.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ky3qyx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.25.52.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Salons and Clinics",
+            "location": "· Birmingham",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>ULTRA HAIR CLINIC <strong>A clinic interior that matches a premium service. </strong><em>\"Everyone who walks through our doors immediately notices the difference.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_QDR6F3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ShopifyDesignPackages_4_c4414398-3b04-4d7e-befb-48034d51b172.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Retail and Culture",
+            "location": "· Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>DARBAR ARTS AND HERITAGE TRUST <strong>Retail events and trade show stands delivered on tight timelines. </strong><em>\"Rare to find someone who can translate a cultural brief into design so thoughtfully.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_89MBL7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.20.19.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Workspace",
+            "location": "· Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>PARK HOUSE HQ <strong>From tired shell to a kitchen and dining space for the whole building. </strong><em>\"She delivered exactly to her 3D plans.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_LPHXzn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.19.17.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Wellness",
+            "location": "· Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>MERIDIAN PERSONAL TRAINING <strong>A private gym designed and delivered at pace. </strong><em>\"The imagination is truly a work of art.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HRDEXb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.17.29.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Hospitality",
+            "location": "· Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>AHRI CATERING HQ <strong>A private gym designed and delivered at pace. </strong><em>\"A hospitality unit delivered against a very tight deadline.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6rzHAr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/floral-wide.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Salons and Clinics",
+            "location": "· Sutton Coldfield",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>THE SALON <strong>A salon where every detail was considered. </strong><em>\"The attention to detail is unreal.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_rPK73W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DONE_-_Mood_Board.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Workspace",
+            "location": "· Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>SCANCOM HQ <strong>A branded entrance that sets the tone for every visitor. </strong><em>\"It works perfectly with our branding colours and style now.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_hqJ8hR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_15.57.42.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Retail and Culture",
+            "location": "· Birmingham",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>CURL JAR <strong>Retail events and trade show stands delivered on tight timelines. </strong><em>\"Always timely and very well informed with the industry trends.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FaEMAt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7299.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Salons and Clinics",
+            "location": "· Frankfurt and Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>RHC CLINICS <strong>[Add headline for this clinic project] </strong><em>\"[Add client quote]\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_RrHFd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GF_Open_Plan.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Hospitality",
+            "location": "· Cambridge",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>MAZA AT EIGHTY SIX <strong>[Add headline for this restaurant project]</strong> <em>\"[Add client quote]\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_dwkLa8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.01.41.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "tab_title": "Workspace",
+            "location": "· Leicester",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>FURNITURE ONLINE HQ <strong>A games room bar that the team actually uses.</strong> <em>\"The space has been transformed into a relaxing and stylish area.\"</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_9tH6Ak",
+        "tab_N4cE74",
+        "tab_LgbnF9",
+        "tab_8BDJjz",
+        "tab_HQQaEr",
+        "image_nprfYH",
+        "image_ky3qyx",
+        "image_QDR6F3",
+        "image_89MBL7",
+        "image_LPHXzn",
+        "image_HRDEXb",
+        "image_6rzHAr",
+        "image_rPK73W",
+        "image_hqJ8hR",
+        "image_FaEMAt",
+        "image_RrHFd6",
+        "image_dwkLa8"
+      ],
+      "name": "Tab text columns",
+      "settings": {
+        "title": "All stories",
+        "heading_size": 8,
+        "show_tabs": true,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "#2b1e19",
+        "tab_bg_color": "#ffffff",
+        "tab_text_color": "#2b1e19",
+        "tab_bg_color_active": "#2b1e19",
+        "tab_text_color_active": "#ffffff",
+        "tab_title_box_border_color": "#e3d3c9",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "layout_mobile": "1"
+      }
+    },
+    "text_blocks_pazf4y": {
+      "type": "text_blocks",
+      "blocks": {
+        "text_UJPUH3": {
+          "type": "text",
+          "settings": {
+            "heading_1": "Dallas Burston Polo Club",
+            "subheading_1": "LEAMINGTON",
+            "heading_2": "Scan Computers",
+            "subheading_2": "BOLTON",
+            "heading_3": "Infinitum Entertainment",
+            "subheading_3": "LONDON",
+            "heading_4": "Darbar Arts",
+            "subheading_4": "LONDON",
+            "heading_5": "RHC Clinics",
+            "subheading_5": "FRANKFURT"
+          }
+        },
+        "text_wXJqAh": {
+          "type": "text",
+          "settings": {
+            "heading_1": "Maptalent Recruitment",
+            "subheading_1": "DUBAI",
+            "heading_2": "Ultra Hair Clinic",
+            "subheading_2": "BIRMINGHAM",
+            "heading_3": "Maza at Eighty Six",
+            "subheading_3": "CAMBRIDGE",
+            "heading_4": "Highcross Law",
+            "subheading_4": "LEICESTER",
+            "heading_5": "IXL Events Centre",
+            "subheading_5": "LEAMINGTON SPA"
+          }
+        },
+        "text_kkEHMV": {
+          "type": "text",
+          "settings": {
+            "heading_1": "Nautilus Designs",
+            "subheading_1": "WOLVERHAMPTON",
+            "heading_2": "AA+D Atelier Architects",
+            "subheading_2": "TRING",
+            "heading_3": "AV2RENT",
+            "subheading_3": "BIRMINGHAM",
+            "heading_4": "Mabel and Woods",
+            "subheading_4": "LEICESTER",
+            "heading_5": "Studio 30 Barbershop",
+            "subheading_5": "CAMBRIDGE"
+          }
+        }
+      },
+      "block_order": [
+        "text_UJPUH3",
+        "text_wXJqAh",
+        "text_kkEHMV"
+      ],
+      "name": "Text Blocks",
+      "settings": {
+        "align_text": "text-center",
+        "title": "Trusted by businesses across the UK, Germany and the UAE",
+        "heading_size": 8,
+        "content": "<p>Replace names with monochrome client logos at equal visual weight.</p>",
+        "content_size": 2,
+        "block_heading_size": 4,
+        "block_subheading_size": 2,
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_multicolumn_Q3bqFr",
+    "section_double_dKmDrQ",
+    "section_tab_columns_eNGmRb",
+    "text_blocks_pazf4y"
+  ]
+}

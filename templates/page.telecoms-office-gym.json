@@ -1,0 +1,247 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "in-OFFICE gym",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "TELECOMS OFFICE BOARD ROOM TRANSFORMATION",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/732aad_2a9885974c12457b9dfc81f006935b13_mv2_48668e94-32f1-401d-81b6-32773d8a85cb.webp",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_before_after_EnWixW": {
+      "type": "section-before-after",
+      "settings": {
+        "heading": "Before and After",
+        "description": "<p>We transformed a tired office board room into a bold, boutique in-house gym to boost staff wellbeing and productivity ⋙</p><p>Key features include: multi-rack system machine, battle ropes, boxing bag, Olympic bars, 30-piece dumbbell rack, benches, Peloton bike and storage for boxing gloves, skipping ropes and wrist straps...</p>",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_1": "shopify://shop_images/PXL_20220527_140702192.jpg",
+        "image_2": "shopify://shop_images/gym_with_black_ceiling_copy_568727f2-3e3d-4808-9ef4-176267b07cd6.jpg",
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_fBbYbx": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Bz7ywM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gym_with_black_ceiling_copy.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ywa3rr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_b8a4f5339d89410895dcdd15ab488405_mv2_copy.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_EmWKiw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gym_with_black_ceiling_3.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Nkq3pR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_2a9885974c12457b9dfc81f006935b13_mv2_48668e94-32f1-401d-81b6-32773d8a85cb.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ppkcyf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gym_with_Black_Ceiling_2.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HLqrVM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_307df4e43c344a21812f687033143ee9_mv2.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Bz7ywM",
+        "image_ywa3rr",
+        "image_EmWKiw",
+        "image_Nkq3pR",
+        "image_ppkcyf",
+        "image_HLqrVM"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_before_after_EnWixW",
+    "section_columns_fBbYbx"
+  ]
+}

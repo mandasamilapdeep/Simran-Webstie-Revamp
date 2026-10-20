@@ -1,0 +1,406 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "text_size": 6,
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": false,
+            "style": "tabs",
+            "title_1": "What's Included?",
+            "raw_content_1": "<p>After purchasing, you will receive a structured design package including:</p><p><strong>1. Space Layout Suggestion</strong></p><p>An annotated layout showing how furniture, lighting and key features could be arranged within your space. <em>(You provide basic measurements or a floor plan and images).</em></p><p><strong>2. Concept Moodboard</strong></p><p>A curated mood board showing the visual direction for your interior, including colours, textures, and overall atmosphere.</p><p><strong>3. Material Suggestions</strong></p><p>Design guidance for key finishes such as:</p><ul><li>Flooring</li><li>Wall treatments</li><li>Colour palette</li><li>Joinery materials</li><li>Lighting styles</li></ul><p><strong>4. Key Design Notes</strong></p><p>Clear written guidance explaining the concept and practical recommendations for your space.</p><p><strong>5. Optional 20-minute Review Call</strong></p><p>If needed, we can schedule a short call to discuss the concept and answer questions.</p>",
+            "title_2": "How long will it take?",
+            "raw_content_2": "<p>In 7-10 working days for a professionally designed PDF concept document including:</p><ul><li>Your bespoke concept moodboard</li><li>Your bespoke layout suggestion</li><li>Your bespoke material direction</li><li>Tailored design notes</li></ul>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variants",
+        "buttons",
+        "tabs"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "padding_top": 35,
+        "padding_bottom": 25
+      }
+    },
+    "section_text_row_dfpCeR": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_nH3HxF": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "title": "Avoid Expensive Design Mistakes",
+            "heading_size": 3,
+            "text": "<p>Proceed with confidence and expert advice.</p>",
+            "text_size": 2
+          }
+        },
+        "icon_bgkKff": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-diameter",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "title": "Optimise your layout and flow",
+            "heading_size": 3,
+            "text": "<p>Make your space work hard for you and your business.</p>",
+            "text_size": 2
+          }
+        },
+        "icon_CpqMJF": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "title": "Choose the right materials & items",
+            "heading_size": 3,
+            "text": "<p>Align your brand, vision and your space. </p>",
+            "text_size": 2
+          }
+        },
+        "icon_QhgQpp": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "title": "Explain the vision clearly",
+            "heading_size": 3,
+            "text": "<p>Communicate the design concepts clearly to fitters.</p>",
+            "text_size": 2
+          }
+        }
+      },
+      "block_order": [
+        "icon_nH3HxF",
+        "icon_bgkKff",
+        "icon_CpqMJF",
+        "icon_QhgQpp"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 35,
+        "padding_bottom": 35,
+        "layout_mobile": "2"
+      }
+    },
+    "section_rich_text_JctL6p": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_ezFVxy": {
+          "type": "heading",
+          "settings": {
+            "title": "what you will receive...",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_PqApUC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>(Examples below are from our Soho Office full design and install project for Infinitum Group, London. Check out the full project in our portfolio)</p>",
+            "text_size": 2,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezFVxy",
+        "text_PqApUC"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "section_columns_QfJLnJ": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Mbntgk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/49.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Floor Plan",
+            "heading_size": 3,
+            "text": "<p>An annotated CAD floor plan(s) with furniture, lighting and key features <em>(You provide basic dimensions and images/videos)</em></p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_TAH6CP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-16_at_17.27.43.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Mood Board",
+            "heading_size": 3,
+            "text": "<p>A curated mood board showing the visual direction for your interior, including colours, textures, and overall atmosphere.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_D3YraY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Infinitum_Meeting_Room_2.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Material Board",
+            "heading_size": 3,
+            "text": "<p>Design guidance for key finishes such as flooring, wall treatments, colour palette and paints, joinery materials, lighting styles and more...</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6kcFBm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-11_at_10.21.02.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Key Design tips",
+            "heading_size": 3,
+            "text": "<p>Clear written guidance explaining the concept we've created for you, and practical recommendations for your space.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_hpLVrH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-16_at_17.23.17.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Review Call",
+            "heading_size": 3,
+            "text": "<p>Once you've received the design documentation, we can schedule a short call to discuss the concept and answer any questions.  </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Mbntgk",
+        "image_TAH6CP",
+        "image_D3YraY",
+        "image_6kcFBm",
+        "image_hpLVrH"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 5,
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 35,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_announcement_fPgM6B": {
+      "type": "section-announcement",
+      "blocks": {
+        "message_nTxWrd": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "The perfect package for...",
+            "text_style": "font-heading",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_UDUJHk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Offices | Hospitality Founders | Boutique Retail |  Wellness Studios & More</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "message_nTxWrd",
+        "text_UDUJHk"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 50,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "text_size": 2,
+        "bg_color": "#ffffff",
+        "color": "#212121",
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_row_dfpCeR",
+    "section_rich_text_JctL6p",
+    "section_columns_QfJLnJ",
+    "section_announcement_fPgM6B",
+    "related"
+  ]
+}

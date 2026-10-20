@@ -1,0 +1,826 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_NayUwj": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_KwABdf": {
+          "type": "heading",
+          "settings": {
+            "title": "Remote Interior Design Services",
+            "heading_size": 7
+          }
+        },
+        "text_hb7Jhi": {
+          "type": "text",
+          "settings": {
+            "description": "༶ Full Flexibility and Global Opportunities  ༶",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KwABdf",
+        "text_hb7Jhi"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/edited_6.jpg",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_divider_qaHCKp": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_YcQ67b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_7HepqG": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-111.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_rwcqwK": {
+          "type": "text",
+          "settings": {
+            "subheading": "invest in interior design to",
+            "subheading_size": 3,
+            "title": "Elevate your space",
+            "heading_size": 8,
+            "text": "<p>Invest in your business environment with commercial interior design services that inspire, engage and resonate with employees and clients. A thoughtfully designed interior communicates your brand's identity, values, and vision, leaving a lasting impression and fostering a strong connection with the brand. </p><p></p><p>Step ahead of the curve today.</p>",
+            "text_size": 4,
+            "button_text": "Start Today",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7HepqG",
+        "text_rwcqwK"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_custom_content_Pc6HgD": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_4QJxKJ": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "e-design",
+            "heading_size": 7,
+            "text": "<p>Optimise your space using expert virtual design services and a plan of action from your designer without undergoing a complete overhaul. Receive tailored recommendations, practical solutions and visual design plans delivered virtually within 3 weeks of your consultation, all with flexible engagement options. Checkout the 'What's Included' section below for more information.</p><p>We will have an initial virtual consultation via Teams to learn more about your project,  then you'll receive a bespoke quotation according to the project requirements that we have discussed.</p><p></p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f2ede7",
+            "color": "#000000"
+          }
+        },
+        "image_UttK4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-right",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_4QJxKJ",
+        "image_UttK4J"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-full--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_announcement_q7NYTg": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_ennCxt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You are here because you want quick and easy design ideas and visuals</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_Jyf8NT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>You are here because you want quick and easy design ideas and visuals</strong></p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_ennCxt",
+        "text_Jyf8NT"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 5,
+        "text_size": 3,
+        "bg_color": "#ab8c52",
+        "color": "#f0f0f0",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_gbjLeA": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_XpmDLc": {
+          "type": "heading",
+          "settings": {
+            "title": "What's Included?"
+          }
+        },
+        "question_fBFFYn": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Full Space Analysis",
+            "content": "<p>Comprehensive virtual tour analysis to understand the space and how to optimise its use cases.</p>",
+            "show_icon": true,
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_7ETixi": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Mood Boards",
+            "content": "<p>Creation of unique design concepts that reflect your brand and desired ambiance.</p>",
+            "show_icon": true,
+            "icon_name": "icon-cloud",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_Cpehpp": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Space Planning and Layout Design",
+            "content": "<p>Floor Plans designed to optimise your space for functionality and flow using advanced software tools.</p>",
+            "show_icon": true,
+            "icon_name": "icon-diameter",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_dUNWWM": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Material & Finish Selection Boards",
+            "content": "<p>Expert guidance in choosing the best materials and finishes that align with your aesthetic and durability requirements.</p>",
+            "show_icon": true,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_mPEXYX": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Furniture, Lighting & Accessories",
+            "content": "<p>Sourcing of all furniture, accessories, wall decor and equipment; Access to exclusive trade suppliers and pricing.</p>",
+            "show_icon": true,
+            "icon_name": "icon-box",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_wQ9DHT": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Curated Shopping List",
+            "content": "<p> Tailored visual shopping list according to your style and budget, with links and details of all products sourced. Access to exclusive trade-only suppliers and any relevant trade discounts.</p>",
+            "show_icon": true,
+            "icon_name": "icon-discount",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_RTHgRF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Full Design Plans Handover",
+            "content": "<p>Full design documentation to date will be signed off and handed over. You will receive all of the above deliverables in an online document which will be delivered virtually.</p>",
+            "show_icon": true,
+            "icon_name": "icon-mail",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_8yFKy9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Virtual Design Meetings",
+            "content": "<p>A series of online Teams calls to initially discuss your project requirements, talk through any recommendations live, and walkthrough the suggestions upon delivery of design documentation.</p>",
+            "show_icon": true,
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XpmDLc",
+        "question_fBFFYn",
+        "question_7ETixi",
+        "question_Cpehpp",
+        "question_dUNWWM",
+        "question_mPEXYX",
+        "question_wQ9DHT",
+        "question_RTHgRF",
+        "question_8yFKy9"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "2",
+        "bg_color": "",
+        "color": "",
+        "border_color": "#ab8c52",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_dxFg37": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_3PiXFT": {
+          "type": "heading",
+          "settings": {
+            "title": "Add-ons"
+          }
+        },
+        "question_BqFnDt": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "3D Visualisations",
+            "content": "<p>Realistic 3D renders to gain an accurate view of your future space.</p>",
+            "show_icon": true,
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_kjFCLd": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Custom Joinery Design",
+            "content": "<p>Technical drawings and mockups of custom joinery, designed alongside high-quality joinery manufacturers.</p>",
+            "show_icon": true,
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_aGqD4z": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Client Portal",
+            "content": "<p>Access to a client portal to view live sourcing lists, product links, prices, further details and design documentation.</p>",
+            "show_icon": true,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_JDeHwi": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Installation Plan",
+            "content": "<p>If you are in the UK we are happy to hand-over the design to one of our turn-key installation suppliers who will bring the design to life. So you'll have both full interior design plans and a fit-out plan!</p>",
+            "show_icon": true,
+            "icon_name": "icon-phone",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3PiXFT",
+        "question_BqFnDt",
+        "question_kjFCLd",
+        "question_aGqD4z",
+        "question_JDeHwi"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "#ab8c52",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_custom_content_y3b86P": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_GK7DMe": {
+          "type": "text",
+          "settings": {
+            "subheading": "Remote Design in",
+            "subheading_size": 3,
+            "title": "3 Easy Phases",
+            "heading_size": 7,
+            "text": "<p>Our approach is client-centric so we commit to understanding your vision first, and keep you in the loop with transparent communication and regular progress updates along with way.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#ab8c52",
+            "color": "#f2ede7"
+          }
+        }
+      },
+      "block_order": [
+        "text_GK7DMe"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-03_at_14.52.04.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p><strong>Phase 1</strong></p><h6><strong>Conceptualisation</strong></h6><p>Floor Plans | Mood Boards | Material Boards</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-03_at_10.51.00.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p><strong>Phase 2</strong></p><h6>Visualisation</h6><p>3D 4K Visualisations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-03_at_10.52.12.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p><strong>Phase 3</strong></p><h6>SPECIFICATION</h6><p>Sourcing and Budgeting</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "#f2ede7",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_rWNQgY": {
+      "type": "section-columns",
+      "blocks": {
+        "image_AGEmmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-26_at_18.31.56.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "Beauty + Function",
+            "heading_size": 4,
+            "text": "<p>Commercial spaces should look stunning and serve as dynamic <strong>extensions of your brand identity and vision</strong>. Whether it's an office, studio, clinic or hospitality venue, I collaborate closely with clients who value exceptional design the impact it can have on their business.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://pages/contact-1",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_JwaKRB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_051735a859924c51b129b237653a0236_mv2_2_copy.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "Design Approach",
+            "heading_size": 4,
+            "text": "<p>From concept development to final execution, I prioritise open <strong>communication, transparency, and collaboration</strong> at every step. The goal is to make the design process <strong>seamless</strong>, guiding clients through design decisions with clarity and confidence to transform your vision into reality.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://pages/contact-1",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_AGEmmx",
+        "image_JwaKRB"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_custom_content_wh3bax": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_HJYKrE": {
+          "type": "text",
+          "settings": {
+            "subheading": "kick-start the transformation:",
+            "subheading_size": 3,
+            "title": "here are Your Next Steps",
+            "heading_size": 7,
+            "text": "",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_HJYKrE"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_timeline_zdGFjV": {
+      "type": "section-timeline",
+      "blocks": {
+        "timeline_Kx4fC3": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-25_at_14.45.08.png",
+            "subheading": "Step 1",
+            "subheading_size": 3,
+            "title": "Get in Touch",
+            "heading_size": 6,
+            "text": "<p>Fill in our contact form or drop us an email to introduce yourself and your project. Let us know if one of our service offerings sounds perfect, or if you have something completely bespoke in mind.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "button_text": "Contact Us",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "timeline_wXYWWD": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-25_at_14.45.19.png",
+            "subheading": "Step 2",
+            "subheading_size": 3,
+            "title": "Call / Site Visit",
+            "heading_size": 6,
+            "text": "<p>We will arrange a further in-depth call to discuss your vision, and arrange a site visit (location dependent) to understand the space fully, and take measurements and photos pre-transformation.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "timeline_jcJimW": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-25_at_14.51.41.png",
+            "subheading": "Step 3",
+            "subheading_size": 3,
+            "title": "Quotation",
+            "heading_size": 6,
+            "text": "<p>We will send you a detailed quote, specifying project scope, timeline, deliverables and design fees. Once agreed, you'll receive a welcome document, and we're good to go!</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "timeline_Kx4fC3",
+        "timeline_wXYWWD",
+        "timeline_jcJimW"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 7,
+        "text": "",
+        "text_size": 4,
+        "text_alignment": "text-center",
+        "show_images": true,
+        "bg_color": "",
+        "color": "",
+        "dot_background": "#ab8c52",
+        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_Ktig3D": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_GwXqEg": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact Us",
+            "heading_size": 9
+          }
+        },
+        "text_KdNeba": {
+          "type": "text",
+          "settings": {
+            "description": "We'd love to have a chat :)",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_tY3nbM": {
+          "type": "button",
+          "settings": {
+            "link_text": "Contact Page",
+            "link": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GwXqEg",
+        "text_KdNeba",
+        "button_tY3nbM"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2024-02-25_at_14.44.41.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_NayUwj",
+    "section_divider_qaHCKp",
+    "section_custom_content_YcQ67b",
+    "section_custom_content_Pc6HgD",
+    "section_announcement_q7NYTg",
+    "section_accordion_group_gbjLeA",
+    "section_accordion_group_dxFg37",
+    "section_custom_content_y3b86P",
+    "columns",
+    "section_columns_rWNQgY",
+    "section_custom_content_wh3bax",
+    "section_timeline_zdGFjV",
+    "section_hero_Ktig3D"
+  ]
+}

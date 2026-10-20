@@ -1,0 +1,716 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-0770f30d": {
+      "type": "pf-0770f30d",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_BYVGx8": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_ALDdnE": {
+          "type": "heading",
+          "settings": {
+            "title": "'The Salon'",
+            "heading_size": 7
+          }
+        },
+        "heading_RQ3Vaw": {
+          "type": "heading",
+          "settings": {
+            "title": "HAIR SALON, NAIL BAR, TREATMENT ROOMS, CAFE",
+            "heading_size": 4
+          }
+        },
+        "text_zQM8eP": {
+          "type": "text",
+          "settings": {
+            "description": "SUTTON COLDFIELD | BIRMINGHAM | UK",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ALDdnE",
+        "heading_RQ3Vaw",
+        "text_zQM8eP"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Hair_Lab_6_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_6e4bzC": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_mGgkBB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_V4L4ei": {
+          "type": "heading",
+          "settings": {
+            "title": "'The Salon'",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_aPWBDf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The client came to us with an old Chinese takeaway shop that was a blank canvas ready to transform into a spa-like salon.</p><p>Our role was to provide mood boards, a material palette, precise floor plans, joinery drawings and high-quality 3D visuals that captured the mood, flow, and function of the salon – giving the client a clear roadmap to execute with their contractors.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mGgkBB",
+        "heading_V4L4ei",
+        "text_aPWBDf"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Social_Media_Posts_-_Instagram_copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_EmbmUn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_eCanUt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Partition.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_d3kfKY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Partition_2.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_idgRW9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-31_at_14.10.14.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_3txR6X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hair_colour_3.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_hEUBDp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hair_colour_1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zepLwe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hair_Wash_1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_eCanUt",
+        "image_d3kfKY",
+        "image_idgRW9",
+        "image_3txR6X",
+        "image_hEUBDp",
+        "image_zepLwe"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Hair Salon",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_kxXpxG": {
+      "type": "section-columns",
+      "blocks": {
+        "image_U9XRk6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails_Corner.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_aemcWU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails_Display.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_wX43xJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_U9XRk6",
+        "image_aemcWU",
+        "image_wX43xJ"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Nail Bar",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_wRhnrc": {
+      "type": "section-columns",
+      "blocks": {
+        "image_rNzG86": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_9.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_78hLrG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_yV6JeY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_4.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zFz3Pi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_10.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xADLmC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_3.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_NRAN8g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_2.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_rNzG86",
+        "image_78hLrG",
+        "image_yV6JeY",
+        "image_zFz3Pi",
+        "image_xADLmC",
+        "image_NRAN8g"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Treatment Rooms",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_PX89Yx": {
+      "type": "section-columns",
+      "blocks": {
+        "image_wRD3q9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cafe_3.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FXcnwq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cafe_4.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_WRY8c6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-31_at_14.30.53.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_wRD3q9",
+        "image_FXcnwq",
+        "image_WRY8c6"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Cafe",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_Un4iCC": {
+      "type": "section-columns",
+      "blocks": {
+        "image_N8qU6W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/The_Salon_10.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_LaMAHn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/The_Salon_12.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_N8qU6W",
+        "image_LaMAHn"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Digital Material Board",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "layout_mobile": "2"
+      }
+    },
+    "section_double_FKqipW": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_9PaVF9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Featured blog post",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_j4WyUg": {
+          "type": "heading",
+          "settings": {
+            "title": "Designing a Salon Experience",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_XVx9Ni": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore how Simran Design created space planning and 3D visuals for a Sutton Coldfield salon. From hair and nail zones to spa-inspired treatment rooms and a café, we designed a chic, timeless concept for the client to bring to life.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_mbHyyR": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Read More",
+            "button_url": "shopify://blogs/blog/salon-interior-design",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9PaVF9",
+        "heading_j4WyUg",
+        "text_XVx9Ni",
+        "buttons_mbHyyR"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/The_Salon_12.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_7kfGeM": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "pf-0770f30d",
+    "section_hero_BYVGx8",
+    "section_double_6e4bzC",
+    "section_columns_EmbmUn",
+    "section_columns_kxXpxG",
+    "section_columns_wRhnrc",
+    "section_columns_PX89Yx",
+    "section_columns_Un4iCC",
+    "section_double_FKqipW",
+    "section_divider_7kfGeM"
+  ]
+}

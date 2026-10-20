@@ -1,0 +1,413 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "highcross solicitors hq",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "reception, meeting rooms",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-79_63bd78fd-fb9a-4e8c-949b-72676aec5f36.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 60,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_ThGFFf": {
+      "type": "section-double",
+      "blocks": {
+        "heading_yiQMyE": {
+          "type": "heading",
+          "settings": {
+            "title": "project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_yL8Mwg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design was commissioned to develop the interior concept and 3D visuals for the reception area and meeting room of a new solicitors' office in Leicester. The goal was to create a space that feels trustworthy, calm, and professional – while offering a warm and welcoming environment for clients and visitors.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_yiQMyE",
+        "text_yL8Mwg"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/487068000_1177857941018089_870006866500702784_n.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_9KiDUe": {
+      "type": "section-columns",
+      "blocks": {
+        "image_NRbwE4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-76_5680ba47-ea32-4545-9733-23efd5fe31fc.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_CgC4Md": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-55_71fe056b-bb26-4f4e-b1a4-7bebe26d6c0a.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_LCnT98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-82_5ea2a16e-f1e2-4a1d-86bb-5bebc09099ab.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7q4NFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-78_5afecae4-f71e-45ed-b24c-d8d22c9b614b.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JVr6gC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-77_a94059c8-cda2-46e7-b393-0b17d352e0c8.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HcrWmB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-80_08756484-c2e9-4ffd-aab6-f66a571382e1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_NRbwE4",
+        "image_CgC4Md",
+        "image_LCnT98",
+        "image_7q4NFP",
+        "image_JVr6gC",
+        "image_HcrWmB"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "reception",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_cGpFq9": {
+      "type": "section-columns",
+      "blocks": {
+        "image_aQFix4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-33.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MziYik": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-24.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_YUnBjy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-36_6b7cb6c8-dfd1-44f4-8221-4687584c32bd.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_3EVL9E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-86_a047789a-e1ad-4bce-953a-3b927a5e9b50.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_aQFix4",
+        "image_MziYik",
+        "image_YUnBjy",
+        "image_3EVL9E"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Meeting Room",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_custom_content_XUMUim": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_QAxUae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-20_0c04eed3-2167-4ad7-93cd-0bd84f64fae9.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "#ffffff",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_QAxUae"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_double_ThGFFf",
+    "section_columns_9KiDUe",
+    "section_columns_cGpFq9",
+    "section_custom_content_XUMUim"
+  ]
+}

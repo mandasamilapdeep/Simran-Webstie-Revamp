@@ -1,0 +1,252 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "meridian business park",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "STAFF KITCHEN",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/732aad_32b70e5654364266969e2a933aa5815c_mv2.webp",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xcJqQn": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_q6EXrm": {
+          "type": "heading",
+          "settings": {
+            "title": "PROJECT OVERVIEW",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_6L9Y9h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This fully fitted office kitchen was designed and delivered by Simran Design from concept to completion for a corporate client in Leicester. The brief was to create a practical yet elevated kitchen space that would serve staff day-to-day while reflecting the overall professionalism of the office.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_Dabb8t": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "key features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_FVh638": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Separate appliances (oven, microwave, fridges) for veg/non-veg</li><li>8-person island with storage</li><li>Bespoke wallpaper mural  </li></ul>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_q6EXrm",
+        "text_6L9Y9h",
+        "subheading_Dabb8t",
+        "text_FVh638"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_Ki3PWn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_ExF3nb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_d4e0268e959042cb8b6da215e4c49681_mv2_2c695502-cb6f-41eb-a4d9-2246b0417f6d.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zG9JQA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_f4b2dd5b7c95485c983f54914d561fa5_mv2.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_N6bAPa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_d82294430e5e4eacbdbdd1af251e78d3_mv2_14664078-7ba3-45bc-8928-58a32c50de3a.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_UiVi7N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_e16d7223973e4a35b84dc7c62f7e1517_mv2.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_ExF3nb",
+        "image_zG9JQA",
+        "image_N6bAPa",
+        "image_UiVi7N"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_xcJqQn",
+    "section_columns_Ki3PWn"
+  ]
+}

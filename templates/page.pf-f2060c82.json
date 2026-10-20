@@ -1,0 +1,525 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-f2060c82": {
+      "type": "pf-f2060c82",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_LpURU7": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_DHzRHb": {
+          "type": "heading",
+          "settings": {
+            "title": "'Amid Palace'",
+            "heading_size": 7
+          }
+        },
+        "heading_4zhejF": {
+          "type": "heading",
+          "settings": {
+            "title": "INDIAN RESTAURANT AND BAR DESIGN",
+            "heading_size": 4
+          }
+        },
+        "text_iKTnQX": {
+          "type": "text",
+          "settings": {
+            "description": "NUNEATON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DHzRHb",
+        "heading_4zhejF",
+        "text_iKTnQX"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Booths_3.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_MJjRCi": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_tmhpKP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "project overview",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_6ydfff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_jNEpJi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "key features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_jcBjTx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tmhpKP",
+        "text_6ydfff",
+        "subheading_jNEpJi",
+        "text_jcBjTx"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Booths_3.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_double_KV7hKD": {
+      "type": "section-double",
+      "blocks": {
+        "heading_PxFJ6G": {
+          "type": "heading",
+          "settings": {
+            "title": "Project Overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_jWBhEg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design was appointed to develop the interior design concept for Amid Palace Indian Restaurant in Nuneaton, transforming the space into a refined dining environment capable of accommodating over 100 guests.</p><p>Following an initial site visit, consultation and full measure-up, we developed the design through floor plans, mood boards and material palettes before producing detailed 3D visualisations to bring the concept to life.</p><p>We designed a new bar area, reception and waiting space, a dedicated photo moment for guests, and an exclusive VIP dining room. Our role focused on the design, while working alongside the client’s chosen contractors to execute the fit-out.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_PxFJ6G",
+        "text_jWBhEg"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/amidpalace_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_ziTMcG": {
+      "type": "section-columns",
+      "blocks": {
+        "image_aEMFKq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Restaurant.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_pP9cQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Long_Booths_1.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_DCx9P4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Table_Top_3.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_h4yK3e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Booths_3.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_KwGkMw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Restaurant_4.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_g8brtW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Existing_Booth_Seating_2.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_nYhPPd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bar.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_KNyeat": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Booths_3.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_eGxbPj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Booths_4.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_CiMqAc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Table_Top_2.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_aEMFKq",
+        "image_pP9cQm",
+        "image_DCx9P4",
+        "image_h4yK3e",
+        "image_KwGkMw",
+        "image_g8brtW",
+        "image_nYhPPd",
+        "image_KNyeat",
+        "image_eGxbPj",
+        "image_CiMqAc"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "RESTAURANT AND BAR",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_ht3jrQ": {
+      "type": "section-columns",
+      "blocks": {
+        "image_tMW4RA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_a38f6418-8fac-4672-bcf1-36196e0294ad.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_eUjk8h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fire_door.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_tMW4RA",
+        "image_eUjk8h"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "VIP ROOM",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_kCRYDc": {
+      "type": "section-columns",
+      "blocks": {
+        "image_KwQpX8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Seating.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_wWENaH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Seating_2_aded18b1-d063-4c38-b436-a68d5dcc1e44.webp",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_KwQpX8",
+        "image_wWENaH"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "PHOTO AREA",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "pf-f2060c82",
+    "section_hero_LpURU7",
+    "section_double_MJjRCi",
+    "section_double_KV7hKD",
+    "section_columns_ziTMcG",
+    "section_columns_ht3jrQ",
+    "section_columns_kCRYDc"
+  ]
+}

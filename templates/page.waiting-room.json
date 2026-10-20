@@ -1,0 +1,440 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "waiting room",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "Leicester | united kingdom",
+            "heading_size": 3
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "HAIR CLINIC",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2024-02-25_at_14.41.46.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_WVJBAb": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_qAVxzq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "project overview",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_TzJXRA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed as the entry point to a premium hair transplant and aesthetics clinic in Leicester, this waiting room reflects both professionalism and comfort. The space was created to immediately reassure clients with a calm, elevated aesthetic while supporting operational flow and clinical standards.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_JYVfNM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Key features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_RRbeai": {
+          "type": "text",
+          "settings": {
+            "text": "<p>༶ Comfortable seating for clients before consultation appointments</p><p>༶ Middle-Eastern fretwork to reflect the company and link with the consultation room privacy screen.</p><p>༶ Drinks station with coffee machine + an integrated fridge</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qAVxzq",
+        "text_TzJXRA",
+        "subheading_JYVfNM",
+        "text_RRbeai"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/732aad_51e2aeb1117849339a2a3409f28c8a20_mv2_94144c44-04e5-4811-b138-bb6423541fdc.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_content_HDghUg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Jkf93x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_175bfd24-0c8d-4cd0-9125-c4593360191e_copy.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Jkf93x"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_j3gKA7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_FCMdrn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_51e2aeb1117849339a2a3409f28c8a20_mv2_94144c44-04e5-4811-b138-bb6423541fdc.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_FCMdrn"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_BeaHwa": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Fnje4y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_95b5e91f-1bb7-4c12-9821-74e35c30370a_copy.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Fnje4y"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_qwxPAb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_EWytXH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_303ea393-e676-440b-8a24-272667fb6612_copy.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_EWytXH"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_hkQRyp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_N9dfQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_thumbnail_copy.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_N9dfQa"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_JcnceM": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_p8WXNh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_1e4e629c65944bfebd7e5397bcb2a04e_mv2_edbfc6be-b3b3-452f-8177-b1015efc40cc.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_p8WXNh"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_LfnHW6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_8L6LrF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_a9c89ca5e9404278a0fad988f2baca5c_mv2_e2cf4958-c8b6-4b3b-be71-4bd6370d33e2.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_8L6LrF"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_double_WVJBAb",
+    "section_custom_content_HDghUg",
+    "section_custom_content_j3gKA7",
+    "section_custom_content_BeaHwa",
+    "section_custom_content_qwxPAb",
+    "section_custom_content_hkQRyp",
+    "section_custom_content_JcnceM",
+    "section_custom_content_LfnHW6"
+  ]
+}

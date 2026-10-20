@@ -1,0 +1,1000 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_eCcbCt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QAkq4w": {
+          "type": "heading",
+          "settings": {
+            "title": "༶ BLog post ༶",
+            "heading_size": 2
+          }
+        },
+        "heading_kapBND": {
+          "type": "heading",
+          "settings": {
+            "title": "June Highlights",
+            "heading_size": 7
+          }
+        },
+        "text_3eqqPd": {
+          "type": "text",
+          "settings": {
+            "description": "WOW!House, Kelly Hoppen & Cambridge Restaurant Reveal",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "button_hWYjTV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAkq4w",
+        "heading_kapBND",
+        "text_3eqqPd",
+        "button_hWYjTV"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Notion_Background_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_wVnDzg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CzrqGD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5940.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_6EVrhk": {
+          "type": "text",
+          "settings": {
+            "subheading": "༶ Estimated Reading Time: 5-6 minutes ༶",
+            "subheading_size": 1,
+            "title": "A Big Month for Bold Design",
+            "heading_size": 7,
+            "text": "<p>June has been packed with <strong>creativity, colour, and connection</strong> here at Simran Design Ltd. </p><p></p><p>From industry-leading exhibitions to restaurant launches and meeting the infamous <strong>Kelly Hoppen</strong>, here’s a look inside what we’ve been up to...</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ab8c52",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CzrqGD",
+        "text_6EVrhk"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_7Lb9dX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_yJ7qgd": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>1. <strong>WOW!house 2025: Creativity on a Monumental Scale</strong></h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_VQhBG3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We returned to <strong>WOW!House at Design Centre Chelsea Harbour</strong> this month and it truly impressed. </p><p>A grand architectural façade and lush front gardens set the stage for an experience that was bold, immersive, and unapologetically imaginative. The fact that the entire space is built in just eight weeks is nothing short of incredible. Inside, every room felt like a designer had been given full creative freedom - and ran with it. </p><p>From <strong>spa-style bathrooms and vinyl-listening lounges to Netflix-worthy cinema rooms and even a joyful dog spa </strong>(complete with a bath and treat wall!), each space was a love letter to detail and storytelling. As a designer, it was liberating to witness unfiltered creativity where form, function, and flair were pushed to their limit. Scroll through some of our favourite spaces...</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ7qgd",
+        "text_VQhBG3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_EWijPU": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Mi3wpz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5840.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "'Dining Room'",
+            "heading_size": 3,
+            "text": "<p>By Peter Mikic. The bespoke dining table by Kaizen is bejewelled with semi-precious stones echoing the surrounding dopamine-boosting colour palette.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ewfgcG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5772.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "'Courtyard Room'",
+            "heading_size": 3,
+            "text": "<p>By Sims Hilditch. A classic English countryside aesthetic with an elegant Barber WIlson dog shower.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_P9Ragi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5727.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "'Nucleus Media Room'",
+            "heading_size": 3,
+            "text": "<p>By Alex Dauley with opulent 'Lacquer' wall coverings, luxury Zinc super-soft 'Z Suede' upholstery fabric and state of the art design-lead Audio Visual.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_jnyhFN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5783.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "'Casa Branca Bedroom'",
+            "heading_size": 3,
+            "text": "<p>By Alessandra Branca. A textile haven of rich paisley adorned prints and patterns, layered to create a relaxing cocoon in warm rosy tones. </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GLfqQ4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5833.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "'Dedar Library'",
+            "heading_size": 3,
+            "text": "<p>By Pirajean Lees. Feat. the record player chair of our dreams, a library of vintage vinyls and rich fabric upholstery to melt into for an immersive experience.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HqKarJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5731.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "'The Curator's Room'",
+            "heading_size": 3,
+            "text": "<p>By Spinocchia Freund. The custom ottoman by Luella Bartley and Hand and Lock London was breathtaking in its emotion and craftsmanship.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Mi3wpz",
+        "image_ewfgcG",
+        "image_P9Ragi",
+        "image_jnyhFN",
+        "image_GLfqQ4",
+        "image_HqKarJ"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_6fbNzN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_xT3htA": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>2. <strong>Inside Kelly Hoppen's Design Talk </strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TTRkwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the highlights of WOW!House was a talk by <strong>Kelly Hoppen</strong>, moderated by Katerina Burrows and titled <em><strong>“Home: The Details That Matter.”</strong></em></p><p>What struck me most? Her honesty and humour.</p><p>She shared stories from her early beginnings and how her experience of <strong>interior design synaesthesia</strong> has shaped her creative intuition - scaling from residential projects to Geneva townhouses, 80-foot super-yachts, and even art collaborations with Boy George.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_xT3htA",
+        "text_TTRkwU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_i7VhRC": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_BXtqL7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5660_2.heic",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ypmtEV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6641.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_BXtqL7",
+        "image_ypmtEV"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_rich_text_AH3yXW": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_73tRkE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kelly also unravelled her own WOW!House room, designed in collaboration with <strong>Visual Comfort</strong>. This calming music-lounge-meets-living-room was masterfully layered with lighting: spider pendants, cove uplighting, alabaster ceiling fixtures, floor and table lamps - all curated to create warmth and depth. Her signature neutrals, grounded by wood panelling and lifted by a soft red accent, tied everything together. </p><p>One design challenge she spoke about was creating intimacy and flow in a room with <strong>two doorways</strong>, given visitors would pass through constantly. Her solution? Treating the layout like a gentle loop, not a corridor.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_73tRkE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_p47Enc": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Va9gde": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5806.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_qbXGAQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5822_2.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JCJjJt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5808.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_87gAjF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5817.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Va9gde",
+        "image_qbXGAQ",
+        "image_JCJjJt",
+        "image_87gAjF"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_7XbMG6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_iFjgpq": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>3. '<strong>Maza at Eighty Six' - announding our first restaurant in cambridge</strong></h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TbRMpQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This June, we revealed the launch of <strong>Maza at Eighty Six</strong> - a new flagship restaurant in the heart of Cambridge, fully designed and branded by Simran Design Ltd.</p><p>Located on a prime corner of Mill Road, <strong>Maza</strong> is an authentic Pakistani-Indian restaurant brought to life from concept to completion - starting with a bare shell and ending in a one-of-a-kind hospitality destination.</p><p>We were given full creative control: from <strong>naming the restaurant </strong>and crafting the <strong>visual identity</strong> (logo, typeface, packaging and signage) to designing the space itself. The upstairs dining area features rich <strong>jewel tones</strong>, swing seats at the window (a Cambridge first), a custom bar tiled in multicoloured ceramic, and back-to-back banquette booths finished in natural materials like jute and rattan.</p><p>This is one of the most expressive, layered hospitality projects we’ve worked on - and we can’t wait to reveal more as the final touches go in ahead of the <strong>September 2025 launch</strong>.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_WkrR3H": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Maza 3D Visualisations",
+            "button_url": "shopify://pages/maza-restaurant",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_iFjgpq",
+        "text_TbRMpQ",
+        "buttons_WkrR3H"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_mRwGbr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_PFKR8W": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>4. <strong>Sourcing for 3 Hospitality projects with Parkside </strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_PCTRHg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We also took time this month to visit <strong>Parkside Architectural Tiles</strong> at their Grove Business Park showroom in Leicester, sourcing for <strong>three current hospitality projects</strong>:</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_wDzT4C": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_PFKR8W",
+        "text_PCTRHg",
+        "text_wDzT4C"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_FUVbtk": {
+      "type": "section-columns",
+      "blocks": {
+        "image_ExBbjH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250604_102251.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Maza at Eighty Six, Cambridge:",
+            "heading_size": 3,
+            "text": "<p>We specified <strong>Lenton vertical indoor-outdoor tiles</strong> for their striking glaze and natural variation for inside and outside the restaurant due to their frost resistance and to protect against many a Cambridge bicycle. We finalised the layout for our multi-coloured bar front as per our 3D renders.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://pages/copy-of-workspace-lounge",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_q4z6pG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3579.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Herdays Café, Kirkby-in-Ashfield:",
+            "heading_size": 3,
+            "text": "<p>Inspired by acai bowls and matcha lattes, we embraced a <em>soft pink and green palette</em> when sourcing the perfect tiles to form a playful backsplash and elegant bathroom accent on the walls and floor. Soft launching in July 2025, @herdays_uk is one to watch.</p><p></p><p></p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "shopify://pages/dubai-recruitment-office",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_89ybm8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6642.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Amid Palace Restaurant, Nuneaton:",
+            "heading_size": 3,
+            "text": "<p>A bold black, red, gold, and white palette with statement <em>geometric large-format tiles</em>, used to create visual zoning across this 120-seater restaurant. These tiles will be strategically placed under key seating zones, in the VIP room and Reception.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_ExBbjH",
+        "image_q4z6pG",
+        "image_89ybm8"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 3,
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 40,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_wDJrER": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_y6VpDj": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>5. <strong>Supplier Visits to the Studio: </strong></h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 10
+          }
+        },
+        "text_NdfELf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>June also brought two brilliant supplier visits to our Leicester studio:</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_y6VpDj",
+        "text_NdfELf"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_iz6mgX": {
+      "type": "section-columns",
+      "blocks": {
+        "image_JA6AtM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2e8acbcf-d5fc-42f1-abdd-dc934281fb27.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Milliken Flooring",
+            "heading_size": 4,
+            "text": "<p>Our Account Manager shared the stunning <strong>new “Play” collection</strong>, which we first spotted at Clerkenwell Design Week in May. The colours, flexibility, and sustainable specs tick every box. We’ve already specified it in our <a href=\"/pages/podcast-studio-london\" target=\"_blank\" title=\"Darbar Podcast Studio - London\"><strong>Podcast Studio project in London</strong></a>, and it’s quickly becoming a go-to supplier for us.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_H4FRL3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5972.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Kirkby Design",
+            "heading_size": 4,
+            "text": "<p>Our Account Manager walked us through commercial-ready ranges across the brands <strong>Zinc</strong>, <strong>Villa Nova</strong>, and <strong>Kirkby Design</strong>. Each brand had a clear identity and use-case, whether for workspaces, wellness areas or hospitality seating. We’re hoping to visit their Nottingham factory soon.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_JA6AtM",
+        "image_H4FRL3"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_9xtHhP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_DChDbB": {
+          "type": "heading",
+          "settings": {
+            "title": "Looking Ahead: The Power of Creative Momentum",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "text_jrYaia": {
+          "type": "text",
+          "settings": {
+            "text": "<p>June reminded us that bold design comes from both inspiration <em>and</em> execution - from finding a custom tile that transforms a room, to hearing an icon like Kelly Hoppen describe how she turns ideas into emotion. </p><p>Every event, conversation, and creative decision this month reinforced our studio’s ethos: that every detail matters when designing for experience. </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "buttons_NMCNgV": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact Us Today",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_DChDbB",
+        "text_jrYaia",
+        "buttons_NMCNgV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 10,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "image_WTXAjJ": {
+          "type": "image",
+          "settings": {
+            "title": ""
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "image_WTXAjJ",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "bg_color": "",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_eay8qG": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "#fafafa",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_bw6trA": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_9bc8Yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Join Our Newsletter",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_XcB9T8": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Let’s Stay Connected",
+            "heading_size": 7,
+            "text": "<p>Want more behind-the-scenes insights, design tips, and exclusive previews of our commercial interior projects?</p><p></p><p>We’d love to have you along for the journey.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f2ede7",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true
+          }
+        }
+      },
+      "block_order": [
+        "image_9bc8Yh",
+        "newsletter_XcB9T8"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_eCcbCt",
+    "section_custom_content_wVnDzg",
+    "section_rich_text_7Lb9dX",
+    "section_columns_EWijPU",
+    "section_rich_text_6fbNzN",
+    "section_custom_content_i7VhRC",
+    "section_rich_text_AH3yXW",
+    "section_columns_p47Enc",
+    "section_rich_text_7XbMG6",
+    "section_rich_text_mRwGbr",
+    "section_columns_FUVbtk",
+    "section_rich_text_wDJrER",
+    "section_columns_iz6mgX",
+    "section_rich_text_9xtHhP",
+    "main",
+    "section_divider_eay8qG",
+    "section_newsletter_bw6trA"
+  ]
+}

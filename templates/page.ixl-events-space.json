@@ -1,0 +1,698 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "IXL Events Space",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "at dallas burston polo club",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEAMINGTON SPA | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-03-02_at_13.46.39.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xykVd9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Yq6GFy": {
+          "type": "heading",
+          "settings": {
+            "title": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_Wc4Vwb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design Ltd was appointed to deliver a comprehensive interior design scheme for <strong>IXL Events Space in Leamington Spa</strong>, a large-scale hospitality and wedding venue requiring a refined and commercially durable transformation.</p><p>The objective was to elevate the venue’s overall guest experience - from first impression at arrival through to bar service and bridal preparation - ensuring each space felt cohesive, atmospheric, and premium while remaining practical for high-volume events.</p><p>Working across the entrance, reception, waiting area, bar and hospitality zones, and bridal suite, the design focused on creating a layered and elegant environment that supports weddings, celebrations, and large-scale functions throughout the year.</p><p>This was delivered as a full interior design service, from concept development and 3D visualisation through to detailed sourcing and specification. The client’s contractor team executed the works on site, with Simran Design providing remote design clarification and ongoing support to ensure alignment with the approved scheme.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_deKB9A": {
+          "type": "heading",
+          "settings": {
+            "title": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_JLr7JP": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Layered lighting strategy</strong>: A carefully considered lighting hierarchy combining ambient, feature, and concealed LED detailing to create atmosphere while maintaining functional brightness.<br/></li><li><strong>Statement Entrance & Reception Design:</strong> A refined arrival experience designed to establish an immediate sense of luxury and professionalism, setting the tone for the rest of the venue.<br/></li><li><strong>Hospitality-Focused Bar Design:</strong> A bar and surrounding hospitality zone designed for both visual impact and operational efficiency, balancing aesthetic detailing with commercial practicality.</li><li><strong>Commercial-Grade Sourcing</strong>: Specification of durable, event-appropriate materials and finishes suited to high footfall, formal wear, and large-scale gatherings.<br/></li><li><strong>Bridal Suite Design:</strong> A calm and beautifully composed preparation space designed to feel private, comfortable, and elevated - ensuring a memorable experience for bridal parties.<br/></li><li><strong>Remote design support:</strong> Full design direction delivered from concept to sourcing, with contractor-led execution supported by ongoing remote design clarification and specification guidance.</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yq6GFy",
+        "text_Wc4Vwb",
+        "heading_deKB9A",
+        "text_JLr7JP"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 16
+      }
+    },
+    "section_double_fmz8gi": {
+      "type": "section-double",
+      "blocks": {
+        "heading_M6Vtki": {
+          "type": "heading",
+          "settings": {
+            "title": "IXL EVENTS SPACE",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_PK6yQh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "AT DALLAS BURSTON POLO CLUB LEAMINGTON SPA",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_caw47F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A statement hospitality and wedding venue located at Dallas Burston Polo Club, Leamington Spa.</p><p>Simran Design Ltd was appointed to deliver a full interior design scheme across the venue’s key guest-facing spaces, including the entrance, reception, bar and hospitality areas, and bridal suite. The brief required a refined yet commercially durable environment capable of supporting high-volume events and premium celebrations throughout the year.</p><p>From concept development and 3D visualisation through to detailed sourcing and specification, the design was developed by us and executed by the client’s contractor team, with ongoing remote design support to maintain alignment with the approved scheme.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_A4fxkY": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_M6Vtki",
+        "subheading_PK6yQh",
+        "text_caw47F",
+        "buttons_A4fxkY"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/f5666942-fd56-4d58-9049-f6d830b6b6ba.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_eKwggh": {
+      "type": "section-columns",
+      "blocks": {
+        "image_ymkbJG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/screenshot-2026-03-02-at-130830-1772458310.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_qXwWXY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.39.36.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xdqFyJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.39.59.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JAYdnf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.46.39.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_yLGBG8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.46.45.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6qHa7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.46.50.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_amVPGG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.46.56.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zYNcJF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_13.46.29.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_ymkbJG",
+        "image_qXwWXY",
+        "image_xdqFyJ",
+        "image_JAYdnf",
+        "image_yLGBG8",
+        "image_6qHa7c",
+        "image_amVPGG",
+        "image_zYNcJF"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Atrium and Reception",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_amxmbe": {
+      "type": "section-columns",
+      "blocks": {
+        "image_VkeRYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.15.33.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XPpyLA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.15.50.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_G7pt9Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.15.40.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JPCn8n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.16.27.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xDGWkH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.15.58.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XpbNJP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.15.16.png",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VkeRYc",
+        "image_XPpyLA",
+        "image_G7pt9Y",
+        "image_JPCn8n",
+        "image_xDGWkH",
+        "image_XpbNJP"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Bridal Suite",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_DQWawf": {
+      "type": "section-columns",
+      "blocks": {
+        "image_XRxReB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.14.02.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_phAFYB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.14.24.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xhP9B7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.14.30.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_hmLUXr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.13.37.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_cyPbfB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.13.44.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.6,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FU77Gi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-03-02_at_14.23.49.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 0.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_XRxReB",
+        "image_phAFYB",
+        "image_xhP9B7",
+        "image_hmLUXr",
+        "image_cyPbfB",
+        "image_FU77Gi"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Bar Area",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_divider_VfBje4": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_xykVd9",
+    "section_double_fmz8gi",
+    "section_columns_eKwggh",
+    "section_columns_amxmbe",
+    "section_columns_DQWawf",
+    "section_divider_VfBje4"
+  ]
+}

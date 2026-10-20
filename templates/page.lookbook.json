@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_Rrm7mU": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_PBdgyC": {
+          "type": "heading",
+          "settings": {
+            "title": "NAIL Salon",
+            "heading_size": 7
+          }
+        },
+        "text_n8mj7y": {
+          "type": "text",
+          "settings": {
+            "description": "SUTTON COLDFIELD | UK",
+            "text_size": 3,
+            "text_style": "font-heading"
+          }
+        },
+        "text_zFiDQL": {
+          "type": "text",
+          "settings": {
+            "description": "MANICURE STATION | POLISH DISPLAY",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PBdgyC",
+        "text_n8mj7y",
+        "text_zFiDQL"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Nails_1_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#FFFFFF"
+      }
+    },
+    "section_custom_content_PrHU8K": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_zgW7zM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails_Display.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_zgW7zM"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_TQAe6L": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_WM8jjy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_WM8jjy"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_dRx44Q": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_mXyRwz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails_Corner.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_mXyRwz"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_JdnJDk": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_QN8Fer": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_QN8Fer"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_Rrm7mU",
+    "section_custom_content_dRx44Q",
+    "section_custom_content_PrHU8K",
+    "section_custom_content_TQAe6L",
+    "section_custom_content_JdnJDk"
+  ]
+}

@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-08e81795": {
+      "type": "pf-08e81795",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_EP4byT": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_PPwrGD": {
+          "type": "heading",
+          "settings": {
+            "title": "Cafe",
+            "heading_size": 7
+          }
+        },
+        "text_8GpgN9": {
+          "type": "text",
+          "settings": {
+            "description": "SUTTON COLDFIELD | UK",
+            "text_size": 3,
+            "text_style": "font-heading"
+          }
+        },
+        "text_a6XDLR": {
+          "type": "text",
+          "settings": {
+            "description": "CAFE INSIDE A BEAUTY SALON",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PPwrGD",
+        "text_8GpgN9",
+        "text_a6XDLR"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-04-08_at_15.30.09.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_njPamU": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_K9GFbG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cafe_3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_K9GFbG"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_4mxKeh": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_DiUfJR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cafe_4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_DiUfJR"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "pf-08e81795",
+    "section_hero_EP4byT",
+    "section_custom_content_njPamU",
+    "section_custom_content_4mxKeh"
+  ]
+}

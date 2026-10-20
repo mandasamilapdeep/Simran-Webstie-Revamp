@@ -1,0 +1,678 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "FURNITURE ONLINE HQ",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "GAMES ROOM, BAR, LOUNGE",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-02-28_at_12.38.42.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_fdTxDw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_aGpGkX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_R9njXG": {
+          "type": "heading",
+          "settings": {
+            "title": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_PdgXK3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An unloved office storage room was transformed into a sophisticated Chicago speakeasy-inspired games room, lounge, coffee/working bar, and dining space. Designed for seamless day-to-night use, the rich green, walnut, and black palette, layered lighting, and versatile zoning create a warm, professional yet social atmosphere for staff, clients, and private entertaining.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_GLGfcA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Key Features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_MD4BBA": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li> Retro arcade games coffee table and darts board</li><li> Hidden remote control projector screen</li><li>Custom media wall, radiator cover and planter boxes </li><li>Bespoke island with integrated power points, hidden wine racks and a 138Ltr fridge</li></ul><p>Photography credit: Gary Summers, SMD Photography</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aGpGkX",
+        "heading_R9njXG",
+        "text_PdgXK3",
+        "subheading_GLGfcA",
+        "text_MD4BBA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_Cinwp3": {
+      "type": "section-columns",
+      "blocks": {
+        "image_qTAedy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_15.20.03_bca2a5c4-50eb-4ae8-ad52-c09dab680dd1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JLFQph": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f356acc68645c032869cac2825f23b97_45b9ef43-cf51-4f1c-b7a5-ac37a7cf9a91.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XJEKxP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.23.12.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_PPyNtj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.29.12.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xQ8bH9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.41.21_11608cf5-742b-4785-9edd-d585e2e44a97.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_T38Hae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.24.03_c1f63b71-fbab-43fd-a96e-6da2af721ea7.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_yjcnzy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.29.39_3ca42ef5-ef7e-4171-a7ab-2b918b94a128.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_4XzxgE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.36.56.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_NPzV8K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.21.16.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_jcjxkL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.38.42.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_EFXqHG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.38.56.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_PbpKfm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.40.13_536ac7fe-f41e-4ba0-96d0-30496a01b8f8.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_qTAedy",
+        "image_JLFQph",
+        "image_XJEKxP",
+        "image_PPyNtj",
+        "image_xQ8bH9",
+        "image_T38Hae",
+        "image_yjcnzy",
+        "image_4XzxgE",
+        "image_NPzV8K",
+        "image_jcjxkL",
+        "image_EFXqHG",
+        "image_PbpKfm"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_double_mNzPf3": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_gLDMm4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Featured blog post",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_nih9MU": {
+          "type": "heading",
+          "settings": {
+            "title": "From Storage Room to Showstopper",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_nXxLY8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Behind the Scenes of Our Latest Office Fit-Out in Leicester",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_7Pax9W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover how we transformed an unloved storage room in a Leicester workplace into a multifunctional games room, lounge, coffee bar, dining space, and media hub. From concept design and mood boards to sourcing, fit-out, and styling, here’s the full story of this dynamic office transformation.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_dkTkxG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Read More",
+            "button_url": "shopify://blogs/blog/games-room-case-study",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gLDMm4",
+        "heading_nih9MU",
+        "subheading_nXxLY8",
+        "text_7Pax9W",
+        "buttons_dkTkxG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Screenshot_2025-08-28_at_17.23.15.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_gXXDAz": {
+      "type": "section-columns",
+      "blocks": {
+        "image_QTbUjK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lounge_11.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FCm3Pr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lounge_1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_wGaM44": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bar_2.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_EyahRN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bar_1.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_KgHfjM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lounge_2.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_CjQaWX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lounge_5.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_fwXDPF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Arcade_3.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MzME67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Media_Wall_Close_Up.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_QTbUjK",
+        "image_FCm3Pr",
+        "image_wGaM44",
+        "image_EyahRN",
+        "image_KgHfjM",
+        "image_CjQaWX",
+        "image_fwXDPF",
+        "image_MzME67"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "layout_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_fdTxDw",
+    "section_columns_Cinwp3",
+    "section_double_mNzPf3",
+    "section_columns_gXXDAz"
+  ]
+}

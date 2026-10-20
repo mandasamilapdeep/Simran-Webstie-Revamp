@@ -1,0 +1,300 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "scan computers hq",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "staff games room",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "BOLTON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/View0004_02802361-3171-4e52-9c05-924172187b20.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_9tb9y4": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_NGRiYP": {
+          "type": "heading",
+          "settings": {
+            "title": "PROJECT OVERVIEW",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_4zgi7B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In-house Games Room for a Manchester-based 400-person Technology office. Equipped with retro arcade games, console gaming and VR gaming stations, the brief was to create a lively space for staff to enjoy on their breaks. The brief was an industrial yet futuristic design style with blue, black and grey being the main colours.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_CQdnW4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_cVCdHL": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Retro full-size arcade machines with custom continuous LED lighting</li><li>Lounge area with console gaming</li><li>Double VR Gaming station and chilled coffee corner </li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_NGRiYP",
+        "text_4zgi7B",
+        "subheading_CQdnW4",
+        "text_cVCdHL"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_Ca8fJj": {
+      "type": "section-columns",
+      "blocks": {
+        "image_cV7zXW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0002_8ec9cb66-87f2-405a-a7f1-d39f7e78307a.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_abYVwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0001_e4230a13-21f6-4006-96fe-b99581f22f89.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MEpNj3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0005_7b979c42-815e-4495-9a23-f7c03ba2a8d7.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_z7V8QE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0003_81dfca1a-aa8b-42d5-a692-8cb98550a0b1.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_aJG9xU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0004_02802361-3171-4e52-9c05-924172187b20.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_mHiEe3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0007_86b8eb32-9f82-4c55-a7dd-7ce6246fc060.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_bkBqGf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0006_a4e4bedc-80e9-4b1f-8fe1-c7cf5a4c3f30.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_cV7zXW",
+        "image_abYVwA",
+        "image_MEpNj3",
+        "image_z7V8QE",
+        "image_aJG9xU",
+        "image_mHiEe3",
+        "image_bkBqGf"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_9tb9y4",
+    "section_columns_Ca8fJj"
+  ]
+}

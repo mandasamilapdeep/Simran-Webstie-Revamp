@@ -1,0 +1,572 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Private Office",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "London | united kingdom",
+            "heading_size": 3
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "DIRECTOR'S OFFICE",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Unnamed_Space-13_6887c644-2fde-4a70-82f2-c952932393bb.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 65,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xgKcnr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_zQVPdW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "PROJECT ༶ OVERVIEW",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_ibbaD7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Private Office concept design in London</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_EbYXKW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "PROJECT ༶ STYLE",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_dccACX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Timeless, Classic, Cosy</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zQVPdW",
+        "text_ibbaD7",
+        "subheading_EbYXKW",
+        "text_dccACX"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#ab8c52",
+        "color": "#fafafa",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_custom_content_9iVFMq": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_XMqjNW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unnamed_Space-20_43aa0f2b-f0dd-4849-a91e-8267edb38e09.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_XMqjNW"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_HDghUg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Jkf93x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unnamed_Space-13_6887c644-2fde-4a70-82f2-c952932393bb.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Jkf93x"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_JcnceM": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_p8WXNh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unnamed_Space-14_5bf92919-6de6-4487-876f-988203e0a489.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_p8WXNh"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_hkQRyp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_N9dfQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unnamed_Space-17_1524633e-9108-4ae6-a4de-6c9848baaa8a.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_N9dfQa"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_WyHgAN": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_9pCdic": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unnamed_Space-21_85e4fbdb-79aa-4499-9fb9-fa794cdb74fa.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9pCdic"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_j3gKA7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_FCMdrn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unnamed_Space-15.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_FCMdrn"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "section_multicolumn_yU7mAd": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_mFYnxD": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-heart",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ab8c52",
+            "title": "Step 1",
+            "heading_size": 4,
+            "text": "<p>Become inspired by our portfolio of past work - see how we can help your business.</p>",
+            "text_size": 3
+          }
+        },
+        "icon_fKWh6K": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-phone",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ab8c52",
+            "title": "Step 2",
+            "heading_size": 4,
+            "text": "<p>Are you ready to invest in your business? Contact us to chat about your project idea.</p>",
+            "text_size": 3
+          }
+        },
+        "icon_9yTWAx": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-notes",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ab8c52",
+            "title": "Step 3",
+            "heading_size": 4,
+            "text": "<p>We'll send you a proposal with all the interior design info you need we can get the ball rolling!</p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_mFYnxD",
+        "icon_fKWh6K",
+        "icon_9yTWAx"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "The Next Steps",
+        "heading_size": 5,
+        "description": "<p>Take action to reserve your design slot and transform your business today.</p>",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "layout_mobile": "1"
+      }
+    },
+    "section_slideshow_m4dzwi": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_VYwi9R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-103.jpg",
+            "mobile_image": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-103.jpg",
+            "overlay_opacity": 70,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "While you wait...",
+            "heading_size": 7,
+            "description": "We will review your form ASAP, but in the mean time become inspired by our portfolio of past projects",
+            "text_size": 4,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Portfolio",
+            "first_button_link": "shopify://pages/gallery",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_xMwWrU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/edited_6.jpg",
+            "mobile_image": "shopify://shop_images/edited_6.jpg",
+            "overlay_opacity": 70,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "While You Wait...",
+            "heading_size": 7,
+            "description": "We will review your form ASAP, but in the mean time become inspired by our portfolio of past projects",
+            "text_size": 4,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Portfolio",
+            "first_button_link": "shopify://pages/gallery",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_y4nBNH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-112_copy.jpg",
+            "mobile_image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-112_copy.jpg",
+            "overlay_opacity": 70,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "While You Wait...",
+            "heading_size": 7,
+            "description": "We will review your form ASAP, but in the mean time become inspired by our portfolio of past projects",
+            "text_size": 4,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Portfolio",
+            "first_button_link": "shopify://pages/gallery",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VYwi9R",
+        "image_xMwWrU",
+        "image_y4nBNH"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_xgKcnr",
+    "section_custom_content_9iVFMq",
+    "section_custom_content_HDghUg",
+    "section_custom_content_JcnceM",
+    "section_custom_content_hkQRyp",
+    "section_custom_content_WyHgAN",
+    "section_custom_content_j3gKA7",
+    "section_multicolumn_yU7mAd",
+    "section_slideshow_m4dzwi"
+  ]
+}

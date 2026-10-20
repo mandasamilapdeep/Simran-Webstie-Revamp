@@ -1,0 +1,966 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "text_size": 6,
+            "padding_bottom": 8
+          }
+        },
+        "divider_AFmeQk": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 15
+          }
+        },
+        "icon_gJ4M7Y": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_color": "#ab8c52",
+            "title": "You are here to begin your design journey and share your project requirements with Simran Design.",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "buttons_fCmLNH": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "divider_azpKJ6": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "tab_richtext_TGVGqi": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "tabs",
+            "title_1": "How to Book",
+            "raw_content_1": "<p>Simply fill out the contact form at the end of this page, and we will be in touch asap to arrange a suitable time for a video call. This will allow us to have some background about your project before the call</p>",
+            "title_2": "Duration & availability",
+            "raw_content_2": "<p>Approximately 20-30 minutes, via Microsoft Teams. Flexible scheduling to accommodate your convenience.</p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        },
+        "divider_AdLxmE": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "features_QQCYiQ": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "title": "Why Choose Simran Design",
+            "text_size": 3,
+            "text": "<p>For business owners wishing to transform their space, Simran Design combines creativity, functionality, and industry expertise to create spaces that inspire, enhance productivity, and reflect your brand identity.</p>",
+            "bg_color": "#fafafa",
+            "color": "#212121",
+            "padding_bottom": 16
+          }
+        },
+        "divider_3Np6nN": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 0
+          }
+        },
+        "features_JtxfBc": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-lightening",
+            "icon_size": 20,
+            "title": "Unlock Your Space's Potential",
+            "text_size": 3,
+            "text": "<p>We'll delve into the specifics of your project, whether it's an office, retail space, hospitality venue, or any other commercial environment, and note your vision, goals, and challenges for the space.</p>",
+            "bg_color": "#ffffff",
+            "color": "#212121",
+            "padding_bottom": 16
+          }
+        },
+        "divider_AUxEjy": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "divider_AFmeQk",
+        "icon_gJ4M7Y",
+        "price",
+        "buttons_fCmLNH",
+        "divider_azpKJ6",
+        "tab_richtext_TGVGqi",
+        "divider_AdLxmE",
+        "features_QQCYiQ",
+        "divider_3Np6nN",
+        "features_JtxfBc",
+        "divider_AUxEjy"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_size": "stretch",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "slider",
+        "padding_top": 100,
+        "padding_bottom": 80
+      }
+    },
+    "section_custom_content_WFU7tc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_tXFnnF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_ewqUmp": {
+          "type": "text",
+          "settings": {
+            "subheading": "SEAMLESS DESIGN IN",
+            "subheading_size": 3,
+            "title": "4 Easy Phases",
+            "heading_size": 7,
+            "text": "<p>We keep design simple with 4 simple phases, tailored specifically for your project needs. Our approach is client-centric so we commit to understanding your vision first, and keep you in the loop with transparent communication and regular progress updates along with way.</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "#ab8c52",
+            "color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "image_tXFnnF",
+        "text_ewqUmp"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_ULjKwR": {
+      "type": "section-columns",
+      "blocks": {
+        "image_4wDmiF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-03_at_14.49.23.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p><strong>Phase 1</strong></p><h6><strong>Conceptualisation</strong></h6><p>Floor Plans | Mood Boards | Material Boards</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_TAkKYm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-107.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p><strong>Phase 2</strong></p><h6>Visualisation</h6><p>3D 4K Visualisations</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_4UUwGX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-03-03_at_10.52.12.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p><strong>Phase 3</strong></p><h6>SPECIFICATION</h6><p>Sourcing and Budgeting</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GNmPMk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-25_at_14.49.01.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "circle",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p>Phase 4</p><h6>INSTALLATION</h6><p>Vision into Reality</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_4wDmiF",
+        "image_TAkKYm",
+        "image_4UUwGX",
+        "image_GNmPMk"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "#fafafa",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_accordion_group_r6cUhw": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_bKLmzP": {
+          "type": "heading",
+          "settings": {
+            "title": "What's Included?"
+          }
+        },
+        "question_YpFgRC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Project Discussion",
+            "content": "<p>Share your vision, goals, and challenges for the space.</p>",
+            "show_icon": true,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#f0f0f0"
+          }
+        },
+        "question_rCTikW": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Needs Assessment",
+            "content": "<p>We'll ask targeted questions to understand your functional requirements and aesthetic preferences.</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#f0f0f0"
+          }
+        },
+        "question_r3iqdH": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Expert Advice",
+            "content": "<p>Benefit from professional advice and recommendations tailored to your project scope.</p>",
+            "show_icon": true,
+            "icon_name": "icon-star",
+            "icon_size": 20,
+            "icon_color": "#f0f0f0"
+          }
+        },
+        "question_D7hfyC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Next Steps",
+            "content": "<p>Receive guidance on potential design solutions and how Simran Design Ltd can assist in bringing your vision to life.</p>",
+            "show_icon": true,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": "#f0f0f0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bKLmzP",
+        "question_YpFgRC",
+        "question_rCTikW",
+        "question_r3iqdH",
+        "question_D7hfyC"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "2",
+        "bg_color": "#ab8c52",
+        "color": "#fafafa",
+        "border_color": "",
+        "padding_top": 75,
+        "padding_bottom": 75
+      }
+    },
+    "section_double_slider_j9ipdy": {
+      "type": "section-double-slider",
+      "blocks": {
+        "text_slide_FmQQyB": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "Bonus #1",
+            "subheading_size": 3,
+            "title": "Discount on full service package",
+            "heading_size": 8,
+            "text": "<p>Following completion of the project, Simran Design will have the space professionally curated and photographed. You will also receive these images free of charge, to share your newly designed space as part of your website, social media, client presentations, marketing materials etc to enhance your brand image attract potential new clients.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image": "shopify://shop_images/DSC_6694_copy.jpg"
+          }
+        },
+        "text_slide_Ki6k7W": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "Bonus #2",
+            "subheading_size": 3,
+            "title": "Exclusive Access to Trade Suppliers",
+            "heading_size": 8,
+            "text": "<p>Gain access to Simran Design's extensive network of some of the UK's top trade-only suppliers. Benefit from significant discounts on premium furnishings and materials where applicable, ensuring cost-efficiency without compromising on quality. </p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image": "shopify://shop_images/DSC_6703_copy.jpg"
+          }
+        },
+        "text_slide_AJfQhH": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "Bonus #3",
+            "subheading_size": 3,
+            "title": "6-months Post-Project Support",
+            "heading_size": 8,
+            "text": "<p>Benefit from ongoing post-project support and follow-up from Simran Design, ensuring continued satisfaction with your newly designed space and addressing any additional questions that may arise.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_slide_FmQQyB",
+        "text_slide_Ki6k7W",
+        "text_slide_AJfQhH"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "#f2ede7",
+        "color": "#212121",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_cza7PN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_99WVy9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Contact Us To",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_NpndmR": {
+          "type": "heading",
+          "settings": {
+            "title": "Start the Transformation",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_wHnPie": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please fill out your details below so we can gain a better understanding of your project requirements - the more info the better!</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_99WVy9",
+        "heading_NpndmR",
+        "text_wHnPie"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "contact_form_KXm7iy": {
+      "type": "contact-form",
+      "blocks": {
+        "text_bbHfLc": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name",
+            "required": true
+          }
+        },
+        "email_CeXcUC": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "required": true
+          }
+        },
+        "telephone_DnJDwT": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number",
+            "required": true
+          }
+        },
+        "text_RyatBi": {
+          "type": "text",
+          "settings": {
+            "title": "Company Name",
+            "required": true
+          }
+        },
+        "text_TFdJRC": {
+          "type": "text",
+          "settings": {
+            "title": "Project Location",
+            "required": true
+          }
+        },
+        "body_j7tTAB": {
+          "type": "body",
+          "settings": {
+            "title": "Project Description // Message",
+            "required": true
+          }
+        },
+        "select_F9BT6Y": {
+          "type": "select",
+          "settings": {
+            "title": "Ideal Project Start Date",
+            "label-one": "0-3 Months",
+            "label-two": "3-6 Months",
+            "label-three": "6-12 Months",
+            "label-four": "12+ Months",
+            "label-five": "Not Sure",
+            "label-six": ""
+          }
+        },
+        "select_GXQ8Qb": {
+          "type": "select",
+          "settings": {
+            "title": "How did you hear about Simran Design?",
+            "label-one": "Referral",
+            "label-two": "Social Media",
+            "label-three": "Search Engine",
+            "label-four": "Trade Show",
+            "label-five": "Other",
+            "label-six": ""
+          }
+        },
+        "form_heading_QqAEBM": {
+          "type": "formHeading",
+          "settings": {
+            "title": "Optional:"
+          }
+        },
+        "checkbox_dURreM": {
+          "type": "checkbox",
+          "settings": {
+            "title": "This is urgent",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "text_bbHfLc",
+        "email_CeXcUC",
+        "telephone_DnJDwT",
+        "text_RyatBi",
+        "text_TFdJRC",
+        "body_j7tTAB",
+        "select_F9BT6Y",
+        "select_GXQ8Qb",
+        "form_heading_QqAEBM",
+        "checkbox_dURreM"
+      ],
+      "settings": {
+        "title": "",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    },
+    "section_sidebar_QeyFUc": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_bqbHGg": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "accordion_gCAfGr": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
+          }
+        },
+        "accordion_Xbcicn": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
+          }
+        },
+        "header_X777z9": {
+          "type": "header",
+          "settings": {
+            "title": "Discount"
+          }
+        },
+        "accordion_YQPYP9": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I use more than one discount code?",
+            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.</p>"
+          }
+        },
+        "header_jGWgdx": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "text_ttijfr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_bqbHGg",
+        "accordion_gCAfGr",
+        "accordion_Xbcicn",
+        "header_X777z9",
+        "accordion_YQPYP9",
+        "header_jGWgdx",
+        "text_ttijfr"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "section_timeline_FKbfCV": {
+      "type": "section-timeline",
+      "blocks": {
+        "timeline_PXL3fN": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "Topic I",
+            "subheading_size": 3,
+            "title": "Project Overview",
+            "heading_size": 5,
+            "text": "<p>Designer // Client introduction </p><p> Client business goals + objectives</p><p>Project mission and objectives</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--white",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "timeline_JHPAF6": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "Topic II",
+            "subheading_size": 3,
+            "title": "Scope + Requirements",
+            "heading_size": 5,
+            "text": "<p>Specific scope of interior design work </p><p>Must-have features + requirements</p><p>Timeline + budget specification</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "timeline_gb3xKD": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "Topic III",
+            "subheading_size": 3,
+            "title": "Style + Brand Identity",
+            "heading_size": 5,
+            "text": "<p>Design vision + aesthetic preferences</p><p>Specific inspiration sources + ideas</p><p>Action plan for the next steps</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "timeline_PXL3fN",
+        "timeline_JHPAF6",
+        "timeline_gb3xKD"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Key Topics",
+        "heading_size": 7,
+        "text": "<p>We will cover the following key areas during the Strategy Session Teams Call to fully understand the project scope, budget, timeline, company information, branding, and client preferences. </p>",
+        "text_size": 3,
+        "text_alignment": "text-left",
+        "show_images": false,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "dot_background": "",
+        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "padding_top": 100,
+        "padding_bottom": 30
+      }
+    },
+    "section_hero_wHDpNc": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_8B6mBN": {
+          "type": "heading",
+          "settings": {
+            "title": "Introducing the",
+            "heading_size": 3
+          }
+        },
+        "heading_PaR8eG": {
+          "type": "heading",
+          "settings": {
+            "title": "Portfolio",
+            "heading_size": 11
+          }
+        },
+        "text_rapfXF": {
+          "type": "text",
+          "settings": {
+            "description": "From technology offices, to boutique clinics, events spaces and private gyms, Simran Design is experienced in creating the ideal interiors for many different contexts.\nDiscover tailored solutions and styles to meet your unique business needs.",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_xEw3AU": {
+          "type": "button",
+          "settings": {
+            "link_text": "Portfolio",
+            "link": "shopify://pages/portfolio",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_8B6mBN",
+        "heading_PaR8eG",
+        "text_rapfXF",
+        "button_xEw3AU"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/732aad_c720a453df3e404fbb8da467c0eecee9_mv2.webp",
+        "link": "shopify://pages/portfolio",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 70,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_aUVked": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_EihfQX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "discover more packages",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_8C6jij": {
+          "type": "heading",
+          "settings": {
+            "title": "Commercial interiors",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_EihfQX",
+        "heading_8C6jij"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "section_products_image_4wLU4Y": {
+      "type": "section-products-image",
+      "blocks": {
+        "products_6BMVjF": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "hospitality-venue-design-package",
+              "breakout-spaces-package",
+              "gym-design-package",
+              "workplace-design-package"
+            ],
+            "layout_mobile": "2"
+          }
+        },
+        "image_7i6kRj": {
+          "type": "image",
+          "settings": {
+            "mobile_height": "screen-height-one-half--mobile",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "products_6BMVjF",
+        "image_7i6kRj"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_custom_content_WFU7tc",
+    "section_columns_ULjKwR",
+    "section_accordion_group_r6cUhw",
+    "section_double_slider_j9ipdy",
+    "section_rich_text_cza7PN",
+    "contact_form_KXm7iy",
+    "section_sidebar_QeyFUc",
+    "section_timeline_FKbfCV",
+    "section_hero_wHDpNc",
+    "section_rich_text_aUVked",
+    "section_products_image_4wLU4Y",
+    "related"
+  ]
+}

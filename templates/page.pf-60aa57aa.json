@@ -1,0 +1,282 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-60aa57aa": {
+      "type": "pf-60aa57aa",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_LcEffr": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_LrKaEg": {
+          "type": "heading",
+          "settings": {
+            "title": "Studio 30 barbershop",
+            "heading_size": 7
+          }
+        },
+        "heading_NeLVf9": {
+          "type": "heading",
+          "settings": {
+            "title": "CAMBRIDGE | UNITED KINGDOM",
+            "heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_LrKaEg",
+        "heading_NeLVf9"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.21.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_qjiTDa": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_PRWtne": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "PROJECT OVERVIEW",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_8VPFjp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_gir6nx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_KMgARy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PRWtne",
+        "text_8VPFjp",
+        "subheading_gir6nx",
+        "text_KMgARy"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.30.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_7GXkjL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_gRaPrf": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Project overview",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_yLMAAR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design was trusted to develop the interior design concept for <strong>Studio 30 Barbershop in Cambridge</strong>, creating a space that reflects a strong, masculine aesthetic while remaining welcoming and functional for both barbers and clients.</p><p>Our scope focused on the <strong>design development stage</strong>, including floor planning, lighting design and detailed 3D visualisations to help bring the concept to life before construction began. The client then worked with their own trusted trades team to execute the fit-out.</p><p>The design combines <strong>natural materials, darker tones and branding influences</strong> to create a bold but refined barbershop environment. Alongside the barber stations, the layout also incorporates a <strong>compact waiting area and dedicated retail displays</strong> for grooming products.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gRaPrf",
+        "text_yLMAAR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_UGjRaB": {
+      "type": "section-columns",
+      "blocks": {
+        "image_iwBcNe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.34.57.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_DbzAHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.02.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_DiacYy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.30.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_TEB7Dm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.27.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_RQ9TD4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.06.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_iwBcNe",
+        "image_DbzAHk",
+        "image_DiacYy",
+        "image_TEB7Dm",
+        "image_RQ9TD4"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "pf-60aa57aa",
+    "section_hero_LcEffr",
+    "section_double_qjiTDa",
+    "section_rich_text_7GXkjL",
+    "section_columns_UGjRaB"
+  ]
+}

@@ -1,0 +1,818 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_eCcbCt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QAkq4w": {
+          "type": "heading",
+          "settings": {
+            "title": "༶ BLog post ༶",
+            "heading_size": 2
+          }
+        },
+        "heading_kapBND": {
+          "type": "heading",
+          "settings": {
+            "title": "August Highlights",
+            "heading_size": 7
+          }
+        },
+        "text_3eqqPd": {
+          "type": "text",
+          "settings": {
+            "description": "Restaurant Installation, Office Design & Team Milestones",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "button_hWYjTV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAkq4w",
+        "heading_kapBND",
+        "text_3eqqPd",
+        "button_hWYjTV"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Notion_Background_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_wVnDzg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CzrqGD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Workspace_Games_Room_Lounge_Leicester_copy.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_6EVrhk": {
+          "type": "text",
+          "settings": {
+            "subheading": "༶ Estimated Reading Time: 4-5 minutes ༶",
+            "subheading_size": 1,
+            "title": "Maza & Milestones",
+            "heading_size": 7,
+            "text": "<p>August has been full of progress at Simran Design Ltd - from our Maza restaurant’s installation in Cambridge to workplace designs in Wolverhampton, supplier visits and team celebrations.</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ab8c52",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CzrqGD",
+        "text_6EVrhk"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_7Lb9dX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_yJ7qgd": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>1. <strong>Maza Restaurant - Installation Phase</strong></h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_VQhBG3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our design for <strong>Maza Restaurant in Cambridge</strong> is well into its installation stage, with launch planned for September. This month saw a flurry of site visits as our vision began to take shape:</p><ul><li>Swing seat fabrications tested on site - a playful and bespoke touch for the restaurant.</li><li>Unpacking 15 new pendant lights to confirm positioning.</li><li>Bespoke rattan, walnut and brass partitions arrive to zone the restaurant</li><li>Bar fabrication progressing, with the structure in place, ready for worktops and bespoke back bar shelving.</li><li>Meeting with Stylo Graphics to review signage templates, electrics, and wall tiling preparations.</li><li>Curated cushions, materials, and accessories are arriving to elevate the final space.</li></ul><p>It’s always rewarding to see months of design and planning come alive on site.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ7qgd",
+        "text_VQhBG3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_EWijPU": {
+      "type": "section-columns",
+      "blocks": {
+        "image_jnyhFN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.03.17.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Swing seats onsite",
+            "heading_size": 3,
+            "text": "<p>We've designed bespoke swings for Maza's window seats, with powder-coated brass chains, Crib-5 'moss' leather fabric upholstery. We worked with our fit-out contractors to ensure the swing seats fit the brief as well as being commercially suitable, and we're loving this fun addition to the space!</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Mi3wpz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.01.55.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Lighting Goodness",
+            "heading_size": 3,
+            "text": "<p>This week we unpacked 15 pendant lights ready for installation, from these gorgeous Pooky Lighting natural shades, to olive and gold glass pendants from Lighting Direct, and rich vintage-inspired 'Desert' pendants from Rocket St George. We can't wait to see these lights dress the tall ceilings at Maza.</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GLfqQ4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.04.19.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Bespoke rattan partitions",
+            "heading_size": 3,
+            "text": "<p>We designed these beautiful rattan, walnut and brass partitions to zone the restaurant, from the first point of entry to the backs of booth seats, to create a sense of cosiness. The timeless natural rattan texture and colour flows throughout the restaurant, echoing Maza's traditional Pakistani roots. </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_RJpeGX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.20.58.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Bar Fabrication Progress",
+            "heading_size": 3,
+            "text": "<p>The bar fabrication framework is in place, and this week we saw the worktop, back bar shelving, hatch door and internal shelves installation. This bespoke bar will be the heart of the restaurant, and the next step is to tile the front and sides, and add rattan detailing on the back wall to truly create the 'wow' factor. </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ewfgcG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.01.04.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Illuminated Signage Prep",
+            "heading_size": 3,
+            "text": "<p>A large 'Maza at Eighty Six' illuminated sign will adorn this back wall, to be tiled with a range of rich jewel-toned tiles from Parkside Architectural Tiles. We're working closely with Stylo Graphics to produce the internal and external signage, which has been templated and positioned with feeds ready for illumination!</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_jnyhFN",
+        "image_Mi3wpz",
+        "image_GLfqQ4",
+        "image_RJpeGX",
+        "image_ewfgcG"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_6fbNzN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_xT3htA": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>2. <strong>Celebrating Shreya’s 1 Year at Simran Design Ltd</strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TTRkwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This August marked a special milestone - <strong>Shreya’s one-year anniversary</strong> with Simran Design. Over the past year, Shreya and I have collaborated on nine projects across cafés, restaurants, offices, theatres, podcast rooms, and more. Her creativity, eye for detail, and commitment have helped shape the evolution of our studio. We’re already looking forward to project number ten and many more busy, creative days together!</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_xT3htA",
+        "text_TTRkwU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_i7VhRC": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_BXtqL7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_14.46.33.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ypmtEV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-16_at_18.35.59.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_BXtqL7",
+        "image_ypmtEV"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_rich_text_7XbMG6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_iFjgpq": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>3. <strong>3D Visualisations Completed </strong></h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TbRMpQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve recently completed the <strong>3D design stage for Nautilus Designs</strong>, a workplace project in Wolverhampton. This office redesign included a reception, hallway, company history wall, showroom for office furniture products, and a boardroom.</p><p>Our approach was all about incorporating <strong>brand guidelines, colour palettes, and practical flow requirements</strong> into each area while minimising disruption to the client’s existing layouts. By focusing on the user experience and the client’s wholesale product showcase, we’ve created a scheme that is both functional and brand-aligned.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_iFjgpq",
+        "text_TbRMpQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_PchCLn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Bh8Hkf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_a7563d85-1663-4e75-8293-fa567808cff3.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Reception",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "Visualisations",
+            "button_url": "shopify://pages/wolverhampton-office-design",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_qPmBhN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Board_room_7.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Board Room",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "Visualisations",
+            "button_url": "shopify://pages/wolverhampton-office-design",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "image_zQGrpK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Furniture_Display_1.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Showroom",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "Visualisations",
+            "button_url": "shopify://pages/wolverhampton-office-design",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_Bh8Hkf",
+        "image_qPmBhN",
+        "image_zQGrpK"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_custom_content_qpXHXJ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_TRD3wz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Facetune_01-10-2024-13-47-04.heic",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_HaCR4W": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "4. Supplier Visit: Coach House, Accrington",
+            "heading_size": 7,
+            "text": "<p>We had the pleasure of visiting <strong>Coach House</strong>, one of our key UK suppliers and one of the largest trade-only interiors suppliers in the country. Based in Accrington, their showroom is a designer’s dream - filled with curated spaces and new season collections.</p><p>We specified accessories for Maza during our visit and explored their styled sets, many of which featured products we first saw at this year’s Spring Fair. It’s invaluable to work with suppliers who understand design trends and help us source pieces that complete our hospitality and workplace interiors.</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TRD3wz",
+        "text_HaCR4W"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_WCNLKE": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_kqpnPz": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "5. Welcoming our new intern!",
+            "heading_size": 7,
+            "text": "<p>We’re excited to welcome <strong>Sandhya</strong>, who joins us through a fully-funded internship as part of the DMU Champions Programme. Starting on <strong>19th August</strong>, Sandhya began supporting our studio on live projects, gaining valuable experience in commercial design.</p><p>As a studio that thrives on collaboration, we’re always excited to support the next generation of designers.</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "image_9J9kGT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-04_at_11.57.17.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_kqpnPz",
+        "image_9J9kGT"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_9xtHhP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_DChDbB": {
+          "type": "heading",
+          "settings": {
+            "title": "Looking Ahead: The Power of Creative Momentum",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "text_jrYaia": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Simran Design Ltd, we remain focused on designing <strong>commercial spaces across the Midlands and UAE</strong> that elevate brands, inspire people, and perform beautifully in practice.</p><p>Stay tuned for September, when we’ll be unveiling new launches and more behind-the-scenes progress from our projects. In the meantime, click the link below to start your quote today!</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "buttons_NMCNgV": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact Us Today",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_DChDbB",
+        "text_jrYaia",
+        "buttons_NMCNgV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "image_WTXAjJ": {
+          "type": "image",
+          "settings": {
+            "title": ""
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "image_WTXAjJ",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "bg_color": "",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_eay8qG": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "#fafafa",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_bw6trA": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_9bc8Yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Join Our Newsletter",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_XcB9T8": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Let’s Stay Connected",
+            "heading_size": 7,
+            "text": "<p>Want more behind-the-scenes insights, design tips, and exclusive previews of our commercial interior projects?</p><p></p><p>We’d love to have you along for the journey.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f2ede7",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true
+          }
+        }
+      },
+      "block_order": [
+        "image_9bc8Yh",
+        "newsletter_XcB9T8"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_eCcbCt",
+    "section_custom_content_wVnDzg",
+    "section_rich_text_7Lb9dX",
+    "section_columns_EWijPU",
+    "section_rich_text_6fbNzN",
+    "section_custom_content_i7VhRC",
+    "section_rich_text_7XbMG6",
+    "section_columns_PchCLn",
+    "section_custom_content_qpXHXJ",
+    "section_custom_content_WCNLKE",
+    "section_rich_text_9xtHhP",
+    "main",
+    "section_divider_eay8qG",
+    "section_newsletter_bw6trA"
+  ]
+}

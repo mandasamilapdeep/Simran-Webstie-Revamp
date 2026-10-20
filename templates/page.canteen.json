@@ -1,0 +1,320 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "SCAN COMPUTERS HQ",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "CANTEEN & STAFF KITCHEN",
+            "heading_size": 3
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "BOLTON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/View0003_d6710378-3362-42ff-8a07-f2244f990b09.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_piHK64": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Xjh4mY": {
+          "type": "heading",
+          "settings": {
+            "title": "PROJECT OVERVIEW",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_zqnUdC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Workplace kitchen and dining area in a 400-person office. The brief was industrial yet timeless and futuristic, with blue, grey, black and white being the main colours. The space had to be functional with commercially suitable furniture and fabrics, as well as aesthetically in keeping with the rest of the office.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_yAyJhw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KEY FEATURES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_ynXTXm": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Custom kitchen station with angular features and dual appliances to accommodate multi-use.</li><li>Tables and chairs from contract suppliers</li><li>Custom island with integrated planter and bar-stool seating</li><li>A combination of ambient LED light and pendant lights to add interest and dimension to the height of the space</li></ul>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xjh4mY",
+        "text_zqnUdC",
+        "subheading_yAyJhw",
+        "text_ynXTXm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_XzdeAi": {
+      "type": "section-columns",
+      "blocks": {
+        "image_dEAV4K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0007_d48ed7ef-bddc-4cab-9aef-fd989f0fb292.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_kaGEgX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0001_0a011ac1-9a95-4ae5-a60f-c6f422ca1009.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_piwpUh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0005_56588f60-00f5-4895-bb14-3d4da8e50a9a.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_GGrY86": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0003_d6710378-3362-42ff-8a07-f2244f990b09.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Ry7U9V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0010_f9987379-e76c-464e-a1f2-c4ebf4f8b402.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_f4rU7D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0008_29a2a1dc-81a3-46bc-a2f2-b6c02be68aba.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_CrBLpn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0011_68b31aeb-27f3-46e5-9db7-bb209b90e472.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MU7meq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0009_24eb923f-6ee0-4717-ac90-5dcf51985704.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_dEAV4K",
+        "image_kaGEgX",
+        "image_piwpUh",
+        "image_GGrY86",
+        "image_Ry7U9V",
+        "image_f4rU7D",
+        "image_CrBLpn",
+        "image_MU7meq"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_piHK64",
+    "section_columns_XzdeAi"
+  ]
+}

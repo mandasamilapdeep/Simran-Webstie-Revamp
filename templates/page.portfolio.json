@@ -1,0 +1,1541 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_NayUwj": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_eFt64b": {
+          "type": "heading",
+          "settings": {
+            "title": "Portfolio",
+            "heading_size": 7
+          }
+        },
+        "text_ChgCij": {
+          "type": "text",
+          "settings": {
+            "description": "Our ༶ Projects",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eFt64b",
+        "text_ChgCij"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-03-02_at_12.58.43.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_Dfmg4P": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_wHmPr3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "TRUSTED BY...",
+            "text_size": 5,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wHmPr3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 26
+      }
+    },
+    "section_press_logos_XVKWK4": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_UcEhrF": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/1_48c32c67-186b-43e0-a7b8-3bba083bae01.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Dallas Burston Polo Club | Leamington, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_DAC6w9": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/17.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Scan Computers HQ and Showroom | Bolton, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_FyyP7Q": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/19.png",
+            "logo_width": 120,
+            "link": "https://www.infinitumgroup.co.uk/",
+            "description": "<p>Infinitum Entertainment HQ | Soho, London, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_j8XVB9": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Screenshot_2026-03-01_at_17.00.22.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Darbar Arts and Heritage Trust HQ | London, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_fjm9YQ": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos_e124493b-31d9-4db4-9cf4-e111f7e1bf19.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Scancom Distribution Ltd HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_39QPpq": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/2.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Furniture Online HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_WFQDYh": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/5.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>DG Private Hire HQ | Nottingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_3x44K8": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/6.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>IXL Events Centre | Leamington Spa, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_Uaxbxf": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/15.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Ultra Hair Clinic HQ | Birmingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_y9qrBn": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/14.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Highcross Law Solicitors HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_zw4k6z": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/branch_logo_67130_0001.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Arch Living HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_aN78KB": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Studio 30 Barbershop | Cambridge, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_TeGhPE": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/11.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Amid Palace Indian Restaurant | Nuneaton, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_yHNmKV": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/23.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Nautilus Designs HQ | Wolverhampton, UK </p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_JpPNXq": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/9.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>RHC Clinics | Frankfurt, Germany + Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_LDQGgt": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/20.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p> The Salon | Birmingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_Ma9ypD": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/13.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Herdays Cafe | Kirkby-in-Ashfield, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_DWJzBp": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/7.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Mabel & Woods | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_kzKGjt": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/4.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>AA+D Atelier Architects | Tring, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_tQVyPA": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/3.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Paramour HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_6QirzC": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos_a77708f6-c27e-48fa-a46f-ba724f7c3f1e.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>AV2RENT Head Office | Birmingham, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_tty3Ey": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/22.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Maza At Eighty Six Restaurant | Cambridge, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_Q6RKXr": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/8.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Maptalent Recruitment HQ | Dubai, UAE</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_h8dpAN": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/16.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Ahri Catering HQ | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_Ae7qMm": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Website_Logos_copy.png",
+            "logo_width": 120,
+            "link": "",
+            "description": "<p>Trust We Care Head Office | Leicester, UK</p>",
+            "heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_UcEhrF",
+        "logo_item_DAC6w9",
+        "logo_item_FyyP7Q",
+        "logo_item_j8XVB9",
+        "logo_item_fjm9YQ",
+        "logo_item_39QPpq",
+        "logo_item_WFQDYh",
+        "logo_item_3x44K8",
+        "logo_item_Uaxbxf",
+        "logo_item_y9qrBn",
+        "logo_item_zw4k6z",
+        "logo_item_aN78KB",
+        "logo_item_TeGhPE",
+        "logo_item_yHNmKV",
+        "logo_item_JpPNXq",
+        "logo_item_LDQGgt",
+        "logo_item_Ma9ypD",
+        "logo_item_DWJzBp",
+        "logo_item_kzKGjt",
+        "logo_item_tQVyPA",
+        "logo_item_6QirzC",
+        "logo_item_tty3Ey",
+        "logo_item_Q6RKXr",
+        "logo_item_h8dpAN",
+        "logo_item_Ae7qMm"
+      ],
+      "settings": {
+        "title": "",
+        "enable_heading_slider": true,
+        "text_style": "font-body",
+        "logo_opacity": 85,
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_APD4Up": {
+      "type": "section-columns",
+      "blocks": {
+        "image_iRTrQY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_15.20.03.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Lounge ༶ Bar ༶ Games Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/copy-of-workspace-lounge",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_j8yNzg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lounge_4_074b3197-3277-4dae-a484-6cb6554c14f6.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Lounge ༶ Bar ༶ Games Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/workplace-lounge-and-coffee-bar-leicester-visualisations",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_iRTrQY",
+        "image_j8yNzg"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Workplace Games Room | leicester",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_JXENAQ": {
+      "type": "section-columns",
+      "blocks": {
+        "image_U3WmTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-03-10_at_16.59.58.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Mazah Restaurant [OPENING soon] >",
+            "heading_size": 2,
+            "text": "<p> 3D VISUALISATIONS  </p>",
+            "text_size": 1,
+            "button_text": "3d visualisations",
+            "button_url": "shopify://pages/maza-restaurant",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_U3WmTq"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "MAZAH RESTAURANT | CAMBRIDGE",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_idMRGi": {
+      "type": "section-columns",
+      "blocks": {
+        "image_96praA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Booths_3.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "RESTAURANT + BAR >",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/indian-restaurant-nuneaton",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_yiNjGe": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-16_at_20.04.41.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "VIP LOUNGE >",
+            "heading_size": 2,
+            "text": "<p> 3D VISUALISATIONS  </p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "shopify://pages/indian-restaurant-nuneaton",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": true
+          }
+        },
+        "image_fXMeJw": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Booths_3.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "PHOTO / WAITING AREA >",
+            "heading_size": 2,
+            "text": "<p> 3D VISUALISATIONS  </p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "shopify://pages/indian-restaurant-nuneaton",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_96praA",
+        "image_yiNjGe",
+        "image_fXMeJw"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "AMID PALACE RESTAURANT | NUNEATON",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_jCKW9h": {
+      "type": "section-columns",
+      "blocks": {
+        "image_QA8QWW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9524.heic",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Co-working Area >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "photography",
+            "button_url": "shopify://pages/co-working-space",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_jjihM4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0002_311d5a28-dc45-43d7-bf6a-6ec2fd3505eb.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Games Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/games-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_Y7VjFd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0007_d48ed7ef-bddc-4cab-9aef-fd989f0fb292.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Canteen >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/canteen",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_PBB47F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Beta_Events_Room_1.0.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Events Space >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/tech-office-events-space",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_JPhNTn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Scan_Save_1_Meeting_Room-26.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Meeting Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/scan-board-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_9H4GJY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Beta_Large_Meeting_Point_1.0.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Small Meeting Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/small-meeting-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_LebQAG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alpha_Call_Room_Render_3.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Private Call Space >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/private-call-space",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_anUjN7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0001_1c6fc8ab-74d7-406e-8f68-82890b58fd51.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Breakout Area >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/co-working",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_V4nrai": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0012_cc45b225-246c-4214-b7ff-094a8f1fdbae.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Booth Seating >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/scan-computers-bolton-tech-office",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_QA8QWW",
+        "image_jjihM4",
+        "image_Y7VjFd",
+        "image_PBB47F",
+        "image_JPhNTn",
+        "image_9H4GJY",
+        "image_LebQAG",
+        "image_anUjN7",
+        "image_V4nrai"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "TECHNOLOGY OFFICE | MANCHESTER",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_jnJzcH": {
+      "type": "section-columns",
+      "blocks": {
+        "image_i7cyXc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_e426cfebe17d458283699b74e25b9f8e_mv2_fced89dd-a8a6-44dc-b404-e86eadfdc757.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Consultation Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/consultation-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_d7mdwD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_51e2aeb1117849339a2a3409f28c8a20_mv2_d6ad9d80-1df2-476e-9a6f-b50d68803433.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Waiting Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/clinic-waiting-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_i7cyXc",
+        "image_d7mdwD"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "RHC HAIR CLINIC | LEICESTER",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_1.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "TREATMENT ROOMS >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/treatment-rooms",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_4MPfec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hair_Lab_8.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "HAIR SALON >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/the-salon",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_mNjnzT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Nails_Corner.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "NAIL STUDIO >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/nail-salon",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_CH4Ni7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cafe_3.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "CAFE >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/salon-cafe",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image_4MPfec",
+        "image_mNjnzT",
+        "image_CH4Ni7"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "THE SALON | SUTTON COLDFIELD",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_MrbN67": {
+      "type": "section-columns",
+      "blocks": {
+        "image_zqP4jT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20220731-WA0014.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Main Office >",
+            "heading_size": 1,
+            "text": "",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/dubai-recruitment-office",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_zqP4jT"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "MAPTALENT RECRUITMENT OFFICE | DUBAI",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_iMf3yp": {
+      "type": "section-columns",
+      "blocks": {
+        "image_cn4iMp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.57.52.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Podcast Room",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "3D Visualisations",
+            "button_url": "shopify://pages/podcast-studio-london",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cn4iMp"
+      ],
+      "disabled": true,
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Darbar Arts & Heritage Trust Podcast Room | London",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_columns_czX7QB": {
+      "type": "section-columns",
+      "blocks": {
+        "image_8KrAXW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-103.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Entrance >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/nottingham-office-design",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_fwMetT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/edited_4.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Waiting Area >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/waiting-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_a6KVdf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-114.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Meeting Room 1 >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/directors-meeting-room-nottingham",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_gN9raR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Meeting_Room_1-34.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Meeting Room 2 >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/small-meeting-room-nottingham",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_8KrAXW",
+        "image_fwMetT",
+        "image_a6KVdf",
+        "image_gN9raR"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "PRIVATE CAR FIRM | NOTTINGHAM",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_AkBnGA": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Mc7jXW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_74f4c0a1ca5c4f79827d999eefa33c81_mv2_c84c90c8-434f-40c4-b93c-a775ee8233ad.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Entrance >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/office-entrance-leicester",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_UrKcw8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_2a9885974c12457b9dfc81f006935b13_mv2_48668e94-32f1-401d-81b6-32773d8a85cb.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "In-House Gym >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/gym",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_GbiJje": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/732aad_ecf10c4bdf914705a088ae90233709a9_mv2_9feae049-1c67-454f-b289-29f0f10bd3f9.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Open Office >",
+            "heading_size": 2,
+            "text": "<p>PHOTOGRAPHY</p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "shopify://pages/open-office",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_dALFLD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_f4b2dd5b7c95485c983f54914d561fa5_mv2_2cb05e4c-d44a-4a18-83f7-34c0493770f8.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Kitchen >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "PHOTOGRAPHY",
+            "button_url": "shopify://pages/kitchen",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_Mc7jXW",
+        "image_UrKcw8",
+        "image_GbiJje",
+        "image_dALFLD"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "WORKPLACE | LEICESTER",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_BFNLmV": {
+      "type": "section-columns",
+      "blocks": {
+        "image_fLbDr3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_5.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Entrance | Workspace Option I >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/scancom-office-design",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_qAGpTy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Island_Front_view.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Entrance | Workspace Option II >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/telecoms-collaboration-space",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_fLbDr3",
+        "image_qAGpTy"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SCANCOM TELECOMS OFFICE | LEICESTER",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_rc68Ea": {
+      "type": "section-columns",
+      "blocks": {
+        "image_BH7nb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.30.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Barberhshop >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/barbershop",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_BH7nb6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Studio 30 Barbershop | Cambridge",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "#000000",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_66LLBN": {
+      "type": "section-columns",
+      "blocks": {
+        "image_MwEqKq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_a7563d85-1663-4e75-8293-fa567808cff3.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Entrance >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/office-entrance-interior-design",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_tJ79VV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Board_room_7.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Board Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/wolverhampton-office-design",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_wfbHx4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Furniture_Display_1.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Showroom >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/showroom",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_MwEqKq",
+        "image_tJ79VV",
+        "image_wfbHx4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "RECEPTION, BOARD ROOM, SHOWROOM | WOLVERHAMPTON",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_columns_GMbTRr": {
+      "type": "section-columns",
+      "blocks": {
+        "image_tqV7GN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-76_0a99a6e5-541b-4ec3-80ac-498a980a7988.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Reception >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/solicitors-office",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "image_6iF3gb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Highcross_Solicitors_Unnamed_Space-33_a3fb04ac-51fe-47df-81a6-1794aa307497.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Meeting Room >",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 1,
+            "button_text": "3D VISUALISATIONS",
+            "button_url": "shopify://pages/solicitors-meeting-room",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "image_tqV7GN",
+        "image_6iF3gb"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Highcross SOLICITOR'S OFFICE | LEICESTER",
+        "heading_size": 3,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "#212121",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "175570272711093040": {
+      "type": "apps",
+      "blocks": {
+        "essential_grid_gallery_app_block_CpVHy7": {
+          "type": "shopify://apps/essential-grid-gallery/blocks/app-block/b252af1e-c43a-4272-b19c-e87bc447c686",
+          "settings": {
+            "eg_grid_metakey": 3,
+            "eg_grid_dynamic_metakey": "",
+            "eg_grid_heading": "",
+            "eg_grid_sub_heading": "",
+            "eg_grid_heading_size": 30,
+            "eg_grid_sub_heading_size": 15,
+            "eg_grid_heading_alignment": "center",
+            "eg_grid_sec_back_color": "#ffffff",
+            "eg_grid_sec_front_color": "",
+            "eg_grid_sec_sub_heading_color": "",
+            "eg_grid_sec_pad_top": 0,
+            "eg_grid_sec_pad_bot": 0
+          }
+        }
+      },
+      "block_order": [
+        "essential_grid_gallery_app_block_CpVHy7"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_NayUwj",
+    "section_rich_text_Dfmg4P",
+    "section_press_logos_XVKWK4",
+    "section_columns_APD4Up",
+    "section_columns_JXENAQ",
+    "section_columns_idMRGi",
+    "section_columns_jCKW9h",
+    "section_columns_jnJzcH",
+    "columns",
+    "section_columns_MrbN67",
+    "section_columns_iMf3yp",
+    "section_columns_czX7QB",
+    "section_columns_AkBnGA",
+    "section_columns_BFNLmV",
+    "section_columns_rc68Ea",
+    "section_columns_66LLBN",
+    "section_columns_GMbTRr",
+    "175570272711093040"
+  ]
+}

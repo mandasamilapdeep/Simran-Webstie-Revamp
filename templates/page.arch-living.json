@@ -1,0 +1,532 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Design ROI",
+            "heading_size": 7
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "༶ TRANSFORM YOUR SPACE, TRANSFORM YOUR BUSINESS ༶",
+            "text_size": 3,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/haute-stock-photography-subscription-caffeinated-collection-final-3.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_divider_JCbAYq": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_3PCmbT": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_zb3UVF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Invest in",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_7H3PJC": {
+          "type": "heading",
+          "settings": {
+            "title": "Professional Interior Design?",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_PYGrWf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Professional design is more than just creating a beautiful space—it’s about driving tangible business benefits. Businesses that make design integral to their strategy are outperforming their competitors and reaping significant financial rewards.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "subheading_N3abgR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Proven ROI: Facts That Speak for Themselves",
+            "text_size": 3,
+            "padding_bottom": 8
+          }
+        },
+        "accordion_KVFkbC": {
+          "type": "accordion",
+          "settings": {
+            "title": "Every £100 a design-alert business spends on design...",
+            "content": "<p>...Increases turnover by £225. Design-led businesses see an average 6.3% market share growth.</p>",
+            "show_icon": true,
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "padding_bottom": 8
+          }
+        },
+        "accordion_qHgxrc": {
+          "type": "accordion",
+          "settings": {
+            "title": "Two-thirds of UK businesses say design is crucial to future economic performance...",
+            "content": "<p>Integrating design into your strategy fuels sustained growth and innovation. Rapidly growing businesses are three times more likely to consider design crucial to success.</p>",
+            "show_icon": true,
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "padding_bottom": 8
+          }
+        },
+        "accordion_WpD4V8": {
+          "type": "accordion",
+          "settings": {
+            "title": "Design-led businesses outperform the stock market by 200% ...",
+            "content": "<p>Thoughtful design sets businesses apart, allowing them to stand out without competing solely on price.</p>",
+            "show_icon": true,
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zb3UVF",
+        "heading_7H3PJC",
+        "text_PYGrWf",
+        "subheading_N3abgR",
+        "accordion_KVFkbC",
+        "accordion_qHgxrc",
+        "accordion_WpD4V8"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/EDITED_haute-stock-photography-subscription-studio-sesh-collection-final-4_copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_Wqyt46": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_multicolumn_AmF3ak": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_NrE8fy": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-lightening",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Productivity and Focus",
+            "heading_size": 4,
+            "text": "<p>Thoughtful design promotes concentration, reduces stress, and improves overall workplace productivity E.G. ergonomic layouts, acoustic control, and optimal lighting.</p>",
+            "text_size": 3
+          }
+        },
+        "icon_NkjQLD": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-smile",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Mood and Well-Being",
+            "heading_size": 4,
+            "text": "<p>Design influences how we feel. Colours, textures, lighting, and natural elements evoke positive emotions, fostering happiness and motivation in employees and customers alike.</p>",
+            "text_size": 3
+          }
+        },
+        "icon_8hcw4W": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ffffff",
+            "title": "Client Behaviour",
+            "heading_size": 4,
+            "text": "<p>In retail and hospitality spaces, design drives buying decisions. A well-designed space makes customers feel comfortable, valued, and more likely to engage.</p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_NrE8fy",
+        "icon_NkjQLD",
+        "icon_8hcw4W"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 4,
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_before_after_xf7FtQ": {
+      "type": "section-before-after",
+      "settings": {
+        "heading": "Real People, Real Results",
+        "description": "<p>A simple example of the transformation you can achieve with Simran Design...</p><p>We converted this tired meeting room into a memorable workplace gym used by staff and directors everyday. Key features include: multi-rack system machine, battle ropes, boxing bag, Olympic bars, 30-piece dumbbell rack, benches, Peleton bike and storage for boxing gloves, skipping ropes and wrist straps...</p>",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--secondary",
+        "button_size": "btn--small",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_1": "shopify://shop_images/PXL_20220527_140702192.jpg",
+        "image_2": "shopify://shop_images/gym_with_black_ceiling_copy_568727f2-3e3d-4808-9ef4-176267b07cd6.jpg",
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_ikxEQ6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_hM6weE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "hear from our",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_NtfePz": {
+          "type": "heading",
+          "settings": {
+            "title": "Happy clients",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_dHqetp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>༶ Discover the impact of Simran Design Ltd first-hand by clicking below on Google Reviews from our past project clients ༶</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_hM6weE",
+        "heading_NtfePz",
+        "text_dHqetp"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 70,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_dxBUzg": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_wdEFyB": {
+          "type": "review",
+          "settings": {
+            "title": "Anna Madero",
+            "subheading": "Maptalent UAE, Recruitment",
+            "review_text": "Simran has always been the best in what she does. Expect nothing but high-level of professionalism and unique talent from her. She gives full attention in listening and learning what the clients need, executes the plan properly and exceeds expectations. Our office in JLT, Dubai is stunning because of her and all our employees are just happy to call it “second home” She is highly recommended!",
+            "featured_image": "shopify://shop_images/IMG-20220731-WA0014_00b2c3b0-2445-4f02-afc6-d0b606e866ea.jpg",
+            "review_url": "https://maps.app.goo.gl/FZ9Q4DZaDwvEP4Uk9"
+          }
+        },
+        "review_AFRQ3r": {
+          "type": "review",
+          "settings": {
+            "title": "Minal Patel",
+            "subheading": "Personal Trainer, UK",
+            "review_text": "Simran designed a gym for me to use to train clients daily, her drawings and ideas were first class. Communication was professional and a she has a great humble personality.\n\nOnce drawings were agreed the quality of work was exceptional the finishing was outstanding. Work was completed at a fast rate. The imagination is truly a work of art.\n\nI fully recommend Simran to any one who wants design and implementation.\n\nVery happy with the outcome. You will not regret choosing her.",
+            "featured_image": "shopify://shop_images/gym_with_black_ceiling_copy_568727f2-3e3d-4808-9ef4-176267b07cd6.jpg",
+            "review_url": "https://maps.app.goo.gl/G4qYfibHf1DQ6s7N6"
+          }
+        },
+        "review_GBXQwM": {
+          "type": "review",
+          "settings": {
+            "title": "Preeya Kotecha",
+            "subheading": "Curl Jar Ltd UK, Director",
+            "review_text": "Thanks for a lovely experience. Simran designed our retail events and trade shows with commitment to our tight deadlines. As well as re-imagining our personal home office , great work! Always timely and very well informed with the industry trends. Recommended for brands, business and home interior requirements all-in-one solution. Thank you 🙏",
+            "featured_image": "shopify://shop_images/Unnamed_Space-16_1b1bf099-252c-4f28-9f3d-708c8c8dd838.jpg",
+            "review_url": "https://maps.app.goo.gl/gPv7iANNvqh5kYx86"
+          }
+        },
+        "review_LX76wG": {
+          "type": "review",
+          "settings": {
+            "title": "Reece Ogier",
+            "subheading": "Cranky Fish UK, Director",
+            "review_text": "Simran Design transformed our office into a modern, functional space that perfectly suits our needs. Their creativity and attention to detail exceeded expectations—highly recommend!",
+            "featured_image": "shopify://shop_images/View0006_a8be03cb-d2c3-4fe6-8c9d-fe6796d35294.png",
+            "review_url": "https://maps.app.goo.gl/rnLr9FxHcvpDh1xY8"
+          }
+        }
+      },
+      "block_order": [
+        "review_wdEFyB",
+        "review_AFRQ3r",
+        "review_GBXQwM",
+        "review_LX76wG"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "text_align": "text-left",
+        "text_size": 4,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "card_bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 80
+      }
+    },
+    "section_accordion_group_rpP3BQ": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_ba66mU": {
+          "type": "heading",
+          "settings": {
+            "title": "Design ROI faq >"
+          }
+        },
+        "question_Lycgkq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What is Design ROI?",
+            "content": "<p>Design ROI refers to the measurable return on investment businesses gain from professional design services. Whether it’s improving productivity, increasing customer satisfaction, or driving revenue growth, a well-designed space delivers tangible benefits beyond aesthetics. Research shows that every £100 spent on design by a design-led business can increase turnover by £225.</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#ab8c52"
+          }
+        },
+        "question_WUfJfq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Is interior design worth the investment?",
+            "content": "<p>Absolutely. Professional interior design is a strategic investment that delivers long-term benefits. It enhances your brand perception, increases customer retention, and boosts employee performance, ultimately driving higher revenue and market share. Businesses that prioritize design are three times more likely to experience rapid growth and innovation compared to those that don’t.</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#ab8c52"
+          }
+        },
+        "question_gy9wg9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can design really increase my revenue?",
+            "content": "<p>es, it can. Research from the Design Council reveals that businesses that invest in design increase their turnover and market share significantly. Design-led companies outperform the stock market by 200%, and businesses that embrace design see an average 6.3% market share increase. These numbers show how impactful design can be on your bottom line.</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#ab8c52"
+          }
+        },
+        "question_efcDUU": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Why should I hire a professional?",
+            "content": "<p>Professional designers bring expertise, creativity, and experience to the table, ensuring your space is functional, visually stunning, and aligned with your business goals. They understand how to maximize budgets, source quality materials, and create spaces that deliver measurable results like increased productivity or revenue. Doing it yourself might save money initially, but it’s unlikely to achieve the same level of impact or ROI.</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#ab8c52"
+          }
+        },
+        "question_X9CKUF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How can I measure the ROI of interior design in my business?",
+            "content": "<p>Design ROI can be measured in several ways, including increased revenue, customer retention, employee productivity, and brand perception. For example, tracking sales before and after a retail redesign, or measuring employee satisfaction and productivity in a new office layout, can provide concrete data on the impact of design.</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": "#ab8c52"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ba66mU",
+        "question_Lycgkq",
+        "question_WUfJfq",
+        "question_gy9wg9",
+        "question_efcDUU",
+        "question_X9CKUF"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "border_color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_hero_eXcUtH": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_TR96Af": {
+          "type": "heading",
+          "settings": {
+            "title": "DISCOVER THE ROI OF DESIGN",
+            "heading_size": 7
+          }
+        },
+        "text_H9KR7a": {
+          "type": "text",
+          "settings": {
+            "description": "Ready to Transform Your Business?",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_yqhaDP": {
+          "type": "button",
+          "settings": {
+            "link_text": "CONTACT US",
+            "link": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_TR96Af",
+        "text_H9KR7a",
+        "button_yqhaDP"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Entrance_Park_House_1_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_divider_JCbAYq",
+    "section_double_3PCmbT",
+    "section_divider_Wqyt46",
+    "section_multicolumn_AmF3ak",
+    "section_before_after_xf7FtQ",
+    "section_rich_text_ikxEQ6",
+    "section_reviews_dxBUzg",
+    "section_accordion_group_rpP3BQ",
+    "section_hero_eXcUtH"
+  ]
+}

@@ -1,0 +1,560 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "HEAD Office Entrance",
+            "heading_size": 7
+          }
+        },
+        "heading_Yp43NV": {
+          "type": "heading",
+          "settings": {
+            "title": "Leicester | united kingdom",
+            "heading_size": 3
+          }
+        },
+        "text_8YhXbV": {
+          "type": "text",
+          "settings": {
+            "description": "TELECOMS COMPANY",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_Yp43NV",
+        "text_8YhXbV"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Close_Up_8.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_CLRAnL": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_87V3JU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "PROJECT OVERVIEW",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_Qfyb4K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We designed this statement entrance into a telecoms head office with a high-tech, modern design style in mind. The focal point is the statement custom island, with an integrated central planter to incorporate some biophilic elements amongst a very slick palette of cool wood tones, matt black, nickel and brushed chrome. Pops of red inspired by the brand logo are added in measured proportions on the magazine display, bespoke shelving and in some upholstered items. The challenge was to create a multifuctional space for both staff and clients that is memorable and represented the brand.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_7zwDVr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Key Features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_HqH4mx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>༶ Custom joinery design with central planter, hidden fridge and seating</p><p>༶ Custom angular seating design with upholstered seat pads</p><p>༶ Bespoke backlit branding and signage</p><p>༶ Branding integration using pops of colour and curated material palette</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_87V3JU",
+        "text_Qfyb4K",
+        "subheading_7zwDVr",
+        "text_HqH4mx"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Logo_Wall_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_content_dLYzFc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_EnjgKw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Island_Front_view.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_EnjgKw"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_xgKdbG": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Uc3nbm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Island_Rear_view_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Uc3nbm"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_4LeEaa": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_c69L6g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Wall_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_c69L6g"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_3VmWXF": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_w7icCw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Seating_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_w7icCw"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_AFtK9P": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_RBWTJ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wall_Shelf_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RBWTJ6"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_GwGPLc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_MicTPt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Seating_2.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MicTPt"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_NmtXWK": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_zBbmrT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Working_Bar_3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_zBbmrT"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_FpMjzH": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_M4hHkR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Close_Up_3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xEBj8x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Close_Up_5.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_M4hHkR",
+        "image_xEBj8x"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": true,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "section_multicolumn_yU7mAd": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_mFYnxD": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-email",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ab8c52",
+            "title": "Email",
+            "heading_size": 4,
+            "text": "<p>Drop an email to hello@simrandesign.co.uk</p>",
+            "text_size": 3
+          }
+        },
+        "icon_fKWh6K": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-phone",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ab8c52",
+            "title": "Phone",
+            "heading_size": 4,
+            "text": "<p>We'd love to have a chat! +44(0)7891888895</p>",
+            "text_size": 3
+          }
+        },
+        "icon_9yTWAx": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-location",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#ab8c52",
+            "title": "Office",
+            "heading_size": 4,
+            "text": "<p>Meridian Business Park, Leicester, United Kingdom</p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_mFYnxD",
+        "icon_fKWh6K",
+        "icon_9yTWAx"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_double_CLRAnL",
+    "section_custom_content_dLYzFc",
+    "section_custom_content_xgKdbG",
+    "section_custom_content_4LeEaa",
+    "section_custom_content_3VmWXF",
+    "section_custom_content_AFtK9P",
+    "section_custom_content_GwGPLc",
+    "section_custom_content_NmtXWK",
+    "section_custom_content_FpMjzH",
+    "section_multicolumn_yU7mAd"
+  ]
+}

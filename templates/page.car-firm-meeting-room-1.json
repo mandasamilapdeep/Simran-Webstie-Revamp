@@ -1,0 +1,481 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Meeting Room",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "nottingham | united kingdom",
+            "heading_size": 3
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "PRIVATE CAR FIRM",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/edited_6096a6b0-a4ab-4ec3-863c-c749eaa7665f.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_pqUMQR": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_TBWjjY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_P8giwN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design delivered this light, refined consultation room as part of a concept-to-completion interior project for a new hair transplant and aesthetics clinic in Leicester. The goal was to design a professional, brand-aligned environment that met all functional and health & safety requirements while still feeling calm and elevated.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_iR6bfz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "key features",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_KKiXix": {
+          "type": "text",
+          "settings": {
+            "text": "<p>༶ Combination black and white designer large format carpet tile and LVT wood border </p><p>༶ 10-Person custom board-room table with integrated hidden connectivity</p><p>༶ Angular wood wall panelling with hidden LED light and media wall </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TBWjjY",
+        "text_P8giwN",
+        "subheading_iR6bfz",
+        "text_KKiXix"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-114.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_content_HDghUg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Jkf93x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-119.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Jkf93x"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_9iVFMq": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_XMqjNW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-109.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_XMqjNW"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_hkQRyp": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_N9dfQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-110.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_N9dfQa"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_j3gKA7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_FCMdrn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/edited_6096a6b0-a4ab-4ec3-863c-c749eaa7665f.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_FCMdrn"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_RdNeb7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_GWAkYE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-112_copy.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_GWAkYE"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_WyHgAN": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_9pCdic": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-114.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9pCdic"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_JcnceM": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_p8WXNh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-115_copy.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_p8WXNh"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_TyqBFC": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_TCfQAh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-116.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_TCfQAh"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_double_pqUMQR",
+    "section_custom_content_HDghUg",
+    "section_custom_content_9iVFMq",
+    "section_custom_content_hkQRyp",
+    "section_custom_content_j3gKA7",
+    "section_custom_content_RdNeb7",
+    "section_custom_content_WyHgAN",
+    "section_custom_content_JcnceM",
+    "section_custom_content_TyqBFC"
+  ]
+}

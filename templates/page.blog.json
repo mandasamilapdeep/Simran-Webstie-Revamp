@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_NayUwj": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_eFt64b": {
+          "type": "heading",
+          "settings": {
+            "title": "Blog",
+            "heading_size": 7
+          }
+        },
+        "text_ChgCij": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eFt64b",
+        "text_ChgCij"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/View0012_cc45b225-246c-4214-b7ff-094a8f1fdbae.png",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "featured_posts_cPNxPC": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_Ek3maw": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_Ek3maw"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_blog_TLKpWk": {
+      "type": "section-blog",
+      "settings": {
+        "blog_name": "",
+        "title": "Blog Posts",
+        "heading_size": 5,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "title_size": 4,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
+    "section_hero_Ktig3D": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_GwXqEg": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact Us",
+            "heading_size": 9
+          }
+        },
+        "text_KdNeba": {
+          "type": "text",
+          "settings": {
+            "description": "We'd love to have a chat :)",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_tY3nbM": {
+          "type": "button",
+          "settings": {
+            "link_text": "Contact Page",
+            "link": "",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GwXqEg",
+        "text_KdNeba",
+        "button_tY3nbM"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2024-02-25_at_14.44.41.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_NayUwj",
+    "featured_posts_cPNxPC",
+    "section_blog_TLKpWk",
+    "section_hero_Ktig3D"
+  ]
+}

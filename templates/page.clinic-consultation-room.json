@@ -1,0 +1,476 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "RHC Clinic",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "HAIR TRANSPLANTATION CLINIC CONSULTATION & WAITING ROOM",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2024-02-25_at_14.38.19.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 5,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_nKagV7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_bn7TTP": {
+          "type": "heading",
+          "settings": {
+            "title": "project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_rixJGV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design delivered this light, refined consultation room as part of a concept-to-completion interior project for a new hair transplant and aesthetics clinic in Leicester. The goal was to design a professional, brand-aligned environment that met all functional and health & safety requirements while still feeling calm and elevated.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_AUaEcA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_F3Xn8i": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Electrical consultation chair</li><li>Bespoke storage and vanity unit with hidden integrated medical waste disposal</li><li>Workspace and consultation area</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_bn7TTP",
+        "text_rixJGV",
+        "subheading_AUaEcA",
+        "text_F3Xn8i"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_Rj8tb9": {
+      "type": "section-columns",
+      "blocks": {
+        "image_9XfXN6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_e426cfebe17d458283699b74e25b9f8e_mv2_a7b952fc-e36d-4396-b129-b288116705c0.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FaLy8Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_x6FTQi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC_6703_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_qiriai": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23ab0ad0-d55a-4203-abda-f6cff571805d_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_rJkf8T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/524614f7-a253-476f-8d14-e1ff617aa4b3_copy_cf59ebd9-ee10-4757-8d16-469a485b8765.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MbJ93q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC_6677_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_t74QTb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC_6694_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XEFHAn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC_6669_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9XfXN6",
+        "image_FaLy8Y",
+        "image_x6FTQi",
+        "image_qiriai",
+        "image_rJkf8T",
+        "image_MbJ93q",
+        "image_t74QTb",
+        "image_XEFHAn"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "CONSULTATION ROOM",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_7fXN7f": {
+      "type": "section-columns",
+      "blocks": {
+        "image_xz3JL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_51e2aeb1117849339a2a3409f28c8a20_mv2_94144c44-04e5-4811-b138-bb6423541fdc.jpg",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_3tw3Ct": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_175bfd24-0c8d-4cd0-9125-c4593360191e_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_kKpMXr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_95b5e91f-1bb7-4c12-9821-74e35c30370a_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6jrwnY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_303ea393-e676-440b-8a24-272667fb6612_copy.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_EifJEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732aad_1e4e629c65944bfebd7e5397bcb2a04e_mv2_b733c4b9-96b8-4928-8075-01e597456ead.webp",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_mVGkWR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDITED_thumbnail_copy_f53c2a77-057a-46c2-b203-e356f375c1e1.jpg",
+            "image_aspect_ratio": 0.9,
+            "mobile_image_aspect_ratio": 0.9,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_xz3JL4",
+        "image_3tw3Ct",
+        "image_kKpMXr",
+        "image_6jrwnY",
+        "image_EifJEE",
+        "image_mVGkWR"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "WAITING ROOM",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_nKagV7",
+    "section_columns_Rj8tb9",
+    "section_columns_7fXN7f"
+  ]
+}

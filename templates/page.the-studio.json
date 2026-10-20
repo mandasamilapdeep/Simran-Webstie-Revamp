@@ -1,0 +1,939 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_e7n4BJ": {
+      "type": "section-hero",
+      "blocks": {
+        "text_mWcyQw": {
+          "type": "text",
+          "settings": {
+            "description": "THE STUDIO",
+            "text_size": 2,
+            "description_letter_spacing": 2,
+            "description_text_color": "#7a5f32",
+            "text_style": "font-heading"
+          }
+        },
+        "heading_zjihJb": {
+          "type": "heading",
+          "settings": {
+            "title": "Founder-led. Commercially minded. Detail obsessed.",
+            "heading_size": 11
+          }
+        },
+        "text_cPzryi": {
+          "type": "text",
+          "settings": {
+            "description": "Simran Design is a Leicester studio creating interiors for business owners who want their space to work as hard as they do, from salons and clinics to offices and hospitality venues across the UK, Europe and the Middle East.",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#574840",
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_mWcyQw",
+        "heading_zjihJb",
+        "text_cPzryi"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-full",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-06-08_at_16.17.29.png",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "image_marign_bottom_desktop": 110,
+        "text_box_max_width": 650,
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "#ffffff",
+        "color": "#2b1e19"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_XCrhmF": {
+      "type": "section-double",
+      "blocks": {
+        "text_zrwmQe": {
+          "type": "text",
+          "settings": {
+            "text_color": "#000000",
+            "text": "<p>Simran trained in Textile Design at Loughborough University, where she learned to read materials closely: how they feel, how they wear and how they change the mood of a room.<br/><br/></p><p>In October 2021 she founded Simran Design, building the studio independently and without outside investment. Every project since has been won on the strength of the last, from Carnaby Street offices to clinics in Frankfurt and workspaces in Dubai.<br/><br/></p><p>[Add two or three sentences in your own voice: why commercial interiors, what you believe a great business space does, and what clients can expect working with you.]<br/><br/></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "divider_xLzqUm": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "heading_yjthPq": {
+          "type": "heading",
+          "settings": {
+            "title": "<em>“[A short line in your words about what drives you, for example: a beautiful space is only finished when it is working for the business inside it.]”</em>",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_Ta7RMy": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Simran Kotecha · Founder and Director",
+            "subheading_color": "#2b1e19",
+            "text_size": 1,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_zrwmQe",
+        "divider_xLzqUm",
+        "heading_yjthPq",
+        "subheading_Ta7RMy"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Untitled_design_4_6e74a619-89a3-4668-b6aa-2e276e077725.jpg",
+        "image_width": "thirty-five-percent",
+        "subtitle": "MEET THE FOUNDER",
+        "subtitle_color": "#7a5f32",
+        "sub_title_letter_spacing": 2,
+        "sub_title_size": 1,
+        "title": "A textile designer's eye, applied to spaces that have to perform.",
+        "title_size": 8,
+        "text_alignment": "text-left",
+        "text_placement": "flex-start",
+        "text_bg_color": "",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "#2b1e19",
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
+    "text_blocks_xtnreM": {
+      "type": "text_blocks",
+      "blocks": {
+        "text_rPnc6X": {
+          "type": "text",
+          "settings": {
+            "show_desktop_columns_one_row": 4,
+            "heading_1": "2021",
+            "subheading_1": "Studio founded",
+            "heading_2": "[X]",
+            "subheading_2": "Commercial projects delivered",
+            "heading_3": "3",
+            "subheading_3": "Countries: UK, Germany, UAE",
+            "heading_4": "[X]",
+            "subheading_4": "Sectors designed for",
+            "heading_5": "",
+            "subheading_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_rPnc6X"
+      ],
+      "name": "Text Blocks",
+      "settings": {
+        "align_text": "text-left",
+        "align_text_blocks": "text-left",
+        "title": "",
+        "heading_size": 5,
+        "heading_letter_spacing": 0,
+        "title_color": "",
+        "content": "",
+        "content_size": 2,
+        "block_heading_size": 10,
+        "block_subheading_size": 3,
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "blocks_border_top": "#2b1e19",
+        "blocks_border_bottom": "#e3d3c9",
+        "padding_top": 50,
+        "padding_bottom": 100
+      }
+    },
+    "section_multicolumn_EzhBXn": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_NmXAaR": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "I.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Commercial first",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>We start with how the space earns: client journey, capacity, staff flow and the first impression at the door.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_WadMzC": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "II.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Materials that last",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Finishes chosen for heavy daily use as much as for beauty, specified through trusted suppliers such as Altro and Dulux.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_bqXhna": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "III.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "One point of contact",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>You deal with the studio, not a chain of trades. We coordinate everyone so you can keep running your business.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_Lyydw6": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "IV.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Compliance handled",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Building control, accessibility and sector regulations considered from the first sketch, not fixed at the end.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_NmXAaR",
+        "text_WadMzC",
+        "text_bqXhna",
+        "text_Lyydw6"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "HOW WE THINK",
+        "subtitle_size": 1,
+        "subtitle_color": "#7a5f32",
+        "title": "Four principles behind every space we design.",
+        "heading_size": 9,
+        "heading_max_width": 720,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "#2b1e19",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
+    },
+    "section_multicolumn_KjWkBn": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_nRkqe6": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 70,
+            "title": "THE TEAM",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "The people behind your project.",
+            "heading_size_2": 9,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_KHiQLq": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 30,
+            "title": "",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "",
+            "heading_size_2": 7,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "<p>A small studio by design, so every client is known by name and every project gets senior attention.</p>",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_nRkqe6",
+        "text_KHiQLq"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 100,
+        "padding_bottom": 20,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
+    },
+    "section_multicolumn_kMaMjx": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_MTb4mr": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/DSC_9125.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "",
+            "title": "Simran Kotecha",
+            "heading_size": 5,
+            "heading_margin_top": 16,
+            "subtitle": "FOUNDER AND DIRECTOR",
+            "subtitle_size": 1,
+            "subtitle_letter_spacing": 2,
+            "subtitle_margin_top": 16,
+            "subtitle_color": "#7a5f32",
+            "text": "<p>Leads every project personally, from first call to final reveal.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7mPYp4": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/simrandesign-hq-150526-1133.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "",
+            "title": "Diya Mistry",
+            "heading_size": 5,
+            "heading_margin_top": 16,
+            "subtitle": "JUNIOR INTERIOR DESIGNER",
+            "subtitle_size": 1,
+            "subtitle_letter_spacing": 2,
+            "subtitle_margin_top": 16,
+            "subtitle_color": "#7a5f32",
+            "text": "<p>[One line on Diya's focus, for example drawings, sourcing and 3D visualisation.]</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JNNPkD": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/DSC_9145_copy.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "",
+            "title": "Rita Kotecha",
+            "heading_size": 5,
+            "heading_margin_top": 16,
+            "subtitle": "HR AND FINANCE DIRECTOR",
+            "subtitle_size": 1,
+            "subtitle_letter_spacing": 2,
+            "subtitle_margin_top": 16,
+            "subtitle_color": "#7a5f32",
+            "text": "<p>[One line on Rita's role, for example keeping proposals, invoicing and supplier accounts running smoothly.]</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MTb4mr",
+        "image_7mPYp4",
+        "image_JNNPkD"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": true,
+        "mobile_flex_row": false
+      }
+    },
+    "section_multicolumn_86wtUr": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_VaYgr7": {
+          "type": "icon",
+          "settings": {
+            "column_width": 37,
+            "enable_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Our specialist network",
+            "heading_size": 6,
+            "text": "<p>Trusted partners we bring in as each project needs them, all<br/>coordinated by the studio.</p>",
+            "text_size": 3
+          }
+        },
+        "text_8wAj7k": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 21,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>3D visualisation</p>",
+            "text_size": 4,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "#d9c6b8",
+            "text_2": "<p>Fit-out contractors</p>",
+            "text_size_2": 4,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "#d9c6b8",
+            "text_2_letter_spacing": 2,
+            "text_2_margin_top": 15,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_BMJTnD": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 21,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Architecture and building control</p>",
+            "text_size": 4,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "#d9c6b8",
+            "text_2": "<p>Flooring and finishes</p>",
+            "text_size_2": 4,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "#d9c6b8",
+            "text_2_letter_spacing": 2,
+            "text_2_margin_top": 15,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_8HH8y9": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 21,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Bespoke joinery and carpentry<br/></p>",
+            "text_size": 4,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "#d9c6b8",
+            "text_2": "<p>Photography and content</p>",
+            "text_size_2": 4,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "#d9c6b8",
+            "text_2_letter_spacing": 2,
+            "text_2_margin_top": 15,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_VaYgr7",
+        "text_8wAj7k",
+        "text_BMJTnD",
+        "text_8HH8y9"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
+    },
+    "text_blocks_KQHzTp": {
+      "type": "text_blocks",
+      "blocks": {
+        "text_wYNpxm": {
+          "type": "text",
+          "settings": {
+            "show_desktop_columns_one_row": 4,
+            "heading_1": "London Design Week",
+            "subheading_1": "[Year, what you showed]",
+            "heading_2": "Dulux",
+            "subheading_2": "[Nature of collaboration]",
+            "heading_3": "Altro",
+            "subheading_3": "[Nature of collaboration]",
+            "heading_4": "Minotti London",
+            "subheading_4": "[Nature of collaboration]",
+            "heading_5": "",
+            "subheading_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_wYNpxm"
+      ],
+      "name": "Text Blocks",
+      "settings": {
+        "align_text": "text-left",
+        "align_text_blocks": "text-center",
+        "title": "RECOGNITION AND COLLABORATION",
+        "heading_size": 1,
+        "heading_letter_spacing": 2,
+        "title_color": "#6b5a50",
+        "content": "",
+        "content_size": 2,
+        "block_heading_size": 5,
+        "block_subheading_size": 3,
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "blocks_border_top": "",
+        "blocks_border_bottom": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_double_Fmb3KU": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_xhpy4B": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Visit the studio",
+            "subheading_color": "#000000",
+            "text_size": 1,
+            "padding_bottom": 16
+          }
+        },
+        "heading_MXKHHM": {
+          "type": "heading",
+          "settings": {
+            "title": "See and touch the materials before you commit.",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_hxnFX8": {
+          "type": "text",
+          "settings": {
+            "text_color": "#574840",
+            "text": "<p>Meetings at our Leicester studio, or on site anywhere in the UK. International clients are welcome to meet by video.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_AkjBGF": {
+          "type": "text",
+          "settings": {
+            "text_color": "#000000",
+            "text": "<p><strong>18A Park House, Meridian Business Park, Leicester LE19 1WZ</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xhpy4B",
+        "heading_MXKHHM",
+        "text_hxnFX8",
+        "text_AkjBGF"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Screenshot_2026-03-13_at_16.04.40.png",
+        "image_width": "sixty",
+        "subtitle": "",
+        "subtitle_color": "#000000",
+        "sub_title_letter_spacing": 0,
+        "sub_title_size": 8,
+        "title": "",
+        "title_size": 8,
+        "text_alignment": "text-left",
+        "text_placement": "center",
+        "text_bg_color": "",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 120
+      }
+    },
+    "section_hero_t9LiDw": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_WMt8rL": {
+          "type": "heading",
+          "settings": {
+            "title": "Let's talk about your space.",
+            "heading_size": 9
+          }
+        },
+        "text_ExKUKg": {
+          "type": "text",
+          "settings": {
+            "description": "Answer six quick questions and Simran will call you within one working day.",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#574840",
+            "text_style": "font-body"
+          }
+        },
+        "button_ykhxix": {
+          "type": "button",
+          "settings": {
+            "width_full": false,
+            "link_text": "Begin your project",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WMt8rL",
+        "text_ExKUKg",
+        "button_ykhxix"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/floral-wide.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 640,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#6F5353",
+        "show_overlay_text": false,
+        "bg_color": "#FFFFFF",
+        "color": "#2B1E19"
+      }
+    }
+  },
+  "order": [
+    "section_hero_e7n4BJ",
+    "main",
+    "section_double_XCrhmF",
+    "text_blocks_xtnreM",
+    "section_multicolumn_EzhBXn",
+    "section_multicolumn_KjWkBn",
+    "section_multicolumn_kMaMjx",
+    "section_multicolumn_86wtUr",
+    "text_blocks_KQHzTp",
+    "section_double_Fmb3KU",
+    "section_hero_t9LiDw"
+  ]
+}

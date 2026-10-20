@@ -1,0 +1,361 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-0b7b8cc5": {
+      "type": "pf-0b7b8cc5",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_iKhkY3": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_KR6BrB": {
+          "type": "heading",
+          "settings": {
+            "title": "TREATMENT ROOMS",
+            "heading_size": 7
+          }
+        },
+        "text_whmLxJ": {
+          "type": "text",
+          "settings": {
+            "description": "SUTTON COLDFIELD | UK",
+            "text_size": 3,
+            "text_style": "font-heading"
+          }
+        },
+        "text_gLTqrH": {
+          "type": "text",
+          "settings": {
+            "description": "PRIVATE TREATMENT ROOMS  | LASHES | BROWS | FACIALS",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KR6BrB",
+        "text_whmLxJ",
+        "text_gLTqrH"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Treatment_rooms_5_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_GyXcGQ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_q7jByn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_q7jByn"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 18
+      }
+    },
+    "section_custom_content_fmkANJ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_RK9EKR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_9.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_fPMbfR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_10.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RK9EKR",
+        "image_fPMbfR"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_custom_content_TRHjb9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_DriVPJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_5.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_DriVPJ"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_custom_content_CNBH84": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_yWyQMy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_9eApaz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_2.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_yWyQMy",
+        "image_9eApaz"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_custom_content_iUghDd": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_g8gqkP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_g8gqkP"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_custom_content_aMEPV9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_DrqLqz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Treatment_rooms_7.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_DrqLqz"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    }
+  },
+  "order": [
+    "pf-0b7b8cc5",
+    "section_hero_iKhkY3",
+    "section_custom_content_GyXcGQ",
+    "section_custom_content_fmkANJ",
+    "section_custom_content_TRHjb9",
+    "section_custom_content_CNBH84",
+    "section_custom_content_iUghDd",
+    "section_custom_content_aMEPV9"
+  ]
+}

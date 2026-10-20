@@ -1,0 +1,510 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Meeting Room",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "nottingham | united kingdom",
+            "heading_size": 3
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "PRIVATE CAR FIRM",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "button_Bh7DGm": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn",
+        "button_Bh7DGm"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Phase_1_new_floorplan_2.1.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_JKKqM7": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_BGPUpc": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_pdMyPm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The brief for this space was to create a 6-person executive board room to meet suppliers and clients, in keeping with the rest of the office design style.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_7hxQzd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Key Features",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_kcxyaf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>༶ Statement media wall for presentations</p><p>༶ A warm, timeless palette with olive greens, walnut and tan leather</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BGPUpc",
+        "text_pdMyPm",
+        "subheading_7hxQzd",
+        "text_kcxyaf"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Phase_1_new_floorplan_2.1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_content_HDghUg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_Jkf93x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Meeting_Room_1-31_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Jkf93x"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_WyHgAN": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_9pCdic": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Meeting_Room_1-34.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9pCdic"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 25,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_RdNeb7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_GWAkYE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Meeting_Room_1-38.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_GWAkYE"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_9iVFMq": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_XMqjNW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_2.1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_XMqjNW"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_JcnceM": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_p8WXNh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Meeting_Room_1-39.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_p8WXNh"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_TyqBFC": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_TCfQAh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Meeting_Room_1-37.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_TCfQAh"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 18,
+        "padding_bottom": 30
+      }
+    },
+    "section_slideshow_m4dzwi": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_VYwi9R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-103.jpg",
+            "mobile_image": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-103.jpg",
+            "overlay_opacity": 70,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "While you wait...",
+            "heading_size": 7,
+            "description": "We will review your form ASAP, but in the mean time become inspired by our portfolio of past projects",
+            "text_size": 4,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Portfolio",
+            "first_button_link": "shopify://pages/gallery",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_xMwWrU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/edited_6.jpg",
+            "mobile_image": "shopify://shop_images/edited_6.jpg",
+            "overlay_opacity": 70,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "While You Wait...",
+            "heading_size": 7,
+            "description": "We will review your form ASAP, but in the mean time become inspired by our portfolio of past projects",
+            "text_size": 4,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Portfolio",
+            "first_button_link": "shopify://pages/gallery",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_y4nBNH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-112_copy.jpg",
+            "mobile_image": "shopify://shop_images/Phase_1_new_floorplan_Unnamed_Space-112_copy.jpg",
+            "overlay_opacity": 70,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "While You Wait...",
+            "heading_size": 7,
+            "description": "We will review your form ASAP, but in the mean time become inspired by our portfolio of past projects",
+            "text_size": 4,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Portfolio",
+            "first_button_link": "shopify://pages/gallery",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "btn--small",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VYwi9R",
+        "image_xMwWrU",
+        "image_y4nBNH"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_double_JKKqM7",
+    "section_custom_content_HDghUg",
+    "section_custom_content_WyHgAN",
+    "section_custom_content_RdNeb7",
+    "section_custom_content_9iVFMq",
+    "section_custom_content_JcnceM",
+    "section_custom_content_TyqBFC",
+    "section_slideshow_m4dzwi"
+  ]
+}

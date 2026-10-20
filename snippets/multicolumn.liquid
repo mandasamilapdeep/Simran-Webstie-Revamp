@@ -1,0 +1,636 @@
+{% comment %}
+  Renders the content of section-columns, section-multicolumn, section-text-row
+
+  Accepts:
+  - type: {String} product (optional)
+
+  Usage:
+  {% render 'multicolumn', type: 'images' %}
+{% endcomment %}
+
+{%- liquid
+  assign unique = 'SectionColumns--' | append: section.id
+  assign type = type | default: ''
+  assign animation_order = 0
+  assign animation_anchor = unique | prepend: '#'
+  assign heading = section.settings.title
+  assign heading_max_width = section.settings.heading_max_width
+  assign subtitle = section.settings.subtitle
+  assign subtitle_size = section.settings.subtitle_size
+  assign description = section.settings.description
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+
+  assign blocks_size = section.blocks.size
+
+  assign layout = section.settings.layout
+  assign layout_mobile = section.settings.layout_mobile
+  assign grid_columns = section.settings.grid
+
+  assign multicolumn = true
+  if layout
+    assign multicolumn = false
+  endif
+
+  assign enable_slider = false
+  if layout == 'slider'
+    assign enable_slider = true
+  endif
+
+  if multicolumn
+    assign column_count = blocks_size | at_least: 2
+    assign column_count_float = column_count | times: 1.000000
+    assign column_width = 100 | divided_by: column_count_float
+    assign one_third_blocks_only = false
+    assign one_third_block_count = 0
+
+    for block in section.blocks
+      if block.settings.column_width == 33
+        assign one_third_block_count = one_third_block_count | plus: 1
+      endif
+    endfor
+
+    if one_third_block_count == blocks_size
+      assign one_third_blocks_only = true
+    endif
+  else
+    assign columns_desktop = grid_columns | plus: 0
+    assign columns_medium = 3
+    assign columns_small = 2
+
+    if columns_desktop == 2 or columns_desktop == 4
+      assign columns_medium = 2
+    endif
+
+    assign column_width = 100 | divided_by: columns_desktop
+  endif
+
+  assign columns_mobile = layout_mobile | plus: 0
+
+  if heading != blank or description != blank
+    assign has_content = true
+  endif
+
+  assign eager_images_limit = grid_columns | default: 3
+
+  if type == 'images'
+    if grid_columns == 4
+      assign eager_images_limit = grid_columns | times: 2
+    endif
+  endif
+
+  capture layout_class
+    echo 'grid'
+
+    if multicolumn
+      echo ' multicolumn'
+    endif
+
+    if layout == 'slider'
+      echo ' grid--slider'
+    endif
+
+    if layout_mobile == 'slider'
+      echo ' grid--mobile-slider'
+    else
+      echo ' grid--mobile-vertical'
+    endif
+  endcapture
+-%}
+
+{%- style -%}
+  #SectionColumns--{{ section.id }} {
+    {%- unless section.settings.width == 'wrapper' -%}
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    {%- endunless -%}
+
+    {%- unless multicolumn or enable_slider -%}
+      --COLUMNS: {{ columns_desktop }};
+      --COLUMNS-MEDIUM: {{ columns_medium }};
+      --COLUMNS-SMALL: {{ columns_small }};
+    {%- endunless -%}
+
+    --COLUMNS-MOBILE: {{ columns_mobile }};
+
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank or section.settings.width == 'wrapper' -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+    {%- endunless -%}
+  }
+
+  {% if section.settings.width == 'wrapper' %}
+    .section_inner_{{ section.id }} {
+      background-color: {{ bg_color }};
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  {% endif %}
+{%- endstyle -%}
+
+<div
+  id="{{ unique }}"
+  class="section-columns section-padding {% if section.settings.equal_spacing_blocks %}columns_equal_spacing_blocks{% endif %} {% if section.settings.mobile_flex_row %}mobile_flex_row{% endif %}"
+  data-section-id="{{ section.id }}"
+  data-section-type="columns"
+>
+  <div class="{{ section.settings.width }} section_inner_{{ section.id }}">
+    {%- if has_content -%}
+      <div class="grid__heading-holder {{ section.settings.align_heading }}">
+        <div class="heading_box">
+          {%- if subtitle != blank -%}
+            {%- assign font_size_class = section.settings.subtitle_size | prepend: 'heading-size-' -%}
+            {%- assign animation_order = animation_order | plus: 1 -%}
+
+            <h2
+              style="color: {{ section.settings.subtitle_color }};"
+              class="grid__heading {{ font_size_class }} multi_columns_subheading"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+            >
+              {{- subtitle -}}
+            </h2>
+          {%- endif -%}
+          {%- if heading != blank -%}
+            {%- assign font_size_class = section.settings.heading_size | prepend: 'heading-size-' -%}
+            {%- assign animation_order = animation_order | plus: 1 -%}
+
+            <h2
+              style="max-width: {{ heading_max_width }}px;"
+              class="grid__heading {{ font_size_class }}"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+            >
+              {{- heading -}}
+            </h2>
+          {%- endif -%}
+        </div>
+
+        {%- if description -%}
+          {%- assign animation_order = animation_order | plus: 1 -%}
+
+          <div
+            class="grid__description"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="{{ animation_order }}"
+          >
+            {{ description }}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.first_button_text != blank or section.settings.second_button_text != blank -%}
+          <div class="header_btn">
+            {%- if section.settings.first_button_text != blank -%}
+              {%- assign animation_order = animation_order | plus: 1 -%}
+
+              <a
+                href="{{ section.settings.first_button_url }}"
+                class="btn btn--text btn--text-no-underline  btn--primary"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+              >
+                {{ section.settings.first_button_text }}
+                {%- render 'icon-arrow-right' -%}
+              </a>
+            {%- endif -%}
+
+            {%- if section.settings.second_button_text != blank -%}
+              {%- assign animation_order = animation_order | plus: 1 -%}
+
+              <a
+                href="{{ section.settings.second_button_url }}"
+                class="btn btn--text btn--text-no-underline  btn--primary"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+              >
+                {{ section.settings.second_button_text }}
+                {%- render 'icon-arrow-right' -%}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if blocks_size > 0 -%}
+      {%- capture columns_content -%}
+        <div class="{{ layout_class }} {{ section.settings.align_columns }} {{ section.settings.align_text }}"
+          {% if enable_slider %}
+            data-grid-slider
+            {% if request.design_mode %}
+              data-block-scroll
+            {% endif %}
+          {% endif %}
+        >
+          {%- for block in section.blocks -%}
+            {%- liquid
+              assign animation_order = animation_order | plus: 1
+              assign column_width = block.settings.column_width | default: column_width
+              assign title = block.settings.title
+              assign title_color = block.settings.title_color
+              assign title_2 = block.settings.title_2
+              assign title_2_color = block.settings.title_2_color
+              assign text = block.settings.text
+              assign text_style = block.settings.text_style
+              assign text_2 = block.settings.text_2
+              assign text_style_2 = block.settings.text_style_2
+              assign image = block.settings.image
+              assign image_aspect_ratio = block.settings.image_aspect_ratio | default: section.settings.image_aspect_ratio | default: 1
+              assign image_aspect_ratio_mobile = block.settings.mobile_image_aspect_ratio | default: section.settings.mobile_image_aspect_ratio | default: aspect_ratio
+              assign aspect_ratio = 1 | divided_by: image_aspect_ratio
+              assign aspect_ratio_mobile = 1 | divided_by: image_aspect_ratio_mobile
+              assign button_text = block.settings.button_text
+              assign icon_color = block.settings.icon_color
+              assign icon_size = block.settings.icon_size
+
+              if forloop.index > eager_images_limit and layout != 'slider' or forloop.index > 4 and layout == 'slider'
+                assign loading = 'lazy'
+              endif
+
+              if one_third_blocks_only or enable_slider
+                assign column_width = 33.333333
+              endif
+
+              assign column_width_multiplier = column_width | times: 0.01
+
+              assign button_style = block.settings.button_style
+              if button_style == 'btn--text' and block.settings.show_arrow
+                assign button_style = button_style | append: ' btn--text-no-underline'
+              endif
+
+              capture image_shape_class
+                case block.settings.image_shape
+                  when 'circle'
+                    echo ' column__image--circle'
+
+                  when 'rounded'
+                    echo ' column__image--rounded'
+
+                  when 'blob-one'
+                    echo ' column__image--blob-one'
+
+                  when 'blob-two'
+                    echo ' column__image--blob-two'
+
+                  when 'blob-three'
+                    echo ' column__image--blob-three'
+                endcase
+              endcapture
+
+              capture image_sizes
+                echo '(min-width: 990px) calc((100vw - 100px) * ' | append: column_width_multiplier | append: '), (min-width: 750px) calc((100vw - 60px) / 2), calc(100vw - 32px - 50px)'
+              endcapture
+
+              capture block_style
+                echo 'style="'
+
+                if multicolumn
+                  echo '--desktop-width: ' | append: column_width | append: '%;'
+                endif
+
+                if icon_color != blank and icon_color != 'rgba(0,0,0,0)'
+                  echo ' --text: ' | append: icon_color | append: ';'
+                endif
+
+                echo '"'
+              endcapture
+            -%}
+
+            {%- case block.type -%}
+              {%- when 'image' -%}
+                <div class="grid-item"
+                  {{ block_style }}
+                  {% if enable_slider %}
+                    data-grid-item
+                  {% endif %}
+                  {{ block.shopify_attributes }}
+                >
+                  <div class="column__inner {% if block.settings.text_box_bg_color !=blank %} column__inner_our_bg{% endif %}"
+                    data-aos="hero"
+                    data-aos-anchor="{{ animation_anchor }}"
+                    data-aos-order="{{ animation_order }}">
+                    <div class="column__image{{ image_shape_class }}" data-column-image>
+                      {%- liquid
+                        capture column_image
+                          assign class_desktop = ''
+                          assign class_mobile = ''
+
+                          if aspect_ratio != aspect_ratio_mobile
+                            assign class_desktop = 'desktop'
+                            assign class_mobile = 'mobile'
+                          endif
+
+                          if image
+                            render 'image' image: image, sizes: image_sizes, aspect_ratio: aspect_ratio, loading: loading, modifier: class_desktop
+
+                            if aspect_ratio != aspect_ratio_mobile
+                              render 'image' image: image, sizes: image_sizes, aspect_ratio: aspect_ratio_mobile, loading: loading, modifier: class_mobile
+                            endif
+                          else
+                            render 'image' placeholder: 'image', aspect_ratio: aspect_ratio, modifier: class_desktop
+
+                            if aspect_ratio != aspect_ratio_mobile
+                              render 'image' placeholder: 'image', aspect_ratio: aspect_ratio_mobile, modifier: class_mobile
+                            endif
+                          endif
+                        endcapture
+                      -%}
+
+                      {%- if block.settings.button_url != blank and button_text == blank -%}
+                        <a href="{{ block.settings.button_url }}" aria-label="{{ image.alt | default: title | default: text | strip_html | escape }}">
+                          {{ column_image }}
+                        </a>
+                      {%- else -%}
+                        {{ column_image }}
+                      {%- endif -%}
+                    </div>
+
+                    <div style="background-color: {{ block.settings.text_box_bg_color }}" class="column__content {% if block.settings.text_box_bg_color !=blank and block.settings.button_url == blank %} column__content_image_our{% endif %}">
+                      {%- if block.settings.button_url != blank and button_text == blank -%}
+                        <a style="background-color: {{ block.settings.text_box_bg_color }}" class="column__content_image_our" href="{{ block.settings.button_url }}">
+                        {% endif %}   
+                        
+                      {%- if title != blank -%}
+                        {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+                        <h2 style="margin-top: {{ block.settings.heading_margin_top }}px" class="column__heading {{ font_size_class }}">
+                          {{- title -}}
+                        </h2>
+                      {%- endif -%}
+
+                      {%- if block.settings.subtitle != blank -%}
+                        {%- assign font_size_class = block.settings.subtitle_size | prepend: 'heading-size-' -%}
+                        <h3 style="margin-top: {{ block.settings.subtitle_margin_top }}px; color: {{ block.settings.subtitle_color }}; letter-spacing: {{ block.settings.subtitle_letter_spacing }}px" class="column__heading {{ font_size_class }}">
+                          {{- block.settings.subtitle -}}
+                        </h3>
+                      {%- endif -%}
+
+                      {%- if text != blank -%}
+                        {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+                        <div class="column__text rte {{ text_style }} {{ font_size_class }}">
+                          {{- text -}}
+                        </div>
+                        
+                        {%- endif -%}
+                        {%- if block.settings.button_url != blank and button_text == blank -%}
+                        </a>
+                        {% endif %}
+
+    {%- if button_text != blank -%}
+      <div class="column__btn">
+        <a
+          href="{{ block.settings.button_url | default: '#!' }}"
+          class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+          aria-label="{{ button_text }}"
+        >
+          <span>{{ button_text }}</span>
+
+          {%- if block.settings.show_arrow -%}
+            {%- render 'icon-arrow-right' -%}
+          {%- endif -%}
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+</div>
+
+{%- when 'icon' -%}
+{%- capture icon_style -%}
+                  --icon-size: {{ icon_size }}px;
+
+                  {%- if title != blank -%}
+                    --icon-line-height: calc(1.2 * var(--font-{{ block.settings.heading_size }}) * var(--FONT-ADJUST-HEADING));
+                  {%- elsif text != blank-%}
+                    --icon-line-height: calc(1.5 * var(--font-{{ block.settings.text_size }}) * var(--FONT-ADJUST-BODY));
+                  {%- endif -%}
+                {%- endcapture -%}
+
+<div
+  class="grid-item"
+  {{ block_style }}
+  {% if enable_slider %}
+    data-grid-item
+  {% endif %}
+  {{ block.shopify_attributes }}
+>
+  <div
+    class="column__inner"
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  >
+    <div
+      class="column__icon {{ block.settings.icon_alignment | default: section.settings.icon_alignment }}"
+      style="{{ icon_style }}"
+    >
+      {%- if block.settings.enable_icon -%}
+        <div class="icon__animated{% if image != blank %} icon__animated--image{% endif %}">
+          {%- liquid
+            if image
+              assign icon_width = icon_size
+              assign icon_width_retina = icon_width | times: 2
+              assign icon_sizes = icon_width | append: 'px'
+              assign icon_widths = icon_width | append: ', ' | append: icon_width_retina
+
+              render 'image', image: image, width: icon_width_retina, sizes: icon_sizes, widths: icon_widths, loading: loading
+            else
+              render 'animated-icon', filename: block.settings.icon_name
+            endif
+          -%}
+        </div>
+      {% endif %}
+      {%- if title != blank or text != blank -%}
+        <div class="column__content">
+          {%- if title != blank -%}
+            {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+
+            <h2 class="column__heading {{ font_size_class }}">
+              {{ title }}
+            </h2>
+          {%- endif -%}
+
+          {%- if text != blank -%}
+            {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+
+            <div class="column__text rte {{ text_style }} {{ font_size_class }}">
+              {{ text }}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{%- when 'text' -%}
+
+<style>
+  @media(min-width: 749px){
+     .grid-item-{{ block.id }} {
+        {% if block.settings.padding_left_desktop_zero %}
+      padding-left: 0px !important;
+      {% endif %}
+      {% if block.settings.padding_right_desktop_zero %}
+      padding-right: 0px !important;
+      {% endif %}
+      }
+  }
+  .grid-item-{{ block.id }} {
+    {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+    padding-top: 10px !important;
+    {% endif %}
+  }
+
+  .grid-item-{{ block.id }} {
+    {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+    padding-top: 10px !important;
+    {% endif %}
+    {% if block.settings.padding_left_desktop_zero %}
+  padding-left: 0px !important;
+  {% endif %}
+  {% if block.settings.padding_right_desktop_zero %}
+  padding-right: 0px !important;
+  {% endif %}
+  }
+
+  .grid-item-{{ block.id }} .column__inner {
+    background-color: {{ block.settings.column_bg_color }};
+    {% if block.settings.column_bg_color != blank %}
+    padding: 40px 32px;
+    height: 100%;
+    {% endif %}
+  }
+  @media(max-width: 749px){
+    {% if block.settings.column_border_top_mobile_hide %}
+    .grid-item-{{ block.id }} .column__inner{
+      border-top: 0px !important;
+      padding-top: 0px !important;
+    }
+    {% endif %}
+  }
+</style>
+
+<div
+  class="grid-item  grid-item-{{ block.id }}"
+  {{ block_style }}
+  {% if enable_slider %}
+    data-grid-item
+  {% endif %}
+  {{ block.shopify_attributes }}
+>
+  <div
+    {% if block.settings.column_border_top != blank %}
+      style="border-top:1px solid {{ block.settings.column_border_top }}; padding-top: 20px;"
+    {% endif %}
+    class="column__inner"
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  >
+    <div class="column__content">
+      {%- if title != blank -%}
+        {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+
+        <h2
+          style="color:{{ title_color }}; letter-spacing: {{ block.settings.heading_letter_spacing }}px;"
+          class="column__heading column__multi_column__heading_first {{ font_size_class }}"
+        >
+          {{ title }}
+        </h2>
+      {%- endif -%}
+
+      {%- if title_2 != blank -%}
+        {%- assign font_size_class = block.settings.heading_size_2 | prepend: 'heading-size-' -%}
+
+        <h2 style=" color: {{ title_2_color }};" class="column__heading {{ font_size_class }}">
+          {{ title_2 }}
+        </h2>
+      {%- endif -%}
+
+      {%- if text != blank -%}
+        {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+
+        <div
+          style="color:{{ block.settings.text_color }}; {%if block.settings.text_top_border_color != blank %}border-top: 1px solid {{ block.settings.text_top_border_color }}{%endif%}"
+          class="column__text rte {{ text_style }} {{ font_size_class }}"
+        >
+          {{ text }}
+        </div>
+      {%- endif -%}
+
+      {%- if text_2 != blank -%}
+        {%- assign font_size_class = block.settings.text_size_2 | prepend: 'body-size-' -%}
+
+        <div
+          style="margin-top: {{ block.settings.text_2_margin_top }}px; color:{{ block.settings.text_2_color }}; letter-spacing: {{ block.settings.text_2_letter_spacing }}px; {%if block.settings.text_2_top_border_color != blank %}border-top: 1px solid {{ block.settings.text_2_top_border_color }}; {%endif%}"
+          class="column__text column__text_2 rte {{ text_style_2 }} {{ font_size_class }}"
+        >
+          {{ text_2 }}
+        </div>
+      {%- endif -%}
+
+      {%- if button_text != blank -%}
+        <div class="column__btn">
+          <a
+            href="{{ block.settings.button_url | default: '#!' }}"
+            class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+            aria-label="{{ button_text }}"
+          >
+            <span>{{ button_text }}</span>
+
+            {%- if block.settings.show_arrow -%}
+              {%- render 'icon-arrow-right' -%}
+            {%- endif -%}
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{%- when 'menu' -%}
+{%- assign font_size_class = block.settings.text_size | prepend: 'heading-size-' -%}
+{%- assign menu_linklist = block.settings.menu | default: 'main-menu' -%}
+
+<div class="grid-item" {{ block_style }} {{ block.shopify_attributes }}>
+  <div
+    class="column__inner"
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  >
+    <div class="column__links font-heading">
+      {%- for link in linklists[menu_linklist].links -%}
+        <div class="column__links__item {{ font_size_class }}">
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+{%- endcase -%}
+
+
+{%- endfor -%}
+
+
+</div>
+{%- endcapture -%}
+
+      {%- if enable_slider -%}
+        <grid-slider align-arrows>
+          {{ columns_content }}
+        </grid-slider>
+      {%- else -%}
+        {{ columns_content }}
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+</div>

@@ -1,0 +1,515 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-139397cd": {
+      "type": "pf-139397cd",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_zy7UzR": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_THiHHp": {
+          "type": "heading",
+          "settings": {
+            "title": "nautilus designs hq",
+            "heading_size": 7
+          }
+        },
+        "heading_gmjHQm": {
+          "type": "heading",
+          "settings": {
+            "title": "board room, showroom, entrance",
+            "heading_size": 4
+          }
+        },
+        "text_FURkwX": {
+          "type": "text",
+          "settings": {
+            "description": "WOLVERHAMPTON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_THiHHp",
+        "heading_gmjHQm",
+        "text_FURkwX"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-04-21_at_17.30.51.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_divider_xPE6rJ": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "padding_top": 25,
+        "padding_bottom": 25
+      }
+    },
+    "section_double_qjzFJQ": {
+      "type": "section-double",
+      "blocks": {
+        "heading_UAfa4h": {
+          "type": "heading",
+          "settings": {
+            "title": "project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_UajPMc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design were hired to create a new design direction, floor plans, 3d visuals, material palette and sourcing for a boardroom, showroom and entrance. </p><p>The furniture distribution client wanted a cohesive identity across the spaces that is modern and timeless, with simple and effective upgrades. On the left is our custom material board, and scroll below to discover the design of each space. </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_UAfa4h",
+        "text_UajPMc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Nautilus_Designs_Design_Presentation.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_edfpqQ": {
+      "type": "section-columns",
+      "blocks": {
+        "image_QpP6aY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Board_room_3.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_4gb8Ft": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Board_room_5.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_UG8aGe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Board_room_4.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_dPGPDn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Board_room_7.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_QpP6aY",
+        "image_4gb8Ft",
+        "image_UG8aGe",
+        "image_dPGPDn"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "board room",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_TC6fHe": {
+      "type": "section-columns",
+      "blocks": {
+        "image_RRjRmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-02_at_22.58.28.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_94nWTT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-02_at_22.58.33.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XGTqBJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-02_at_22.58.48.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_QCDfEP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-02_at_22.58.38.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RRjRmR",
+        "image_94nWTT",
+        "image_XGTqBJ",
+        "image_QCDfEP"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "office entrance",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_kb4mNf": {
+      "type": "section-columns",
+      "blocks": {
+        "image_VqFtD6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Furniture_Display_1.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xCA39g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-02_at_22.57.29.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_LGhp6J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Furniture_Display_2.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6Nzid7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Working_Desks.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_gfFmTm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Short_Display_Wall.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_kbR9Ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/partition_1.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_aEtXKV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Partition_2.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ziHm7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-02_at_22.57.39.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VqFtD6",
+        "image_xCA39g",
+        "image_LGhp6J",
+        "image_6Nzid7",
+        "image_gfFmTm",
+        "image_kbR9Ad",
+        "image_aEtXKV",
+        "image_ziHm7e"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "furniture showroom",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "pf-139397cd",
+    "section_hero_zy7UzR",
+    "section_divider_xPE6rJ",
+    "section_double_qjzFJQ",
+    "section_columns_edfpqQ",
+    "section_columns_TC6fHe",
+    "section_columns_kb4mNf"
+  ]
+}

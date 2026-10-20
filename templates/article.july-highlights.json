@@ -1,0 +1,865 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_eCcbCt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QAkq4w": {
+          "type": "heading",
+          "settings": {
+            "title": "༶ BLog post ༶",
+            "heading_size": 2
+          }
+        },
+        "heading_kapBND": {
+          "type": "heading",
+          "settings": {
+            "title": "July Highlights",
+            "heading_size": 7
+          }
+        },
+        "text_3eqqPd": {
+          "type": "text",
+          "settings": {
+            "description": "Two Cambridge Projects, Supplier Visits & Studio Progress",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "button_hWYjTV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAkq4w",
+        "heading_kapBND",
+        "text_3eqqPd",
+        "button_hWYjTV"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Notion_Background_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_wVnDzg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CzrqGD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-04_at_17.10.49.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_6EVrhk": {
+          "type": "text",
+          "settings": {
+            "subheading": "༶ Estimated Reading Time: 2-3 minutes ༶",
+            "subheading_size": 1,
+            "title": "July Highlights",
+            "heading_size": 7,
+            "text": "<p>July has been a whirlwind month busy with restaurant opening preparation in Cambridge, finalising design work for our podcast room in London, handing over our barbershop designs and meeting suppliers in our studio in Leicester. </p><p>Read on for the full scoop...</p>",
+            "text_size": 4,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ab8c52",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CzrqGD",
+        "text_6EVrhk"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_7Lb9dX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_yJ7qgd": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>1. Sneak a Peek at maza - our first Cambridge restaurant</h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_VQhBG3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>July marked the site reveal of our <em>“Coming Soon”</em> and <em>“Designed by Simran Design”</em> vinyl graphics at <em><strong>Maza at Eighty-Six</strong></em>, our upcoming Pakistani restaurant concept on Mill Road, Cambridge. We’ve loved watching the vision come to life - from selecting the name, building the brand and designing the interiors concept to completion - now proudly visible on the street.</p><p>We were also on site finalising materials, inspecting tile options, and reviewing finishes - stay tuned for the next stages in this brand-led transformation.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ7qgd",
+        "text_VQhBG3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_EWijPU": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Mi3wpz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-04_at_17.11.15.png",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ewfgcG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-04_at_17.11.25.png",
+            "image_aspect_ratio": 1.3,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zKThqk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-04_at_17.11.41.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_bNYfJ4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-08-04_at_18.13.14.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Mi3wpz",
+        "image_ewfgcG",
+        "image_zKThqk",
+        "image_bNYfJ4"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_rich_text_7XbMG6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_iFjgpq": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>2. Podcast Studio Design for Darbar Arts & heritage trust</h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TbRMpQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our bespoke podcast studio design for <strong>Darbar Arts & Heritage Trust</strong> in London was finalised this month, curating an acoustically optimised, visually brand-adaptable media room. With studio-grade lighting, neutral wall colours, and adaptable branding zones, the space supports video podcasting and content creation for multiple users.</p><p>This podcast room isn’t just a box with sound panels. It’s a <strong>professional-grade, fully branded, acoustically designed</strong> space that:</p><p></p><p></p><p>༶ Records studio-quality audio</p><p>༶ Looks powerful on camera</p><p>༶ Flexes for new users and brands</p><p>༶ Supports Darbar’s mission to elevate Indian Classical Music in the UK</p><p>It proves that with the right strategy, small spaces can deliver big impact.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_WkrR3H": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Explore the Case study",
+            "button_url": "shopify://blogs/blog/podcast-room-design-darbar",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_iFjgpq",
+        "text_TbRMpQ",
+        "buttons_WkrR3H"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_wKV8At": {
+      "type": "section-columns",
+      "blocks": {
+        "image_kjDWje": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.57.52.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_TrE8Gn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.10.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_a8dYEe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View_1.jpg",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_q47zkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.46.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_kjDWje",
+        "image_TrE8Gn",
+        "image_a8dYEe",
+        "image_q47zkw"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "slider",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_mRwGbr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_PFKR8W": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>3. Studio 30 Barbershop, Cambs</h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_PCTRHg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve completed the full design visuals for <strong>Studio 30</strong>, a barbershop in Cambridge known for its modern grooming experience. The brief focused on retaining the existing internal structure while introducing a new rear customer toilet, and a compact yet comfortable client waiting area.</p><p>Alongside the spatial improvements, we also curated new <strong>exterior signage and brand identity</strong>, ensuring Studio 30 presents a professional and cohesive look both inside and out.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_zGB6Ry": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "More 3D Visualisations",
+            "button_url": "shopify://pages/barbershop",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 30
+          }
+        }
+      },
+      "block_order": [
+        "text_PFKR8W",
+        "text_PCTRHg",
+        "buttons_zGB6Ry"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_L8CGpe": {
+      "type": "section-columns",
+      "blocks": {
+        "image_JpAb8x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.34.57.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_LDFjVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.06.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_PUHzL4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.27.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_b3DzpP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-05-02_at_13.35.30.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 3,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_JpAb8x",
+        "image_LDFjVL",
+        "image_PUHzL4",
+        "image_b3DzpP"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_double_tfWaXb": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_3zLEUk": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_bFNUx7": {
+          "type": "heading",
+          "settings": {
+            "title": "4. Supplier Spotlight: Allsfar Studio Visit",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "text_maq399": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We were thrilled to host <strong>Allsfar</strong>, acoustic furniture and partition specialists, at our Leicester studio. Their visit gave us hands-on experience with new samples and products, ideal for integrating sustainability and acoustic control into our commercial projects. </p><p>Their curated sample box will be featuring heavily in upcoming design schemes.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3zLEUk",
+        "heading_bFNUx7",
+        "text_maq399"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Screenshot_2025-07-31_at_17.24.37.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_F7BJ9k": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_h73GB8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_jqXeLh": {
+          "type": "heading",
+          "settings": {
+            "title": "5. Out & About: Site Visits Across the Midlands",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "text_iix9LX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We ended July with site visits to two properties - one residential manor house in the West Midlands and one commercial workspace in central Leicester. </p><p>Whilst we mainly operate as a commercial interior design studio, we reserve residential projects for existing clients or in exceptional circumstanced based on the scope. </p><p>Here is our lovely designer Shreya sketching out floor plans and noting measurements. These site visits laid the groundwork for creative strategies and technical planning for what’s to come.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_h73GB8",
+        "heading_jqXeLh",
+        "text_iix9LX"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Screenshot_2025-08-04_at_17.41.43.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_jhjRFw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_KVd7wd": {
+          "type": "heading",
+          "settings": {
+            "title": "Start your free quote",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_PGcDra": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "in a matter of seconds...",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_xXq8ht": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether it’s a restaurant, boutique office, yoga studio, clinic etc - we help bring your commercial interiors to life, from concept to completion.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "buttons_JbhW8e": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Start your quote",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_KVd7wd",
+        "subheading_PGcDra",
+        "text_xXq8ht",
+        "buttons_JbhW8e"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 60
+      }
+    },
+    "section_divider_eay8qG": {
+      "type": "section-divider",
+      "disabled": true,
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "#fafafa",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_bw6trA": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_9bc8Yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_XcB9T8": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Let’s Stay Connected",
+            "heading_size": 7,
+            "text": "<p>Want more behind-the-scenes insights, design tips, and exclusive previews of our commercial interior projects?</p><p></p><p>We’d love to have you along for the journey.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f2ede7",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true
+          }
+        }
+      },
+      "block_order": [
+        "image_9bc8Yh",
+        "newsletter_XcB9T8"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "image_WTXAjJ": {
+          "type": "image",
+          "settings": {
+            "title": ""
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "image_WTXAjJ",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "bg_color": "",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "section_hero_eCcbCt",
+    "section_custom_content_wVnDzg",
+    "section_rich_text_7Lb9dX",
+    "section_columns_EWijPU",
+    "section_rich_text_7XbMG6",
+    "section_columns_wKV8At",
+    "section_rich_text_mRwGbr",
+    "section_columns_L8CGpe",
+    "section_double_tfWaXb",
+    "section_double_F7BJ9k",
+    "section_rich_text_jhjRFw",
+    "section_divider_eay8qG",
+    "section_newsletter_bw6trA",
+    "main"
+  ]
+}

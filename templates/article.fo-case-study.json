@@ -1,0 +1,1021 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_eCcbCt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QAkq4w": {
+          "type": "heading",
+          "settings": {
+            "title": "༶ BLog post ༶",
+            "heading_size": 2
+          }
+        },
+        "heading_kapBND": {
+          "type": "heading",
+          "settings": {
+            "title": "From Storage Room to Showstopper",
+            "heading_size": 7
+          }
+        },
+        "text_3eqqPd": {
+          "type": "text",
+          "settings": {
+            "description": "A Multifunctional Office Games Room in Leicester",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "button_hWYjTV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAkq4w",
+        "heading_kapBND",
+        "text_3eqqPd",
+        "button_hWYjTV"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Notion_Background_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_wVnDzg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CzrqGD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.36.56.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_6EVrhk": {
+          "type": "text",
+          "settings": {
+            "subheading": "༶ Estimated Reading Time: 6-7 minutes ༶",
+            "subheading_size": 1,
+            "title": "Workplace Games Room",
+            "heading_size": 7,
+            "text": "<p>We were asked to transform an unloved storage room in a Leicester office into a <strong>multifunctional breakout zone</strong> that could shift seamlessly from <strong>day to night use</strong>. </p><p>Here's how we created a <strong>games room, coffee bar, dining space, media lounge, and breakout area</strong> all in one - designed, delivered, and styled by our team from <strong>concept to completion</strong>.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ab8c52",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CzrqGD",
+        "text_6EVrhk"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_En8pQc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_k3ixMf": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 1,
+            "title": "Client Testimonial:",
+            "heading_size": 4,
+            "text": "<p><em>\"We worked with Simran Design to create a chill out room in our office and they did a fantastic job. The space has been transformed into a relaxing and stylish area that the team really enjoys. </em></p><p><em>Simran and the team were professional, creative and easy to work with throughout. Highly recommend them for any office design projects.\"</em></p>",
+            "text_size": 4,
+            "button_text": "Read the Review",
+            "button_url": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#ab8c52",
+            "color": "#ffffff"
+          }
+        },
+        "image_4eMrwx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.23.12-1.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_k3ixMf",
+        "image_4eMrwx"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper",
+        "borders": true,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 10,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_7Lb9dX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_yJ7qgd": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>1. From Concept to Completion</h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "subheading_zdgAVz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "our challenge:",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_VQhBG3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hired in August 2024 to transform this storage room (see the 'before' image below), we delivered our full concept-to-completion interior design services approach:</p><p></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_kC8bAW": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Site visit, measure-up, and CAD floor plans</li><li>3D visualisations </li><li>Mood boards and selecting materials </li><li>Sourcing all furniture, accessories, lighting  </li><li>Budgeting and obtaining trade quotes  </li><li>Project scheduling and management</li><li>Styling, finishing touches and a  photoshoot</li></ul>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        },
+        "subheading_etpcVh": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Dividing the space without walls:",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_Th6Ezf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>The room was compact and filled with pillars - but instead of seeing obstacles, we saw opportunities.</p><p>By using <strong>flooring and finishes to create zones</strong>, we avoided partitions and kept the room open. Each area flows naturally into the next while still feeling distinct.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_CdhJe6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>The result? Four <strong>connected yet unique zones</strong>:</p><ul><li><strong>Coffee Bar</strong></li><li><strong>Media Lounge</strong></li><li><strong>Arcade Corner </strong></li><li><strong>Dining Space</strong></li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ7qgd",
+        "subheading_zdgAVz",
+        "text_VQhBG3",
+        "text_kC8bAW",
+        "subheading_etpcVh",
+        "text_Th6Ezf",
+        "text_CdhJe6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 20
+      }
+    },
+    "section_before_after_RGYd6T": {
+      "type": "section-before-after",
+      "name": "Before and after",
+      "settings": {
+        "heading": "Before & After",
+        "description": "",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_1": "shopify://shop_images/Screenshot_2025-08-28_at_17.22.31.png",
+        "image_2": "shopify://shop_images/Screenshot_2025-08-28_at_17.23.15.png",
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "section_rich_text_6fbNzN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_xT3htA": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>2. Material & Colour</h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TTRkwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The chosen palette of <strong>deep greens, soft greys, and brass accents</strong> created a <strong>sophisticated speakeasy atmosphere</strong>. LVT flooring with brass inlays not only elevated the design but also became a clever way to define each functional zone without adding walls.</p><p>After composing physical samples in our studio, we created this digital material board in <strong>Mattoboard,</strong> ready to annotate and present to the client.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_xT3htA",
+        "text_TTRkwU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_columns_6WHDFa": {
+      "type": "section-columns",
+      "blocks": {
+        "image_BcMFHw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Furniture_Online_Full_Design_Presentation_f981f7cb-6718-4277-a2dd-e7263b959b37.jpg",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_JnEgy9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Furniture_Online_Full_Design_Presentation_1.jpg",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_BcMFHw",
+        "image_JnEgy9"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_mRwGbr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_PFKR8W": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>3. The Media Lounge: Comfort Meets Class</h4>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_PCTRHg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the biggest challenges of the space was working around <strong>two radiators</strong> positioned on the feature wall. Rather than letting them dictate the design, we turned them into an opportunity. Using the existing pillars on either side, we built a <strong>bespoke TV wall frame</strong>, complete with <strong>slimline black metal vents</strong> to ensure airflow. </p><p>The rest of the wall was designed to be both functional and full of character. <strong>Open shelves</strong> gave room for styling and personality, while <strong>painted fluted MDF panels</strong> provided texture, catching the glow of the <strong>soft backlighting</strong> for added warmth and depth.</p><p>To soften the strong architectural lines, we introduced <strong>planters with trailing greenery</strong>, adding organic shapes and textures that also disguised the base of the windows. <strong>Walnut Egger panelling</strong> and <strong>integrated shelf lighting</strong> tied the look together, layering rich tones with a luxe finish.</p><p>Every last detail, from the <strong>lighting to the accessories and styling</strong>, was carefully curated by us.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_wDzT4C": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_PFKR8W",
+        "text_PCTRHg",
+        "text_wDzT4C"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "section_before_after_pJrQVJ": {
+      "type": "section-before-after",
+      "name": "Before and after",
+      "settings": {
+        "heading": "Before and After",
+        "description": "",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_1": "shopify://shop_images/Untitled_design_4_3f958b8d-1536-4dd8-8c20-0c0a8fcb43fa.jpg",
+        "image_2": "shopify://shop_images/Screenshot_2025-03-10_at_15.20.03_2c912a0a-4be4-4953-b73e-91263e060ec4.webp",
+        "aspect_ratio": 1.1,
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 25,
+        "padding_bottom": 40
+      }
+    },
+    "section_rich_text_7XbMG6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_iFjgpq": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>4. Coffee Bar with a Twist</h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "text_TbRMpQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Originally, this area was intended to be a wine bar - complete with shelving, racks, and storage. But due to HR restrictions, alcohol wasn’t an option. Rather than scrapping the concept, we <strong>reimagined the design entirely</strong> and transformed it into a <strong>bespoke coffee bar and casual collaboration hub</strong>.</p><p>Key features include:</p><ul><li><strong>A bespoke island with a concealed drinks fridge inside. </strong></li><li><strong>Clad in Italian brass sheets and a chunky statement worktop</strong>.</li><li><strong>Integrated power sockets </strong>for casual meetings and laptop work.</li><li><strong>Bronze-tinted mirrored backsplash</strong>. </li><li><strong>Remote controlled hidden projector screen</strong>, discreetly tucked just in front of the shelving.</li><li><strong>Open shelving </strong>styled with brass gallery rails and hand-picked accessories.</li></ul><p>This bespoke build turned what could have been a design setback into one of the project’s standout features - a multifunctional hub that blends workplace utility with hospitality finesse.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_iFjgpq",
+        "text_TbRMpQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_before_after_3HAUt9": {
+      "type": "section-before-after",
+      "name": "Before and after",
+      "settings": {
+        "heading": "Before & After",
+        "description": "",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_1": "shopify://shop_images/Screenshot_2025-08-28_at_18.01.42.png",
+        "image_2": "shopify://shop_images/Screenshot_2025-02-28_at_12.23.12-1.webp",
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "section_columns_dQmimR": {
+      "type": "section-columns",
+      "blocks": {
+        "image_HcdrFB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.28.07.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MqeM7V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.38.42_a6524a33-7b18-42ad-96e8-0b1ced98e20b.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HQtHc7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.29.12.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_VVaC43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.27.56.png",
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_HcdrFB",
+        "image_MqeM7V",
+        "image_HQtHc7",
+        "image_VVaC43"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_rich_text_wDJrER": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_y6VpDj": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>5. The Arcade Corner: Small but Mighty</h4><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 10
+          }
+        },
+        "text_NdfELf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No breakout zone is complete without some fun. For this corner, space was limited - so we went <strong>bespoke</strong>:</p><ul><li>A <strong>custom arcade coffee table</strong></li><li>Paired <strong>Maze chairs</strong> for casual play</li><li>A <strong>custom darts mat</strong> and illuminated arrow sign</li><li>Playful details like a knots-and-crosses board and <strong>Star Trek blueprints</strong> for personality</li></ul><p>It’s a compact but unforgettable corner that captures the spirit of play and team bonding.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_y6VpDj",
+        "text_NdfELf"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_h7gMdg": {
+      "type": "section-columns",
+      "blocks": {
+        "image_fDGY4w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.36.56.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_PWRmDr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.36.47.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ym6JyY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.36.29.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_69iF4p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.37.14.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ECCmn8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.40.06_cb397200-7016-468f-b7e3-2b433d841a7e.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_U3wDMm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-28_at_12.29.39.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_fDGY4w",
+        "image_PWRmDr",
+        "image_ym6JyY",
+        "image_69iF4p",
+        "image_ECCmn8",
+        "image_U3wDMm"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "layout_mobile": "2"
+      }
+    },
+    "section_before_after_rckXJX": {
+      "type": "section-before-after",
+      "name": "Before and after",
+      "settings": {
+        "heading": "Before & After",
+        "description": "",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_1": "shopify://shop_images/Screenshot_2025-08-28_at_18.09.25.png",
+        "image_2": "shopify://shop_images/Screenshot_2025-08-28_at_18.07.44.png",
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "section_double_pbU6jP": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_rdYdDL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_Uehe8D": {
+          "type": "heading",
+          "settings": {
+            "title": "Final Photos & More Projects",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_9n8jEb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can explore the full gallery of final images from this project <a href=\"https://www.simrandesign.co.uk/pages/copy-of-workspace-lounge\"><strong>here on our website</strong></a>.</p><p>At Simran Design Ltd, we specialise in commercial interior design across Leicester and the UK - from restaurants and offices to salons and cafés. If your workplace needs a transformation that blends creativity, functionality, and style, we’d love to hear from you.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_BXbiHK": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Start your quote",
+            "button_url": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rdYdDL",
+        "heading_Uehe8D",
+        "text_9n8jEb",
+        "buttons_BXbiHK"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-02-28_at_12.40.13.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": true,
+        "bg_color": "#f2ede7",
+        "color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "image_WTXAjJ": {
+          "type": "image",
+          "settings": {
+            "title": ""
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "image_WTXAjJ",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "bg_color": "",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_bw6trA": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_XcB9T8": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Let’s Stay Connected",
+            "heading_size": 7,
+            "text": "<p>Want more behind-the-scenes insights, design tips, and exclusive previews of our commercial interior projects?</p><p></p><p>We’d love to have you along for the journey.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f2ede7",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true
+          }
+        },
+        "image_9bc8Yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Join Our Newsletter",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_XcB9T8",
+        "image_9bc8Yh"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_eCcbCt",
+    "section_custom_content_wVnDzg",
+    "section_custom_content_En8pQc",
+    "section_rich_text_7Lb9dX",
+    "section_before_after_RGYd6T",
+    "section_rich_text_6fbNzN",
+    "section_columns_6WHDFa",
+    "section_rich_text_mRwGbr",
+    "section_before_after_pJrQVJ",
+    "section_rich_text_7XbMG6",
+    "section_before_after_3HAUt9",
+    "section_columns_dQmimR",
+    "section_rich_text_wDJrER",
+    "section_columns_h7gMdg",
+    "section_before_after_rckXJX",
+    "section_double_pbU6jP",
+    "main",
+    "section_newsletter_bw6trA"
+  ]
+}

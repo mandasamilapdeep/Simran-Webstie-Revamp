@@ -1,0 +1,1876 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_jnmnYG": {
+      "type": "section-hero",
+      "blocks": {
+        "text_jggPYr": {
+          "type": "text",
+          "settings": {
+            "description": "<p>FEATURED CASE STUDY · WORKSPACE · DUBAI</p>",
+            "text_size": 2,
+            "description_letter_spacing": 2,
+            "description_text_color": "#7a5f32",
+            "text_style": "font-heading"
+          }
+        },
+        "heading_aRX38T": {
+          "type": "heading",
+          "settings": {
+            "title": "An office the whole team calls a second home.",
+            "heading_size": 8
+          }
+        },
+        "text_yFmwex": {
+          "type": "text",
+          "settings": {
+            "description": "<p>Designed remotely from Leicester and delivered in Jumeirah Lake Towers, Maptalent's workspace shows how our process travels without losing a single detail.</p>",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#574840",
+            "text_style": "font-body"
+          }
+        },
+        "heading_text_group_bzxNWm": {
+          "type": "heading_text_group",
+          "settings": {
+            "border_color": "#e3d3c9",
+            "text_color": "#6b5a50",
+            "first_heading": "[ RESULT ]",
+            "first_heading_size": 7,
+            "text_1": "Add a measurable outcome",
+            "text_size_1": 2,
+            "second_heading": "[ WEEKS ]",
+            "second_heading_size": 7,
+            "text_2": "Design to handover",
+            "text_size_2": 2
+          }
+        },
+        "button_wmBq8F": {
+          "type": "button",
+          "settings": {
+            "width_full": false,
+            "link_text": "Read the case study",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "button_fJiRzE": {
+          "type": "button",
+          "settings": {
+            "width_full": false,
+            "link_text": "Read the case study",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_jggPYr",
+        "heading_aRX38T",
+        "text_yFmwex",
+        "heading_text_group_bzxNWm",
+        "button_wmBq8F",
+        "button_fJiRzE"
+      ],
+      "disabled": true,
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-full",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Infinitum_Entertainment_Carnaby_Street.webp",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 550,
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 30,
+        "overlay_color": "#2b1e19",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_hero_VXeefJ": {
+      "type": "section-hero",
+      "blocks": {
+        "text_VgtMbF": {
+          "type": "text",
+          "settings": {
+            "description": "<p>COMMERCIAL INTERIOR DESIGN · UK, EUROPE AND THE UAE</p>",
+            "text_size": 2,
+            "description_letter_spacing": 2,
+            "description_text_color": "#e3d3c9",
+            "text_style": "font-heading"
+          }
+        },
+        "heading_qXHRTB": {
+          "type": "heading",
+          "settings": {
+            "title": "Spaces that work as hard as your business.",
+            "heading_size": 15
+          }
+        },
+        "text_aQkzEW": {
+          "type": "text",
+          "settings": {
+            "description": "<p>Interiors for salons, clinics, workspaces and hospitality venues, designed to attract the right clients and make every square metre count.</p>",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#f2ede7",
+            "text_style": "font-body"
+          }
+        },
+        "button_aM6TbW": {
+          "type": "button",
+          "settings": {
+            "width_full": false,
+            "link_text": "Explore our work",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "button_PcPtb7": {
+          "type": "button",
+          "settings": {
+            "width_full": false,
+            "link_text": "View packages",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_VgtMbF",
+        "heading_qXHRTB",
+        "text_aQkzEW",
+        "button_aM6TbW",
+        "button_PcPtb7"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-full",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Infinitum_Entertainment_Carnaby_Street_0c254c30-376a-4dbd-8921-e5581d01b8cf.webp",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 1000,
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 30,
+        "overlay_color": "#2b1e19",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_xcqH76": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_4b89FU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Trusted by",
+            "text_size": 1,
+            "subheading_letter_spacing": 2,
+            "padding_bottom": 0,
+            "subheading_color": "#7a5f32"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4b89FU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 18
+      }
+    },
+    "section_announcement_NTQfgU": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_pmnQbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_nB7LCK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Infinitum Entertainment</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_ry6mEy": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">Carnaby Street, London</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_3RheVT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_nF6at6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Scan Computers</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_frFyxN": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nBolton</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_L7HjGh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_GRLgyN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Maptalent Recruitment</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_9wmVFn": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nDubai</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_jJMQck": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_MTEHwG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RHC Clinics</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_kabrGn": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nFrankfurt</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_nEMQjg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_RhJwHQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Darbar Arts and Heritage Trust</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_jzgJBi": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nLondon</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_nwjNRU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_iKGQTK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ultra Hair Clinic</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_wA6g8y": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nBirmingham</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_6QVMkQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_PrYzRG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dallas Burston Polo Club</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_nRtxDV": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nLeamington</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_LTaQT4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_7TcTmx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Highcross Law</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_rr39Ed": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nLeicester</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_6p8FTn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_eEkVaq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Maza at Eighty Six</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_YD9DWY": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nCambridge</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_MQ8JjW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/square-svgrepo-com_1.svg",
+            "image_width": 10
+          }
+        },
+        "text_PH9F4h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nautilus Designs</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "code_rGq7JM": {
+          "type": "code",
+          "settings": {
+            "code": "<span style=\"font-size:13px; color: #6b5a50;\">\nWolverhampton</span>",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_pmnQbX",
+        "text_nB7LCK",
+        "code_ry6mEy",
+        "image_3RheVT",
+        "text_nF6at6",
+        "code_frFyxN",
+        "image_L7HjGh",
+        "text_GRLgyN",
+        "code_9wmVFn",
+        "image_jJMQck",
+        "text_MTEHwG",
+        "code_kabrGn",
+        "image_nEMQjg",
+        "text_RhJwHQ",
+        "code_jzgJBi",
+        "image_nwjNRU",
+        "text_iKGQTK",
+        "code_wA6g8y",
+        "image_6QVMkQ",
+        "text_PrYzRG",
+        "code_nRtxDV",
+        "image_LTaQT4",
+        "text_7TcTmx",
+        "code_rr39Ed",
+        "image_6p8FTn",
+        "text_eEkVaq",
+        "code_YD9DWY",
+        "image_MQ8JjW",
+        "text_PH9F4h",
+        "code_rGq7JM"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 15,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "text_size": 5,
+        "bg_color": "#f2ede7",
+        "color": "#2b1e19",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_divider_aYEUXF": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_multicolumn_rN3W6G": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_jAEmk8": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 44,
+            "title": "AS SEEN AT AND IN COLLABORATION WITH",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#6b5a50",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_Am6QE9": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 20,
+            "title": "",
+            "heading_size": 2,
+            "heading_letter_spacing": 2,
+            "title_color": "#6b5a50",
+            "title_2": "London Design Week",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_X8jJna": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 11,
+            "title": "",
+            "heading_size": 2,
+            "heading_letter_spacing": 2,
+            "title_color": "#6b5a50",
+            "title_2": "Dulux",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_FT9qxP": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 11,
+            "title": "",
+            "heading_size": 2,
+            "heading_letter_spacing": 2,
+            "title_color": "#6b5a50",
+            "title_2": "Altro",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_EpbQ3w": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 14,
+            "title": "",
+            "heading_size": 2,
+            "heading_letter_spacing": 2,
+            "title_color": "#6b5a50",
+            "title_2": "Minotti London",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_jAEmk8",
+        "text_Am6QE9",
+        "text_X8jJna",
+        "text_FT9qxP",
+        "text_EpbQ3w"
+      ],
+      "disabled": true,
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": true
+      }
+    },
+    "section_divider_yz3ykR": {
+      "type": "section-divider",
+      "disabled": true,
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "#e3d3c9",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_multicolumn_nK6RLz": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_MF3bWD": {
+          "type": "icon",
+          "settings": {
+            "column_width": 66,
+            "enable_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "We design commercial interiors that attract the right clients, elevate your brand and make every square metre count.",
+            "heading_size": 8,
+            "text": "",
+            "text_size": 3
+          }
+        },
+        "text_xCnb3y": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 34,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>From a Leicester studio, we design for ambitious business owners across the UK, Europe and the Middle East, from Carnaby Street offices to clinics in Frankfurt and workspaces in Dubai.<br/><br/>Every project is led personally by our founder, with the planning, compliance and trade coordination handled for you.</p>",
+            "text_size": 4,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "<h5><em>Simran Kotecha</em></h5><p>FOUNDER AND DIRECTOR</p>",
+            "text_size_2": 2,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "#e3d3c9",
+            "text_2_letter_spacing": 2,
+            "text_2_margin_top": 15,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_MF3bWD",
+        "text_xCnb3y"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 20,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
+    },
+    "section_multicolumn_cr4Ump": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_MeBwY8": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/732aad_f4b2dd5b7c95485c983f54914d561fa5_mv2_39e04f5f-4e3f-484c-85ef-d057267723a9.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "#ffffff",
+            "title": "<strong>Workspaces</strong>",
+            "heading_size": 5,
+            "heading_margin_top": 0,
+            "subtitle": "",
+            "subtitle_size": 4,
+            "subtitle_letter_spacing": 0,
+            "subtitle_margin_top": 0,
+            "subtitle_color": "",
+            "text": "<p>OFFICE · HAS · SHOWROOMS</p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_4WAEza": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/archsynth_image_2.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "#ffffff",
+            "title": "<strong>Hospitality</strong>",
+            "heading_size": 5,
+            "heading_margin_top": 0,
+            "subtitle": "",
+            "subtitle_size": 4,
+            "subtitle_letter_spacing": 0,
+            "subtitle_margin_top": 0,
+            "subtitle_color": "",
+            "text": "<p>RESTAURANTS · CAFÉS · VENUES</p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zdt378": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/Screenshot_2025-08-31_at_14.10.14.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "#ffffff",
+            "title": "<strong>Salons and Barbers</strong>",
+            "heading_size": 5,
+            "heading_margin_top": 0,
+            "subtitle": "",
+            "subtitle_size": 4,
+            "subtitle_letter_spacing": 0,
+            "subtitle_margin_top": 0,
+            "subtitle_color": "",
+            "text": "<p>HAIR · BEAUTY · GROOMING</p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MrFjMW": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/29_b1538231-935b-43d4-8a23-aa78b1f15cbd.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "#ffffff",
+            "title": "<strong>Clinics and Aesthetics</strong>",
+            "heading_size": 5,
+            "heading_margin_top": 0,
+            "subtitle": "",
+            "subtitle_size": 4,
+            "subtitle_letter_spacing": 0,
+            "subtitle_margin_top": 0,
+            "subtitle_color": "",
+            "text": "<p>MEDICAL · HAIR CLINICS · SKIN</p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_MhnGn4": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/screenshot-2025-08-30-at-202416-1756581930.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "#ffffff",
+            "title": "<strong>Wellness and Fitness</strong>",
+            "heading_size": 5,
+            "heading_margin_top": 0,
+            "subtitle": "",
+            "subtitle_size": 4,
+            "subtitle_letter_spacing": 0,
+            "subtitle_margin_top": 0,
+            "subtitle_color": "",
+            "text": "<p>GYMS · STUDIOS · SPAS</p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_9XGWNh": {
+          "type": "image",
+          "settings": {
+            "column_width": 33,
+            "image": "shopify://shop_images/13.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "text_box_bg_color": "#ffffff",
+            "title": "<strong>Nurseries and Education</strong>",
+            "heading_size": 5,
+            "heading_margin_top": 0,
+            "subtitle": "",
+            "subtitle_size": 4,
+            "subtitle_letter_spacing": 0,
+            "subtitle_margin_top": 0,
+            "subtitle_color": "",
+            "text": "<p>EARLY YEARS · ARTS · LEARNING SPACES</p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MeBwY8",
+        "image_4WAEza",
+        "image_zdt378",
+        "image_MrFjMW",
+        "image_MhnGn4",
+        "image_9XGWNh"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "WHO WE DESIGN FOR",
+        "subtitle_size": 1,
+        "subtitle_color": "#7a5f32",
+        "title": "Sectors we design for.",
+        "heading_size": 9,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "All case studies",
+        "first_button_url": "shopify://pages/case-studies",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": true,
+        "mobile_flex_row": false
+      }
+    },
+    "section_hero_Fm7ti3": {
+      "type": "section-hero",
+      "blocks": {
+        "text_gzPgGr": {
+          "type": "text",
+          "settings": {
+            "description": "<p>FEATURED CASE STUDY · WORKSPACE · DUBAI</p>",
+            "text_size": 1,
+            "description_letter_spacing": 2,
+            "description_text_color": "#7a5f32",
+            "text_style": "font-heading"
+          }
+        },
+        "heading_KXecyW": {
+          "type": "heading",
+          "settings": {
+            "title": "An office the whole team calls a second home.",
+            "heading_size": 8
+          }
+        },
+        "text_hAa7MB": {
+          "type": "text",
+          "settings": {
+            "description": "<p>A Dubai workspace for Maptalent Recruitment in Jumeirah Lake Towers, designed by our Leicester studio around how the team works, meets and welcomes clients.</p>",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#574840",
+            "text_style": "font-body"
+          }
+        },
+        "divider_YNx9Fp": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 10
+          }
+        },
+        "text_YPxbp8": {
+          "type": "text",
+          "settings": {
+            "description": "<p><em>“Our office in JLT, Dubai is stunning because of her and all our employees are just happy to call it ‘second home’.”</em></p>",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#000000",
+            "text_style": "font-body"
+          }
+        },
+        "text_itKtbT": {
+          "type": "text",
+          "settings": {
+            "description": "<p>A. MADAERO · MAPTALENT RECRUITMENT</p>",
+            "text_size": 1,
+            "description_letter_spacing": 2,
+            "description_text_color": "#7a5f32",
+            "text_style": "font-heading"
+          }
+        },
+        "heading_text_group_TfzTAn": {
+          "type": "heading_text_group",
+          "disabled": true,
+          "settings": {
+            "border_color": "#e3d3c9",
+            "text_color": "#6b5a50",
+            "first_heading": "[ RESULT ]",
+            "first_heading_size": 7,
+            "text_1": "Add a measurable outcome",
+            "text_size_1": 2,
+            "second_heading": "[ WEEKS ]",
+            "second_heading_size": 7,
+            "text_2": "Design to handover",
+            "text_size_2": 2
+          }
+        },
+        "divider_qjgkYG": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 10
+          }
+        },
+        "button_cDaFHB": {
+          "type": "button",
+          "settings": {
+            "width_full": false,
+            "link_text": "Read the case study",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "text_gzPgGr",
+        "heading_KXecyW",
+        "text_hAa7MB",
+        "divider_YNx9Fp",
+        "text_YPxbp8",
+        "text_itKtbT",
+        "heading_text_group_TfzTAn",
+        "divider_qjgkYG",
+        "button_cDaFHB"
+      ],
+      "custom_css": [
+        "@media (min-width: 749px) {.hero__content {padding: 50px; }}",
+        ".hero__content__wrapper {padding-top: 0;}"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/IMG-20220731-WA0014_00b2c3b0-2445-4f02-afc6-d0b606e866ea.webp",
+        "link": "",
+        "mobile_height": "seven-fifty-height-hero--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 550,
+        "flex_align_desktop": "align--middle-right-desktop",
+        "flex_align_mobile": "align--bottom-left-mobile",
+        "overlay_opacity": 30,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "#ffffff",
+        "color": "#2b1e19"
+      }
+    },
+    "section_multicolumn_GfAQry": {
+      "type": "section-multicolumn",
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "DESIGN PACKAGES",
+        "subtitle_size": 1,
+        "subtitle_color": "",
+        "title": "Choose how we work together.",
+        "heading_size": 9,
+        "heading_max_width": 720,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-stretch",
+        "width": "wrapper--full-padded",
+        "bg_color": "#f2ede7",
+        "color": "#2b1e19",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "Compare all packages",
+        "second_button_url": "#",
+        "padding_top": 100,
+        "padding_bottom": 8,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": true,
+        "mobile_flex_row": false
+      }
+    },
+    "section_double_wwLGbQ": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_7Q7MNi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "START HERE · BEFORE YOU COMMIT",
+            "subheading_color": "#7a5f32",
+            "text_size": 1,
+            "sub_title_letter_spacing": 2,
+            "padding_bottom": 6
+          }
+        },
+        "heading_jFRFpi": {
+          "type": "heading",
+          "settings": {
+            "title": "The Clarity Review.",
+            "text_size": 8,
+            "letter_spacing": 0,
+            "padding_bottom": 16
+          }
+        },
+        "text_tPXwzt": {
+          "type": "text",
+          "settings": {
+            "icon_width": 16,
+            "text_color": "#574840",
+            "text": "<p>Know what your space needs, what it will cost and how long it will take, before you commit to design or build.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_NPn4Lg": {
+          "type": "text",
+          "settings": {
+            "icon_image": "shopify://shop_images/tick.png",
+            "icon_width": 16,
+            "text_color": "#2b1e19",
+            "text": "<p><strong>Site visit or video walkthrough</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 10
+          }
+        },
+        "text_Ayp448": {
+          "type": "text",
+          "settings": {
+            "icon_image": "shopify://shop_images/tick.png",
+            "icon_width": 16,
+            "text_color": "#2b1e19",
+            "text": "<p><strong>Three budget scenarios with fit-out cost guidance</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 10
+          }
+        },
+        "text_GKFaCK": {
+          "type": "text",
+          "settings": {
+            "icon_image": "shopify://shop_images/tick.png",
+            "icon_width": 16,
+            "text_color": "#2b1e19",
+            "text": "<p><strong>Fee credited in full if you go ahead within 30 days</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 10
+          }
+        },
+        "buttons_H8JJ7Y": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Book your review",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7Q7MNi",
+        "heading_jFRFpi",
+        "text_tPXwzt",
+        "text_NPn4Lg",
+        "text_Ayp448",
+        "text_GKFaCK",
+        "buttons_H8JJ7Y"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Screenshot_2026-03-11_at_10.21.02.png",
+        "image_width": "sixty",
+        "subtitle": "",
+        "subtitle_color": "#000000",
+        "sub_title_size": 8,
+        "title": "",
+        "title_size": 8,
+        "text_alignment": "text-left",
+        "text_placement": "center",
+        "text_bg_color": "#ffffff",
+        "reverse_blocks": false,
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_multicolumn_F4AzFT": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_n78gdD": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "#ffffff",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "01",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Concept",
+            "heading_size_2": 6,
+            "title_2_color": "",
+            "text": "<p>A clear creative direction and layout to take forward with confidence.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "<p>From £495</p>",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 50,
+            "button_text": "LEARN MORE",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "text_wcdM8W": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "#ffffff",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "02",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Sourcing and Specification",
+            "heading_size_2": 6,
+            "title_2_color": "",
+            "text": "<p>Every finish, fitting and furniture piece selected, specified and priced.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "<p>From £895</p>",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 50,
+            "button_text": "LEARN MORE",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "text_dmnr3z": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "#ffffff",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "03",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Full Design",
+            "heading_size_2": 6,
+            "title_2_color": "",
+            "text": "<p>Drawings, 3D visuals and joinery details ready for your contractor.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "<p>From £1,499</p>",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 50,
+            "button_text": "LEARN MORE",
+            "button_url": "#",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "text_ddPXVT": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "#2b1e19",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "04 · BY APPLICATION",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#cbb68c",
+            "title_2": "Signature",
+            "heading_size_2": 6,
+            "title_2_color": "#ffffff",
+            "text": "<p>Design and delivery, fully managed from first sketch to opening day.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#ffffff",
+            "text_top_border_color": "",
+            "text_2": "<p>Tailored to your project</p>",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "#ffffff",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 50,
+            "button_text": "APPLY",
+            "button_url": "#",
+            "button_type": "btn--white hero__btn",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_n78gdD",
+        "text_wcdM8W",
+        "text_dmnr3z",
+        "text_ddPXVT"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 1,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 9,
+        "heading_max_width": 720,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-stretch",
+        "width": "wrapper--full-padded",
+        "bg_color": "#f2ede7",
+        "color": "#2b1e19",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 8,
+        "padding_bottom": 100,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": true,
+        "mobile_flex_row": false
+      }
+    },
+    "section_multicolumn_yFM8rQ": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_kVWq8G": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "I.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Discover",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>A consultation to understand your brand, your clients and how the space must perform commercially.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_NgxC3r": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "II.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Design",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Concept, layout and 3D visualisation, refined with you until every detail is right.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_MpHjC4": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "III.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Specify",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Drawings, finishes and furniture specified, priced and approved in your live client portal.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_YapCT9": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "title": "IV.",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#7a5f32",
+            "title_2": "Deliver",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Trades coordinated, compliance handled and the finished space photographed for your launch.</p>",
+            "text_size": 3,
+            "text_first_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_kVWq8G",
+        "text_NgxC3r",
+        "text_MpHjC4",
+        "text_YapCT9"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "HOW WE WORK",
+        "subtitle_size": 1,
+        "subtitle_color": "#7A5F32",
+        "title": "A considered process, from first call to opening day.",
+        "heading_size": 9,
+        "heading_max_width": 720,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
+    },
+    "section_double_WyxnBd": {
+      "type": "section-double",
+      "blocks": {
+        "divider_yy9RVq": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "subheading_4aUjiM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Client words",
+            "subheading_color": "#7a5f32",
+            "text_size": 2,
+            "sub_title_letter_spacing": 0,
+            "padding_bottom": 16
+          }
+        },
+        "heading_q9WAmU": {
+          "type": "heading",
+          "settings": {
+            "title": "<em>“The space now embodies a luxurious, refined atmosphere that perfectly aligns with the premium service we strive to deliver.”</em>",
+            "text_size": 7,
+            "letter_spacing": 0,
+            "padding_bottom": 16
+          }
+        },
+        "text_LRgdwx": {
+          "type": "text",
+          "settings": {
+            "icon_width": 40,
+            "text_color": "#000000",
+            "text": "<p>[Full name], [Role]</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        },
+        "text_87kByJ": {
+          "type": "text",
+          "settings": {
+            "icon_width": 40,
+            "text_color": "#6b5a50",
+            "text": "<p>Ultra Hair Clinic, Birmingham</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_pHyt4G": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Read more client stories",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "divider_yy9RVq",
+        "subheading_4aUjiM",
+        "heading_q9WAmU",
+        "text_LRgdwx",
+        "text_87kByJ",
+        "buttons_pHyt4G"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "image_1": "shopify://shop_images/Screenshot_2026-04-16_at_16.48.35.png",
+        "image_width": "thirty-five-percent",
+        "subtitle": "",
+        "subtitle_color": "#000000",
+        "sub_title_size": 8,
+        "title": "",
+        "title_size": 8,
+        "text_alignment": "text-left",
+        "text_placement": "center",
+        "text_bg_color": "",
+        "reverse_blocks": false,
+        "bg_color": "#f2ede7",
+        "color": "#2b1e19",
+        "padding_top": 140,
+        "padding_bottom": 140
+      }
+    },
+    "section_hero_RjPbxC": {
+      "type": "section-hero",
+      "blocks": {
+        "text_LMT37L": {
+          "type": "text",
+          "settings": {
+            "description": "<p>LIMITED COMMISSIONS EACH QUARTER</p>",
+            "text_size": 2,
+            "description_letter_spacing": 2,
+            "description_text_color": "#7a5f32",
+            "text_style": "font-heading"
+          }
+        },
+        "heading_MjxYw8": {
+          "type": "heading",
+          "settings": {
+            "title": "Begin your project.",
+            "heading_size": 10
+          }
+        },
+        "text_j6DPxF": {
+          "type": "text",
+          "settings": {
+            "description": "<p>Answer six quick questions about your space and Simran will personally call you within one working day.</p>",
+            "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#574840",
+            "text_style": "font-body"
+          }
+        },
+        "button_y3BGfc": {
+          "type": "button",
+          "settings": {
+            "width_full": true,
+            "link_text": "Book a design consultation",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "button_eFeAhF": {
+          "type": "button",
+          "settings": {
+            "width_full": true,
+            "link_text": "Explore design packages",
+            "link": "#",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "text_LMT37L",
+        "heading_MjxYw8",
+        "text_j6DPxF",
+        "button_y3BGfc",
+        "button_eFeAhF"
+      ],
+      "custom_css": [
+        "@media (min-width: 749px) {.hero__content {padding: 50px; }}",
+        ".hero__content__wrapper {padding-top: 0;}"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/floral-wide.jpg",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 590,
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "#ffffff",
+        "color": "#2b1e19"
+      }
+    }
+  },
+  "order": [
+    "section_hero_jnmnYG",
+    "section_hero_VXeefJ",
+    "section_rich_text_xcqH76",
+    "section_announcement_NTQfgU",
+    "section_divider_aYEUXF",
+    "section_multicolumn_rN3W6G",
+    "section_divider_yz3ykR",
+    "section_multicolumn_nK6RLz",
+    "section_multicolumn_cr4Ump",
+    "section_hero_Fm7ti3",
+    "section_multicolumn_GfAQry",
+    "section_double_wwLGbQ",
+    "section_multicolumn_F4AzFT",
+    "section_multicolumn_yFM8rQ",
+    "section_double_WyxnBd",
+    "section_hero_RjPbxC"
+  ]
+}

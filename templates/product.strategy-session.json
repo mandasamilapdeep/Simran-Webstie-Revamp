@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "text_size": 6,
+            "padding_bottom": 8
+          }
+        },
+        "text_CjcQxz": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Book a comprehensive 2-hour strategy session to discuss your project in-depth before receiving your bespoke project quote. After checkout, you will receive a calendar link to book in your Strategy Session.</p>",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 32
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "accordions",
+            "title_1": "Why Book a Strategy Session Call?",
+            "raw_content_1": "<p>Book a comprehensive 2-hour strategy session to discuss your project in-depth before receiving your bespoke project quote</p>",
+            "title_2": "Why Choose Simran Design?",
+            "raw_content_2": "<ul><li><strong>Expertise and Experience:</strong> With years of experience in commercial interior design across Europe and the Middle East, we bring a wealth of knowledge and expertise to every project, ensuring exceptional results.</li></ul><p></p><ul><li><strong>Client-Centric Approach:</strong> We immerse ourselves into learning and understanding the unique functions and aesthetic that your project requires, keeping you involved and informed throughout the design process to ensure your vision is realised.</li></ul><p></p><ul><li><strong>Attention to Detail:</strong> From concept development to final installation, we pay meticulous attention to detail, ensuring every aspect of your workspace is thoughtfully considered and executed to perfection.</li></ul>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
+          }
+        },
+        "divider_1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "icon_rg6Dn3": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Tailored Design Insights in 120 Minutes",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Bespoke Solutions for Your Space",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-star",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Unlock Your Design Vision in One Call",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_CjcQxz",
+        "price",
+        "variants",
+        "buttons",
+        "pickup",
+        "tabs",
+        "divider_1",
+        "icon_rg6Dn3",
+        "icon_2",
+        "icon_1"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "slider",
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related"
+  ]
+}

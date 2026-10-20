@@ -1,0 +1,577 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "Scancom",
+            "heading_size": 7
+          }
+        },
+        "heading_Yp43NV": {
+          "type": "heading",
+          "settings": {
+            "title": "office lounge design",
+            "heading_size": 4
+          }
+        },
+        "text_8YhXbV": {
+          "type": "text",
+          "settings": {
+            "description": "LEICESTER | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_Yp43NV",
+        "text_8YhXbV"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Entrance_view_6.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_double_hTKgVD": {
+      "type": "section-double",
+      "blocks": {
+        "heading_rEgXhR": {
+          "type": "heading",
+          "settings": {
+            "title": "project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_7mWkLY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We designed this lounge inspired entrance into a telecoms head office with a high-tech, modern style in mind. The focal point is the statement custom joinery which reflects their brand colour palette and modern tech vibe. </p><p>Pops of red inspired by the brand logo are added in calculated proportions to echo the logo. The modern lounge will be used for both staff and clients for casual chats and informal meetings. </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_rEgXhR",
+        "text_7mWkLY"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/backminscaled-1638888165101.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_Cw44Ph": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Yt7wVa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.12.22.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_qXN6M3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.13.22.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_f49n3J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.15.00.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_jqVEK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.11.39.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_BXK3Hg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.14.15.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_bWeUCF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.17.29.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_pzMBVp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.19.17.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_G6cVrg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-06-08_at_16.20.19.png",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Yt7wVa",
+        "image_qXN6M3",
+        "image_f49n3J",
+        "image_jqVEK7",
+        "image_BXK3Hg",
+        "image_bWeUCF",
+        "image_pzMBVp",
+        "image_G6cVrg"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "photography",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
+      }
+    },
+    "section_columns_gQQMyb": {
+      "type": "section-columns",
+      "blocks": {
+        "image_y6G8JH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shelf_sketch.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Step 1: CAD Sketch →",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_DbqGbR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shelf_Model.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Step 2: 3D Modelling →",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_Gw3Kpt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shelf_Material.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Step 3: Materials →",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_VEyqjq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shelf_lights.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Step 4: Lighting →",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_nFkgrQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shelf_ambient_lights.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Step 5: LED Light →",
+            "heading_size": 2,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_y6G8JH",
+        "image_DbqGbR",
+        "image_Gw3Kpt",
+        "image_VEyqjq",
+        "image_nFkgrQ"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 5,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 25,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_custom_content_LygUJR": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_DaMXkP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_5.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "#ffffff",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_DaMXkP"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_columns_KcMzUn": {
+      "type": "section-columns",
+      "blocks": {
+        "image_bQzWDj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_4.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_ENXAwH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_3.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zWaUgF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_6.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_q7MHAU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_view_2.webp",
+            "image_aspect_ratio": 0.7,
+            "mobile_image_aspect_ratio": 0.7,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_bQzWDj",
+        "image_ENXAwH",
+        "image_zWaUgF",
+        "image_q7MHAU"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_double_hTKgVD",
+    "section_columns_Cw44Ph",
+    "section_columns_gQQMyb",
+    "section_custom_content_LygUJR",
+    "section_columns_KcMzUn"
+  ]
+}

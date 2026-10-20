@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_NayUwj": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_eFt64b": {
+          "type": "heading",
+          "settings": {
+            "title": "Packages",
+            "heading_size": 7
+          }
+        },
+        "text_ChgCij": {
+          "type": "text",
+          "settings": {
+            "description": "Interior Design // Service Types",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eFt64b",
+        "text_ChgCij"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Phase_1_new_floorplan_Entrance_Stairway-99_3f461b77-8b61-4435-8f9a-19f1addce81e.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_text_row_m7Eb8k": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_Xzhm6D": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 25,
+            "icon_color": "#ab8c52",
+            "title": "Commercial Package Types",
+            "heading_size": 4,
+            "text": "<p>2-Hour Consultation + Project Plan + Bespoke Quote</p><p></p><ol><li>Select your package type</li><li>Add a Strategy Session to the cart and checkout</li><li>Receive a welcome email and book in your preferred slot!</li></ol>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_Xzhm6D"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
+      }
+    },
+    "section_products_image_zREEAg": {
+      "type": "section-products-image",
+      "blocks": {
+        "products_BMRjJY": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "wellness-spaces-package",
+              "hospitality-venue-design-package",
+              "breakout-spaces-package",
+              "workplace-design-package"
+            ],
+            "layout_mobile": "2"
+          }
+        }
+      },
+      "block_order": [
+        "products_BMRjJY"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_products_image_93GAM7": {
+      "type": "section-products-image",
+      "blocks": {
+        "products_4nQdTr": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "gym-design-package",
+              "reception-design-package"
+            ],
+            "layout_mobile": "2"
+          }
+        }
+      },
+      "block_order": [
+        "products_4nQdTr"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "reverse_blocks": true,
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_product_nXjzwr": {
+      "type": "section-product",
+      "settings": {
+        "layout": "",
+        "product": "discovery-call",
+        "limit": 5,
+        "scrolling_styles": "vertical",
+        "horizontal_scroll": false,
+        "bg_color": "#ab8c52",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_Ktig3D": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_GwXqEg": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact Us",
+            "heading_size": 9
+          }
+        },
+        "text_KdNeba": {
+          "type": "text",
+          "settings": {
+            "description": "We'd love to have a chat :)",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_tY3nbM": {
+          "type": "button",
+          "settings": {
+            "link_text": "Contact Page",
+            "link": "shopify://pages/quote",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GwXqEg",
+        "text_KdNeba",
+        "button_tY3nbM"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2024-02-25_at_14.44.41.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_NayUwj",
+    "section_text_row_m7Eb8k",
+    "section_products_image_zREEAg",
+    "section_products_image_93GAM7",
+    "section_product_nXjzwr",
+    "section_hero_Ktig3D"
+  ]
+}

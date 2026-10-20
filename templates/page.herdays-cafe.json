@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_kQXTHg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hp3wRt": {
+          "type": "heading",
+          "settings": {
+            "title": "'Herdays Café'",
+            "heading_size": 7
+          }
+        },
+        "heading_TACaVT": {
+          "type": "heading",
+          "settings": {
+            "title": "ACAI BOWL, MATCHA & BRUNCH CAFE",
+            "heading_size": 4
+          }
+        },
+        "text_WHL8Wn": {
+          "type": "text",
+          "settings": {
+            "description": "KIRKBY-IN-ASHFIELD | UNITED KINGDOM",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3wRt",
+        "heading_TACaVT",
+        "text_WHL8Wn"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-09-02_at_18.03.56.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 60,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_F4DMhr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qjpKbN": {
+          "type": "heading",
+          "settings": {
+            "title": "project BRIEF",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_te4GQX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Herdays Café is a refreshing new concept in the heart of Kirkby-in-Ashfield,  offering a welcoming space where wholesome living meets timeless design. Specialising in nourishing acai bowls, vibrant matcha blends, smoothies, and laid-back brunch offerings, the vision for Herdays is rooted in wellness, inclusivity, and connection. </p><p>The design direction embraces an organic and natural aesthetic, using soft textures, natural tones intertwined with the branding’s pink and greens, limewashed surfaces, and evergreen materials to create a calming, feel-good atmosphere for everyone. The space, including a thoughtfully designed café and accessible bathroom, is intended to be a gentle daily ritual that invites guests of all ages and backgrounds to relax, refuel, and feel at home.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 20
+          }
+        },
+        "subheading_wRE4hp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "OUR SERVICES",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_t9D9km": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design was hired to offer design direction, consultation services, and sourcing services. We advised on the branding colour scheme and how this translated into the 3D space via materials and paint colours. We also sourced materials, lighting, loose furniture and accessories in the main cafe and washroom, including dining chairs, benches, tables, pendant lights, cushions and accessories, tiles, and wall decor. </p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_qjpKbN",
+        "text_te4GQX",
+        "subheading_wRE4hp",
+        "text_t9D9km"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_zQNBre": {
+      "type": "section-double",
+      "blocks": {
+        "heading_eCE9gq": {
+          "type": "heading",
+          "settings": {
+            "title": "Project OVerview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_c8cCBX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Herdays Café is a refreshing new concept in the heart of Kirkby-in-Ashfield,  offering a welcoming space where wholesome living meets timeless design. Specialising in nourishing acai bowls, vibrant matcha blends, smoothies, and laid-back brunch offerings, the vision for Herdays is rooted in wellness, inclusivity, and connection. </p><p>The organic aesthetic uses soft textures, natural tones intertwined with the branding’s pink and greens, limewashed surfaces, and evergreen materials to create a calming, feel-good atmosphere. The cafe is intended to invite guests of all ages and backgrounds to feel relaxed, refuelled, and at home.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_eCE9gq",
+        "text_c8cCBX"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2026-03-13_at_15.43.36.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_dVRMTq": {
+      "type": "section-columns",
+      "blocks": {
+        "image_9MngVK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Herdays_Interior_Design_Sourcing_Presentation.jpg",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "CAFE sourcing board",
+            "heading_size": 4,
+            "text": "<p>Sourced loose furniture, accessories, materials and lighting for the main cafe space. Featuring natural materials like light woods, woven rope and rattan as well as bold printed tiles and matcha green wall paint. Softened by limewash walls and muted soft furnishings, the concept feels fresh and inviting.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7mHJXY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Herdays_Interior_Design_Sourcing_Presentation_copy.jpg",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "WC option 1",
+            "heading_size": 4,
+            "text": "<p>A digital material board created by us, featuring printed wallpaper, green terrazzo tile, rattan mirror and raffia pendant light for natural textures. This visual shows how the sourced materials and products work alongside each other in harmony. We share live links with the clients, but we can always assist in purchasing as well.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_bAjDyk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Herdays_Interior_Design_Sourcing_Presentation_1.jpg",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "WC Option 2",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7KkX8j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Herdays_Interior_Design_Sourcing_Presentation_copy_2.jpg",
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "WC Option 3",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9MngVK",
+        "image_7mHJXY",
+        "image_bAjDyk",
+        "image_7KkX8j"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_kQXTHg",
+    "section_rich_text_F4DMhr",
+    "section_double_zQNBre",
+    "section_columns_dVRMTq"
+  ]
+}

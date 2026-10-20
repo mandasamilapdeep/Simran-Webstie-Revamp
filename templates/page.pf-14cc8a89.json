@@ -1,0 +1,247 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-14cc8a89": {
+      "type": "pf-14cc8a89",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_ECP4dL": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_kyKeVN": {
+          "type": "heading",
+          "settings": {
+            "title": "Entrance",
+            "heading_size": 7
+          }
+        },
+        "text_Gy73GB": {
+          "type": "text",
+          "settings": {
+            "description": "WOLVERHAMPTON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kyKeVN",
+        "text_Gy73GB"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-04-21_at_17.32.56.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_custom_content_MVMPMt": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_jGpNHX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_jGpNHX"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_7rHz4f": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_KECGVf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_a7563d85-1663-4e75-8293-fa567808cff3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_KECGVf"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_xhtnJQ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_hiEFBq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_hiEFBq"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_custom_content_XUCJRn": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_mJk377": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Entrance_2.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FgqbLb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_9043e3a2-ab99-4d9d-8d7d-62bbbd4861c0.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_mJk377",
+        "image_FgqbLb"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": true,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "pf-14cc8a89",
+    "section_hero_ECP4dL",
+    "section_custom_content_MVMPMt",
+    "section_custom_content_7rHz4f",
+    "section_custom_content_xhtnJQ",
+    "section_custom_content_XUCJRn"
+  ]
+}

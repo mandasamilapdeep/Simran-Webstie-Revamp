@@ -1,0 +1,393 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_eCcbCt": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QAkq4w": {
+          "type": "heading",
+          "settings": {
+            "title": "༶ BLog post ༶",
+            "heading_size": 2
+          }
+        },
+        "heading_kapBND": {
+          "type": "heading",
+          "settings": {
+            "title": "Salon, Café, or Office?",
+            "heading_size": 7
+          }
+        },
+        "text_3eqqPd": {
+          "type": "text",
+          "settings": {
+            "description": "Here’s How We Tailor Design to Each Business Type",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "button_hWYjTV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAkq4w",
+        "heading_kapBND",
+        "text_3eqqPd",
+        "button_hWYjTV"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Notion_Background_copy.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_UxW6az": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_twdhKP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to the very first post on the <strong>Simran Design Ltd</strong> blog! </p><p></p><p>Whether you're a business owner looking to transform your space, or someone who loves all things design, this space is where we share our creative process, real project journeys, behind-the-scenes moments, and industry insights.</p><p>In this post, we’re kicking things off with a quick-fire <strong>5-point introduction</strong> to who we are, what we’ve been up to, and what to expect from this blog going forward.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_twdhKP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_7Lb9dX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_yJ7qgd": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>1. Meet the Faces Behind Simran Design</h2><p>I’m <strong>Simran</strong>, the founder and creative director of Simran Design Ltd, an interior design studio based in Leicester. We specialise in <strong>commercial interiors</strong><em><strong> for </strong></em><strong>ambitious business owners</strong>. I started the studio in 2021 after graduating with a degree in Textile Design from Loughborough University and diving headfirst into my passion for transforming everyday spaces into impactful, functional experiences.</p><p>We’ve since grown into a small but mighty team. <strong>Shreya</strong>, our design assistant and creative partner, works closely with me, who helps bring our visions to life through floor plans, visuals, and on-site collaboration.</p><p>We design:</p><ul><li>Full-service interior projects across the Midlands</li><li>Remote E-Design for international clients (especially in Dubai)</li><li>Spaces that reflect our clients' values, ambition, and brand identity<br/></li></ul>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ7qgd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_6fbNzN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_xT3htA": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>3. A Snapshot of Our Recent Projects</h2><p>Here’s a glimpse into some of the work we’ve been proud to lead recently:</p><p><br/> (Remote): Bold yet minimal design, custom joinery, glass-walled boardroom, and a 16-person workspace for a high-growth international team.<br/></p><p><br/> (UK): A caramel-toned, organic-inspired dessert and coffee bar — designed as a warm, inviting destination for all ages.<br/></p><p><br/> (Leicester): A two-storey residential conversion into a collaborative office hub, complete with hot desks, meeting nooks, and a homely yet professional atmosphere.<br/></p><p><br/>: A luxury multi-use space combining hair, beauty, and a dog-friendly café. Curves, softness, and mood lighting take centre stage.<br/></p><p>Each of these projects has challenged us in the best way — helping us grow, innovate, and stretch creatively.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_xT3htA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_7XbMG6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_iFjgpq": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>3. Our Design Approach</h2><p>At Simran Design, we believe that every commercial space should <em>do more than just look good</em>. It should:</p><ul><li><strong>Tell a story</strong> about the brand</li><li><strong>Elevate functionality</strong> for both staff and customers</li><li><strong>Create emotion</strong>, connection and memorability</li></ul><p>Our aesthetic leans toward modern luxury -mixing warm textures, clever layouts, refined details, and timeless colour palettes. Each project is tailored, whether we’re transforming a café into a day-to-night destination or refining a boardroom for high-level meetings.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_iFjgpq"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_mRwGbr": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_PFKR8W": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>4. Out & About: Recent Design Events</h2><p>We’re big believers in staying inspired and connected within the industry. Over the last few weeks, we’ve been busy attending some standout events, most notably:</p><ul><li><strong>Clerkenwell Design Week. </strong>A day filled with showroom visits, product launches, and trend forecasting that’s helping us shape moodboards for upcoming client briefs.</li><li><strong>\"Designing and Expanding in the Middle East\"</strong> - Business and Interiors' Latest Design Leaders Talk.<br/></li></ul>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_PFKR8W"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_wDJrER": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_y6VpDj": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>5. What You Can Expect from This Blog</h2><p>Every two weeks, we’ll be sharing a new post covering:<br/>✅ Real project journeys<br/>✅ Tips for business owners planning a commercial space<br/>✅ Behind-the-scenes stories from our studio<br/>✅ Sourcing secrets and material trends<br/>✅ Interviews, event recaps, and Q&As</p><p>Our goal? To demystify the design process and show what <em>strategic beauty</em> really looks like in the world of commercial interiors.</p><p> </p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_y6VpDj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "image_WTXAjJ": {
+          "type": "image",
+          "settings": {
+            "title": ""
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "image_WTXAjJ",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "bg_color": "",
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "featured_posts_jwEtfE": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_4fTymb": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_4fTymb"
+      ],
+      "disabled": true,
+      "name": "Featured blog posts",
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_blog_hGjqcD": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "",
+        "title": "Featured Blog posts",
+        "heading_size": 5,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "title_size": 4,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false,
+        "bg_color": "#ab8c52",
+        "color": "#ffffff",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_newsletter_bw6trA": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_9bc8Yh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/haute-stock-photography-subscription-homebody-collection-final-6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Join Our Newsletter",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_XcB9T8": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Sign up",
+            "heading_size": 7,
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "image_9bc8Yh",
+        "newsletter_XcB9T8"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_eCcbCt",
+    "section_rich_text_UxW6az",
+    "section_rich_text_7Lb9dX",
+    "section_rich_text_6fbNzN",
+    "section_rich_text_7XbMG6",
+    "section_rich_text_mRwGbr",
+    "section_rich_text_wDJrER",
+    "main",
+    "featured_posts_jwEtfE",
+    "section_blog_hGjqcD",
+    "section_newsletter_bw6trA"
+  ]
+}

@@ -1,0 +1,391 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-93558b1a": {
+      "type": "pf-93558b1a",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_m7iFzQ": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_QRPUHC": {
+          "type": "heading",
+          "settings": {
+            "title": "DARBAR ARTS & HERITAGE TRUST",
+            "heading_size": 8
+          }
+        },
+        "heading_kE8FQU": {
+          "type": "heading",
+          "settings": {
+            "title": "PODCAST STUDIO",
+            "heading_size": 4
+          }
+        },
+        "text_iBUNbN": {
+          "type": "text",
+          "settings": {
+            "description": "LONDON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-heading"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QRPUHC",
+        "heading_kE8FQU",
+        "text_iBUNbN"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-one-half",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-07-02_at_22.19.55.png",
+        "link": "",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_Fa7YCi": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_DUJX4w": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_nAcTJn": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_wUztTB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DUJX4w",
+        "heading_nAcTJn",
+        "text_wUztTB"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_divider_XT7hfj": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "#f2ede7",
+        "bg_color": "",
+        "padding_top": 1,
+        "padding_bottom": 50
+      }
+    },
+    "section_video_WQNHmG": {
+      "type": "section-video",
+      "name": "Video",
+      "settings": {
+        "video": "shopify://files/videos/DARBAR.mp4",
+        "show_video_popup": false,
+        "video_popup": "shopify://files/videos/DARBAR.mp4",
+        "video_popup_social": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "width": "wrapper--full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "",
+        "heading_size": 8,
+        "description": "",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "#ffffff",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false
+      }
+    },
+    "section_divider_iapjWq": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "#f2ede7",
+        "bg_color": "",
+        "padding_top": 1,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_yF3yA4": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_8TaxVQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Project OVerview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_P3dm3f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simran Design was commissioned to design a dedicated audio and video podcast studio for Darbar Arts & Heritage Trust at their new headquarters in Hayes, London.</p><p>The brief was to create a highly practical and adaptable recording environment that could be used both by the Trust and by external organisations hiring the studio. Flexibility was therefore a key consideration throughout the design process.</p><p>To achieve this, we developed a neutral, contemporary palette paired with colour-changing commercial LED lighting, allowing the studio to easily adapt to different brand identities and recording styles.</p><p>The result is a refined and versatile podcast space designed to support professional audio and video production, while remaining visually engaging on camera and comfortable for hosts and guests alike.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_8TaxVQ",
+        "text_P3dm3f"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "section_columns_iiXfPW": {
+      "type": "section-columns",
+      "blocks": {
+        "image_JjBkeG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.57.52_fa5b80c0-16b0-4553-b591-f674c0c2d835.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_cbLfWC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View_1_bbc232b8-25ec-4cdf-8c72-330aca6c6643.jpg",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_3yHwQ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.10_a7b65ea1-6afa-4849-af07-c050aaded2fe.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_j8VHxz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.00_617b4a4d-3a46-4200-a24d-0ac8441f1c30.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_XNPtdD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.19.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_d6QFTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.46.png",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_6Jm8QJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.35.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_wqjJUz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-02_at_21.58.57.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_JjBkeG",
+        "image_cbLfWC",
+        "image_3yHwQ3",
+        "image_j8VHxz",
+        "image_XNPtdD",
+        "image_d6QFTq",
+        "image_6Jm8QJ",
+        "image_wqjJUz"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "pf-93558b1a",
+    "section_hero_m7iFzQ",
+    "section_rich_text_Fa7YCi",
+    "section_divider_XT7hfj",
+    "section_video_WQNHmG",
+    "section_divider_iapjWq",
+    "section_rich_text_yF3yA4",
+    "section_columns_iiXfPW"
+  ]
+}

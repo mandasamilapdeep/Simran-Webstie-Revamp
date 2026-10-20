@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "pf-31ccacac": {
+      "type": "pf-31ccacac",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_hero_XebDYx": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_ghzGx9": {
+          "type": "heading",
+          "settings": {
+            "title": "SCAN COMPUTERS HQ",
+            "heading_size": 7
+          }
+        },
+        "heading_T863XT": {
+          "type": "heading",
+          "settings": {
+            "title": "BOOTH SEATING",
+            "heading_size": 4
+          }
+        },
+        "text_rDJHEt": {
+          "type": "text",
+          "settings": {
+            "description": "BOLTON | UNITED KINGDOM",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ghzGx9",
+        "heading_T863XT",
+        "text_rDJHEt"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-04-21_at_20.46.57.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_EWiefh": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_wtPNRD": {
+          "type": "heading",
+          "settings": {
+            "title": "project overview",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_FaG8DH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As part of the wider transformation of a 400-person tech HQ in Bolton, this custom booth seating area was designed to encourage informal collaboration and quick team check-ins in a more relaxed setting.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_wyRF6J": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "key features",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_XXBAXh": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Upholstered in durable, soft-touch commercial fabric</li><li>Build structure covered in acoustic panels for sound absorption</li><li>Integrated plug points for quick connectivity</li></ul>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_wtPNRD",
+        "text_FaG8DH",
+        "subheading_wyRF6J",
+        "text_XXBAXh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_WxJd77": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Thynhh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0003_de9cf984-bd4d-4540-8a75-54aaa474528c.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_9KWFAX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0010_0f4be873-919b-4b26-83ab-4f3f45c4520a.webp",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7bVt3F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0012_cc45b225-246c-4214-b7ff-094a8f1fdbae.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_9kyzTr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/View0011_e41045c6-a922-436a-b9d1-971d71249488.webp",
+            "image_aspect_ratio": 0.8,
+            "mobile_image_aspect_ratio": 0.8,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "<p> </p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Thynhh",
+        "image_9KWFAX",
+        "image_7bVt3F",
+        "image_9kyzTr"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "3d visualisations",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 2,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 25,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "pf-31ccacac",
+    "section_hero_XebDYx",
+    "section_rich_text_EWiefh",
+    "section_columns_WxJd77"
+  ]
+}
