@@ -1,0 +1,584 @@
+{% style %}
+  .table_section_{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{% endstyle %}
+
+<div class="table_section {{ section.settings.width }} table_section_{{ section.id }}">
+  <div class="table-section-inner">
+    <div class="table-section-blocks-wrapper">
+      {% for block in section.blocks %}
+        <div
+          {{ block.shopify_attributes }}
+          style="
+            {% if block.settings.table_column_border_bottom != blank %}
+            border-bottom: 1px solid {{ block.settings.table_column_border_bottom }};
+            {% endif %}
+             margin-bottom: {{ block.settings.table_column_margin_bottom }}px; padding-bottom: {{ block.settings.table_column_bottom_padding }}px;
+          "
+          class="table_column"
+          data-aos="hero"
+          data-aos-order="{{ forloop.index }}"
+        >
+          <div class="table_column_content">
+            <div class="table_column_content_row">
+              {% if block.settings.first_title != blank %}
+                <div
+                  style="text-align: {{ block.settings.first_title_align }}; color: {{ block.settings.first_title_color }}; letter-spacing: {{ block.settings.first_title_letter_spacing }}px;"
+                  class="table_column_content_row_title body-size-{{ block.settings.first_title_size }}"
+                >
+                  {{ block.settings.first_title }}
+                </div>
+              {% endif %}
+              {% if block.settings.first_text != blank %}
+                <div
+                  style="text-align: {{ block.settings.first_text_align }}; color: {{ block.settings.first_text_color }}; letter-spacing: {{ block.settings.first_text_letter_spacing }}px;"
+                  class="table_column_content_row_text body-size-{{ block.settings.first_text_size }}"
+                >
+                  {{ block.settings.first_text }}
+                </div>
+              {% endif %}
+            </div>
+            <div class="table_column_content_row">
+              {% if block.settings.second_title != blank %}
+                <div
+                  style="text-align: {{ block.settings.second_title_align }}; color: {{ block.settings.second_title_color }}; letter-spacing: {{ block.settings.second_title_letter_spacing }}px;"
+                  class="table_column_content_row_title body-size-{{ block.settings.second_title_size }}"
+                >
+                  {{ block.settings.second_title }}
+                </div>
+              {% endif %}
+              {% if block.settings.second_text != blank %}
+                <div
+                  style="text-align: {{ block.settings.second_text_align }}; color: {{ block.settings.second_text_color }}; letter-spacing: {{ block.settings.second_text_letter_spacing }}px;"
+                  class="table_column_content_row_text body-size-{{ block.settings.second_text_size }}"
+                >
+                  {{ block.settings.second_text }}
+                </div>
+              {% endif %}
+            </div>
+            <div class="table_column_content_row">
+              {% if block.settings.third_title != blank %}
+                <div
+                  style="text-align: {{ block.settings.third_title_align }}; color: {{ block.settings.third_title_color }}; letter-spacing: {{ block.settings.third_title_letter_spacing }}px;"
+                  class="table_column_content_row_title body-size-{{ block.settings.third_title_size }}"
+                >
+                  {{ block.settings.third_title }}
+                </div>
+              {% endif %}
+              {% if block.settings.third_text != blank %}
+                <div
+                  style="text-align: {{ block.settings.third_text_align }}; color: {{ block.settings.third_text_color }}; letter-spacing: {{ block.settings.third_text_letter_spacing }}px;"
+                  class="table_column_content_row_text body-size-{{ block.settings.third_text_size }}"
+                >
+                  {{ block.settings.third_text }}
+                </div>
+              {% endif %}
+            </div>
+            <div class="table_column_content_row">
+              {% if block.settings.fourth_title != blank %}
+                <div
+                  style="text-align: {{ block.settings.fourth_title_align }}; color: {{ block.settings.fourth_title_color }}; letter-spacing: {{ block.settings.fourth_title_letter_spacing }}px;"
+                  class="table_column_content_row_title body-size-{{ block.settings.fourth_title_size }}"
+                >
+                  {{ block.settings.fourth_title }}
+                </div>
+              {% endif %}
+              {% if block.settings.fourth_text != blank %}
+                <div
+                  style="text-align: {{ block.settings.fourth_text_align }}; color: {{ block.settings.fourth_text_color }}; letter-spacing: {{ block.settings.fourth_text_letter_spacing }}px;"
+                  class="table_column_content_row_text body-size-{{ block.settings.fourth_text_size }}"
+                >
+                  {{ block.settings.fourth_text }}
+                </div>
+              {% endif %}
+            </div>
+            <div class="table_column_content_row">
+              {% if block.settings.fifth_title != blank %}
+                <div
+                  style="text-align: {{ block.settings.fifth_title_align }}; color: {{ block.settings.fifth_title_color }}; letter-spacing: {{ block.settings.fifth_title_letter_spacing }}px;"
+                  class="table_column_content_row_title body-size-{{ block.settings.fifth_title_size }}"
+                >
+                  {{ block.settings.fifth_title }}
+                </div>
+              {% endif %}
+              {% if block.settings.fifth_text != blank %}
+                <div
+                  style="text-align: {{ block.settings.fifth_text_align }}; color: {{ block.settings.fifth_text_color }}; letter-spacing: {{ block.settings.fifth_text_letter_spacing }}px;"
+                  class="table_column_content_row_text body-size-{{ block.settings.fifth_text_size }}"
+                >
+                  {{ block.settings.fifth_text }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Table Section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Table Column",
+      "type": "table_column",
+      "settings": [
+        {
+          "type": "color",
+          "id": "table_column_border_bottom",
+          "label": "Table Column Border Bottom"
+        },
+        {
+          "type": "range",
+          "id": "table_column_bottom_padding",
+          "label": "Table Column Bottom Padding",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "table_column_margin_bottom",
+          "label": "Table Column Margin Bottom",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 20
+        },
+        {
+          "type": "inline_richtext",
+          "id": "first_title",
+          "label": "First Title"
+        },
+        {
+          "type": "color",
+          "id": "first_title_color",
+          "label": "First Title Color"
+        },
+        {
+          "type": "select",
+          "id": "first_title_align",
+          "label": "first title align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "first_title_size",
+          "label": "First Title size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "first_title_letter_spacing",
+          "label": "First Title letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "first_text",
+          "label": "First Text"
+        },
+        {
+          "type": "color",
+          "id": "first_text_color",
+          "label": "First Text Color"
+        },
+        {
+          "type": "select",
+          "id": "first_text_align",
+          "label": "first text align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "first_text_size",
+          "label": "First Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "first_text_letter_spacing",
+          "label": "First Text letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "second_title",
+          "label": "Second Title"
+        },
+        {
+          "type": "color",
+          "id": "second_title_color",
+          "label": "Second Title Color"
+        },
+        {
+          "type": "select",
+          "id": "second_title_align",
+          "label": "second title align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "second_title_size",
+          "label": "Second Title size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "second_title_letter_spacing",
+          "label": "Second Title letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "second_text",
+          "label": "Second Text"
+        },
+        {
+          "type": "color",
+          "id": "second_text_color",
+          "label": "Second Text Color"
+        },
+        {
+          "type": "select",
+          "id": "second_text_align",
+          "label": "second text align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "second_text_size",
+          "label": "Second Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "second_text_letter_spacing",
+          "label": "Second Text letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "third_title",
+          "label": "Third Title"
+        },
+        {
+          "type": "color",
+          "id": "third_title_color",
+          "label": "Third Title Color"
+        },
+        {
+          "type": "select",
+          "id": "third_title_align",
+          "label": "third title align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "third_title_size",
+          "label": "Third Title size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "third_title_letter_spacing",
+          "label": "Third Title letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "third_text",
+          "label": "Third Text"
+        },
+        {
+          "type": "color",
+          "id": "third_text_color",
+          "label": "Third Text Color"
+        },
+        {
+          "type": "select",
+          "id": "third_text_align",
+          "label": "third text align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "third_text_size",
+          "label": "Third Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "third_text_letter_spacing",
+          "label": "Third Text letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "fourth_title",
+          "label": "Fourth Title"
+        },
+        {
+          "type": "color",
+          "id": "fourth_title_color",
+          "label": "Fourth Title Color"
+        },
+        {
+          "type": "select",
+          "id": "fourth_title_align",
+          "label": "fourth title align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "fourth_title_size",
+          "label": "Fourth Title size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "fourth_title_letter_spacing",
+          "label": "Fourth Title letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "fourth_text",
+          "label": "Fourth Text"
+        },
+        {
+          "type": "color",
+          "id": "fourth_text_color",
+          "label": "Fourth Text Color"
+        },
+        {
+          "type": "select",
+          "id": "fourth_text_align",
+          "label": "fourth text align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "fourth_text_size",
+          "label": "Fourth Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "fourth_text_letter_spacing",
+          "label": "Fourth Text letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "fifth_title",
+          "label": "Fifth Title"
+        },
+        {
+          "type": "color",
+          "id": "fifth_title_color",
+          "label": "Fifth Title Color"
+        },
+        {
+          "type": "select",
+          "id": "fifth_title_align",
+          "label": "fifth title align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "fifth_title_size",
+          "label": "Fifth Title size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "fifth_title_letter_spacing",
+          "label": "Fifth Title letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "fifth_text",
+          "label": "Fifth Text"
+        },
+        {
+          "type": "color",
+          "id": "fifth_text_color",
+          "label": "Fifth Text Color"
+        },
+        {
+          "type": "select",
+          "id": "fifth_text_align",
+          "label": "fifth text align",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "fifth_text_size",
+          "label": "Fifth Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "fifth_text_letter_spacing",
+          "label": "Fifth Text letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Table Section",
+      "blocks": [
+        {
+          "type": "table_column"
+        },
+        {
+          "type": "table_column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

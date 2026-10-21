@@ -178,7 +178,9 @@ a.drawer__image_box_button {
 .column__content_image_our {
     position: absolute;
     padding: 22px 28px;
-    width: max-content;
+    max-width: max-content;
+    width: 100%;
+    left: 0;
     bottom: 0;
     margin: 0px 0px 24px 24px;
 }
@@ -359,6 +361,30 @@ span.drawer__image_box_text h6 {
     max-height: 100%;
 }
 
+.table-section-inner .table_column_content {
+    display: flex;
+    gap: 30px;
+}
+
+.table_column_content_row {
+    width: 19%;
+    max-width: 300px;
+}
+
+.table_column_content_row:first-child {
+    width: 34%;
+    max-width: 450px;
+}
+
+.table_section {
+    overflow: hidden;
+}
+
+.table-section-inner {
+    width: 100%;
+    overflow-x: auto;
+}
+
 
 @media only screen and (min-width: 901px) {
     .hero__text-group_four-desktop {
@@ -420,6 +446,20 @@ span.drawer__image_box_text h6 {
     /* .multicolumn {
         align-items: stretch;
     } */
+}
+
+@media only screen and (max-width: 1366px) {
+    .table_column_content_row {
+        width: 210px;
+        max-width: 210px;
+        min-width: 210px;
+    }
+
+    .table_column_content_row:first-child {
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
+    }
 }
 
 @media only screen and (max-width: 900px) {

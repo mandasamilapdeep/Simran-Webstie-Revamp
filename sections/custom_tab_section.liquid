@@ -1,0 +1,494 @@
+<!-- /sections/custom_tab_section.liquid -->
+{%- liquid
+  assign anim_anchor = '#CustomTabs--' | append: section.id
+  assign heading_size = section.settings.heading_size | default: 6
+
+  assign tab_bg = section.settings.tab_bg
+  assign tab_color = section.settings.tab_color | default: 'var(--text, #2b1e19)'
+  if tab_color == blank or tab_color == 'rgba(0,0,0,0)'
+    assign tab_color = 'var(--text, #2b1e19)'
+  endif
+
+  assign tab_border = section.settings.tab_border
+  if tab_border == blank or tab_border == 'rgba(0,0,0,0)'
+    assign tab_border = 'var(--text, #2b1e19)'
+  endif
+
+  assign tab_active_bg = section.settings.tab_active_bg
+  if tab_active_bg == blank or tab_active_bg == 'rgba(0,0,0,0)'
+    assign tab_active_bg = 'var(--text, #2b1e19)'
+  endif
+
+  assign tab_active_color = section.settings.tab_active_color
+  if tab_active_color == blank or tab_active_color == 'rgba(0,0,0,0)'
+    assign tab_active_color = '#ffffff'
+  endif
+
+  assign tab_active_border = section.settings.tab_active_border
+  if tab_active_border == blank or tab_active_border == 'rgba(0,0,0,0)'
+    assign tab_active_border = tab_active_bg
+  endif
+
+  assign default_active_index = 0
+  assign block_selected_found = false
+
+  for block in section.blocks
+    if block.settings.is_active
+      assign default_active_index = forloop.index0
+      assign block_selected_found = true
+      break
+    endif
+  endfor
+
+  unless block_selected_found
+    if section.settings.default_tab != blank
+      assign default_active_index = section.settings.default_tab | minus: 1
+      if default_active_index < 0
+        assign default_active_index = 0
+      endif
+    endif
+  endunless
+-%}
+
+{%- style -%}
+  #CustomTabs--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+    {% if section.settings.bg_color != blank and section.settings.bg_color != 'rgba(0,0,0,0)' %}
+      background-color: {{ section.settings.bg_color }};
+    {% endif %}
+    {% if section.settings.color != blank and section.settings.color != 'rgba(0,0,0,0)' %}
+      color: {{ section.settings.color }};
+    {% endif %}
+  }
+
+  #CustomTabs--{{ section.id }} .tabs-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 40px 0 28px;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-btn {
+    padding: 18px 26px;
+    font-size: 13.5px;
+    line-height: 1.3;
+    font-family: inherit;
+    border: 1px solid {{ tab_border }};
+    background-color: {% if tab_bg != blank and tab_bg != 'rgba(0,0,0,0)' %}{{ tab_bg }}{% else %}transparent{% endif %};
+    color: {{ tab_color }};
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-btn:hover {
+    opacity: 0.85;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-btn.is-active {
+    background-color: {{ tab_active_bg }};
+    border-color: {{ tab_active_border }};
+    color: {{ tab_active_color }};
+  }
+
+  #CustomTabs--{{ section.id }} .tab-card-wrapper {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-card {
+    background: #fff;
+    padding: 38px 46px;
+    border: 1px solid rgba(43, 30, 25, 0.08);
+    display: none;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-card.is-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-badge {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #9e7c51;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-title {
+    font-size: 34px;
+    margin: 0 0 15px;
+    color: #2b1e19;
+    font-family: var(--FONT-STACK-HEADING, inherit);
+  }
+
+  #CustomTabs--{{ section.id }} .tab-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(43, 30, 25, 0.75);
+    margin: 0;
+  }
+
+  #CustomTabs--{{ section.id }} .tab-action .btn {
+    min-width: 170px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 768px) {
+    #CustomTabs--{{ section.id }} .tabs-nav {
+      justify-content: flex-start;
+      padding-bottom: 6px;
+    }
+
+    #CustomTabs--{{ section.id }} .tab-btn {
+      padding: 12px 24px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    #CustomTabs--{{ section.id }} .tab-card {
+      padding: 24px 20px;
+    }
+
+    #CustomTabs--{{ section.id }} .tab-card.is-active {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    #CustomTabs--{{ section.id }} .tab-action,
+    #CustomTabs--{{ section.id }} .tab-action .btn {
+      width: 100%;
+    }
+  }
+{%- endstyle -%}
+
+<section id="CustomTabs--{{ section.id }}" class="section-padding" data-section-id="{{ section.id }}">
+  <div class="{{ section.settings.width | default: 'wrapper' }}">
+    {%- if section.settings.title != blank -%}
+      <div class="text-center" data-aos="hero" data-aos-anchor="{{ anim_anchor }}" data-aos-order="1">
+        <h2 class="grid__heading heading-size-{{ heading_size }}">{{ section.settings.title }}</h2>
+      </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="tabs-nav" data-aos="hero" data-aos-anchor="{{ anim_anchor }}" data-aos-order="2">
+        {%- for block in section.blocks -%}
+          <button
+            type="button"
+            class="tab-btn{% if forloop.index0 == default_active_index %} is-active{% endif %}"
+            data-index="{{ forloop.index0 }}"
+            data-block-id="{{ block.id }}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.tab_title | default: block.settings.title }}
+          </button>
+        {%- endfor -%}
+      </div>
+
+      <div class="tab-card-wrapper" data-aos="hero" data-aos-anchor="{{ anim_anchor }}" data-aos-order="3">
+        {%- for block in section.blocks -%}
+          {%- assign btn_style = block.settings.button_style | default: 'btn--solid' -%}
+          <div class="tab-card{% if forloop.index0 == default_active_index %} is-active{% endif %}" data-index="{{ forloop.index0 }}">
+            <div>
+              {%- if block.settings.badge_text != blank -%}
+                <span class="tab-badge">{{ block.settings.badge_text }}</span>
+              {%- endif -%}
+              {%- if block.settings.title != blank -%}
+                <h3 class="tab-title">{{ block.settings.title }}</h3>
+              {%- endif -%}
+              {%- if block.settings.text != blank -%}
+                <div class="tab-desc rte">{{ block.settings.text }}</div>
+              {%- endif -%}
+            </div>
+
+            {%- if block.settings.button_text != blank -%}
+              <div class="tab-action">
+                <a
+                  href="{{ block.settings.button_url | default: '#' }}"
+                  class="btn btn--large {{ btn_style }} {{ block.settings.button_type | default: 'btn--black' }}"
+                >
+                  <span>{{ block.settings.button_text }}</span>
+                </a>
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+<script>
+  (function () {
+    var root = document.getElementById('CustomTabs--{{ section.id }}');
+    if (!root) return;
+    var btns = root.querySelectorAll('.tab-btn');
+    var cards = root.querySelectorAll('.tab-card');
+
+    function selectTab(idx) {
+      btns.forEach(function (b, i) {
+        b.classList.toggle('is-active', i === idx);
+      });
+      cards.forEach(function (c, i) {
+        c.classList.toggle('is-active', i === idx);
+      });
+    }
+
+    btns.forEach(function (btn, i) {
+      btn.addEventListener('click', function () {
+        selectTab(i);
+      });
+    });
+
+    document.addEventListener('shopify:block:select', function (e) {
+      if (!root.contains(e.target)) return;
+      var active = root.querySelector('.tab-btn[data-block-id="' + e.detail.blockId + '"]');
+      if (active) selectTab(Array.prototype.indexOf.call(btns, active));
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Custom Tab Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Which package is right for you?"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 1,
+      "max": 15,
+      "step": 1,
+      "default": 6
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" },
+        { "value": "wrapper--narrow", "label": "Narrow" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "default_tab",
+      "label": "Default selected tab on load",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "default": 1,
+      "info": "Tab number to open initially (e.g. 1 for first tab, 3 for third tab)"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Tab Button Colors"
+    },
+    {
+      "type": "color",
+      "id": "tab_bg",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "tab_color",
+      "label": "Button text",
+      "default": "#2b1e19"
+    },
+    {
+      "type": "color",
+      "id": "tab_border",
+      "label": "Button border",
+      "default": "#2b1e19"
+    },
+    {
+      "type": "color",
+      "id": "tab_active_bg",
+      "label": "Active button background",
+      "default": "#2b1e19"
+    },
+    {
+      "type": "color",
+      "id": "tab_active_color",
+      "label": "Active button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "tab_active_border",
+      "label": "Active button border",
+      "default": "#2b1e19"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 160,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 160,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "is_active",
+          "label": "Select this tab on load",
+          "default": false,
+          "info": "Check to make this specific tab active on initial page load"
+        },
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab button text",
+          "default": "I want it fully designed"
+        },
+        {
+          "type": "text",
+          "id": "badge_text",
+          "label": "Badge / Sub-heading",
+          "default": "WE RECOMMEND"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Card heading",
+          "default": "Full Design"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Description",
+          "default": "<p>A complete, build-ready design pack with 3D visuals, elevations and joinery drawings.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "VIEW FULL DESIGN"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "label": "Button color",
+          "default": "btn--black",
+          "options": [
+            { "value": "btn--black", "label": "Black" },
+            { "value": "btn--primary", "label": "Primary" },
+            { "value": "btn--secondary", "label": "Secondary" },
+            { "value": "btn--white", "label": "White" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "default": "btn--solid",
+          "options": [
+            { "value": "btn--solid", "label": "Solid" },
+            { "value": "btn--outline", "label": "Outline" }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Tab Section",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "tab_title": "I am exploring ideas",
+            "title": "Design Inspiration",
+            "text": "<p>Curated design concepts and moodboards to help you explore and discover your unique style.</p>",
+            "button_text": "EXPLORE IDEAS"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "tab_title": "I know my style, I need the pieces",
+            "title": "Furniture & Sourcing",
+            "text": "<p>Tailored shopping lists and trade discounts to bring your established vision to life.</p>",
+            "button_text": "VIEW SOURCING"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "tab_title": "I want it fully designed",
+            "is_active": true,
+            "badge_text": "WE RECOMMEND",
+            "title": "Full Design",
+            "text": "<p>A complete, build-ready design pack with 3D visuals, elevations and joinery drawings.</p>",
+            "button_text": "VIEW FULL DESIGN"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "tab_title": "I want it designed and delivered",
+            "title": "Turnkey Design & Delivery",
+            "text": "<p>End-to-end design, project coordination, procurement, delivery, and full styling installation.</p>",
+            "button_text": "VIEW TURNKEY"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

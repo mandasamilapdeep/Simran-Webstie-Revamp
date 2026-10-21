@@ -305,6 +305,16 @@
 
             {%- case block.type -%}
               {%- when 'image' -%}
+                <style>
+                  {% if block.settings.block_border_color != blank %}
+                  .column__inner_{{ section.id }}_{{ block.id }}{
+                    border: 1px solid {{ block.settings.block_border_color }};
+                  }
+                  .column__inner_{{ section.id }}_{{ block.id }} .column__content {
+                    padding: 20px 15px 30px;
+                  }
+                  {%endif%}
+                </style>
                 <div class="grid-item"
                   {{ block_style }}
                   {% if enable_slider %}
@@ -312,7 +322,8 @@
                   {% endif %}
                   {{ block.shopify_attributes }}
                 >
-                  <div class="column__inner {% if block.settings.text_box_bg_color !=blank %} column__inner_our_bg{% endif %}"
+                  <div 
+                     class="column__inner column__inner_{{ section.id }}_{{ block.id }} {% if block.settings.text_box_bg_color !=blank %} column__inner_our_bg{% endif %}"
                     data-aos="hero"
                     data-aos-anchor="{{ animation_anchor }}"
                     data-aos-order="{{ animation_order }}">
@@ -356,6 +367,13 @@
                       {%- if block.settings.button_url != blank and button_text == blank -%}
                         <a style="background-color: {{ block.settings.text_box_bg_color }}" class="column__content_image_our" href="{{ block.settings.button_url }}">
                         {% endif %}   
+
+                        {%- if block.settings.title_1 != blank -%}
+                        {%- assign font_size_class = block.settings.heading_size_1 | prepend: 'heading-size-' -%}
+                        <h2 style="margin-top: {{ block.settings.heading_margin_top_1 }}px; letter-spacing: {{ block.settings.heading_letter_spacing_1 }}px; color: {{ block.settings.heading_color_1 }}" class="column__heading {{ font_size_class }}">
+                          {{- block.settings.title_1 -}}
+                        </h2>
+                      {%- endif -%}
                         
                       {%- if title != blank -%}
                         {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
@@ -376,11 +394,16 @@
                         <div class="column__text rte {{ text_style }} {{ font_size_class }}">
                           {{- text -}}
                         </div>
-                        
-                        {%- endif -%}
-                        {%- if block.settings.button_url != blank and button_text == blank -%}
-                        </a>
-                        {% endif %}
+                      {%- endif -%}
+                      {%- if text_2 != blank -%}
+                        {%- assign font_size_class = block.settings.text_2_size | prepend: 'body-size-' -%}
+                        <div style="color: {{ block.settings.text_2_color }}" class="column__text rte {{ font_size_class }}">
+                          {{- text_2 -}}
+                        </div>
+                      {%- endif -%}
+    {%- if block.settings.button_url != blank and button_text == blank -%}
+      </a>
+    {% endif %}
 
     {%- if button_text != blank -%}
       <div class="column__btn">
@@ -559,7 +582,7 @@
 
         <div
           style="max-width: {{ block.settings.text_max_width }}px; color:{{ block.settings.text_color }}; {%if block.settings.text_top_border_color != blank %}border-top: 1px solid {{ block.settings.text_top_border_color }}{%endif%}"
-          class="column__text rte {{ text_style }} {{ font_size_class }}" 
+          class="column__text rte {{ text_style }} {{ font_size_class }}"
         >
           {{ text }}
         </div>
@@ -580,7 +603,7 @@
         <div class="column__btn">
           <a
             href="{{ block.settings.button_url | default: '#!' }}"
-            class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+            class="btn {{ button_style }} {{ block.settings.button_size }}  btn--large {{ block.settings.button_type }}"
             aria-label="{{ button_text }}"
           >
             <span>{{ button_text }}</span>
@@ -618,7 +641,9 @@
 {%- endcase -%}
 
 
+
 {%- endfor -%}
+
 
 
 </div>

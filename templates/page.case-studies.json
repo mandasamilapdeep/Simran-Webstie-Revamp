@@ -755,6 +755,115 @@
         "padding_top": 100,
         "padding_bottom": 80
       }
+    },
+    "section_multicolumn_9fWnRU": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_gmtdG9": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 70,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "<p>Your space could be our next case study.</p>",
+            "text_size": 9,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_nT48Gt": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 30,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 9,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "Begin a project",
+            "button_url": "",
+            "button_type": "btn--white hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_gmtdG9",
+        "text_nT48Gt"
+      ],
+      "custom_css": [
+        "@media (min-width: 749px) {.column__btn {text-align: right; }}"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "#2b1e19",
+        "color": "#ffffff",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "layout_mobile": "2",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
     }
   },
   "order": [
@@ -762,6 +871,7 @@
     "section_multicolumn_Q3bqFr",
     "section_double_dKmDrQ",
     "section_tab_columns_eNGmRb",
-    "text_blocks_pazf4y"
+    "text_blocks_pazf4y",
+    "section_multicolumn_9fWnRU"
   ]
 }

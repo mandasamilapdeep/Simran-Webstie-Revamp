@@ -90,6 +90,9 @@
                 {% style %}
                   .hero__rte_{{ section.id }}_{{ block.id }} {
                     color: {{ block.settings.text_color }};
+                    max-width: {{ block.settings.text_max_width }}px;
+                    margin-left: auto;
+                    margin-right: auto;
                   }
                 {% endstyle %}
                 <div
@@ -410,6 +413,16 @@
       "type": "text",
       "name": "Text",
       "settings": [
+        {
+          "type": "range",
+          "id": "text_max_width",
+          "label": "Text max width",
+          "min": 300,
+          "max": 2000,
+          "step": 50,
+          "default": 500,
+          "unit": "px"
+        },
         {
           "type": "image_picker",
           "id": "icon_image",

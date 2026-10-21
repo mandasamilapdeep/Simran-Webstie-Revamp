@@ -15,7 +15,8 @@
         "text_mWcyQw": {
           "type": "text",
           "settings": {
-            "description": "THE STUDIO",
+            "text_max_width": 1000,
+            "description": "<p>THE STUDIO</p>",
             "text_size": 2,
             "description_letter_spacing": 2,
             "description_text_color": "#7a5f32",
@@ -26,13 +27,15 @@
           "type": "heading",
           "settings": {
             "title": "Founder-led. Commercially minded. Detail obsessed.",
-            "heading_size": 11
+            "heading_size": 11,
+            "heading_max_width": 600
           }
         },
         "text_cPzryi": {
           "type": "text",
           "settings": {
-            "description": "Simran Design is a Leicester studio creating interiors for business owners who want their space to work as hard as they do, from salons and clinics to offices and hospitality venues across the UK, Europe and the Middle East.",
+            "text_max_width": 1000,
+            "description": "<p>Simran Design is a Leicester studio creating interiors for business owners who want their space to work as hard as they do, from salons and clinics to offices and hospitality venues across the UK, Europe and the Middle East.</p>",
             "text_size": 4,
             "description_letter_spacing": 0,
             "description_text_color": "#574840",
@@ -53,7 +56,8 @@
         "link": "",
         "mobile_height": "screen-height-two-thirds--mobile",
         "image_marign_bottom_desktop": 110,
-        "text_box_max_width": 650,
+        "text_box_max_width": 680,
+        "text_box_full_width": false,
         "flex_align_desktop": "align--bottom-left-desktop",
         "flex_align_mobile": "align--middle-left-mobile",
         "overlay_opacity": 0,
@@ -87,6 +91,7 @@
         "text_zrwmQe": {
           "type": "text",
           "settings": {
+            "icon_width": 40,
             "text_color": "#000000",
             "text": "<p>Simran trained in Textile Design at Loughborough University, where she learned to read materials closely: how they feel, how they wear and how they change the mood of a room.<br/><br/></p><p>In October 2021 she founded Simran Design, building the studio independently and without outside investment. Every project since has been won on the strength of the last, from Carnaby Street offices to clinics in Frankfurt and workspaces in Dubai.<br/><br/></p><p>[Add two or three sentences in your own voice: why commercial interiors, what you believe a great business space does, and what clients can expect working with you.]<br/><br/></p>",
             "text_size": 4,
@@ -106,6 +111,7 @@
           "settings": {
             "title": "<em>“[A short line in your words about what drives you, for example: a beautiful space is only finished when it is working for the business inside it.]”</em>",
             "text_size": 8,
+            "letter_spacing": 0,
             "padding_bottom": 16
           }
         },
@@ -115,6 +121,7 @@
             "subheading": "Simran Kotecha · Founder and Director",
             "subheading_color": "#2b1e19",
             "text_size": 1,
+            "sub_title_letter_spacing": 0,
             "padding_bottom": 16
           }
         }
@@ -128,14 +135,20 @@
       "name": "Image with text",
       "settings": {
         "layout": "",
-        "height": "four-fifty-height-hero",
+        "height": "five-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Untitled_design_4_6e74a619-89a3-4668-b6aa-2e276e077725.jpg",
+        "image_link": "",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
         "image_width": "thirty-five-percent",
         "subtitle": "MEET THE FOUNDER",
         "subtitle_color": "#7a5f32",
-        "sub_title_letter_spacing": 2,
         "sub_title_size": 1,
         "title": "A textile designer's eye, applied to spaces that have to perform.",
         "title_size": 8,
@@ -184,7 +197,7 @@
         "content_size": 2,
         "block_heading_size": 10,
         "block_subheading_size": 3,
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
         "blocks_border_top": "#2b1e19",
@@ -214,7 +227,7 @@
             "title_2_color": "",
             "text": "<p>We start with how the space earns: client journey, capacity, staff flow and the first impression at the door.</p>",
             "text_size": 3,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -250,7 +263,7 @@
             "title_2_color": "",
             "text": "<p>Finishes chosen for heavy daily use as much as for beauty, specified through trusted suppliers such as Altro and Dulux.</p>",
             "text_size": 3,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -286,7 +299,7 @@
             "title_2_color": "",
             "text": "<p>You deal with the studio, not a chain of trades. We coordinate everyone so you can keep running your business.</p>",
             "text_size": 3,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -322,7 +335,7 @@
             "title_2_color": "",
             "text": "<p>Building control, accessibility and sector regulations considered from the first sketch, not fixed at the end.</p>",
             "text_size": 3,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -359,7 +372,7 @@
         "align_heading": "text-left",
         "align_text": "text-left",
         "align_columns": "flex-align-top",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "#f2ede7",
         "color": "#2b1e19",
         "first_button_text": "",
@@ -394,7 +407,7 @@
             "title_2_color": "",
             "text": "",
             "text_size": 3,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -430,7 +443,7 @@
             "title_2_color": "",
             "text": "",
             "text_size": 3,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -465,7 +478,7 @@
         "align_heading": "text-left",
         "align_text": "text-left",
         "align_columns": "flex-align-top",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -487,7 +500,7 @@
           "settings": {
             "column_width": 33,
             "image": "shopify://shop_images/DSC_9125.jpg",
-            "image_aspect_ratio": 1,
+            "image_aspect_ratio": 0.9,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "",
@@ -513,7 +526,7 @@
           "settings": {
             "column_width": 33,
             "image": "shopify://shop_images/simrandesign-hq-150526-1133.jpg",
-            "image_aspect_ratio": 1,
+            "image_aspect_ratio": 0.9,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "",
@@ -539,7 +552,7 @@
           "settings": {
             "column_width": 33,
             "image": "shopify://shop_images/DSC_9145_copy.jpg",
-            "image_aspect_ratio": 1,
+            "image_aspect_ratio": 0.9,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "",
@@ -578,7 +591,7 @@
         "align_heading": "text-left",
         "align_text": "text-left",
         "align_columns": "flex-align-top",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -628,7 +641,7 @@
             "title_2_color": "",
             "text": "<p>3D visualisation</p>",
             "text_size": 4,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "#d9c6b8",
@@ -664,7 +677,7 @@
             "title_2_color": "",
             "text": "<p>Architecture and building control</p>",
             "text_size": 4,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "#d9c6b8",
@@ -700,7 +713,7 @@
             "title_2_color": "",
             "text": "<p>Bespoke joinery and carpentry<br/></p>",
             "text_size": 4,
-            "text_first_max_width": 600,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "#d9c6b8",
@@ -737,7 +750,7 @@
         "align_heading": "text-left",
         "align_text": "text-left",
         "align_columns": "flex-align-top",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "#f2ede7",
         "color": "",
         "first_button_text": "",
@@ -786,7 +799,7 @@
         "content_size": 2,
         "block_heading_size": 5,
         "block_subheading_size": 3,
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
         "blocks_border_top": "",
@@ -804,6 +817,7 @@
             "subheading": "Visit the studio",
             "subheading_color": "#000000",
             "text_size": 1,
+            "sub_title_letter_spacing": 0,
             "padding_bottom": 16
           }
         },
@@ -812,12 +826,14 @@
           "settings": {
             "title": "See and touch the materials before you commit.",
             "text_size": 8,
+            "letter_spacing": 0,
             "padding_bottom": 16
           }
         },
         "text_hxnFX8": {
           "type": "text",
           "settings": {
+            "icon_width": 40,
             "text_color": "#574840",
             "text": "<p>Meetings at our Leicester studio, or on site anywhere in the UK. International clients are welcome to meet by video.</p>",
             "text_size": 4,
@@ -828,6 +844,7 @@
         "text_AkjBGF": {
           "type": "text",
           "settings": {
+            "icon_width": 40,
             "text_color": "#000000",
             "text": "<p><strong>18A Park House, Meridian Business Park, Leicester LE19 1WZ</strong></p>",
             "text_size": 3,
@@ -847,12 +864,18 @@
         "layout": "",
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Screenshot_2026-03-13_at_16.04.40.png",
+        "image_link": "",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
         "image_width": "sixty",
         "subtitle": "",
         "subtitle_color": "#000000",
-        "sub_title_letter_spacing": 0,
         "sub_title_size": 8,
         "title": "",
         "title_size": 8,
@@ -873,13 +896,15 @@
           "type": "heading",
           "settings": {
             "title": "Let's talk about your space.",
-            "heading_size": 9
+            "heading_size": 9,
+            "heading_max_width": 600
           }
         },
         "text_ExKUKg": {
           "type": "text",
           "settings": {
-            "description": "Answer six quick questions and Simran will call you within one working day.",
+            "text_max_width": 1000,
+            "description": "<p>Answer six quick questions and Simran will call you within one working day.</p>",
             "text_size": 4,
             "description_letter_spacing": 0,
             "description_text_color": "#574840",
@@ -912,14 +937,15 @@
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
         "image_marign_bottom_desktop": 0,
-        "text_box_max_width": 640,
+        "text_box_max_width": 660,
+        "text_box_full_width": false,
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
-        "overlay_color": "#6F5353",
+        "overlay_color": "#6f5353",
         "show_overlay_text": false,
-        "bg_color": "#FFFFFF",
-        "color": "#2B1E19"
+        "bg_color": "#ffffff",
+        "color": "#2b1e19"
       }
     }
   },
