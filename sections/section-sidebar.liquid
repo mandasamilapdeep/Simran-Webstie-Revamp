@@ -83,19 +83,33 @@
   {%- endfor -%}
 {%- endif -%}
 
-<section id="Sidebar--{{ section.id }}"
+<section
+  id="Sidebar--{{ section.id }}"
   class="section-sidebar section-padding"
   data-section-id="{{ section.id }}"
-  data-section-type="sidebar">
+  data-section-type="sidebar"
+>
   {%- if section.blocks.size > 0 -%}
     <div class="{{ section.settings.width }}">
       <div class="section-sidebar__body">
-        <div class="section-sidebar__aside"
+        <div
+          class="section-sidebar__aside"
           data-aos="hero"
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}"
         >
           <div class="section-sidebar__widget">
+            {% if section.settings.title != blank %}
+              <h2
+                style="letter-spacing:{{ section.settings.heading_letter_spacing }}px;"
+                class="hero__title heading-size-{{ section.settings.heading_size }}"
+                data-aos="hero"
+                data-aos-anchor="#Sidebar--{{ section.id }}"
+                data-aos-order="1"
+              >
+                {{ section.settings.title }}
+              </h2>
+            {% endif %}
             {%- if aside_html != '' -%}
               <ul class="widget__links widget__links--secondary">
                 {{ aside_html }}
@@ -105,7 +119,8 @@
         </div>
         {%- assign animation_order = animation_order | plus: 1 -%}
 
-        <div class="section-sidebar__content"
+        <div
+          class="section-sidebar__content"
           data-aos="hero"
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}"
@@ -126,6 +141,30 @@
   "name": "Sidebar",
   "settings": [
     {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Add a title or tagline"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 1,
+      "max": 15,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing",
+      "label": "Heading letter spacing",
+      "min": -5,
+      "max": 5,
+      "step": 0.5,
+      "default": 0
+    },
+    {
       "type": "header",
       "content": "Style"
     },
@@ -135,8 +174,8 @@
       "label": "Width",
       "default": "wrapper--full-padded",
       "options": [
-        {"value": "wrapper--full-padded", "label": "Full width padded"},
-        {"value": "wrapper", "label": "Normal"}
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" }
       ]
     },
     {

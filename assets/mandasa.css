@@ -385,6 +385,13 @@ span.drawer__image_box_text h6 {
     overflow-x: auto;
 }
 
+.has-header-sticky .section-sidebar__widget {
+    top: 0;
+    padding-top: 0;
+}
+
+
+
 
 @media only screen and (min-width: 901px) {
     .hero__text-group_four-desktop {

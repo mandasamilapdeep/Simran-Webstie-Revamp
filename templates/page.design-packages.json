@@ -806,6 +806,9 @@
       "disabled": true,
       "name": "Sidebar",
       "settings": {
+        "title": "Add a title or tagline",
+        "heading_size": 4,
+        "heading_letter_spacing": 0,
         "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
@@ -2533,6 +2536,64 @@
         "equal_spacing_blocks": true,
         "mobile_flex_row": false
       }
+    },
+    "section_sidebar_MUyAb9": {
+      "type": "section-sidebar",
+      "blocks": {
+        "accordion_bmnb6Q": {
+          "type": "accordion",
+          "settings": {
+            "title": "How long does the design phase take?",
+            "content": "<p>Most design phases are completed within 2 to 4 weeks, depending on the size and complexity of your space.</p>"
+          }
+        },
+        "accordion_KJLt6z": {
+          "type": "accordion",
+          "settings": {
+            "title": "Do you work outside Leicester?",
+            "content": "<p>Yes. We design across the UK and internationally, with recent projects in London, Frankfurt and Dubai. Site visits are arranged where needed.</p>"
+          }
+        },
+        "accordion_QEL6TQ": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can you manage the build as well as the design?",
+            "content": "<p>Yes. Our Signature service includes contractor tendering, trade coordination, compliance and project management through to handover.</p>"
+          }
+        },
+        "accordion_a88kqC": {
+          "type": "accordion",
+          "settings": {
+            "title": "What if my project covers several spaces?",
+            "content": "<p>Fees are per space. For larger or multi-area commissions we prepare a tailored proposal after your consultation.</p>"
+          }
+        },
+        "accordion_DLpcdq": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do payments work?",
+            "content": "<p>[Add your payment terms, for example a deposit on booking and the balance on final presentation.]</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_bmnb6Q",
+        "accordion_KJLt6z",
+        "accordion_QEL6TQ",
+        "accordion_a88kqC",
+        "accordion_DLpcdq"
+      ],
+      "name": "Sidebar",
+      "settings": {
+        "title": "Questions, answered.",
+        "heading_size": 8,
+        "heading_letter_spacing": 0,
+        "width": "wrapper--full-padded",
+        "bg_color": "#f2ede7",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -2548,6 +2609,7 @@
     "custom_tab_section_Fwihep",
     "section_rich_text_mKEEdL",
     "table_section_MfnGLW",
-    "section_multicolumn_9HKRnH"
+    "section_multicolumn_9HKRnH",
+    "section_sidebar_MUyAb9"
   ]
 }
