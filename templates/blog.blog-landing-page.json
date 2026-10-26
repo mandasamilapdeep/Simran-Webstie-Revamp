@@ -16,14 +16,18 @@
           "type": "heading",
           "settings": {
             "title": "our BLOG",
-            "heading_size": 7
+            "heading_size": 7,
+            "heading_max_width": 600
           }
         },
         "text_9yyJWJ": {
           "type": "text",
           "settings": {
-            "description": "WELCOME, YOU'RE IN THE RIGHT PLACE",
+            "text_max_width": 1000,
+            "description": "<p>WELCOME, YOU'RE IN THE RIGHT PLACE</p>",
             "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#000000",
             "text_style": "font-body"
           }
         }
@@ -38,6 +42,9 @@
         "image_1": "shopify://shop_images/732aad_a393c09ce7b945d9b14098833c4fc26b_mv2.webp",
         "link": "",
         "mobile_height": "screen-height-one-half--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 600,
+        "text_box_full_width": false,
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 45,
@@ -55,7 +62,9 @@
           "settings": {
             "subheading": "Introducing the blog",
             "text_size": 3,
-            "padding_bottom": 16
+            "subheading_letter_spacing": 0,
+            "padding_bottom": 16,
+            "subheading_color": ""
           }
         },
         "heading_6f8ecY": {
@@ -63,16 +72,20 @@
           "settings": {
             "title": "Launching Soon!",
             "text_size": 7,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "title_color": ""
           }
         },
         "text_mh4Anq": {
           "type": "text",
           "settings": {
+            "text_max_width": 500,
+            "icon_width": 40,
             "text": "<p>If you’ve a design-lover, business owner looking to collaborate or ever been curious about what goes on behind the scenes at Simran Design Ltd, our very blog is the place for you! Stay tuned..</p>",
             "text_size": 3,
             "text_style": "font-body",
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "text_color": ""
           }
         }
       },
@@ -150,7 +163,7 @@
             "text_size": 3,
             "flex_align": "align--middle-center",
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link_text": "",
             "link": "shopify://pages/quote",
             "button_type": "btn--primary",

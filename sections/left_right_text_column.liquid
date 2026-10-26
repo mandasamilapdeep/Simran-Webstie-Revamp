@@ -1,0 +1,992 @@
+<!-- /sections/section-multicolumn.liquid -->
+
+{%- render 'left_right_text_column' -%}
+
+{% schema %}
+{
+  "name": "Left Right Text Column",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Sub heading"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "label": "Sub heading size",
+      "min": 1,
+      "max": 15,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Sub heading color"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 1,
+      "max": 15,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "heading_max_width",
+      "label": "Heading Max Width",
+      "unit": "px",
+      "min": 300,
+      "max": 1500,
+      "step": 20,
+      "default": 600
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Alignment"
+    },
+    {
+      "type": "select",
+      "id": "align_heading",
+      "label": "Heading",
+      "default": "text-left",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Centered"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "Text",
+      "default": "text-left",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Centered"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "align_columns",
+      "label": "Columns",
+      "default": "flex-align-top",
+      "options": [
+        {
+          "value": "flex-align-top",
+          "label": "Top"
+        },
+        {
+          "value": "flex-align-center",
+          "label": "Centered"
+        },
+        {
+          "value": "flex-align-bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "flex-align-stretch",
+          "label": "Stretch"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Normal" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "first_button_text",
+      "label": "First button text"
+    },
+    {
+      "type": "url",
+      "id": "first_button_url",
+      "label": "First button link"
+    },
+    {
+      "type": "text",
+      "id": "second_button_text",
+      "label": "Second button text"
+    },
+    {
+      "type": "url",
+      "id": "second_button_url",
+      "label": "Second button link"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "select",
+      "id": "layout_mobile",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 item per row"
+        },
+        {
+          "value": "2",
+          "label": "2 items per row"
+        },
+        {
+          "value": "slider",
+          "label": "Slider"
+        }
+      ],
+      "default": "slider"
+    },
+    {
+      "type": "checkbox",
+      "id": "equal_spacing_blocks",
+      "label": "Equal Spacing Blocks",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_flex_row",
+      "label": "Mobile flex row",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "color",
+          "id": "block_border_color",
+          "label": "Block border Color"
+        },
+        {
+          "type": "range",
+          "id": "block_border_width",
+          "label": "Border Width",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "unit": "px",
+          "default": 1
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        },
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_aspect_ratio",
+          "min": 0.5,
+          "max": 1.5,
+          "step": 0.1,
+          "unit": ":1",
+          "label": "Desktop aspect ratio",
+          "info": "Wide to tall",
+          "default": 1
+        },
+        {
+          "type": "range",
+          "id": "mobile_image_aspect_ratio",
+          "min": 0.5,
+          "max": 1.5,
+          "step": 0.1,
+          "unit": ":1",
+          "label": "Mobile aspect ratio",
+          "info": "Wide to tall",
+          "default": 1
+        },
+        {
+          "type": "select",
+          "id": "image_shape",
+          "label": "Image shape",
+          "options": [
+            {
+              "value": "normal",
+              "label": "Normal"
+            },
+            {
+              "value": "circle",
+              "label": "Circle"
+            },
+            {
+              "value": "rounded",
+              "label": "Rounded"
+            },
+            {
+              "value": "blob-one",
+              "label": "Blob one"
+            },
+            {
+              "value": "blob-two",
+              "label": "Blob two"
+            },
+            {
+              "value": "blob-three",
+              "label": "Blob three"
+            }
+          ],
+          "default": "normal",
+          "info": "1:1 aspect ratio recommended"
+        },
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+        {
+          "type": "color",
+          "id": "text_box_bg_color",
+          "label": "text_box_bg_color"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title_1",
+          "label": "Heading 1"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_1",
+          "label": "Heading size 1",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "heading_letter_spacing_1",
+          "label": "Heading letter spacing 1",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "heading_color_1",
+          "label": "Heading Color 1"
+        },
+        {
+          "type": "range",
+          "id": "heading_margin_top_1",
+          "label": "Heading margin top 1",
+          "min": 0,
+          "max": 200,
+          "step": 2,
+          "default": 0
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "heading_margin_top",
+          "label": "Heading margin top",
+          "min": 0,
+          "max": 200,
+          "step": 2,
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "range",
+          "id": "subtitle_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "subtitle_letter_spacing",
+          "label": "Subtitle letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "subtitle_margin_top",
+          "label": "Subtitle margin top",
+          "min": 0,
+          "max": 200,
+          "step": 2,
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "subtitle_color",
+          "label": "Subtitle color"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "richtext",
+          "id": "text_2",
+          "label": "Text 2"
+        },
+        {
+          "type": "range",
+          "id": "text_2_size",
+          "label": "Text 2 size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "color",
+          "id": "text_2_color",
+          "label": "Text 2 color"
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text",
+          "info": "Leave blank to link entire image"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "label": "Color",
+          "default": "btn--primary hero__btn",
+          "options": [
+            { "value": "btn--primary hero__btn", "label": "Primary" },
+            { "value": "btn--secondary hero__btn", "label": "Secondary" },
+            { "value": "btn--white hero__btn", "label": "White" },
+            { "value": "btn--black hero__btn", "label": "Black" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_arrow",
+          "label": "Show arrow",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "settings": [
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        },
+        {
+          "type": "header",
+          "content": "Icon"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_icon",
+          "label": " Enable Icon",
+          "default": true
+        },
+        {
+          "type": "select",
+          "id": "icon_name",
+          "label": "Icon",
+          "default": "icon-award",
+          "options": [
+            { "label": "Award", "value": "icon-award" },
+            { "label": "Box", "value": "icon-box" },
+            { "label": "Chat", "value": "icon-chat" },
+            { "label": "Cloud", "value": "icon-cloud" },
+            { "label": "Diameter", "value": "icon-diameter" },
+            { "label": "Discount", "value": "icon-discount" },
+            { "label": "Donation", "value": "icon-donation" },
+            { "label": "Droplet", "value": "icon-droplet" },
+            { "label": "Info", "value": "icon-info-empty" },
+            { "label": "Email", "value": "icon-email" },
+            { "label": "Fast shipment", "value": "icon-fast-shipment" },
+            { "label": "Flare", "value": "icon-flare" },
+            { "label": "Flower", "value": "icon-flower" },
+            { "label": "Gift", "value": "icon-gift" },
+            { "label": "Green shipment", "value": "icon-green-shipment" },
+            { "label": "Heart", "value": "icon-heart" },
+            { "label": "Leaf", "value": "icon-leaf" },
+            { "label": "Lightening", "value": "icon-lightening" },
+            { "label": "Location", "value": "icon-location" },
+            { "label": "Mail", "value": "icon-mail" },
+            { "label": "Notes", "value": "icon-notes" },
+            { "label": "Pants", "value": "icon-pants" },
+            { "label": "Peace", "value": "icon-peace" },
+            { "label": "Pin", "value": "icon-pin" },
+            { "label": "Planet", "value": "icon-planet" },
+            { "label": "Phone", "value": "icon-phone" },
+            { "label": "Recycle", "value": "icon-recycle" },
+            { "label": "Ruler", "value": "icon-ruler" },
+            { "label": "Shield", "value": "icon-shield" },
+            { "label": "Smile", "value": "icon-smile" },
+            { "label": "Star", "value": "icon-star" },
+            { "label": "Tree", "value": "icon-tree" },
+            { "label": "Trophy", "value": "icon-trophy" },
+            { "label": "Truck", "value": "icon-truck" },
+            { "label": "Vegan", "value": "icon-vegan" },
+            { "label": "Wash", "value": "icon-wash" },
+            { "label": "Washing machine", "value": "icon-washing-machine" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "icon_size",
+          "label": "Size",
+          "unit": "px",
+          "min": 20,
+          "max": 80,
+          "step": 5,
+          "default": 20
+        },
+        {
+          "type": "select",
+          "id": "icon_alignment",
+          "label": "Placement",
+          "default": "icon--top",
+          "options": [
+            { "value": "icon--top", "label": "Top" },
+            { "value": "icon--left", "label": "Left" }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "icon_color",
+          "label": "Color",
+          "default": "#545454"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Alternative icon/image"
+        },
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Title"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "color",
+          "id": "column_bg_color",
+          "label": "Column background color"
+        },
+        {
+          "type": "color",
+          "id": "column_border_top",
+          "label": "Column border top"
+        },
+        {
+          "type": "checkbox",
+          "id": "column_border_top_mobile_hide",
+          "label": "Column border top hide in mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "padding_left_desktop_zero",
+          "label": "Padding left zero in desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "padding_right_desktop_zero",
+          "label": "Padding right zero in desktop"
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 5,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_custom_padding_top",
+          "label": "Enable custom padding top",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "padding_top_desktop",
+          "label": "Padding top desktop",
+          "unit": "px",
+          "min": 0,
+          "max": 500,
+          "step": 5,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_top_mobile",
+          "label": "Padding top mobile",
+          "unit": "px",
+          "min": 0,
+          "max": 500,
+          "step": 5,
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "heading_letter_spacing",
+          "label": "Heading letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title color",
+          "default": "#545454"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title_2",
+          "label": "Heading 2",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_2",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "color",
+          "id": "title_2_color",
+          "label": "Title 2 color"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "range",
+          "id": "text_max_width",
+          "label": "Text max width",
+          "min": 200,
+          "max": 1200,
+          "step": 20,
+          "default": 600
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Text style",
+          "default": "font-body",
+          "options": [
+            { "value": "font-heading", "label": "Heading" },
+            { "value": "font-body", "label": "Body" }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color"
+        },
+        {
+          "type": "color",
+          "id": "text_top_border_color",
+          "label": "Text top border color"
+        },
+        {
+          "type": "richtext",
+          "id": "text_2",
+          "label": "Text 2",
+          "default": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "range",
+          "id": "text_size_2",
+          "label": "Text size 2",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "select",
+          "id": "text_style_2",
+          "label": "Text style 2",
+          "default": "font-body",
+          "options": [
+            { "value": "font-heading", "label": "Heading" },
+            { "value": "font-body", "label": "Body" }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "text_2_color",
+          "label": "Text 2 color"
+        },
+        {
+          "type": "color",
+          "id": "text_2_top_border_color",
+          "label": "Text 2 top border color"
+        },
+        {
+          "type": "range",
+          "id": "text_2_letter_spacing",
+          "label": "Text 2 letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "text_2_margin_top",
+          "label": "Text 2 margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "label": "Color",
+          "default": "btn--primary hero__btn",
+          "options": [
+            { "value": "btn--primary hero__btn", "label": "Primary" },
+            { "value": "btn--secondary hero__btn", "label": "Secondary" },
+            { "value": "btn--white hero__btn", "label": "White" },
+            { "value": "btn--black hero__btn", "label": "Black" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_arrow",
+          "label": "Show arrow",
+          "default": false
+        },
+        {
+          "type": "richtext",
+          "id": "text_3",
+          "label": "Text 3"
+        },
+        {
+          "type": "range",
+          "id": "text_size_3",
+          "label": "Text size 3",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "color",
+          "id": "text_3_color",
+          "label": "Text 3 color"
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "name": "Menu",
+      "settings": [
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "info": "This menu won't show dropdown items."
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 8,
+          "step": 1,
+          "default": 6
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Left Right Text Column",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "icon",
+          "settings": {
+            "title": "Secure transactions",
+            "icon_name": "icon-shield",
+            "text": "<p>Transactions are handled with bank-grade security.</p>"
+          }
+        },
+        {
+          "type": "icon",
+          "settings": {
+            "title": "Simple checkout",
+            "icon_name": "icon-trophy",
+            "text": "<p>Our secure checkout is quick and easy to use.</p>"
+          }
+        },
+        {
+          "type": "icon",
+          "settings": {
+            "title": "Get in touch",
+            "icon_name": "icon-chat",
+            "text": "<p>Have questions? Get in touch with us at any time.</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  }
+}
+{% endschema %}

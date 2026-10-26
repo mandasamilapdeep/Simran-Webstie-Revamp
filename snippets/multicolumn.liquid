@@ -420,6 +420,7 @@
         </a>
       </div>
     {%- endif -%}
+    
   </div>
 </div>
 </div>
@@ -529,12 +530,26 @@
     padding: 40px 32px;
     height: 100%;
     {% endif %}
+    {% if block.settings.enable_custom_padding_top %}
+    padding-top: {{ block.settings.padding_top_desktop }}px !important;
+    {% endif %}
   }
   @media(max-width: 749px){
     {% if block.settings.column_border_top_mobile_hide %}
     .grid-item-{{ block.id }} .column__inner{
       border-top: 0px !important;
       padding-top: 0px !important;
+      {% if block.settings.enable_custom_padding_top %}
+    padding-top: {{ block.settings.padding_top_mobile }}px !important;
+    {% endif %}
+  }
+  {% endif %}
+    
+
+    
+    {% if block.settings.enable_custom_padding_top %}
+    .grid-item-{{ block.id }} .column__inner{
+    padding-top: {{ block.settings.padding_top_mobile }}px !important;
     }
     {% endif %}
   }
@@ -614,6 +629,121 @@
           </a>
         </div>
       {%- endif -%}
+      {%- if block.settings.text_3 != blank -%}
+      <div style="color: {{ block.settings.text_3_color }}" class="column__text rte body-size-{{ block.settings.text_size_3 }}">
+        {{- block.settings.text_3 -}}
+      </div>
+    {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{%- when 'left_right_text' -%}
+
+<style>
+  @media(min-width: 749px){
+     .grid-item-{{ block.id }} {
+        {% if block.settings.padding_left_desktop_zero %}
+      padding-left: 0px !important;
+      {% endif %}
+      {% if block.settings.padding_right_desktop_zero %}
+      padding-right: 0px !important;
+      {% endif %}
+      }
+  }
+  .grid-item-{{ block.id }} {
+    {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+    padding-top: 10px !important;
+    {% endif %}
+  }
+
+  .grid-item-{{ block.id }} {
+    {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+    padding-top: 10px !important;
+    {% endif %}
+    {% if block.settings.padding_left_desktop_zero %}
+  padding-left: 0px !important;
+  {% endif %}
+  {% if block.settings.padding_right_desktop_zero %}
+  padding-right: 0px !important;
+  {% endif %}
+  }
+
+  .grid-item-{{ block.id }} .column__inner {
+    background-color: {{ block.settings.column_bg_color }};
+    {% if block.settings.column_bg_color != blank %}
+    padding: 40px 32px;
+    height: 100%;
+    {% endif %}
+    {% if block.settings.enable_custom_padding_top %}
+    padding-top: {{ block.settings.padding_top_desktop }}px !important;
+    {% endif %}
+  }
+  @media(max-width: 749px){
+    {% if block.settings.column_border_top_mobile_hide %}
+    .grid-item-{{ block.id }} .column__inner{
+      border-top: 0px !important;
+      padding-top: 0px !important;
+      {% if block.settings.enable_custom_padding_top %}
+    padding-top: {{ block.settings.padding_top_mobile }}px !important;
+    {% endif %}
+  }
+  {% endif %}
+    
+
+    
+    {% if block.settings.enable_custom_padding_top %}
+    .grid-item-{{ block.id }} .column__inner{
+    padding-top: {{ block.settings.padding_top_mobile }}px !important;
+    }
+    {% endif %}
+  }
+</style>
+
+<div
+  class="grid-item  grid-item-{{ block.id }} left_right_text"
+  {{ block_style }}
+  {% if enable_slider %}
+    data-grid-item
+  {% endif %}
+  {{ block.shopify_attributes }}
+>
+  <div
+    
+    class="column__inner"
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  >
+    <div class="column__content">
+
+      {% if block.settings.link != blank %}<a href="{{ block.settings.link }}" class="hover_opacity_fade">
+      {% endif %}
+      <div class="left_right_text__wrapper " {% if block.settings.column_border_color != blank %}
+      style="border:1px solid {{ block.settings.column_border_color }}; padding: 20px;"
+    {% endif %}>
+      {%- if title != blank -%}
+        {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+
+        <h2
+          style="color:{{ title_color }}; letter-spacing: {{ block.settings.heading_letter_spacing }}px;"
+          class=" column__multi_column__heading_first {{ font_size_class }}"
+        >
+          {{ title }}
+        </h2>
+      {%- endif -%}
+
+      {%- if title_2 != blank -%}
+        {%- assign font_size_class = block.settings.heading_size_2 | prepend: 'heading-size-' -%}
+
+        <h2 style=" color: {{ title_2_color }};" class=" {{ font_size_class }}">
+          {{ title_2 }}
+        </h2>
+      {%- endif -%}
+    </div>
+    {% if block.settings.link != blank %}
+    </a>
+    {% endif %}
     </div>
   </div>
 </div>

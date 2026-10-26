@@ -623,6 +623,7 @@
                         style="{{ block_style }}"
                       >
                         <a
+                          style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %}"
                           href="{{ block.settings.button_url | default: '#!' }}"
                           class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
                         >

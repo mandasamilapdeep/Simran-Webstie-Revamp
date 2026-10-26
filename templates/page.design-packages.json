@@ -39,6 +39,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 57,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -63,7 +66,10 @@
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_7VH6nW": {
@@ -75,6 +81,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 9,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -99,7 +108,10 @@
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_VRxmFK": {
@@ -111,6 +123,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 7,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -135,7 +150,10 @@
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_xewYqX": {
@@ -147,6 +165,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 6,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -171,7 +192,10 @@
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_w8QXHM": {
@@ -183,6 +207,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 20,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -207,7 +234,10 @@
             "button_url": "",
             "button_type": "btn--secondary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
@@ -398,7 +428,8 @@
             "button_size": "btn--large",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "hide_underline": false
           }
         },
         "buttons_7L8fKB": {
@@ -410,7 +441,8 @@
             "button_size": "btn--large",
             "button_style": "btn--text",
             "show_arrow": false,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "hide_underline": true
           }
         }
       },
@@ -945,7 +977,8 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "hide_underline": false
           }
         }
       },
@@ -1032,7 +1065,7 @@
             "table_column_border_bottom": "#ede3db",
             "table_column_bottom_padding": 16,
             "table_column_margin_bottom": 16,
-            "first_title": "DISCOVERY",
+            "first_title": "<strong>DISCOVERY</strong>",
             "first_title_color": "#7a5f32",
             "first_title_align": "left",
             "first_title_size": 2,
@@ -1206,7 +1239,7 @@
             "table_column_border_bottom": "#ede3db",
             "table_column_bottom_padding": 16,
             "table_column_margin_bottom": 16,
-            "first_title": "CONCEPT",
+            "first_title": "<strong>CONCEPT</strong>",
             "first_title_color": "#7a5f32",
             "first_title_align": "left",
             "first_title_size": 2,
@@ -1438,7 +1471,7 @@
             "table_column_border_bottom": "#ede3db",
             "table_column_bottom_padding": 16,
             "table_column_margin_bottom": 16,
-            "first_title": "TECHNICAL DESIGN",
+            "first_title": "<strong>TECHNICAL DESIGN</strong>",
             "first_title_color": "#7a5f32",
             "first_title_align": "left",
             "first_title_size": 2,
@@ -1728,7 +1761,7 @@
             "table_column_border_bottom": "#ede3db",
             "table_column_bottom_padding": 16,
             "table_column_margin_bottom": 16,
-            "first_title": "SOURCING",
+            "first_title": "<strong>SOURCING</strong>",
             "first_title_color": "#7a5f32",
             "first_title_align": "left",
             "first_title_size": 2,
@@ -1960,7 +1993,7 @@
             "table_column_border_bottom": "#ede3db",
             "table_column_bottom_padding": 16,
             "table_column_margin_bottom": 16,
-            "first_title": "PRESENTATION AND DELIVERY",
+            "first_title": "<strong>PRESENTATION AND DELIVERY</strong>",
             "first_title_color": "#7a5f32",
             "first_title_align": "left",
             "first_title_size": 2,
@@ -2308,7 +2341,7 @@
             "table_column_border_bottom": "",
             "table_column_bottom_padding": 16,
             "table_column_margin_bottom": 30,
-            "first_title": "● Included · Blank means not included",
+            "first_title": "<strong>● Included · Blank means not included</strong>",
             "first_title_color": "#7a5f32",
             "first_title_align": "left",
             "first_title_size": 2,
@@ -2406,6 +2439,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 33,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -2430,7 +2466,10 @@
             "button_url": "",
             "button_type": "btn--white hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_qEYzqt": {
@@ -2442,6 +2481,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 33,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -2466,7 +2508,10 @@
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_hzFtyD": {
@@ -2478,6 +2523,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 33,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -2502,7 +2550,10 @@
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
@@ -2594,6 +2645,100 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "section_multicolumn_eQba7b": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_yxFPPm": {
+          "type": "icon",
+          "settings": {
+            "column_width": 60,
+            "enable_icon": false,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "Not sure yet? Start with a 30 minute design consultation.",
+            "heading_size": 9,
+            "text": "",
+            "text_size": 3
+          }
+        },
+        "text_QPmWM4": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 40,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "",
+            "heading_size": 4,
+            "heading_letter_spacing": 0,
+            "title_color": "#545454",
+            "title_2": "",
+            "heading_size_2": 4,
+            "title_2_color": "",
+            "text": "",
+            "text_size": 3,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "button_text": "Book a consultation",
+            "button_url": "",
+            "button_type": "btn--white hero__btn",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_yxFPPm",
+        "text_QPmWM4"
+      ],
+      "custom_css": [
+        "@media (min-width: 749px) {.column__btn {text-align: right; }}"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 5,
+        "subtitle_color": "",
+        "title": "",
+        "heading_size": 5,
+        "heading_max_width": 600,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "#2b1e19",
+        "color": "#ffffff",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
     }
   },
   "order": [
@@ -2610,6 +2755,7 @@
     "section_rich_text_mKEEdL",
     "table_section_MfnGLW",
     "section_multicolumn_9HKRnH",
-    "section_sidebar_MUyAb9"
+    "section_sidebar_MUyAb9",
+    "section_multicolumn_eQba7b"
   ]
 }

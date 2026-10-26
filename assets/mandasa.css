@@ -390,6 +390,13 @@ span.drawer__image_box_text h6 {
     padding-top: 0;
 }
 
+.left_right_text__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
 
 
 
