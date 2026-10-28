@@ -54,7 +54,7 @@
           "settings": {
             "text_max_width": 700,
             "icon_width": 40,
-            "text": "<p>A clear creative direction and layout, so you can move forward with confidence.</p>",
+            "text": "<p>Every finish, fitting and furniture piece selected, specified and priced through our trade network.</p>",
             "text_size": 5,
             "text_style": "font-body",
             "padding_bottom": 16,
@@ -71,20 +71,22 @@
             "button_style": "btn--solid",
             "show_arrow": false,
             "padding_bottom": 16,
-            "hide_underline": false
+            "hide_underline": false,
+            "button_text_transform": "uppercase"
           }
         },
         "buttons_LcrP7A": {
           "type": "buttons",
           "settings": {
-            "button_text": "From £495 per space, ex VAT",
+            "button_text": "From £895 per space, ex VAT",
             "button_url": "",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--text",
             "show_arrow": false,
             "padding_bottom": 16,
-            "hide_underline": true
+            "hide_underline": true,
+            "button_text_transform": "unset"
           }
         }
       },
@@ -107,7 +109,6 @@
     },
     "section_hero_eRxD9k": {
       "type": "section-hero",
-      "disabled": true,
       "custom_css": [],
       "name": "Image banner",
       "settings": {
@@ -140,7 +141,7 @@
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
-            "title": "1 to 2",
+            "title": "2 to 3",
             "heading_size": 12,
             "text": "<p>weeks for the design phase</p>",
             "text_size": 3
@@ -155,9 +156,9 @@
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
-            "title": "1 to 2",
+            "title": "Trade",
             "heading_size": 12,
-            "text": "<p>mood boards</p>",
+            "text": "<p>supplier pricing passed on</p>",
             "text_size": 3
           }
         },
@@ -187,7 +188,7 @@
             "icon_color": "#545454",
             "title": "1",
             "heading_size": 12,
-            "text": "<p>floor plan and space layout</p>",
+            "text": "<p>live client portal to approve every piece</p>",
             "text_size": 3
           }
         }
@@ -198,7 +199,6 @@
         "icon_wn9bTA",
         "icon_9KD4mM"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -220,7 +220,7 @@
         "second_button_url": "",
         "padding_top": 80,
         "padding_bottom": 80,
-        "layout_mobile": "slider",
+        "layout_mobile": "1",
         "equal_spacing_blocks": false,
         "mobile_flex_row": false
       }
@@ -240,14 +240,14 @@
             "enable_custom_padding_top": true,
             "padding_top_desktop": 250,
             "padding_top_mobile": 100,
-            "title": "DIRECTION",
+            "title": "SOURCING",
             "heading_size": 1,
             "heading_letter_spacing": 2,
             "title_color": "#cbb68c",
-            "title_2": "Mood boards that set the tone.&nbsp;",
+            "title_2": "Our trade network, working for you.",
             "heading_size_2": 8,
             "title_2_color": "#ffffff",
-            "text": "<p>Colours, materials and atmosphere pulled together into one clear creative direction.</p>",
+            "text": "<p>Furniture, lighting, materials and decor sourced from suppliers we trust.</p>",
             "text_size": 4,
             "text_max_width": 520,
             "text_style": "font-body",
@@ -282,14 +282,14 @@
             "enable_custom_padding_top": true,
             "padding_top_desktop": 250,
             "padding_top_mobile": 100,
-            "title": "LAYOUT",
+            "title": "SPECIFICATION",
             "heading_size": 1,
             "heading_letter_spacing": 2,
             "title_color": "#7a5f32",
-            "title_2": "A floor plan that works.",
+            "title_2": "Every detail written down.",
             "heading_size_2": 8,
             "title_2_color": "",
-            "text": "<p>Client flow, seating, storage and staff areas planned around how your business runs.</p>",
+            "text": "<p>Codes, finishes and quantities, so nothing is left to guesswork on site.</p>",
             "text_size": 3,
             "text_max_width": 600,
             "text_style": "font-body",
@@ -324,14 +324,14 @@
             "enable_custom_padding_top": true,
             "padding_top_desktop": 250,
             "padding_top_mobile": 100,
-            "title": "STYLING",
+            "title": "APPROVAL",
             "heading_size": 1,
             "heading_letter_spacing": 2,
             "title_color": "#7a5f32",
-            "title_2": "Material and furniture boards.",
+            "title_2": "Your live client portal.",
             "heading_size_2": 8,
             "title_2_color": "",
-            "text": "<p>The key finishes and pieces, ready to brief a contractor or plan your budget.<br/></p>",
+            "text": "<p>Review, approve and order everything in one place.</p>",
             "text_size": 3,
             "text_max_width": 600,
             "text_style": "font-body",
@@ -366,14 +366,14 @@
             "enable_custom_padding_top": true,
             "padding_top_desktop": 250,
             "padding_top_mobile": 100,
-            "title": "YOUR NEXT STEP",
+            "title": "VALUE",
             "heading_size": 1,
             "heading_letter_spacing": 2,
             "title_color": "#ffffff",
-            "title_2": "Ready to build on.",
+            "title_2": "Trade supplier pricing.",
             "heading_size_2": 8,
             "title_2_color": "#ffffff",
-            "text": "<p>Move up to Sourcing or Full Design whenever you are ready to go further.</p>",
+            "text": "<p>The benefit of our trade accounts, passed on to you.</p>",
             "text_size": 4,
             "text_max_width": 520,
             "text_style": "font-body",
@@ -403,7 +403,6 @@
         "text_N6eVxE",
         "text_wNNKfa"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -446,7 +445,6 @@
       "block_order": [
         "heading_EGwCyU"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "width": "wrapper",
@@ -647,7 +645,7 @@
             "title_2": "<strong>05</strong>",
             "heading_size_2": 4,
             "title_2_color": "#7a5f32",
-            "text": "<p>PDF design presentation</p>",
+            "text": "<p>Furniture, lighting, materials and decor sourcing</p>",
             "text_size": 4,
             "text_max_width": 600,
             "text_style": "font-body",
@@ -689,6 +687,90 @@
             "title_2": "<strong>06</strong>",
             "heading_size_2": 4,
             "title_2_color": "#7a5f32",
+            "text": "<p>Live client portal to review and approve</p>",
+            "text_size": 4,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 50,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        },
+        "text_MFD4Fm": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "#ffffff",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "<strong>07</strong>",
+            "heading_size_2": 4,
+            "title_2_color": "#7a5f32",
+            "text": "<p>Trade supplier pricing</p>",
+            "text_size": 4,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 50,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        },
+        "text_bBmiqx": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "#ffffff",
+            "column_border_top": "",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "",
+            "heading_size": 1,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "<strong>08</strong>",
+            "heading_size_2": 4,
+            "title_2_color": "#7a5f32",
             "text": "<p>One revision round</p>",
             "text_size": 4,
             "text_max_width": 600,
@@ -719,9 +801,10 @@
         "text_d6GfGz",
         "text_AzPrkG",
         "text_mC6hfP",
-        "text_P3gbhU"
+        "text_P3gbhU",
+        "text_MFD4Fm",
+        "text_bBmiqx"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -770,9 +853,9 @@
             "title_2": "",
             "heading_size_2": 4,
             "title_2_color": "",
-            "text": "<p><strong>Early planning and budgeting Owners with their own contractor Refreshes of existing spaces Pitching to landlords or investors</strong></p>",
+            "text": "<p><strong>Owners who know their style Refurbishments and refreshes Multi-site brand roll-outs Spaces with a contractor in place</strong></p>",
             "text_size": 6,
-            "text_max_width": 360,
+            "text_max_width": 340,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -809,7 +892,7 @@
             "heading_size": 4,
             "heading_letter_spacing": 0,
             "title_color": "#545454",
-            "title_2": "<em>“The imagination is truly a work of art.”</em>",
+            "title_2": "<em>“It works perfectly with our branding colours and style now.”</em>",
             "heading_size_2": 7,
             "title_2_color": "#ffffff",
             "text": "<p><strong>[Full name], [Role]</strong></p>",
@@ -818,7 +901,7 @@
             "text_style": "font-body",
             "text_color": "#ffffff",
             "text_top_border_color": "",
-            "text_2": "<p>Meridian Personal Training, Leicester</p>",
+            "text_2": "<p>Scancom HQ, Leicester</p>",
             "text_size_2": 2,
             "text_style_2": "font-body",
             "text_2_color": "#b3a396",
@@ -840,7 +923,6 @@
         "text_dYVb3Y",
         "text_zBAHWN"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -860,8 +942,8 @@
         "first_button_url": "",
         "second_button_text": "",
         "second_button_url": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "layout_mobile": "1",
         "equal_spacing_blocks": false,
         "mobile_flex_row": false
@@ -882,14 +964,14 @@
             "enable_custom_padding_top": false,
             "padding_top_desktop": 0,
             "padding_top_mobile": 0,
-            "title": "<strong>Sourcing and Specification</strong>",
+            "title": "<strong>Concept</strong>",
             "heading_size": 4,
             "heading_letter_spacing": 0,
             "title_color": "#2b1e19",
-            "title_2": "<strong>From £895</strong>",
+            "title_2": "<strong>From £495</strong>",
             "heading_size_2": 1,
             "title_2_color": "#2b1e19",
-            "link": "#"
+            "link": "shopify://pages/concept"
           }
         },
         "left_right_text_CGcDWt": {
@@ -942,7 +1024,6 @@
         "left_right_text_CGcDWt",
         "left_right_text_cT6itz"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -984,7 +1065,7 @@
             "enable_custom_padding_top": false,
             "padding_top_desktop": 0,
             "padding_top_mobile": 0,
-            "title": "Start with a clear direction.",
+            "title": "Get every piece specified.",
             "heading_size": 9,
             "heading_letter_spacing": 0,
             "title_color": "#ffffff",
@@ -1046,12 +1127,12 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
-            "button_text": "Book concept",
+            "button_text": "Book Sourcing and Specification",
             "button_url": "",
             "button_type": "btn--white hero__btn",
             "button_style": "btn--solid",
             "show_arrow": true,
-            "text_3": "<p>From £495 per space, ex VAT · [Payment terms]</p>",
+            "text_3": "<p>From £895 per space, ex VAT · [Payment terms]</p>",
             "text_size_3": 2,
             "text_3_color": "#b3a396"
           }
@@ -1061,7 +1142,6 @@
         "text_NgxJ67",
         "text_jgt6dQ"
       ],
-      "disabled": true,
       "custom_css": [
         ".column__btn .btn {width: 100%; justify-content: space-between;}"
       ],

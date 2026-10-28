@@ -137,7 +137,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="columns"
 >
-  <div class="{{ section.settings.width }} section_inner_{{ section.id }}">
+  <div class="{{ section.settings.width }} section_inner_{{ section.id }} left_right_text_column_wrapper">
     {%- if has_content -%}
       <div class="grid__heading-holder {{ section.settings.align_heading }}">
         <div class="heading_box">
@@ -218,6 +218,172 @@
         {%- endif -%}
       </div>
     {%- endif -%}
+    <div class="left_side_content_wrapper">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'left_side_content' -%}
+          {%- liquid
+            assign animation_order = animation_order | plus: 1
+            assign column_width = block.settings.column_width | default: column_width
+            assign title = block.settings.title
+            assign title_color = block.settings.title_color
+            assign title_2 = block.settings.title_2
+            assign title_2_color = block.settings.title_2_color
+            assign text = block.settings.text
+            assign text_style = block.settings.text_style
+            assign text_2 = block.settings.text_2
+            assign text_style_2 = block.settings.text_style_2
+            assign button_text = block.settings.button_text
+            assign button_style = block.settings.button_style
+            if button_style == 'btn--text' and block.settings.show_arrow
+              assign button_style = button_style | append: ' btn--text-no-underline'
+            endif
+
+            capture block_style
+              echo 'style="'
+              if multicolumn or column_width != blank
+                echo '--desktop-width: ' | append: column_width | append: '%;'
+              endif
+              echo '"'
+            endcapture
+          -%}
+
+          <style>
+            @media(min-width: 749px){
+               .grid-item-{{ block.id }} {
+                  {% if block.settings.column_width != blank %}
+                  width: {{ block.settings.column_width }}%;
+                  {% endif %}
+                  {% if block.settings.padding_left_desktop_zero %}
+                  padding-left: 0px !important;
+                  {% endif %}
+                  {% if block.settings.padding_right_desktop_zero %}
+                  padding-right: 0px !important;
+                  {% endif %}
+                }
+            }
+            .grid-item-{{ block.id }} {
+              {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+              padding-top: 10px !important;
+              {% endif %}
+            }
+
+            .grid-item-{{ block.id }} .column__inner {
+              background-color: {{ block.settings.column_bg_color }};
+              {% if block.settings.column_bg_color != blank %}
+              padding: 40px 32px;
+              height: 100%;
+              {% endif %}
+              {% if block.settings.enable_custom_padding_top %}
+              padding-top: {{ block.settings.padding_top_desktop }}px !important;
+              {% endif %}
+            }
+            @media(max-width: 749px){
+              {% if block.settings.column_border_top_mobile_hide %}
+              .grid-item-{{ block.id }} .column__inner{
+                border-top: 0px !important;
+                padding-top: 0px !important;
+                {% if block.settings.enable_custom_padding_top %}
+              padding-top: {{ block.settings.padding_top_mobile }}px !important;
+              {% endif %}
+            }
+            {% endif %}
+
+              {% if block.settings.enable_custom_padding_top %}
+              .grid-item-{{ block.id }} .column__inner{
+              padding-top: {{ block.settings.padding_top_mobile }}px !important;
+              }
+              {% endif %}
+            }
+          </style>
+
+          <div
+            class="grid-item  grid-item-{{ block.id }}"
+            {{ block_style }}
+            {% if enable_slider %}
+              data-grid-item
+            {% endif %}
+            {{ block.shopify_attributes }}
+          >
+            <div
+              {% if block.settings.column_border_top != blank %}
+                style="border-top:1px solid {{ block.settings.column_border_top }}; padding-top: 20px;"
+              {% endif %}
+              class="column__inner"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+            >
+              <div class="column__content">
+                {%- if title != blank -%}
+                  {%- assign font_size_class = block.settings.heading_size | prepend: 'heading-size-' -%}
+
+                  <h2
+                    style="color:{{ title_color }}; letter-spacing: {{ block.settings.heading_letter_spacing }}px;"
+                    class="column__heading column__multi_column__heading_first {{ font_size_class }}"
+                  >
+                    {{ title }}
+                  </h2>
+                {%- endif -%}
+
+                {%- if title_2 != blank -%}
+                  {%- assign font_size_class = block.settings.heading_size_2 | prepend: 'heading-size-' -%}
+
+                  <h2 style=" color: {{ title_2_color }};" class="column__heading {{ font_size_class }}">
+                    {{ title_2 }}
+                  </h2>
+                {%- endif -%}
+
+                {%- if text != blank -%}
+                  {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+
+                  <div
+                    style="max-width: {{ block.settings.text_max_width }}px; color:{{ block.settings.text_color }}; {%if block.settings.text_top_border_color != blank %}border-top: 1px solid {{ block.settings.text_top_border_color }}{%endif%}"
+                    class="column__text rte {{ text_style }} {{ font_size_class }}"
+                  >
+                    {{ text }}
+                  </div>
+                {%- endif -%}
+
+                {%- if text_2 != blank -%}
+                  {%- assign font_size_class = block.settings.text_size_2 | prepend: 'body-size-' -%}
+
+                  <div
+                    style="margin-top: {{ block.settings.text_2_margin_top }}px; color:{{ block.settings.text_2_color }}; letter-spacing: {{ block.settings.text_2_letter_spacing }}px; {%if block.settings.text_2_top_border_color != blank %}border-top: 1px solid {{ block.settings.text_2_top_border_color }}; {%endif%}"
+                    class="column__text column__text_2 rte {{ text_style_2 }} {{ font_size_class }}"
+                  >
+                    {{ text_2 }}
+                  </div>
+                {%- endif -%}
+
+                {%- if button_text != blank -%}
+                  <div class="column__btn">
+                    <a
+                      href="{{ block.settings.button_url | default: '#!' }}"
+                      class="btn {{ button_style }} {{ block.settings.button_size }}  btn--large {{ block.settings.button_type }}"
+                      aria-label="{{ button_text }}"
+                    >
+                      <span>{{ button_text }}</span>
+
+                      {%- if block.settings.show_arrow -%}
+                        {%- render 'icon-arrow-right' -%}
+                      {%- endif -%}
+                    </a>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.text_3 != blank -%}
+                  <div
+                    style="color: {{ block.settings.text_3_color }}"
+                    class="column__text rte body-size-{{ block.settings.text_size_3 }}"
+                  >
+                    {{- block.settings.text_3 -}}
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
 
     {%- if blocks_size > 0 -%}
       {%- capture columns_content -%}

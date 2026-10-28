@@ -709,7 +709,7 @@
         },
 
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "title",
           "label": "Heading",
           "default": "Add a title or tagline"
@@ -781,6 +781,269 @@
           "max": 1200,
           "step": 20,
           "default": 600
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Text style",
+          "default": "font-body",
+          "options": [
+            { "value": "font-heading", "label": "Heading" },
+            { "value": "font-body", "label": "Body" }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color"
+        },
+        {
+          "type": "color",
+          "id": "text_top_border_color",
+          "label": "Text top border color"
+        },
+        {
+          "type": "richtext",
+          "id": "text_2",
+          "label": "Text 2",
+          "default": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "range",
+          "id": "text_size_2",
+          "label": "Text size 2",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "select",
+          "id": "text_style_2",
+          "label": "Text style 2",
+          "default": "font-body",
+          "options": [
+            { "value": "font-heading", "label": "Heading" },
+            { "value": "font-body", "label": "Body" }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "text_2_color",
+          "label": "Text 2 color"
+        },
+        {
+          "type": "color",
+          "id": "text_2_top_border_color",
+          "label": "Text 2 top border color"
+        },
+        {
+          "type": "range",
+          "id": "text_2_letter_spacing",
+          "label": "Text 2 letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "text_2_margin_top",
+          "label": "Text 2 margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 10
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
+        },
+        {
+          "type": "select",
+          "id": "button_type",
+          "label": "Color",
+          "default": "btn--primary hero__btn",
+          "options": [
+            { "value": "btn--primary hero__btn", "label": "Primary" },
+            { "value": "btn--secondary hero__btn", "label": "Secondary" },
+            { "value": "btn--white hero__btn", "label": "White" },
+            { "value": "btn--black hero__btn", "label": "Black" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_arrow",
+          "label": "Show arrow",
+          "default": false
+        },
+        {
+          "type": "richtext",
+          "id": "text_3",
+          "label": "Text 3"
+        },
+        {
+          "type": "range",
+          "id": "text_size_3",
+          "label": "Text size 3",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "color",
+          "id": "text_3_color",
+          "label": "Text 3 color"
+        }
+      ]
+    },
+    {
+      "type": "left_side_content",
+      "name": "Left side content",
+      "settings": [
+        {
+          "type": "color",
+          "id": "column_bg_color",
+          "label": "Column background color"
+        },
+        {
+          "type": "color",
+          "id": "column_border_top",
+          "label": "Column border top"
+        },
+        {
+          "type": "checkbox",
+          "id": "column_border_top_mobile_hide",
+          "label": "Column border top hide in mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "padding_left_desktop_zero",
+          "label": "Padding left zero in desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "padding_right_desktop_zero",
+          "label": "Padding right zero in desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_custom_padding_top",
+          "label": "Enable custom padding top",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "padding_top_desktop",
+          "label": "Padding top desktop",
+          "unit": "px",
+          "min": 0,
+          "max": 500,
+          "step": 5,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_top_mobile",
+          "label": "Padding top mobile",
+          "unit": "px",
+          "min": 0,
+          "max": 500,
+          "step": 5,
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "heading_letter_spacing",
+          "label": "Heading letter spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.5,
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title color",
+          "default": "#545454"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "title_2",
+          "label": "Heading 2",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_2",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "color",
+          "id": "title_2_color",
+          "label": "Title 2 color"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
         },
         {
           "type": "select",

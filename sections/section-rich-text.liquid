@@ -207,7 +207,7 @@
                   {{ block_style }}
                 >
                   <a
-                    style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %}"
+                    style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %} text-transform: {{ block.settings.button_text_transform }};"
                     href="{{ block.settings.button_url | default: '#!' }}"
                     class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
                   >
@@ -614,6 +614,16 @@
           "id": "hide_underline",
           "label": "Hide underline",
           "default": false
+        },
+        {
+          "type": "select",
+          "id": "button_text_transform",
+          "label": "Text transform",
+          "default": "uppercase",
+          "options": [
+            { "label": "Normal", "value": "unset" },
+            { "label": "Uppercase", "value": "uppercase" }
+          ]
         }
       ]
     },

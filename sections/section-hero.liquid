@@ -353,15 +353,20 @@
                     {{ block.shopify_attributes }}
                   >
                     <a
-                      style="{% if block.settings.width_full %}width: 100%;     justify-content: space-between;{% endif %}"
-                      class="hover_opacity_fade btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                      style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %} {% if block.settings.width_full %}width: 100%;     justify-content: space-between;{% endif %}"
+                      class="hover_opacity_fade btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }} {% if block.settings.arrow_first %}btn-arrow-first_btn {% endif %}"
                       href="{{ link_url | default: '#!' }}"
                     >
-                      <span>{{ link_text | escape }}</span>
-
-                      {%- if block.settings.show_arrow -%}
+                      {%- if block.settings.arrow_first -%}
                         {% render 'icon-arrow-right' %}
                       {%- endif -%}
+                      <span>{{ link_text | escape }}</span>
+
+                      {%- unless block.settings.arrow_first -%}
+                        {%- if block.settings.show_arrow -%}
+                          {% render 'icon-arrow-right' %}
+                        {%- endif -%}
+                      {%- endunless -%}
                     </a>
                   </div>
                 {%- endif -%}
@@ -889,8 +894,20 @@
         },
         {
           "type": "checkbox",
+          "id": "arrow_first",
+          "label": "Arrow first",
+          "default": false
+        },
+        {
+          "type": "checkbox",
           "id": "show_arrow",
           "label": "Show arrow",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_underline",
+          "label": "Hide underline",
           "default": false
         }
       ]

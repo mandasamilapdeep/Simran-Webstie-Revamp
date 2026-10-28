@@ -71,7 +71,8 @@
             "button_style": "btn--solid",
             "show_arrow": false,
             "padding_bottom": 16,
-            "hide_underline": false
+            "hide_underline": false,
+            "button_text_transform": "uppercase"
           }
         },
         "buttons_LcrP7A": {
@@ -84,7 +85,8 @@
             "button_style": "btn--text",
             "show_arrow": false,
             "padding_bottom": 16,
-            "hide_underline": true
+            "hide_underline": true,
+            "button_text_transform": "unset"
           }
         }
       },
@@ -218,7 +220,7 @@
         "second_button_url": "",
         "padding_top": 80,
         "padding_bottom": 80,
-        "layout_mobile": "slider",
+        "layout_mobile": "1",
         "equal_spacing_blocks": false,
         "mobile_flex_row": false
       }
@@ -229,7 +231,7 @@
         "text_RqqW4X": {
           "type": "text",
           "settings": {
-            "column_bg_color": "#2B2926",
+            "column_bg_color": "#2b2926",
             "column_border_top": "",
             "column_border_top_mobile_hide": false,
             "padding_left_desktop_zero": false,
@@ -854,8 +856,8 @@
         "first_button_url": "",
         "second_button_text": "",
         "second_button_url": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "layout_mobile": "1",
         "equal_spacing_blocks": false,
         "mobile_flex_row": false

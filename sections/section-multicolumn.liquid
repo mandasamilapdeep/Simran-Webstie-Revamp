@@ -27,7 +27,7 @@
       "label": "Sub heading color"
     },
     {
-      "type": "text",
+      "type": "inline_richtext",
       "id": "title",
       "label": "Heading"
     },
@@ -128,6 +128,11 @@
     {
       "type": "header",
       "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "main_bg_color",
+      "label": "Main Background"
     },
     {
       "type": "color",
@@ -232,16 +237,6 @@
         },
         {
           "type": "range",
-          "id": "block_border_width",
-          "label": "Border Width",
-          "min": 0,
-          "max": 10,
-          "step": 1,
-          "unit": "px",
-          "default": 1
-        },
-        {
-          "type": "range",
           "id": "column_width",
           "label": "Column width",
           "unit": "%",
@@ -259,6 +254,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Image 2"
         },
         {
           "type": "range",
@@ -434,6 +434,12 @@
           "max": 15,
           "step": 1,
           "default": 3
+        },
+        {
+          "type": "checkbox",
+          "id": "text_2_and_button_in_row",
+          "label": "Text 2 and Button in row",
+          "default": false
         },
         {
           "type": "richtext",
@@ -709,7 +715,7 @@
         },
 
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "title",
           "label": "Heading",
           "default": "Add a title or tagline"
@@ -856,6 +862,16 @@
           "default": 10
         },
         {
+          "type": "richtext",
+          "id": "text_2_right_text",
+          "label": "Text 2 right text"
+        },
+        {
+          "type": "color",
+          "id": "text_2_right_text_color",
+          "label": "Text 2 right text color"
+        },
+        {
           "type": "header",
           "content": "Button"
         },
@@ -900,6 +916,45 @@
           "default": false
         },
         {
+          "type": "text",
+          "id": "button_2_text",
+          "label": " Button 2 Text "
+        },
+        {
+          "type": "url",
+          "id": "button_url_2",
+          "label": "Button 2 Link"
+        },
+        {
+          "type": "select",
+          "id": "button_type_2",
+          "label": "Button 2 Color",
+          "default": "btn--primary hero__btn",
+          "options": [
+            { "value": "btn--primary hero__btn", "label": "Primary" },
+            { "value": "btn--secondary hero__btn", "label": "Secondary" },
+            { "value": "btn--white hero__btn", "label": "White" },
+            { "value": "btn--black hero__btn", "label": "Black" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "button_style_2",
+          "label": "Button 2 Style",
+          "default": "btn--solid",
+          "options": [
+            { "label": "Solid", "value": "btn--solid" },
+            { "label": "Outline", "value": "btn--outline" },
+            { "label": "Text", "value": "btn--text" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_arrow__button_2",
+          "label": "Show arrow button 2",
+          "default": false
+        },
+        {
           "type": "richtext",
           "id": "text_3",
           "label": "Text 3"
@@ -917,6 +972,136 @@
           "type": "color",
           "id": "text_3_color",
           "label": "Text 3 color"
+        }
+      ]
+    },
+    {
+      "type": "left_right_text_group",
+      "name": "Left Right Text Group",
+      "settings": [
+        {
+          "type": "color",
+          "id": "border_top_color",
+          "label": "Border top color"
+        },
+        {
+          "type": "checkbox",
+          "id": "border_top_mobile_hide",
+          "label": "Column border top hide in mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "padding_left_desktop_zero",
+          "label": "Padding left zero in desktop"
+        },
+        {
+          "type": "checkbox",
+          "id": "padding_right_desktop_zero",
+          "label": "Padding right zero in desktop"
+        },
+        {
+          "type": "range",
+          "id": "column_width",
+          "label": "Column width",
+          "unit": "%",
+          "min": 5,
+          "max": 100,
+          "step": 1,
+          "default": 33,
+          "info": "Desktop only"
+        },
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+        {
+          "type": "range",
+          "id": "left_text_size",
+          "label": "Left text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "right_text_size",
+          "label": "Right text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "color",
+          "id": "left_text_color",
+          "label": "Left text color",
+          "default": "#545454"
+        },
+        {
+          "type": "color",
+          "id": "right_text_color",
+          "label": "Right text color"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "left_text_1",
+          "label": "Left text 1",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "right_text_1",
+          "label": "Right text 1",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "left_text_2",
+          "label": "Left text 2",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "right_text_2",
+          "label": "Right text 2",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "left_text_3",
+          "label": "Left text 3",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "right_text_3",
+          "label": "Right text 3",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "left_text_4",
+          "label": "Left text 4",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "right_text_4",
+          "label": "Right text 4",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "left_text_5",
+          "label": "Left text 5",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "right_text_5",
+          "label": "Right text 5",
+          "default": "Add a title or tagline"
         }
       ]
     },

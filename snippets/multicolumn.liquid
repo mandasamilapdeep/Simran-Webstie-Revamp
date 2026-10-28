@@ -132,6 +132,7 @@
 {%- endstyle -%}
 
 <div
+  style="background-color: {{ section.settings.main_bg_color }};"
   id="{{ unique }}"
   class="section-columns section-padding {% if section.settings.equal_spacing_blocks %}columns_equal_spacing_blocks{% endif %} {% if section.settings.mobile_flex_row %}mobile_flex_row{% endif %}"
   data-section-id="{{ section.id }}"
@@ -171,7 +172,7 @@
           {%- endif -%}
         </div>
 
-        {%- if description -%}
+        {%- if description != blank -%}
           {%- assign animation_order = animation_order | plus: 1 -%}
 
           <div
@@ -353,13 +354,43 @@
                           endif
                         endcapture
                       -%}
+                      
+                      {%- liquid
+                        capture column_image_2
+                          assign class_desktop = ''
+                          assign class_mobile = ''
 
+                          if aspect_ratio != aspect_ratio_mobile
+                            assign class_desktop = 'desktop'
+                            assign class_mobile = 'mobile'
+                          endif
+
+                          if block.settings.image_2
+                            render 'image' image: block.settings.image_2, sizes: image_sizes, aspect_ratio: aspect_ratio, loading: loading, modifier: class_desktop
+
+                            if aspect_ratio != aspect_ratio_mobile
+                              render 'image' image: block.settings.image_2, sizes: image_sizes, aspect_ratio: aspect_ratio_mobile, loading: loading, modifier: class_mobile
+                            endif
+                          else
+                            render 'image' placeholder: 'image', aspect_ratio: aspect_ratio, modifier: class_desktop
+
+                            if aspect_ratio != aspect_ratio_mobile
+                              render 'image' placeholder: 'image', aspect_ratio: aspect_ratio_mobile, modifier: class_mobile
+                            endif
+                          endif
+                        endcapture
+                      -%}
                       {%- if block.settings.button_url != blank and button_text == blank -%}
                         <a href="{{ block.settings.button_url }}" aria-label="{{ image.alt | default: title | default: text | strip_html | escape }}">
                           {{ column_image }}
                         </a>
                       {%- else -%}
                         {{ column_image }}
+                        {% if block.settings.image_2 != blank %}
+                        <div class="image_blocks_image_2_wrapper">
+                          {{ column_image_2 }}
+                        </div>  
+                        {% endif %}
                       {%- endif -%}
                     </div>
 
@@ -395,15 +426,43 @@
                           {{- text -}}
                         </div>
                       {%- endif -%}
+                      {%- if block.settings.text_2_and_button_in_row -%}
+                      <div class="second_text_and_button_wrapper" style="border-top: 1px solid {{ block.settings.block_border_color }}; margin-top: 20px;">
+                      {%- endif -%}
                       {%- if text_2 != blank -%}
                         {%- assign font_size_class = block.settings.text_2_size | prepend: 'body-size-' -%}
                         <div style="color: {{ block.settings.text_2_color }}" class="column__text rte {{ font_size_class }}">
                           {{- text_2 -}}
                         </div>
                       {%- endif -%}
+                      {%- if block.settings.text_2_and_button_in_row -%}
+
+                        {%- if button_text != blank -%}
+                          <div class="column__btn">
+                            <a
+                              href="{{ block.settings.button_url | default: '#!' }}"
+                              class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                              aria-label="{{ button_text }}"
+                            >
+                              <span>{{ button_text }}</span>
+
+                              {%- if block.settings.show_arrow -%}
+                                {%- render 'icon-arrow-right' -%}
+                              {%- endif -%}
+                            </a>
+                          </div>
+                        {%- endif -%}
+                        
+                      {%- endif -%}
+                      {%- if block.settings.text_2_and_button_in_row -%}
+                      </div>
+                      {%- endif -%}
     {%- if block.settings.button_url != blank and button_text == blank -%}
       </a>
     {% endif %}
+
+
+     {%- unless block.settings.text_2_and_button_in_row -%}
 
     {%- if button_text != blank -%}
       <div class="column__btn">
@@ -420,6 +479,8 @@
         </a>
       </div>
     {%- endif -%}
+    
+    {%- endunless -%}
     
   </div>
 </div>
@@ -608,9 +669,17 @@
 
         <div
           style="margin-top: {{ block.settings.text_2_margin_top }}px; color:{{ block.settings.text_2_color }}; letter-spacing: {{ block.settings.text_2_letter_spacing }}px; {%if block.settings.text_2_top_border_color != blank %}border-top: 1px solid {{ block.settings.text_2_top_border_color }}; {%endif%}"
-          class="column__text column__text_2 rte {{ text_style_2 }} {{ font_size_class }}"
+          class="column__text column__text_2 rte {{ text_style_2 }} {{ font_size_class }} {%if block.settings.text_2_right_text != blank %} text_2_right_text {%endif%}"
         >
+          <div>
           {{ text_2 }}
+          </div>
+          {% if block.settings.text_2_right_text != blank %}
+            <div style="color: {{ block.settings.text_2_right_text_color }}">
+              {{ block.settings.text_2_right_text }}
+            </div>
+          {% endif %}
+
         </div>
       {%- endif -%}
 
@@ -629,6 +698,21 @@
           </a>
         </div>
       {%- endif -%}
+       {%- if block.settings.button_2_text != blank -%}
+        <div class="column__btn">
+          <a
+            href="{{ block.settings.button_url_2 | default: '#!' }}"
+            class="btn {{ block.settings.button_type_2 }} {{ block.settings.button_size_2 }}  btn--large {{ block.settings.button_style_2 }}"
+            aria-label="{{ block.settings.button_2_text }}"
+          >
+            <span>{{ block.settings.button_2_text }}</span>
+
+            {%- if block.settings.show_arrow__button_2 -%}
+              {%- render 'icon-arrow-right' -%}
+            {%- endif -%}
+          </a>
+        </div>
+      {%- endif -%}
       {%- if block.settings.text_3 != blank -%}
       <div style="color: {{ block.settings.text_3_color }}" class="column__text rte body-size-{{ block.settings.text_size_3 }}">
         {{- block.settings.text_3 -}}
@@ -637,6 +721,213 @@
     </div>
   </div>
 </div>
+
+{%- when 'left_right_text_group' -%}
+
+  <style>
+  @media(min-width: 749px){
+     .grid-item-{{ block.id }} {
+        {% if block.settings.padding_left_desktop_zero %}
+      padding-left: 0px !important;
+      {% endif %}
+      {% if block.settings.padding_right_desktop_zero %}
+      padding-right: 0px !important;
+      {% endif %}
+      }
+  }
+  .grid-item-{{ block.id }} {
+    {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+    padding-top: 10px !important;
+    {% endif %}
+  }
+
+  .grid-item-{{ block.id }} {
+    {% if block.settings.column_border_top != blank or block.settings.column_bg_color != blank %}
+    padding-top: 10px !important;
+    {% endif %}
+    {% if block.settings.padding_left_desktop_zero %}
+  padding-left: 0px !important;
+  {% endif %}
+  {% if block.settings.padding_right_desktop_zero %}
+  padding-right: 0px !important;
+  {% endif %}
+  }
+
+  .grid-item-{{ block.id }} .column__inner .left_right_text__group_single {
+    {% if block.settings.border_top_color != blank %}
+    border-top: 1px solid {{ block.settings.border_top_color }} !important;
+    {% endif %}
+  }
+  .grid-item-{{ block.id }} .column__inner .left_right_text__group_single:last-child{
+    {% if block.settings.border_top_color != blank %}
+    border-bottom: 1px solid {{ block.settings.border_top_color }} !important;
+    {% endif %}
+  }
+  @media(max-width: 749px){
+    {% if block.settings.column_border_top_mobile_hide %}
+    .grid-item-{{ block.id }} .column__inner{
+      border-top: 0px !important;
+      padding-top: 0px !important;
+      {% if block.settings.enable_custom_padding_top %}
+    padding-top: {{ block.settings.padding_top_mobile }}px !important;
+    {% endif %}
+  }
+  {% endif %}
+    
+
+    
+    {% if block.settings.enable_custom_padding_top %}
+    .grid-item-{{ block.id }} .column__inner{
+    padding-top: {{ block.settings.padding_top_mobile }}px !important;
+    }
+    {% endif %}
+  }
+</style>
+
+<div
+  class="grid-item  grid-item-{{ block.id }} left_right_text_group_main"
+  {{ block_style }}
+  {% if enable_slider %}
+    data-grid-item
+  {% endif %}
+  {{ block.shopify_attributes }}
+>
+  <div
+    
+    class="column__inner"
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  >
+    <div class="column__content">
+      {%- if block.settings.left_text_1 != blank or  block.settings.right_text_1 != blank -%}
+      <div class="left_right_text__group_single " {% if block.settings.column_border_color != blank %}
+      style="border:1px solid {{ block.settings.column_border_color }}; padding: 20px;"
+    {% endif %}>
+      {%- if block.settings.left_text_1 != blank -%}
+        {%- assign font_size_class = block.settings.left_text_size | prepend: 'heading-size-' -%}
+
+        <p
+          style="color:{{  block.settings.left_text_color }};"
+          class=" left_side_text {{ font_size_class }}"
+        >
+          {{ block.settings.left_text_1 }}
+        </p>
+      {%- endif -%}
+
+      {%- if block.settings.right_text_1 != blank -%}
+        {%- assign font_size_class = block.settings.right_text_size | prepend: 'heading-size-' -%}
+
+        <p style=" color: {{ block.settings.right_text_color }};" class=" right_side_text {{ font_size_class }}">
+          {{ block.settings.right_text_1 }}
+        </p>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {%- if block.settings.left_text_2 != blank or  block.settings.right_text_2 != blank -%}
+      <div class="left_right_text__group_single " {% if block.settings.column_border_color != blank %}
+      style="border:1px solid {{ block.settings.column_border_color }}; padding: 20px;"
+    {% endif %}>
+      {%- if block.settings.left_text_2 != blank -%}
+        {%- assign font_size_class = block.settings.left_text_size | prepend: 'heading-size-' -%}
+
+        <p
+          style="color:{{  block.settings.left_text_color }};"
+          class=" left_side_text {{ font_size_class }}"
+        >
+          {{ block.settings.left_text_2 }}
+        </p>
+      {%- endif -%}
+
+      {%- if block.settings.right_text_2 != blank -%}
+        {%- assign font_size_class = block.settings.right_text_size | prepend: 'heading-size-' -%}
+
+        <p style=" color: {{ block.settings.right_text_color }};" class=" right_side_text {{ font_size_class }}">
+          {{ block.settings.right_text_2 }}
+        </p>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {%- if block.settings.left_text_3 != blank or  block.settings.right_text_3 != blank -%}
+      <div class="left_right_text__group_single " {% if block.settings.column_border_color != blank %}
+      style="border:1px solid {{ block.settings.column_border_color }}; padding: 20px;"
+    {% endif %}>
+      {%- if block.settings.left_text_3 != blank -%}
+        {%- assign font_size_class = block.settings.left_text_size | prepend: 'heading-size-' -%}
+
+        <p
+          style="color:{{  block.settings.left_text_color }};"
+          class=" left_side_text {{ font_size_class }}"
+        >
+          {{ block.settings.left_text_3 }}
+        </p>
+      {%- endif -%}
+
+      {%- if block.settings.right_text_3 != blank -%}
+        {%- assign font_size_class = block.settings.right_text_size | prepend: 'heading-size-' -%}
+
+        <p style=" color: {{ block.settings.right_text_color }};" class=" right_side_text {{ font_size_class }}">
+          {{ block.settings.right_text_3 }}
+        </p>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {%- if block.settings.left_text_4 != blank or  block.settings.right_text_4 != blank -%}
+      <div class="left_right_text__group_single " {% if block.settings.column_border_color != blank %}
+      style="border:1px solid {{ block.settings.column_border_color }}; padding: 20px;"
+    {% endif %}>
+      {%- if block.settings.left_text_4 != blank -%}
+        {%- assign font_size_class = block.settings.left_text_size | prepend: 'heading-size-' -%}
+
+        <p
+          style="color:{{  block.settings.left_text_color }};"
+          class=" left_side_text {{ font_size_class }}"
+        >
+          {{ block.settings.left_text_4 }}
+        </p>
+      {%- endif -%}
+
+      {%- if block.settings.right_text_4 != blank -%}
+        {%- assign font_size_class = block.settings.right_text_size | prepend: 'heading-size-' -%}
+
+        <p style=" color: {{ block.settings.right_text_color }};" class=" right_side_text {{ font_size_class }}">
+          {{ block.settings.right_text_4 }}
+        </p>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    {%- if block.settings.left_text_5 != blank or  block.settings.right_text_5 != blank -%}
+      <div class="left_right_text__group_single " {% if block.settings.column_border_color != blank %}
+      style="border:1px solid {{ block.settings.column_border_color }}; padding: 20px;"
+    {% endif %}>
+      {%- if block.settings.left_text_5 != blank -%}
+        {%- assign font_size_class = block.settings.left_text_size | prepend: 'heading-size-' -%}
+
+        <p
+          style="color:{{  block.settings.left_text_color }};"
+          class=" left_side_text {{ font_size_class }}"
+        >
+          {{ block.settings.left_text_5 }}
+        </p>
+      {%- endif -%}
+
+      {%- if block.settings.right_text_5 != blank -%}
+        {%- assign font_size_class = block.settings.right_text_size | prepend: 'heading-size-' -%}
+
+        <p style=" color: {{ block.settings.right_text_color }};" class=" right_side_text {{ font_size_class }}">
+          {{ block.settings.right_text_5 }}
+        </p>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+    </div>
+  </div>
+</div>
+
 
 {%- when 'left_right_text' -%}
 
