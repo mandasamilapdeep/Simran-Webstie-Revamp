@@ -23,12 +23,12 @@
 
 <section
   id="Rte--{{ section.id }}"
-  class="index-rte section-padding"
+  class="index-rte section-padding {{ section.settings.width }}"
   data-section-id="{{ section.id }}"
   data-section-type="rich-text"
 >
   {%- if section.blocks.size > 0 -%}
-    <div class="hero__content__wrapper {{ section.settings.align_text }} {{ section.settings.width }}">
+    <div class="hero__content__wrapper {{ section.settings.align_text }} ">
       <div class="hero__content hero__content--compact">
         {%- for block in section.blocks -%}
           {%- liquid
@@ -83,6 +83,30 @@
                 </p>
               {%- endif -%}
 
+            {%- when 'html' -%}
+              {%- if block.settings.html_content != blank -%}
+                {%- assign animation_order = animation_order | plus: 1 -%}
+                {%- assign font_size_class = block.settings.text_size | prepend: 'body-size-' -%}
+                {% style %}
+                  .hero__html_{{ section.id }}_{{ block.id }} {
+                    color: {{ block.settings.text_color }};
+                    max-width: {{ block.settings.text_max_width }}px;
+                    margin-left: auto;
+                    margin-right: auto;
+                  }
+                {% endstyle %}
+                <div
+                  class="hero__html {{ font_size_class }} block-padding hero__html_{{ section.id }}_{{ block.id }}"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                  {{ block.shopify_attributes }}
+                  {{ block_style }}
+                >
+                  {{ block.settings.html_content }}
+                </div>
+              {%- endif -%}
+
             {%- when 'text' -%}
               {%- if block.settings.text != blank -%}
                 {%- assign animation_order = animation_order | plus: 1 -%}
@@ -93,6 +117,10 @@
                     max-width: {{ block.settings.text_max_width }}px;
                     margin-left: auto;
                     margin-right: auto;
+                    {% if block.settings.show_top_border %}
+                    border-top: 1px solid {{ block.settings.border_top_color }};
+                    padding-top: 32px;
+                    {% endif %}
                   }
                 {% endstyle %}
                 <div
@@ -366,7 +394,7 @@
       "name": "Subheading",
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "subheading",
           "label": "Subheading",
           "default": "Introducing"
@@ -407,6 +435,45 @@
           "type": "color",
           "id": "subheading_color",
           "label": "Subheading color"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "name": "Html",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "html_content",
+          "label": "Html Content"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 4
+        },
+        {
+          "type": "header",
+          "content": "Block spacing"
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 2,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 16
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color"
         }
       ]
     },
@@ -482,6 +549,17 @@
           "type": "color",
           "id": "text_color",
           "label": "Text color"
+        },
+        {
+          "type": "color",
+          "id": "border_top_color",
+          "label": "Border top color"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_top_border",
+          "label": "Show top border",
+          "default": false
         }
       ]
     },

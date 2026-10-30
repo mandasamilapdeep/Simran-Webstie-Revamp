@@ -454,6 +454,70 @@ figure.image-wrapper {
     width: 66%;
 }
 
+.article__tags.blogs_page__tag {
+    position: unset;
+    margin-bottom: unset;
+    padding: 0;
+
+}
+
+.article__tags.blogs_page__tag .article__tag {
+    padding: 6px 0;
+    letter-spacing: 2px;
+    margin: 0 15px 10px 0;
+    color: #7a5f32;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.article__title {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p.article__excerpt {
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.grid.blog-listing {
+    gap: 16px;
+}
+
+.article_read_time {
+    font-size: 13px;
+    color: #6B5A50;
+    border-top: 1px solid #E3D3C9;
+    padding-top: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.articale_page_top_tags {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.articale_page_top_tags_second {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.articale_page_top_tags a {
+    color: currentColor;
+}
+
+.header__logo__link .lazy-image:hover img {
+    transform: unset;
+}
+
+.icon_with_text_content ul,
+.icon_with_text_content ol {
+    font-size: inherit;
+}
 
 
 @media only screen and (min-width: 901px) {

@@ -634,7 +634,6 @@
         "image_EiwQ3q",
         "image_tXnTiJ"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -768,7 +767,6 @@
         "text_j9LfFy",
         "text_CLmKh8"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -902,7 +900,6 @@
         "text_6Ri8MH",
         "text_pMpBAL"
       ],
-      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -948,7 +945,7 @@
             "title": "NEXT STORY &nbsp;· WORKSPACE · DUBAI",
             "heading_size": 1,
             "heading_letter_spacing": 2,
-            "title_color": "#CBB68C",
+            "title_color": "#cbb68c",
             "title_2": "Maptalent Recruitment",
             "heading_size_2": 9,
             "title_2_color": "",
@@ -1036,7 +1033,6 @@
         "text_m8nikB",
         "text_JaPmRA"
       ],
-      "disabled": true,
       "custom_css": [
         ".column__btn .btn {width: 100%; justify-content: space-between;}"
       ],
@@ -1054,7 +1050,7 @@
         "align_columns": "flex-align-center",
         "width": "wrapper--full-padded",
         "main_bg_color": "",
-        "bg_color": "#2B2926",
+        "bg_color": "#2b2926",
         "color": "#ffffff",
         "first_button_text": "",
         "first_button_url": "",
