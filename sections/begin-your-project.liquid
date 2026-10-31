@@ -1,0 +1,1944 @@
+{{ 'begin-your-project.css' | asset_url | stylesheet_tag: preload: true }}
+<script src="{{ 'begin-your-project.js' | asset_url }}" defer="defer"></script>
+
+<div class="sdh begin-your-project-main">
+  <div class="sd sd-page">
+    <div
+      class="page"
+      style="
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        background: #ffffff;
+        color: #2b1e19;
+        display: flex;
+        flex-direction: column;
+        font-family:
+          Jost, &quot;Helvetica Neue&quot;, Helvetica, sans-serif;
+      "
+    >
+      <section
+        class="r-grid r-h"
+        style="
+          height: 904px;
+          display: grid;
+          grid-template-columns: repeat(12, minmax(0, 1fr));
+        "
+      >
+        <div
+          class="r-col r-pad r-row"
+          style="
+            grid-column: span 5;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding: 64px;
+            box-sizing: border-box;
+          "
+        >
+          <div
+            class="sd-floral-tall"
+            role="presentation"
+            style="
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              display: block;
+            "
+          ></div>
+          <div
+            style="
+              position: relative;
+              width: 100%;
+              background: #ffffff;
+              padding: 44px 40px;
+              box-sizing: border-box;
+              display: flex;
+              flex-direction: column;
+              gap: 24px;
+            "
+          >
+            <span
+              style="
+                font-size: 11px;
+                letter-spacing: 0.24em;
+                text-transform: uppercase;
+                color: #7a5f32;
+              "
+              >Your project</span
+            ><span
+              id="q-empty"
+              style="
+                font-size: 15px;
+                line-height: 1.6;
+                font-weight: 300;
+                color: #6b5a50;
+              "
+              >Your answers will build here as you go. It takes about 60 seconds.</span
+            >
+            <div
+              id="q-summary"
+              style="display: flex; flex-direction: column"
+            ></div>
+            <div
+              id="q-rec"
+              style="
+                background: #f2ede7;
+                padding: 18px 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+              "
+            >
+              <span
+                style="
+                  font-size: 11px;
+                  letter-spacing: 0.22em;
+                  text-transform: uppercase;
+                  color: #7a5f32;
+                "
+                >Likely fit</span
+              ><span id="q-rec-text" style="font-size: 18px"></span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                padding-top: 4px;
+                font-size: 14px;
+                color: #574840;
+              "
+            >
+              <div
+                class="r-row"
+                style="display: flex; gap: 12px; align-items: center"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  stroke="#7A5F32"
+                  stroke-width="1.4"
+                  aria-hidden="true"
+                >
+                  <path d="M2 8.5l4 4 8-9"></path>
+                </svg>
+                A personal call back within one working day
+              </div>
+              <div
+                class="r-row"
+                style="display: flex; gap: 12px; align-items: center"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  stroke="#7A5F32"
+                  stroke-width="1.4"
+                  aria-hidden="true"
+                >
+                  <path d="M2 8.5l4 4 8-9"></path>
+                </svg>
+                Fixed-fee proposal, no obligation
+              </div>
+              <div
+                class="r-row"
+                style="display: flex; gap: 12px; align-items: center"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  stroke="#7A5F32"
+                  stroke-width="1.4"
+                  aria-hidden="true"
+                >
+                  <path d="M2 8.5l4 4 8-9"></path>
+                </svg>
+                Projects across the UK, Germany and the UAE
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="r-col r-pad"
+          style="
+            grid-column: 6 / span 7;
+            padding: 72px 96px 64px 88px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+          "
+        >
+          <div style="display: flex; flex-direction: column; gap: 14px">
+            <div
+              class="r-row"
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 12px;
+                letter-spacing: 0.22em;
+                text-transform: uppercase;
+                color: #6b5a50;
+              "
+            >
+              <span id="q-step-label">Step 1 of 7</span
+              ><button
+                type="button"
+                id="q-back"
+                style="
+                  background: none;
+                  border: 0px;
+                  padding: 0px;
+                  min-height: 44px;
+                  cursor: pointer;
+                  font-family: Jost, sans-serif;
+                  font-size: 12px;
+                  letter-spacing: 0.22em;
+                  text-transform: uppercase;
+                  color: #2b1e19;
+                  text-decoration: underline;
+                "
+              >
+                Back
+              </button>
+            </div>
+            <div style="height: 2px; background: #e3d3c9">
+              <div
+                id="q-progress"
+                style="
+                  height: 2px;
+                  width: 0%;
+                  background: #2b1e19;
+                  transition: width 0.5s;
+                "
+              ></div>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="0"
+            data-key="sector"
+            data-short="Space"
+            style="flex-direction: column; gap: 32px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 12px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                <span class="sc-interp">What kind of space are you creating?</span>
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                ><span class="sc-interp"
+                  >Choose the closest match. We design across every commercial sector.</span
+                ></span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+              "
+            >
+              <button
+                type="button"
+                class="opt r-row"
+                data-value="Salon or barbers"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Salon or barbers</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Clinic or aesthetics"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Clinic or aesthetics</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Office or workspace"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Office or workspace</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Restaurant, café or bar"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Restaurant, café or bar</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Nursery or education"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Nursery or education</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Gym, studio or spa"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Gym, studio or spa</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Retail or showroom"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Retail or showroom</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Something else"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Something else</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="1"
+            data-key="stage"
+            data-short="Stage"
+            style="flex-direction: column; gap: 32px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 12px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                <span class="sc-interp">Where are you right now?</span>
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                ><span class="sc-interp">This tells us how quickly we need to move.</span></span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+              "
+            >
+              <button
+                type="button"
+                class="opt r-row"
+                data-value="Viewing premises"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Viewing premises</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Just got the keys"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Just got the keys</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Trading, time for a refresh"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Trading, time for a refresh</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Opening another site"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Opening another site</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="2"
+            data-key="size"
+            data-short="Size"
+            style="flex-direction: column; gap: 32px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 12px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                <span class="sc-interp">Roughly how big is the space?</span>
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                ><span class="sc-interp">A best guess is perfect.</span></span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+              "
+            >
+              <button
+                type="button"
+                class="opt r-row"
+                data-value="Under 500 sq ft"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Under 500 sq ft</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="500 to 1,500 sq ft"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">500 to 1,500 sq ft</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="1,500 to 3,000 sq ft"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">1,500 to 3,000 sq ft</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Over 3,000 sq ft"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Over 3,000 sq ft</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Not sure yet"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Not sure yet</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="3"
+            data-key="service"
+            data-short="Help needed"
+            style="flex-direction: column; gap: 32px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 12px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                <span class="sc-interp">How much would you like us to take on?</span>
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                ><span class="sc-interp">You can change your mind after our call.</span></span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+              "
+            >
+              <button
+                type="button"
+                class="opt r-row"
+                data-value="Design only, I have a contractor"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Design only, I have a contractor</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Design and full delivery"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Design and full delivery</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Not sure, please advise"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Not sure, please advise</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="4"
+            data-key="timing"
+            data-short="Opening"
+            style="flex-direction: column; gap: 32px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 12px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                <span class="sc-interp">When would you like to open or relaunch?</span>
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                ><span class="sc-interp">Fit-outs typically take [X] to [Y] weeks from design sign-off.</span></span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+              "
+            >
+              <button
+                type="button"
+                class="opt r-row"
+                data-value="Within 3 months"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Within 3 months</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="3 to 6 months"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">3 to 6 months</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="6 to 12 months"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">6 to 12 months</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Just planning ahead"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Just planning ahead</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="5"
+            data-key="budget"
+            data-short="Investment"
+            style="flex-direction: column; gap: 32px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 12px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                <span class="sc-interp">What is your total fit-out investment?</span>
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                ><span class="sc-interp"
+                  >Including build, furniture and design. This helps us recommend the right package.</span
+                ></span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+              "
+            >
+              <button
+                type="button"
+                class="opt r-row"
+                data-value="Under £25k"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Under £25k</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="£25k to £50k"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">£25k to £50k</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="£50k to £100k"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">£50k to £100k</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Over £100k"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Over £100k</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg></button
+              ><button
+                type="button"
+                class="opt r-row"
+                data-value="Not sure yet"
+                style="
+                  min-height: 76px;
+                  padding: 20px 24px;
+                  text-align: left;
+                  cursor: pointer;
+                  border-radius: 0px;
+                  border: 1px solid #d9c6b8;
+                  background: #ffffff;
+                  color: #2b1e19;
+                  font-family: Jost, sans-serif;
+                  font-size: 17px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 12px;
+                "
+              >
+                <span class="sc-interp">Not sure yet</span>
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  aria-hidden="true"
+                >
+                  <path d="M1 6h14M10 1l5 5-5 5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="q-step"
+            data-step="6"
+            style="flex-direction: column; gap: 26px"
+          >
+            <div style="display: flex; flex-direction: column; gap: 10px">
+              <h1
+                class="r-xl"
+                style="
+                  margin: 0px;
+                  font-weight: 300;
+                  font-size: 46px;
+                  line-height: 1.1;
+                  letter-spacing: -0.015em;
+                "
+              >
+                Where should we call you?
+              </h1>
+              <span
+                style="
+                  font-size: 16px;
+                  font-weight: 300;
+                  line-height: 1.6;
+                  color: #574840;
+                "
+                >Simran will personally call you to talk through your space and next steps.</span
+              >
+            </div>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 22px 32px;
+              "
+            >
+              <div style="display: flex; flex-direction: column; gap: 6px">
+                <label
+                  for="q-name"
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #6b5a50;
+                  "
+                  >Your name</label
+                ><input
+                  id="q-name"
+                  type="text"
+                  autocomplete="name"
+                  style="
+                    border-width: 0px 0px 1px;
+                    border-top-style: initial;
+                    border-right-style: initial;
+                    border-left-style: initial;
+                    border-top-color: initial;
+                    border-right-color: initial;
+                    border-left-color: initial;
+                    border-image: initial;
+                    border-bottom-style: solid;
+                    border-bottom-color: #2b1e19;
+                    border-radius: 0px;
+                    padding: 12px 0px;
+                    font-family: Jost, sans-serif;
+                    font-size: 17px;
+                    color: #2b1e19;
+                    background: transparent;
+                  "
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 6px">
+                <label
+                  for="q-biz"
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #6b5a50;
+                  "
+                  >Business name</label
+                ><input
+                  id="q-biz"
+                  type="text"
+                  autocomplete="organization"
+                  style="
+                    border-width: 0px 0px 1px;
+                    border-top-style: initial;
+                    border-right-style: initial;
+                    border-left-style: initial;
+                    border-top-color: initial;
+                    border-right-color: initial;
+                    border-left-color: initial;
+                    border-image: initial;
+                    border-bottom-style: solid;
+                    border-bottom-color: #2b1e19;
+                    border-radius: 0px;
+                    padding: 12px 0px;
+                    font-family: Jost, sans-serif;
+                    font-size: 17px;
+                    color: #2b1e19;
+                    background: transparent;
+                  "
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 6px">
+                <label
+                  for="q-tel"
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #6b5a50;
+                  "
+                  >Mobile number</label
+                ><input
+                  id="q-tel"
+                  type="tel"
+                  autocomplete="tel"
+                  style="
+                    border-width: 0px 0px 1px;
+                    border-top-style: initial;
+                    border-right-style: initial;
+                    border-left-style: initial;
+                    border-top-color: initial;
+                    border-right-color: initial;
+                    border-left-color: initial;
+                    border-image: initial;
+                    border-bottom-style: solid;
+                    border-bottom-color: #2b1e19;
+                    border-radius: 0px;
+                    padding: 12px 0px;
+                    font-family: Jost, sans-serif;
+                    font-size: 17px;
+                    color: #2b1e19;
+                    background: transparent;
+                  "
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 6px">
+                <label
+                  for="q-email"
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #6b5a50;
+                  "
+                  >Email</label
+                ><input
+                  id="q-email"
+                  type="email"
+                  autocomplete="email"
+                  style="
+                    border-width: 0px 0px 1px;
+                    border-top-style: initial;
+                    border-right-style: initial;
+                    border-left-style: initial;
+                    border-top-color: initial;
+                    border-right-color: initial;
+                    border-left-color: initial;
+                    border-image: initial;
+                    border-bottom-style: solid;
+                    border-bottom-color: #2b1e19;
+                    border-radius: 0px;
+                    padding: 12px 0px;
+                    font-family: Jost, sans-serif;
+                    font-size: 17px;
+                    color: #2b1e19;
+                    background: transparent;
+                  "
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 6px">
+                <label
+                  for="q-town"
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #6b5a50;
+                  "
+                  >Town or postcode of the space</label
+                ><input
+                  id="q-town"
+                  type="text"
+                  autocomplete="postal-code"
+                  style="
+                    border-width: 0px 0px 1px;
+                    border-top-style: initial;
+                    border-right-style: initial;
+                    border-left-style: initial;
+                    border-top-color: initial;
+                    border-right-color: initial;
+                    border-left-color: initial;
+                    border-image: initial;
+                    border-bottom-style: solid;
+                    border-bottom-color: #2b1e19;
+                    border-radius: 0px;
+                    padding: 12px 0px;
+                    font-family: Jost, sans-serif;
+                    font-size: 17px;
+                    color: #2b1e19;
+                    background: transparent;
+                  "
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 10px">
+                <span
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #6b5a50;
+                  "
+                  >Best time to call</span
+                >
+                <div class="r-row" style="display: flex; gap: 8px">
+                  <button
+                    type="button"
+                    class="chip-time"
+                    data-time="Morning"
+                    style="
+                      min-height: 44px;
+                      padding: 10px 16px;
+                      cursor: pointer;
+                      border-radius: 0px;
+                      border: 1px solid #2b1e19;
+                      background: transparent;
+                      color: #2b1e19;
+                      font-family: Jost, sans-serif;
+                      font-size: 14px;
+                    "
+                  >
+                    Morning</button
+                  ><button
+                    type="button"
+                    class="chip-time"
+                    data-time="Afternoon"
+                    style="
+                      min-height: 44px;
+                      padding: 10px 16px;
+                      cursor: pointer;
+                      border-radius: 0px;
+                      border: 1px solid #2b1e19;
+                      background: transparent;
+                      color: #2b1e19;
+                      font-family: Jost, sans-serif;
+                      font-size: 14px;
+                    "
+                  >
+                    Afternoon</button
+                  ><button
+                    type="button"
+                    class="chip-time"
+                    data-time="Evening"
+                    style="
+                      min-height: 44px;
+                      padding: 10px 16px;
+                      cursor: pointer;
+                      border-radius: 0px;
+                      border: 1px solid #2b1e19;
+                      background: transparent;
+                      color: #2b1e19;
+                      font-family: Jost, sans-serif;
+                      font-size: 14px;
+                    "
+                  >
+                    Evening
+                  </button>
+                </div>
+              </div>
+            </div>
+            <label
+              class="r-row"
+              for="q-files"
+              style="
+                border: 1px dashed #ab8c52;
+                background: #f2ede7;
+                padding: 20px 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 24px;
+                cursor: pointer;
+              "
+              ><span style="display: flex; flex-direction: column; gap: 4px"
+                ><span style="font-size: 16px">Add photos, a floor plan or a short video of the space</span
+                ><span style="font-size: 13px; color: #6b5a50"
+                  >Optional, but it lets us prepare before we call</span
+                ></span
+              ><span
+                style="
+                  font-size: 12px;
+                  letter-spacing: 0.22em;
+                  text-transform: uppercase;
+                  text-decoration: underline;
+                  white-space: nowrap;
+                "
+                >Upload files</span
+              ><input
+                id="q-files"
+                type="file"
+                multiple=""
+                style="
+                  width: 1px;
+                  height: 1px;
+                  opacity: 0;
+                  position: absolute;
+                "
+            /></label>
+            <div
+              class="r-row"
+              style="
+                display: flex;
+                gap: 12px;
+                align-items: flex-start;
+                font-size: 13px;
+                line-height: 1.6;
+                color: #574840;
+              "
+            >
+              <input
+                id="q-consent"
+                type="checkbox"
+                style="
+                  width: 18px;
+                  height: 18px;
+                  margin: 2px 0px 0px;
+                  accent-color: #2b1e19;
+                "
+
+              /><label for="q-consent"
+                >I'm happy for Simran Design to contact me about my project by phone, email or WhatsApp. See our privacy
+                policy.</label
+              >
+            </div>
+            <p
+              id="q-error"
+              hidden
+              role="alert"
+              style="margin: 0; font-size: 14px; color: #8a2e1f"
+            ></p>
+            <button
+              class="r-row"
+              type="button"
+              id="q-submit"
+              style="
+                align-self: flex-start;
+                min-height: 60px;
+                padding: 20px 34px;
+                cursor: pointer;
+                border: 0px;
+                border-radius: 0px;
+                background: #2b1e19;
+                color: #ffffff;
+                font-family: Jost, sans-serif;
+                font-size: 12px;
+                letter-spacing: 0.22em;
+                text-transform: uppercase;
+                display: flex;
+                gap: 40px;
+                align-items: center;
+              "
+            >
+              Request my call back<span aria-hidden="true">→</span>
+            </button>
+          </div>
+          <div
+            class="q-step"
+            data-step="7"
+            style="flex-direction: column; gap: 28px"
+          >
+            <span
+              style="
+                font-size: 12px;
+                letter-spacing: 0.24em;
+                text-transform: uppercase;
+                color: #7a5f32;
+              "
+              >Request received</span
+            >
+            <h1
+              class="r-display"
+              style="
+                margin: 0px;
+                font-weight: 300;
+                font-size: 52px;
+                line-height: 1.1;
+                letter-spacing: -0.015em;
+              "
+            >
+              Thank you<span id="q-name-out"></span>. We'll call you within one working day.
+            </h1>
+            <p
+              style="
+                margin: 0px;
+                font-size: 17px;
+                line-height: 1.7;
+                font-weight: 300;
+                color: #574840;
+                max-width: 600px;
+              "
+            >
+              Simran will personally review your answers before calling, so the conversation starts with ideas, not
+              questions. A copy of your answers is on its way to your inbox.
+            </p>
+            <div
+              class="r-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 12px;
+                padding-top: 8px;
+              "
+            >
+              <a
+                href="https://calendly.com/"
+                data-note="Replace with your Calendly link"
+                style="
+                  padding: 28px;
+                  background: #2b1e19;
+                  color: #ffffff;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                "
+                ><span
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #cbb68c;
+                  "
+                  >Skip the wait</span
+                ><span style="font-size: 20px">Choose a call time now</span
+                ><span
+                  style="
+                    font-size: 12px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                  "
+                  >Open calendar</span
+                ></a
+              ><a
+                href="/pages/case-studies"
+                style="
+                  padding: 28px;
+                  border: 1px solid #2b1e19;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                "
+                ><span
+                  style="
+                    font-size: 11px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    color: #7a5f32;
+                  "
+                  >While you wait</span
+                ><span style="font-size: 20px">See projects like yours</span
+                ><span
+                  style="
+                    font-size: 12px;
+                    letter-spacing: 0.22em;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                  "
+                  ><span id="q-sector-link">View case studies</span></span
+                ></a
+              >
+            </div>
+            <button
+              type="button"
+              id="q-restart"
+              style="
+                align-self: flex-start;
+                background: none;
+                border: 0px;
+                padding: 0px;
+                min-height: 44px;
+                cursor: pointer;
+                font-family: Jost, sans-serif;
+                font-size: 13px;
+                color: #6b5a50;
+                text-decoration: underline;
+              "
+            >
+              Start again
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Begin your project",
+  "limit": 1,
+  "settings": [],
+  "presets": [
+    {
+      "name": "Begin your project"
+    }
+  ]
+}
+{% endschema %}

@@ -48,6 +48,7 @@
         "heading_zjihJb",
         "text_cPzryi"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "height": "screen-height-full",
@@ -132,6 +133,7 @@
         "heading_yjthPq",
         "subheading_Ta7RMy"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "layout": "",
@@ -185,6 +187,7 @@
       "block_order": [
         "text_rPnc6X"
       ],
+      "disabled": true,
       "name": "Text Blocks",
       "settings": {
         "align_text": "text-left",
@@ -217,15 +220,18 @@
             "column_border_top_mobile_hide": false,
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
-            "column_width": 25,
+            "column_width": 33,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "I.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
             "title_color": "#7a5f32",
-            "title_2": "Commercial first",
-            "heading_size_2": 4,
+            "title_2": "<strong>A call within one working day</strong>",
+            "heading_size_2": 5,
             "title_2_color": "",
-            "text": "<p>We start with how the space earns: client journey, capacity, staff flow and the first impression at the door.</p>",
+            "text": "<p>A 20 minute conversation with Simran about your business, your space and what it needs to achieve.</p>",
             "text_size": 3,
             "text_max_width": 600,
             "text_style": "font-body",
@@ -238,14 +244,24 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
-        "text_WadMzC": {
+        "text_M8yrcf": {
           "type": "text",
           "settings": {
             "column_bg_color": "",
@@ -253,15 +269,18 @@
             "column_border_top_mobile_hide": false,
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
-            "column_width": 25,
+            "column_width": 33,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "II.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
             "title_color": "#7a5f32",
-            "title_2": "Materials that last",
-            "heading_size_2": 4,
+            "title_2": "<strong>Site visit or video walkthrough&nbsp;</strong>",
+            "heading_size_2": 5,
             "title_2_color": "",
-            "text": "<p>Finishes chosen for heavy daily use as much as for beauty, specified through trusted suppliers such as Altro and Dulux.</p>",
+            "text": "<p>We see the space in person, or you walk us round on a video call if you are further afield.</p>",
             "text_size": 3,
             "text_max_width": 600,
             "text_style": "font-body",
@@ -274,14 +293,24 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
-        "text_bqXhna": {
+        "text_6xMQhY": {
           "type": "text",
           "settings": {
             "column_bg_color": "",
@@ -289,15 +318,18 @@
             "column_border_top_mobile_hide": false,
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
-            "column_width": 25,
+            "column_width": 33,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "III.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
             "title_color": "#7a5f32",
-            "title_2": "One point of contact",
-            "heading_size_2": 4,
+            "title_2": "<strong>Your fixed-fee proposal&nbsp;</strong>",
+            "heading_size_2": 5,
             "title_2_color": "",
-            "text": "<p>You deal with the studio, not a chain of trades. We coordinate everyone so you can keep running your business.</p>",
+            "text": "<p>A clear proposal with scope, fees and timeline, usually within [X] working days of the visit.</p>",
             "text_size": 3,
             "text_max_width": 600,
             "text_style": "font-body",
@@ -310,62 +342,35 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "text_Lyydw6": {
-          "type": "text",
-          "settings": {
-            "column_bg_color": "",
-            "column_border_top": "#2b1e19",
-            "column_border_top_mobile_hide": false,
-            "padding_left_desktop_zero": false,
-            "padding_right_desktop_zero": false,
-            "column_width": 25,
-            "title": "IV.",
-            "heading_size": 4,
-            "heading_letter_spacing": 0,
-            "title_color": "#7a5f32",
-            "title_2": "Compliance handled",
-            "heading_size_2": 4,
-            "title_2_color": "",
-            "text": "<p>Building control, accessibility and sector regulations considered from the first sketch, not fixed at the end.</p>",
-            "text_size": 3,
-            "text_max_width": 600,
-            "text_style": "font-body",
-            "text_color": "",
-            "text_top_border_color": "",
-            "text_2": "",
-            "text_size_2": 3,
-            "text_style_2": "font-body",
-            "text_2_color": "",
-            "text_2_top_border_color": "",
-            "text_2_letter_spacing": 0,
-            "text_2_margin_top": 10,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary hero__btn",
-            "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
       "block_order": [
         "text_NmXAaR",
-        "text_WadMzC",
-        "text_bqXhna",
-        "text_Lyydw6"
+        "text_M8yrcf",
+        "text_6xMQhY"
       ],
       "name": "Multicolumn",
       "settings": {
-        "subtitle": "HOW WE THINK",
+        "subtitle": "",
         "subtitle_size": 1,
         "subtitle_color": "#7a5f32",
-        "title": "Four principles behind every space we design.",
+        "title": "&nbsp;What happens after you press send.",
         "heading_size": 9,
         "heading_max_width": 720,
         "description": "",
@@ -373,6 +378,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "#f2ede7",
         "color": "#2b1e19",
         "first_button_text": "",
@@ -380,7 +386,7 @@
         "second_button_text": "",
         "second_button_url": "",
         "padding_top": 100,
-        "padding_bottom": 50,
+        "padding_bottom": 100,
         "layout_mobile": "1",
         "equal_spacing_blocks": false,
         "mobile_flex_row": false
@@ -398,6 +404,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 70,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "THE TEAM",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -418,11 +427,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_KHiQLq": {
@@ -434,6 +453,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 30,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -454,11 +476,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
@@ -466,6 +498,7 @@
         "text_nRkqe6",
         "text_KHiQLq"
       ],
+      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -479,6 +512,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -498,12 +532,18 @@
         "image_MTb4mr": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/DSC_9125.jpg",
             "image_aspect_ratio": 0.9,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "Simran Kotecha",
             "heading_size": 5,
             "heading_margin_top": 16,
@@ -514,6 +554,10 @@
             "subtitle_color": "#7a5f32",
             "text": "<p>Leads every project personally, from first call to final reveal.</p>",
             "text_size": 3,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
@@ -524,12 +568,18 @@
         "image_7mPYp4": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/simrandesign-hq-150526-1133.jpg",
             "image_aspect_ratio": 0.9,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "Diya Mistry",
             "heading_size": 5,
             "heading_margin_top": 16,
@@ -540,6 +590,10 @@
             "subtitle_color": "#7a5f32",
             "text": "<p>[One line on Diya's focus, for example drawings, sourcing and 3D visualisation.]</p>",
             "text_size": 3,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
@@ -550,12 +604,18 @@
         "image_JNNPkD": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/DSC_9145_copy.jpg",
             "image_aspect_ratio": 0.9,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "Rita Kotecha",
             "heading_size": 5,
             "heading_margin_top": 16,
@@ -566,6 +626,10 @@
             "subtitle_color": "#7a5f32",
             "text": "<p>[One line on Rita's role, for example keeping proposals, invoicing and supplier accounts running smoothly.]</p>",
             "text_size": 3,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
@@ -579,6 +643,7 @@
         "image_7mPYp4",
         "image_JNNPkD"
       ],
+      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -592,6 +657,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -632,6 +698,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 21,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -652,11 +721,21 @@
             "text_2_top_border_color": "#d9c6b8",
             "text_2_letter_spacing": 2,
             "text_2_margin_top": 15,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_BMJTnD": {
@@ -668,6 +747,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 21,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -688,11 +770,21 @@
             "text_2_top_border_color": "#d9c6b8",
             "text_2_letter_spacing": 2,
             "text_2_margin_top": 15,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_8HH8y9": {
@@ -704,6 +796,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 21,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -724,11 +819,21 @@
             "text_2_top_border_color": "#d9c6b8",
             "text_2_letter_spacing": 2,
             "text_2_margin_top": 15,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
@@ -738,6 +843,7 @@
         "text_BMJTnD",
         "text_8HH8y9"
       ],
+      "disabled": true,
       "name": "Multicolumn",
       "settings": {
         "subtitle": "",
@@ -751,6 +857,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "#f2ede7",
         "color": "",
         "first_button_text": "",
@@ -787,6 +894,7 @@
       "block_order": [
         "text_wYNpxm"
       ],
+      "disabled": true,
       "name": "Text Blocks",
       "settings": {
         "align_text": "text-left",
@@ -859,6 +967,7 @@
         "text_hxnFX8",
         "text_AkjBGF"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "layout": "",
@@ -920,7 +1029,9 @@
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "arrow_first": false,
+            "show_arrow": false,
+            "hide_underline": false
           }
         }
       },
@@ -929,6 +1040,7 @@
         "text_ExKUKg",
         "button_ykhxix"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "height": "screen-height-three-quarters",
@@ -947,6 +1059,89 @@
         "bg_color": "#ffffff",
         "color": "#2b1e19"
       }
+    },
+    "section_double_JDYn3q": {
+      "type": "section-double",
+      "blocks": {
+        "heading_gxD7mn": {
+          "type": "heading",
+          "settings": {
+            "title": "“Our office in JLT, Dubai is stunning because of her.”",
+            "text_size": 8,
+            "letter_spacing": 0,
+            "padding_bottom": 16
+          }
+        },
+        "text_TWkPG9": {
+          "type": "text",
+          "settings": {
+            "icon_width": 40,
+            "text_color": "#2b1e19",
+            "text": "<p><strong>[Full name], [Role], Maptalent Recruitment</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_text_group_8gt9Jb": {
+          "type": "heading_text_group",
+          "settings": {
+            "border_color": "#d9c6b8",
+            "text_color": "",
+            "first_heading": "London Design Week",
+            "first_heading_size": 4,
+            "text_1": "",
+            "text_size_1": 2,
+            "second_heading": "Dulux",
+            "second_heading_size": 4,
+            "text_2": "",
+            "text_size_2": 2,
+            "third_heading": "Altro",
+            "third_heading_size": 4,
+            "text_3": "",
+            "text_size_3": 5,
+            "forth_heading": "Minotti London",
+            "forth_heading_size": 4,
+            "text_4": "",
+            "text_size_4": 5
+          }
+        }
+      },
+      "block_order": [
+        "heading_gxD7mn",
+        "text_TWkPG9",
+        "heading_text_group_8gt9Jb"
+      ],
+      "custom_css": [],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "image_1": "shopify://shop_images/Screenshot2026-04-16at12.09.49.png",
+        "image_link": "",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "image_width": "thirty-five-percent",
+        "subtitle": "",
+        "subtitle_color": "#000000",
+        "sub_title_size": 8,
+        "title": "",
+        "title_size": 8,
+        "text_alignment": "text-left",
+        "text_placement": "center",
+        "text_bg_color": "",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -960,6 +1155,7 @@
     "section_multicolumn_86wtUr",
     "text_blocks_KQHzTp",
     "section_double_Fmb3KU",
-    "section_hero_t9LiDw"
+    "section_hero_t9LiDw",
+    "section_double_JDYn3q"
   ]
 }

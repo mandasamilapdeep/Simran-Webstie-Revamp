@@ -469,7 +469,10 @@
 
                   {%- when 'heading_text_group' -%}
                     <div
-                      class="hero__text-group {% if block.settings.third_heading != blank %}hero__text-group_three{% else %}hero__text-group_two{% endif %}"
+                      class="
+                        hero__text-group {% if block.settings.third_heading != blank %}hero__text-group_three{% else %}hero__text-group_two{% endif %}
+                        {% if block.settings.forth_heading != blank and block.settings.third_heading != blank and block.settings.second_heading != blank and block.settings.first_heading != blank %}hero__text-group_four{% endif %}
+                      "
                       style="{% if block.settings.border_color != '' %}border-top: 1px solid {{ block.settings.border_color }}; padding-top: 15px;{% endif %}"
                     >
                       <div class="hero__text-group_single">
@@ -556,6 +559,35 @@
                             {{ block.shopify_attributes }}
                           >
                             {{ block.settings.text_3 }}
+                          </p>
+                        {%- endif -%}
+                      </div>
+                      <div class="hero__text-group_single">
+                        {%- if block.settings.forth_heading != '' -%}
+                          {%- assign font_size_class = block.settings.forth_heading_size | prepend: 'heading-size-' -%}
+                          {%- assign animation_order = animation_order | plus: 1 -%}
+                          <h2
+                            class="hero__title {{ font_size_class }}"
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ animation_order }}"
+                            {{ block.shopify_attributes }}
+                          >
+                            {{ block.settings.forth_heading | escape }}
+                          </h2>
+                        {%- endif -%}
+                        {%- if block.settings.text_4 != '' -%}
+                          {%- assign font_size_class = block.settings.text_size_4 | prepend: 'body-size-' -%}
+                          {%- assign animation_order = animation_order | plus: 1 -%}
+                          <p
+                            style="color:{{ block.settings.text_color }}"
+                            class="hero__description {{ font_size_class }}"
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ animation_order }}"
+                            {{ block.shopify_attributes }}
+                          >
+                            {{ block.settings.text_4 }}
                           </p>
                         {%- endif -%}
                       </div>
