@@ -9,6 +9,11 @@
  */
 {
   "sections": {
+    "begin_your_project_gfTNp6": {
+      "type": "begin-your-project",
+      "name": "Begin your project",
+      "settings": {}
+    },
     "section_hero_e7n4BJ": {
       "type": "section-hero",
       "blocks": {
@@ -1145,6 +1150,7 @@
     }
   },
   "order": [
+    "begin_your_project_gfTNp6",
     "section_hero_e7n4BJ",
     "main",
     "section_double_XCrhmF",

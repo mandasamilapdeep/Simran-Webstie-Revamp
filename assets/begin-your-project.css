@@ -27,13 +27,13 @@
      -webkit-font-smoothing: antialiased;
      overflow-x: hidden;
      /* Full width: break out of the theme's narrow page container */
-     width: 100vw;
+     /* width: 100vw;
      max-width: 100vw;
      position: relative;
      left: 50%;
      right: 50%;
      margin-left: -50vw;
-     margin-right: -50vw;
+     margin-right: -50vw; */
  }
 
  /* Remove the theme's side padding and max-width around this section */
@@ -1606,3 +1606,19 @@
          padding-top: 72px;
      }
  }
+
+/* Date picker field styling for Begin Your Project */
+.begin-your-project-main input[type="date"] {
+    color-scheme: light;
+    cursor: pointer;
+}
+
+.begin-your-project-main input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0.65;
+    transition: opacity 0.2s ease;
+}
+
+.begin-your-project-main input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    opacity: 1;
+}
