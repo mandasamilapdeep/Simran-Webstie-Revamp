@@ -22,7 +22,7 @@
         "text_8VPAqF": {
           "type": "text",
           "settings": {
-            "description": "Start your free quote in seconds",
+            "description": "<p>Start your free quote in seconds</p>",
             "text_size": 5,
             "text_style": "font-body"
           }
@@ -428,7 +428,7 @@
         "text_zQANBf": {
           "type": "text",
           "settings": {
-            "description": "Follow along the design journey for free content, project updates and industry insights.",
+            "description": "<p>Follow along the design journey for free content, project updates and industry insights.</p>",
             "text_size": 4,
             "text_style": "font-body"
           }

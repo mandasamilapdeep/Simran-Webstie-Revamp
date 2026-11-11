@@ -27,7 +27,7 @@
         "text_8GpgN9": {
           "type": "text",
           "settings": {
-            "description": "SUTTON COLDFIELD | UK",
+            "description": "<p>SUTTON COLDFIELD | UK</p>",
             "text_size": 3,
             "text_style": "font-heading"
           }
@@ -35,7 +35,7 @@
         "text_a6XDLR": {
           "type": "text",
           "settings": {
-            "description": "CAFE INSIDE A BEAUTY SALON",
+            "description": "<p>CAFE INSIDE A BEAUTY SALON</p>",
             "text_size": 3,
             "text_style": "font-body"
           }

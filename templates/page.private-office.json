@@ -47,7 +47,7 @@
         "text_WHL8Wn": {
           "type": "text",
           "settings": {
-            "description": "DIRECTOR'S OFFICE",
+            "description": "<p>DIRECTOR'S OFFICE</p>",
             "text_size": 4,
             "text_style": "font-body"
           }

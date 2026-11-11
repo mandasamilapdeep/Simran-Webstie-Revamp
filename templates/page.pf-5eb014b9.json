@@ -27,7 +27,7 @@
         "text_y4bg97": {
           "type": "text",
           "settings": {
-            "description": "NUNEATON | UNITED KINGDOM",
+            "description": "<p>NUNEATON | UNITED KINGDOM</p>",
             "text_size": 4,
             "text_style": "font-heading"
           }

@@ -40,7 +40,7 @@
         "text_ChgCij": {
           "type": "text",
           "settings": {
-            "description": "Our ༶ Projects",
+            "description": "<p>Our ༶ Projects</p>",
             "text_size": 4,
             "text_style": "font-body"
           }

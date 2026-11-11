@@ -27,7 +27,7 @@
         "text_whmLxJ": {
           "type": "text",
           "settings": {
-            "description": "SUTTON COLDFIELD | UK",
+            "description": "<p>SUTTON COLDFIELD | UK</p>",
             "text_size": 3,
             "text_style": "font-heading"
           }
@@ -35,7 +35,7 @@
         "text_gLTqrH": {
           "type": "text",
           "settings": {
-            "description": "PRIVATE TREATMENT ROOMS  | LASHES | BROWS | FACIALS",
+            "description": "<p>PRIVATE TREATMENT ROOMS  | LASHES | BROWS | FACIALS</p>",
             "text_size": 3,
             "text_style": "font-body"
           }

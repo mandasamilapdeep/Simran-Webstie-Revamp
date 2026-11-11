@@ -22,7 +22,7 @@
         "text_9yyJWJ": {
           "type": "text",
           "settings": {
-            "description": "Blog subheading",
+            "description": "<p>Blog subheading</p>",
             "text_size": 4,
             "text_style": "font-body"
           }

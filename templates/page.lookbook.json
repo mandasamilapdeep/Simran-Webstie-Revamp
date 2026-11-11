@@ -40,7 +40,7 @@
         "text_n8mj7y": {
           "type": "text",
           "settings": {
-            "description": "SUTTON COLDFIELD | UK",
+            "description": "<p>SUTTON COLDFIELD | UK</p>",
             "text_size": 3,
             "text_style": "font-heading"
           }
@@ -48,7 +48,7 @@
         "text_zFiDQL": {
           "type": "text",
           "settings": {
-            "description": "MANICURE STATION | POLISH DISPLAY",
+            "description": "<p>MANICURE STATION | POLISH DISPLAY</p>",
             "text_size": 3,
             "text_style": "font-body"
           }

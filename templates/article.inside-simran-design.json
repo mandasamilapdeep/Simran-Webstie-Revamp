@@ -29,7 +29,7 @@
         "text_3eqqPd": {
           "type": "text",
           "settings": {
-            "description": "Who We Are, What We Do, and Where We’re Headed",
+            "description": "<p>Who We Are, What We Do, and Where We’re Headed</p>",
             "text_size": 4,
             "text_style": "font-heading"
           }

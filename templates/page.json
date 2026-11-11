@@ -40,7 +40,7 @@
         "text_WHL8Wn": {
           "type": "text",
           "settings": {
-            "description": "༶ TRANSFORM YOUR SPACE, TRANSFORM YOUR BUSINESS ༶",
+            "description": "<p>༶ TRANSFORM YOUR SPACE, TRANSFORM YOUR BUSINESS ༶</p>",
             "text_size": 3,
             "text_style": "font-heading"
           }
@@ -478,7 +478,7 @@
         "text_H9KR7a": {
           "type": "text",
           "settings": {
-            "description": "Ready to Transform Your Business?",
+            "description": "<p>Ready to Transform Your Business?</p>",
             "text_size": 3,
             "text_style": "font-body"
           }

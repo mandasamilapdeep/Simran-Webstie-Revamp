@@ -40,7 +40,7 @@
         "text_hb7Jhi": {
           "type": "text",
           "settings": {
-            "description": "༶ Full Flexibility and Global Opportunities  ༶",
+            "description": "<p>༶ Full Flexibility and Global Opportunities  ༶</p>",
             "text_size": 4,
             "text_style": "font-body"
           }
@@ -769,7 +769,7 @@
         "text_KdNeba": {
           "type": "text",
           "settings": {
-            "description": "We'd love to have a chat :)",
+            "description": "<p>We'd love to have a chat :)</p>",
             "text_size": 5,
             "text_style": "font-body"
           }

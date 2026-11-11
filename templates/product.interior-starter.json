@@ -528,7 +528,7 @@
         "text_7BCqKt": {
           "type": "text",
           "settings": {
-            "description": "Use code WELCOME10 for 10% off your first order.",
+            "description": "<p>Use code WELCOME10 for 10% off your first order.</p>",
             "text_size": 4,
             "text_style": "font-body"
           }

@@ -34,7 +34,7 @@
         "text_iBUNbN": {
           "type": "text",
           "settings": {
-            "description": "LONDON | UNITED KINGDOM",
+            "description": "<p>LONDON | UNITED KINGDOM</p>",
             "text_size": 3,
             "text_style": "font-heading"
           }

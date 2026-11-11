@@ -127,7 +127,7 @@
         "text_KdNeba": {
           "type": "text",
           "settings": {
-            "description": "We'd love to have a chat :)",
+            "description": "<p>We'd love to have a chat :)</p>",
             "text_size": 5,
             "text_style": "font-body"
           }
