@@ -1,0 +1,572 @@
+{%- liquid
+  assign current_variant = current_variant | default: product.selected_or_first_available_variant
+  assign show_quantity = block.settings.show_quantity
+  assign gift_card_recipient_feature_active = false
+  assign is_quickview = quickview | default: false
+
+  assign spaces_label = block.settings.spaces_label
+  if spaces_label == blank
+    assign spaces_label = 'NUMBER OF SPACES'
+  endif
+
+  assign total_label = block.settings.total_label
+  if total_label == blank
+    assign total_label = 'Total, ex VAT'
+  endif
+
+  assign buy_now_text = block.settings.buy_now_text
+  if buy_now_text == blank
+    assign buy_now_text = 'BUY NOW'
+  endif
+
+  if block.settings.show_payment_button and gift_card_recipient_feature_active == false and settings.enable_accept_terms == false
+    assign buybutton_setting = true
+  endif
+
+  assign button_text = 'products.product.add_to_cart' | t
+  if preorder
+    assign button_text = 'products.product.pre_order' | t
+  endif
+
+  unless current_variant.available
+    assign button_text = 'products.product.sold_out' | t
+  endunless
+
+  if block.settings.show_gift_card_recipient and product.gift_card? and is_quickview != true
+    assign gift_card_recipient_feature_active = true
+  endif
+
+  assign initial_quantity = 1
+  assign total_price = current_variant.price | times: initial_quantity
+-%}
+
+<div
+  class="product__block product__block--buttons block-padding new-product-buttons"
+  data-unique="{{ unique }}"
+  data-product-id="{{ product.id }}"
+  {{ block_style }}
+  {{ block.shopify_attributes }}
+>
+  <style>
+    .new-product-buttons {
+      width: 100%;
+      box-sizing: border-box;
+      font-family: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #2b1e19;
+      margin-top: 10px;
+    }
+
+    .new-product-buttons *,
+    .new-product-buttons *::before,
+    .new-product-buttons *::after {
+      box-sizing: border-box;
+    }
+
+    /* Quantity Row */
+    .new-product-buttons__qty-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 22px;
+      gap: 16px;
+    }
+
+    .new-product-buttons__qty-label {
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #2b1e19;
+      font-weight: 400;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    /* Boxed Quantity Selector [ - | 1 | + ] */
+    .new-product-buttons__quantity-counter {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #2b1e19;
+      height: 48px;
+      width: 144px;
+      background: #ffffff;
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    .new-product-buttons__qty-btn {
+      width: 46px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 300;
+      color: #2b1e19;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      transition: background-color 0.15s ease, opacity 0.15s ease;
+      user-select: none;
+      -webkit-appearance: none;
+    }
+
+    .new-product-buttons__qty-btn:hover {
+      background-color: #f6f2ee;
+    }
+
+    .new-product-buttons__qty-btn:active {
+      background-color: #ede5dd;
+    }
+
+    .new-product-buttons__qty-btn--minus {
+      border-right: 1px solid #2b1e19;
+    }
+
+    .new-product-buttons__qty-btn--plus {
+      border-left: 1px solid #2b1e19;
+    }
+
+    .new-product-buttons__qty-input {
+      width: calc(100% - 92px);
+      height: 100%;
+      border: none;
+      background: transparent;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #2b1e19;
+      padding: 0;
+      margin: 0;
+      outline: none;
+      -moz-appearance: textfield;
+      font-family: inherit;
+    }
+
+    .new-product-buttons__qty-input::-webkit-outer-spin-button,
+    .new-product-buttons__qty-input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Divider */
+    .new-product-buttons__divider {
+      width: 100%;
+      height: 1px;
+      background-color: #E3D3C9;
+      border: none;
+      margin: 0 0 22px 0;
+    }
+
+    /* Total Price Row */
+    .new-product-buttons__total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 24px;
+      gap: 16px;
+    }
+
+    .new-product-buttons__total-label {
+      font-size: 17px;
+      font-weight: 400;
+      color: #2b1e19;
+      line-height: 1.3;
+      margin: 0;
+    }
+
+    .new-product-buttons__total-price {
+      font-size: 26px;
+      font-weight: 400;
+      color: #2b1e19;
+      line-height: 1;
+      letter-spacing: -0.015em;
+    }
+
+    /* Buttons Row */
+    .new-product-buttons__actions {
+      display: grid;
+      grid-template-columns: {% if buybutton_setting %}1fr 1fr{% else %}1fr{% endif %};
+      gap: 16px;
+      width: 100%;
+    }
+
+    .new-product-buttons__btn {
+      height: 54px;
+      padding: 0 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 0;
+      font-family: inherit;
+      text-decoration: none;
+      transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+      width: 100%;
+      margin: 0;
+      -webkit-appearance: none;
+      line-height: 1;
+    }
+
+    /* Add To Cart button (Solid Dark #2b1e19) */
+    .new-product-buttons__btn--atc {
+      background-color: #2b1e19;
+      color: #ffffff;
+      border: 1px solid #2b1e19;
+    }
+
+    .new-product-buttons__btn--atc:hover:not([disabled]) {
+      background-color: #423028;
+      border-color: #423028;
+      color: #ffffff;
+    }
+
+    .new-product-buttons__btn--atc[disabled] {
+      opacity: 0.55;
+      cursor: not-allowed;
+      background-color: #423028;
+      border-color: #423028;
+    }
+
+    /* Buy Now button (White outline #2b1e19) */
+    .new-product-buttons__btn--buy-now {
+      background-color: #ffffff;
+      color: #2b1e19;
+      border: 1px solid #2b1e19;
+    }
+
+    .new-product-buttons__btn--buy-now:hover:not([disabled]) {
+      background-color: #2b1e19;
+      color: #ffffff;
+    }
+
+    .new-product-buttons__btn--buy-now[disabled] {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    /* Theme loader / added state styling inside ATC */
+    .new-product-buttons__btn .btn__added {
+      display: none;
+    }
+    .new-product-buttons__btn .btn__loader {
+      display: none;
+      margin-left: 8px;
+    }
+    .new-product-buttons__btn.is-loading .btn__loader {
+      display: inline-flex;
+    }
+
+    @media (max-width: 500px) {
+      .new-product-buttons__actions {
+        gap: 10px;
+      }
+      .new-product-buttons__btn {
+        height: 50px;
+        padding: 0 12px;
+        font-size: 11px;
+        letter-spacing: 0.15em;
+      }
+      .new-product-buttons__quantity-counter {
+        height: 44px;
+        width: 130px;
+      }
+      .new-product-buttons__qty-btn {
+        width: 40px;
+      }
+      .new-product-buttons__qty-input {
+        width: calc(100% - 80px);
+        font-size: 15px;
+      }
+      .new-product-buttons__total-price {
+        font-size: 22px;
+      }
+    }
+  </style>
+
+  <product-form>
+    {%- form 'product',
+      product,
+      id: product_form_id,
+      class: 'product-form new-product-buttons__form',
+      data-product-form: ''
+    -%}
+      {%- if gift_card_recipient_feature_active -%}
+        {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
+      {%- endif -%}
+
+      <div class="product__form__errors" data-cart-errors-container></div>
+
+      {%- if show_quantity -%}
+        <!-- Row 1: Quantity Selector -->
+        <div mmmm class="new-product-buttons__qty-row">
+          <span class="new-product-buttons__qty-label">{{ spaces_label }}</span>
+
+          <quantity-counter class="new-product-buttons__quantity-counter">
+            <button
+              type="button"
+              name="decrease"
+              class="new-product-buttons__qty-btn new-product-buttons__qty-btn--minus"
+              aria-label="{{ 'cart.general.decrease_quantity_label' | t }} - {{ product.title | strip_html }}"
+            >
+              –
+            </button>
+
+            <input
+              id="product-quantity-buttons-{{ unique }}"
+              class="new-product-buttons__qty-input"
+              type="number"
+              name="quantity"
+              value="1"
+              min="1"
+              aria-label="{{ 'products.product.quantity' | t }}"
+              autocomplete="off"
+              pattern="[0-9]*"
+            >
+
+            <button
+              type="button"
+              name="increase"
+              class="new-product-buttons__qty-btn new-product-buttons__qty-btn--plus"
+              aria-label="{{ 'cart.general.increase_quantity_label' | t }} - {{ product.title | strip_html }}"
+            >
+              +
+            </button>
+          </quantity-counter>
+        </div>
+
+        <!-- Row 2: Divider Line -->
+        <div class="new-product-buttons__divider"></div>
+
+        <!-- Row 3: Total Price Row -->
+        <div class="new-product-buttons__total-row">
+          <span class="new-product-buttons__total-label">{{ total_label }}</span>
+          <span class="new-product-buttons__total-price" data-new-buttons-total>
+            {{ total_price | money_without_trailing_zeros }}
+          </span>
+        </div>
+      {%- else -%}
+        <input type="hidden" name="quantity" value="1">
+      {%- endif -%}
+
+      <!-- Row 4: Action Buttons (ADD TO CART + BUY NOW) -->
+      <div class="new-product-buttons__actions">
+        <button
+          type="submit"
+          name="add"
+          class="new-product-buttons__btn new-product-buttons__btn--atc"
+          data-add-to-cart
+          {% unless current_variant.available %}
+            disabled="disabled"
+          {% endunless %}
+        >
+          <span class="btn__text" data-add-to-cart-text>{{ button_text }}</span>
+          <span class="btn__added">&nbsp;</span>
+          <span class="btn__loader">
+            <svg height="18" width="18" class="svg-loader">
+              <circle r="7" cx="9" cy="9" />
+              <circle stroke-dasharray="87.96459430051421 87.96459430051421" r="7" cx="9" cy="9" />
+            </svg>
+          </span>
+        </button>
+
+        {%- if buybutton_setting -%}
+          <div class="product__submit__item">
+            {{ form | payment_button }}
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endform -%}
+  </product-form>
+
+  <script>
+    (function () {
+      function initNewProductButtons() {
+        const container = document.querySelector('.new-product-buttons[data-unique="{{ unique }}"]');
+        if (!container || container.dataset.initialized === 'true') return;
+        container.dataset.initialized = 'true';
+
+        const form = container.querySelector('form');
+        const qtyInput = container.querySelector('input[name="quantity"]');
+        const minusBtn = container.querySelector('.new-product-buttons__qty-btn--minus');
+        const plusBtn = container.querySelector('.new-product-buttons__qty-btn--plus');
+        const totalPriceEl = container.querySelector('[data-new-buttons-total]');
+        const atcBtn = container.querySelector('[data-add-to-cart]');
+        const buyNowBtn = container.querySelector('[data-buy-now]');
+
+        let currentPrice = {{ current_variant.price | default: 0 }};
+        let isAvailable = {{ current_variant.available | default: true }};
+        let currentVariantId = '{{ current_variant.id }}';
+
+        function formatMoneyWithoutZeros(cents) {
+          if (window.themeCurrency && window.themeCurrency.formatMoney && window.theme && window.theme.moneyFormat) {
+            const formatted = window.themeCurrency.formatMoney(cents, window.theme.moneyFormat);
+            return formatted.replace(/\.00(?!\d)/, '');
+          }
+          const amount = cents / 100;
+          return '£' + (amount % 1 === 0 ? amount.toFixed(0) : amount.toFixed(2));
+        }
+
+        function calculateTotal() {
+          if (!totalPriceEl) return;
+          const qty = Math.max(1, parseInt(qtyInput ? qtyInput.value : 1, 10) || 1);
+          const totalCents = currentPrice * qty;
+          totalPriceEl.textContent = formatMoneyWithoutZeros(totalCents);
+        }
+
+        function syncButtonState() {
+          if (buyNowBtn) {
+            buyNowBtn.disabled = !isAvailable;
+            buyNowBtn.style.opacity = isAvailable ? '1' : '0.55';
+            buyNowBtn.style.cursor = isAvailable ? 'pointer' : 'not-allowed';
+          }
+        }
+
+        // Quantity Minus & Plus button handlers
+        if (minusBtn && qtyInput) {
+          minusBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const currentVal = parseInt(qtyInput.value, 10) || 1;
+            if (currentVal > 1) {
+              qtyInput.value = currentVal - 1;
+              qtyInput.dispatchEvent(new Event('change', { bubbles: true }));
+            }
+          });
+        }
+
+        if (plusBtn && qtyInput) {
+          plusBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const currentVal = parseInt(qtyInput.value, 10) || 1;
+            qtyInput.value = currentVal + 1;
+            qtyInput.dispatchEvent(new Event('change', { bubbles: true }));
+          });
+        }
+
+        if (qtyInput) {
+          qtyInput.addEventListener('change', calculateTotal);
+          qtyInput.addEventListener('input', calculateTotal);
+        }
+
+        // Listen for variant change events from the theme
+        function onVariantChange(variant) {
+          if (!variant) return;
+          currentPrice = variant.price;
+          isAvailable = variant.available;
+          currentVariantId = variant.id;
+          calculateTotal();
+          syncButtonState();
+        }
+
+        const section = container.closest('[data-section-type]') || container.closest('.shopify-section') || document;
+        section.addEventListener('theme:variant:change', function (e) {
+          if (e.detail && e.detail.variant) {
+            onVariantChange(e.detail.variant);
+          }
+        });
+
+        document.addEventListener('theme:variant:change', function (e) {
+          if (e.detail && e.detail.variant) {
+            const currentSection = container.closest('[data-section-id]');
+            if (!currentSection || !e.target || currentSection.contains(e.target) || e.target === document) {
+              onVariantChange(e.detail.variant);
+            }
+          }
+        });
+
+        // Also observe price snippet changes as a fail-safe backup for variants
+        const priceWrapper = section.querySelector('[data-price-wrapper]') || document.querySelector('[data-price-wrapper]');
+        if (priceWrapper) {
+          const priceObserver = new MutationObserver(function () {
+            const priceEl = priceWrapper.querySelector('[data-product-price]');
+            if (priceEl && priceEl.textContent) {
+              const numericString = priceEl.textContent.replace(/[^0-9.]/g, '');
+              const parsed = parseFloat(numericString);
+              if (!isNaN(parsed) && parsed > 0) {
+                const cents = Math.round(parsed * 100);
+                if (cents !== currentPrice) {
+                  currentPrice = cents;
+                  calculateTotal();
+                }
+              }
+            }
+          });
+          priceObserver.observe(priceWrapper, { childList: true, subtree: true, characterData: true });
+        }
+
+        // Buy Now Button Handler (Direct Checkout)
+        if (buyNowBtn) {
+          buyNowBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (!isAvailable) return;
+
+            const activeForm = container.querySelector('form') || form;
+            const formId = activeForm ? activeForm.getAttribute('id') : '';
+            const variantInput = (formId ? document.querySelector('[name="id"][form="' + formId + '"]') : null)
+              || (activeForm ? activeForm.querySelector('[name="id"]') : null)
+              || document.querySelector('[name="id"]');
+            const variantId = currentVariantId || (variantInput ? variantInput.value : '{{ current_variant.id }}');
+            const quantity = qtyInput ? Math.max(1, parseInt(qtyInput.value, 10) || 1) : 1;
+
+            buyNowBtn.disabled = true;
+            const originalText = buyNowBtn.innerHTML;
+            buyNowBtn.innerHTML = '<span>PLEASE WAIT...</span>';
+
+            const payloadData = activeForm ? new FormData(activeForm) : new FormData();
+            if (!payloadData.has('id')) {
+              payloadData.append('id', variantId);
+            } else {
+              payloadData.set('id', variantId);
+            }
+            if (!payloadData.has('quantity')) {
+              payloadData.append('quantity', quantity);
+            } else {
+              payloadData.set('quantity', quantity);
+            }
+
+            fetch('/cart/add.js', {
+              method: 'POST',
+              headers: {
+                'Accept': 'application/json'
+              },
+              body: payloadData
+            })
+            .then(function (res) {
+              if (!res.ok) {
+                return res.json().then(function(err) { throw err; });
+              }
+              return res.json();
+            })
+            .then(function () {
+              window.location.href = '/checkout';
+            })
+            .catch(function (error) {
+              console.error('Buy Now checkout error:', error);
+              buyNowBtn.disabled = false;
+              buyNowBtn.innerHTML = originalText;
+              alert(error.description || error.message || 'Could not add to cart. Please try again.');
+            });
+          });
+        }
+
+        // Initialize display
+        calculateTotal();
+        syncButtonState();
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initNewProductButtons);
+      } else {
+        initNewProductButtons();
+      }
+
+      document.addEventListener('shopify:section:load', initNewProductButtons);
+    })();
+  </script>
+</div>

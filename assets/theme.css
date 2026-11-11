@@ -15714,11 +15714,18 @@ model-viewer,
   height: 100%;
 }
 
-:root {
+/* :root {
   --form-top: 10px;
   --form-left: 12px;
   --form-margin: 32px;
   --btn-height: calc(var(--btn-top) * 2 + var(--BTN-FONT-SIZE) * var(--line-height-normal) + 2px);
+} */
+
+:root {
+  --form-top: 10px;
+  --form-left: 12px;
+  --form-margin: 32px;
+  --btn-height: 54px;
 }
 
 quantity-counter {
@@ -16040,12 +16047,12 @@ input[type=radio].variant-input {
 }
 
 .product__submit__buttons .btn,
-.product__submit__buttons .shopify-payment-button .shopify-payment-button__button--unbranded,
 .shopify-payment-button .product__submit__buttons .shopify-payment-button__button--unbranded,
 .product__submit__buttons #challenge .shopify-challenge__button,
 #challenge .product__submit__buttons .shopify-challenge__button {
   min-height: var(--btn-height);
 }
+
 
 @media only screen and (min-width: 480px) {
   .product__submit__buttons--inline {

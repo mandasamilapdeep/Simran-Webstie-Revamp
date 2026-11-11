@@ -28,7 +28,10 @@
   data-section-type="rich-text"
 >
   {%- if section.blocks.size > 0 -%}
-    <div class="hero__content__wrapper {{ section.settings.align_text }} ">
+    <div
+      id="{{ section.settings.section_custom_id }}"
+      class="hero__content__wrapper {{ section.settings.align_text }} "
+    >
       <div class="hero__content hero__content--compact">
         {%- for block in section.blocks -%}
           {%- liquid
@@ -202,7 +205,7 @@
               </div>
 
             {%- when 'down_arrow_button' -%}
-              <a {{ block.shopify_attributes }} class="down_arrow_button" href="{{ section.settings.anchor_link }}">
+              <a {{ block.shopify_attributes }} class="down_arrow_button" href="{{ block.settings.button_url }}">
                 <span class="sdp-cue-circle">
                   <svg
                     width="14"
@@ -309,6 +312,11 @@
 {
   "name": "Rich text",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_custom_id",
+      "label": "Section custom ID"
+    },
     {
       "type": "header",
       "content": "Style"
