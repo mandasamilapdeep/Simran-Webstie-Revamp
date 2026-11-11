@@ -58,7 +58,9 @@
             "text_size": 5,
             "text_style": "font-body",
             "padding_bottom": 16,
-            "text_color": "#574840"
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
           }
         },
         "buttons_6WYUiV": {
@@ -973,7 +975,7 @@
             "title_2": "<strong>From £895</strong>",
             "heading_size_2": 1,
             "title_2_color": "#2b1e19",
-            "link": "#"
+            "link": "shopify://pages/sourcing-and-specification"
           }
         },
         "left_right_text_CGcDWt": {
@@ -995,7 +997,7 @@
             "title_2": "<strong>From £1,499</strong>",
             "heading_size_2": 1,
             "title_2_color": "#2b1e19",
-            "link": "#"
+            "link": "shopify://pages/full-design"
           }
         },
         "left_right_text_cT6itz": {
@@ -1017,7 +1019,7 @@
             "title_2": "<strong>By application</strong>",
             "heading_size_2": 1,
             "title_2_color": "#2b1e19",
-            "link": "#"
+            "link": "shopify://pages/signature"
           }
         }
       },
@@ -1140,7 +1142,7 @@
             "text_2_right_text": "",
             "text_2_right_text_color": "",
             "button_text": "Book concept",
-            "button_url": "",
+            "button_url": "shopify://pages/begin-your-project",
             "button_type": "btn--white hero__btn",
             "button_style": "btn--solid",
             "show_arrow": true,

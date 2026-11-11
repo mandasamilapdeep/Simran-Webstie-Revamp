@@ -58,14 +58,16 @@
             "text_size": 5,
             "text_style": "font-body",
             "padding_bottom": 16,
-            "text_color": "#574840"
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
           }
         },
         "buttons_6WYUiV": {
           "type": "buttons",
           "settings": {
             "button_text": "Book your Clarity Review",
-            "button_url": "#",
+            "button_url": "shopify://pages/begin-your-project",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
@@ -223,6 +225,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -267,7 +270,9 @@
             "text_size": 4,
             "text_style": "font-body",
             "padding_bottom": 16,
-            "text_color": "#574840"
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
           }
         }
       },
@@ -455,6 +460,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-stretch",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "#f2ede7",
         "color": "#2b1e19",
         "first_button_text": "",
@@ -480,7 +486,9 @@
             "text_size": 3,
             "text_style": "font-body",
             "padding_bottom": 16,
-            "text_color": "#574840"
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
           }
         }
       },
@@ -942,6 +950,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-stretch",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "#2b1e19",
         "first_button_text": "",
@@ -1174,6 +1183,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -1280,6 +1290,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-stretch",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -1505,7 +1516,7 @@
             "button_style": "btn--solid",
             "show_arrow": true,
             "button_2_text": "Not sure? Tell us about your space",
-            "button_url_2": "##",
+            "button_url_2": "shopify://pages/begin-your-project",
             "button_type_2": "btn--white hero__btn",
             "button_style_2": "btn--outline",
             "show_arrow__button_2": true,
@@ -1535,6 +1546,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-center",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "#2b1e19",
         "color": "#ffffff",
         "first_button_text": "",

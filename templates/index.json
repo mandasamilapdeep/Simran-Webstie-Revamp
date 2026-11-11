@@ -47,11 +47,13 @@
           "settings": {
             "width_full": false,
             "link_text": "Begin your project",
-            "link": "#",
+            "link": "shopify://pages/begin-your-project",
             "button_type": "btn--white",
             "button_size": "btn--large",
             "button_style": "btn--solid",
-            "show_arrow": true
+            "arrow_first": false,
+            "show_arrow": true,
+            "hide_underline": false
           }
         },
         "button_PcPtb7": {
@@ -59,11 +61,13 @@
           "settings": {
             "width_full": false,
             "link_text": "Explore our work",
-            "link": "#",
+            "link": "shopify://pages/case-studies",
             "button_type": "btn--white",
             "button_size": "btn--large",
             "button_style": "btn--outline",
-            "show_arrow": false
+            "arrow_first": false,
+            "show_arrow": false,
+            "hide_underline": false
           }
         },
         "divider_DYRmeF": {
@@ -148,7 +152,7 @@
       ],
       "name": "Rich text",
       "settings": {
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "align_text": "text-center",
         "bg_color": "#f2ede7",
         "color": "",
@@ -529,7 +533,11 @@
             "third_heading": "6",
             "third_heading_size": 8,
             "text_3": "Sectors, from clinics to hospitality",
-            "text_size_3": 2
+            "text_size_3": 2,
+            "forth_heading": "",
+            "forth_heading_size": 11,
+            "text_4": "",
+            "text_size_4": 5
           }
         },
         "divider_w8Megj": {
@@ -561,12 +569,13 @@
           "type": "buttons",
           "settings": {
             "button_text": "Meet the studio",
-            "button_url": "#",
+            "button_url": "shopify://pages/the-studio",
             "button_type": "btn--black",
             "button_size": "btn--small",
             "button_style": "btn--text",
             "show_arrow": true,
-            "padding_bottom": 0
+            "padding_bottom": 0,
+            "hide_underline": false
           }
         }
       },
@@ -590,7 +599,7 @@
         "mobile_height": "four-fifty-height-hero--mobile",
         "width": "wrapper--full-padded",
         "image_1": "shopify://shop_images/Screenshot_2026-06-08_at_15.57.42.png",
-        "image_link": "#",
+        "image_link": "shopify://pages/case-studies",
         "button_text": "VIEW OUR WORK",
         "button_url": "",
         "button_type": "btn--white",
@@ -619,12 +628,18 @@
         "image_MeBwY8": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/732aad_f4b2dd5b7c95485c983f54914d561fa5_mv2_39e04f5f-4e3f-484c-85ef-d057267723a9.webp",
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "#ffffff",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "<strong>Workspaces</strong>",
             "heading_size": 5,
             "heading_margin_top": 0,
@@ -635,8 +650,12 @@
             "subtitle_color": "",
             "text": "<p>OFFICE · HAS · SHOWROOMS</p>",
             "text_size": 2,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
-            "button_url": "#",
+            "button_url": "shopify://pages/case-study-template",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -645,12 +664,18 @@
         "image_4WAEza": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/archsynth_image_2.jpg",
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "#ffffff",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "<strong>Hospitality</strong>",
             "heading_size": 5,
             "heading_margin_top": 0,
@@ -661,8 +686,12 @@
             "subtitle_color": "",
             "text": "<p>RESTAURANTS · CAFÉS · VENUES</p>",
             "text_size": 1,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
-            "button_url": "#",
+            "button_url": "shopify://pages/case-study-template",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -671,12 +700,18 @@
         "image_zdt378": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/Screenshot_2025-08-31_at_14.10.14.png",
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "#ffffff",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "<strong>Salons and Barbers</strong>",
             "heading_size": 5,
             "heading_margin_top": 0,
@@ -687,8 +722,12 @@
             "subtitle_color": "",
             "text": "<p>HAIR · BEAUTY · GROOMING</p>",
             "text_size": 1,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
-            "button_url": "#",
+            "button_url": "shopify://pages/case-study-template",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -697,12 +736,18 @@
         "image_MrFjMW": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/29_b1538231-935b-43d4-8a23-aa78b1f15cbd.png",
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "#ffffff",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "<strong>Clinics and Aesthetics</strong>",
             "heading_size": 5,
             "heading_margin_top": 0,
@@ -713,8 +758,12 @@
             "subtitle_color": "",
             "text": "<p>MEDICAL · HAIR CLINICS · SKIN</p>",
             "text_size": 1,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
-            "button_url": "#",
+            "button_url": "shopify://pages/case-study-template",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -723,12 +772,18 @@
         "image_MhnGn4": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/screenshot-2025-08-30-at-202416-1756581930.png",
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "#ffffff",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "<strong>Wellness and Fitness</strong>",
             "heading_size": 5,
             "heading_margin_top": 0,
@@ -739,6 +794,10 @@
             "subtitle_color": "",
             "text": "<p>GYMS · STUDIOS · SPAS</p>",
             "text_size": 1,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
             "button_url": "#",
             "button_type": "btn--primary hero__btn",
@@ -749,12 +808,18 @@
         "image_9XGWNh": {
           "type": "image",
           "settings": {
+            "block_border_color": "",
             "column_width": 33,
             "image": "shopify://shop_images/13.webp",
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
             "text_box_bg_color": "#ffffff",
+            "title_1": "",
+            "heading_size_1": 4,
+            "heading_letter_spacing_1": 0,
+            "heading_color_1": "",
+            "heading_margin_top_1": 0,
             "title": "<strong>Nurseries and Education</strong>",
             "heading_size": 5,
             "heading_margin_top": 0,
@@ -765,8 +830,12 @@
             "subtitle_color": "",
             "text": "<p>EARLY YEARS · ARTS · LEARNING SPACES</p>",
             "text_size": 1,
+            "text_2_and_button_in_row": false,
+            "text_2": "",
+            "text_2_size": 3,
+            "text_2_color": "",
             "button_text": "",
-            "button_url": "#",
+            "button_url": "shopify://pages/case-study-template",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -794,6 +863,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "All case studies",
@@ -906,11 +976,13 @@
           "settings": {
             "width_full": false,
             "link_text": "Read the case study",
-            "link": "#",
+            "link": "shopify://pages/case-studies",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
-            "show_arrow": true
+            "arrow_first": false,
+            "show_arrow": true,
+            "hide_underline": false
           }
         }
       },
@@ -963,12 +1035,13 @@
         "align_text": "text-left",
         "align_columns": "flex-align-stretch",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "#f2ede7",
         "color": "#2b1e19",
         "first_button_text": "",
         "first_button_url": "",
         "second_button_text": "Compare all packages",
-        "second_button_url": "#",
+        "second_button_url": "shopify://pages/design-packages",
         "padding_top": 100,
         "padding_bottom": 8,
         "layout_mobile": "1",
@@ -1049,12 +1122,13 @@
           "type": "buttons",
           "settings": {
             "button_text": "Book your review",
-            "button_url": "",
+            "button_url": "shopify://pages/the-clarity-review",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
             "show_arrow": true,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "hide_underline": false
           }
         }
       },
@@ -1109,6 +1183,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "01",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -1118,6 +1195,7 @@
             "title_2_color": "",
             "text": "<p>A clear creative direction and layout to take forward with confidence.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -1128,11 +1206,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 50,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "LEARN MORE",
-            "button_url": "#",
+            "button_url": "shopify://pages/concept",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_wcdM8W": {
@@ -1144,6 +1232,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "02",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -1153,6 +1244,7 @@
             "title_2_color": "",
             "text": "<p>Every finish, fitting and furniture piece selected, specified and priced.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -1163,11 +1255,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 50,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "LEARN MORE",
-            "button_url": "#",
+            "button_url": "shopify://pages/sourcing-and-specification",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_dmnr3z": {
@@ -1179,6 +1281,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "03",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -1188,6 +1293,7 @@
             "title_2_color": "",
             "text": "<p>Drawings, 3D visuals and joinery details ready for your contractor.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "",
             "text_top_border_color": "",
@@ -1198,11 +1304,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 50,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "LEARN MORE",
-            "button_url": "#",
+            "button_url": "shopify://pages/full-design",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_ddPXVT": {
@@ -1214,6 +1330,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "04 · BY APPLICATION",
             "heading_size": 1,
             "heading_letter_spacing": 2,
@@ -1223,6 +1342,7 @@
             "title_2_color": "#ffffff",
             "text": "<p>Design and delivery, fully managed from first sketch to opening day.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "#ffffff",
             "text_top_border_color": "",
@@ -1233,11 +1353,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 50,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "APPLY",
-            "button_url": "#",
+            "button_url": "shopify://pages/signature",
             "button_type": "btn--white hero__btn",
             "button_style": "btn--text",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
@@ -1260,6 +1390,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-stretch",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "#f2ede7",
         "color": "#2b1e19",
         "first_button_text": "",
@@ -1285,6 +1416,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "I.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -1294,6 +1428,7 @@
             "title_2_color": "",
             "text": "<p>A consultation to understand your brand, your clients and how the space must perform commercially.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "#574840",
             "text_top_border_color": "",
@@ -1304,11 +1439,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_NgxC3r": {
@@ -1320,6 +1465,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "II.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -1329,6 +1477,7 @@
             "title_2_color": "",
             "text": "<p>Concept, layout and 3D visualisation, refined with you until every detail is right.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "#574840",
             "text_top_border_color": "",
@@ -1339,11 +1488,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_MpHjC4": {
@@ -1355,6 +1514,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "III.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -1364,6 +1526,7 @@
             "title_2_color": "",
             "text": "<p>Drawings, finishes and furniture specified, priced and approved in your live client portal.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "#574840",
             "text_top_border_color": "",
@@ -1374,11 +1537,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         },
         "text_YapCT9": {
@@ -1390,6 +1563,9 @@
             "padding_left_desktop_zero": false,
             "padding_right_desktop_zero": false,
             "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
             "title": "IV.",
             "heading_size": 4,
             "heading_letter_spacing": 0,
@@ -1399,6 +1575,7 @@
             "title_2_color": "",
             "text": "<p>Trades coordinated, compliance handled and the finished space photographed for your launch.</p>",
             "text_size": 3,
+            "text_max_width": 600,
             "text_style": "font-body",
             "text_color": "#574840",
             "text_top_border_color": "",
@@ -1409,11 +1586,21 @@
             "text_2_top_border_color": "",
             "text_2_letter_spacing": 0,
             "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary hero__btn",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
           }
         }
       },
@@ -1436,6 +1623,7 @@
         "align_text": "text-left",
         "align_columns": "flex-align-top",
         "width": "wrapper--full-padded",
+        "main_bg_color": "",
         "bg_color": "",
         "color": "",
         "first_button_text": "",
@@ -1509,7 +1697,8 @@
             "button_size": "",
             "button_style": "btn--text",
             "show_arrow": true,
-            "padding_bottom": 0
+            "padding_bottom": 0,
+            "hide_underline": false
           }
         }
       },
@@ -1609,7 +1798,7 @@
         "show_stars": true,
         "star_count": 5,
         "link_text": "READ MORE CLIENT STORIES",
-        "link_url": "",
+        "link_url": "shopify://pages/case-studies",
         "autoplay": true,
         "autoplay_speed": 6,
         "pause_on_hover": true,
@@ -1662,11 +1851,13 @@
           "settings": {
             "width_full": true,
             "link_text": "Book a design consultation",
-            "link": "#",
+            "link": "shopify://pages/begin-your-project",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
-            "show_arrow": true
+            "arrow_first": false,
+            "show_arrow": true,
+            "hide_underline": false
           }
         },
         "button_eFeAhF": {
@@ -1674,11 +1865,13 @@
           "settings": {
             "width_full": true,
             "link_text": "Explore design packages",
-            "link": "#",
+            "link": "shopify://pages/design-packages",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--outline",
-            "show_arrow": true
+            "arrow_first": false,
+            "show_arrow": true,
+            "hide_underline": false
           }
         }
       },

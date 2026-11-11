@@ -17,7 +17,7 @@
           "settings": {
             "width_full": false,
             "link_text": "All case studies",
-            "link": "",
+            "link": "shopify://pages/case-studies",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",

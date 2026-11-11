@@ -58,14 +58,16 @@
             "text_size": 5,
             "text_style": "font-body",
             "padding_bottom": 16,
-            "text_color": "#574840"
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
           }
         },
         "buttons_6WYUiV": {
           "type": "buttons",
           "settings": {
             "button_text": "Begin your project",
-            "button_url": "#",
+            "button_url": "shopify://pages/begin-your-project",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
@@ -79,7 +81,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Tailored to your project",
-            "button_url": "",
+            "button_url": "shopify://pages/begin-your-project",
             "button_type": "btn--secondary",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -1440,7 +1442,7 @@
             "text_2_right_text": "",
             "text_2_right_text_color": "",
             "button_text": "Book a consultation",
-            "button_url": "",
+            "button_url": "shopify://pages/begin-your-project",
             "button_type": "btn--white hero__btn",
             "button_style": "btn--solid",
             "show_arrow": true,
