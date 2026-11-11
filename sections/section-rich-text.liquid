@@ -201,6 +201,22 @@
                 {%- render 'image', image: block.settings.image, sizes: sizes -%}
               </div>
 
+            {%- when 'down_arrow_button' -%}
+              <a {{ block.shopify_attributes }} class="down_arrow_button" href="{{ section.settings.anchor_link }}">
+                <span class="sdp-cue-circle">
+                  <svg
+                    width="14"
+                    height="18"
+                    viewBox="0 0 14 18"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.3"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 1v15M1 10l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </a>
             {%- when 'buttons' -%}
               {%- liquid
                 assign button_style = block.settings.button_style
@@ -234,17 +250,30 @@
                   {{ block.shopify_attributes }}
                   {{ block_style }}
                 >
-                  <a
-                    style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %} text-transform: {{ block.settings.button_text_transform }};"
-                    href="{{ block.settings.button_url | default: '#!' }}"
-                    class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
-                  >
-                    <span>{{ block.settings.button_text }}</span>
+                  {% if block.settings.button_url != blank %}
+                    <a
+                      style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %} text-transform: {{ block.settings.button_text_transform }};"
+                      href="{{ block.settings.button_url | default: '#!' }}"
+                      class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                    >
+                      <span>{{ block.settings.button_text }}</span>
 
-                    {%- if block.settings.show_arrow -%}
-                      {%- render 'icon-arrow-right' -%}
-                    {%- endif -%}
-                  </a>
+                      {%- if block.settings.show_arrow -%}
+                        {%- render 'icon-arrow-right' -%}
+                      {%- endif -%}
+                    </a>
+                  {% else %}
+                    <span
+                      style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %} text-transform: {{ block.settings.button_text_transform }};"
+                      class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                    >
+                      <span>{{ block.settings.button_text }}</span>
+
+                      {%- if block.settings.show_arrow -%}
+                        {%- render 'icon-arrow-right' -%}
+                      {%- endif -%}
+                    </span>
+                  {% endif %}
                 </div>
 
                 {%- if prev_block.type == 'buttons'
@@ -615,6 +644,17 @@
           "unit": "px",
           "label": "Padding bottom",
           "default": 16
+        }
+      ]
+    },
+    {
+      "type": "down_arrow_button",
+      "name": "Down Arrow Button",
+      "settings": [
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Link"
         }
       ]
     },

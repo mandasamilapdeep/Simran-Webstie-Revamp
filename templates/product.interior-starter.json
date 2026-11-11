@@ -9,6 +9,143 @@
  */
 {
   "sections": {
+    "section_rich_text_aDiT4h": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_8QJb6D": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<strong>Package 01</strong>",
+            "text_size": 1,
+            "subheading_letter_spacing": 2,
+            "padding_bottom": 16,
+            "subheading_color": "#7a5f32"
+          }
+        },
+        "heading_qXeqcy": {
+          "type": "heading",
+          "settings": {
+            "title": "Concept.",
+            "text_size": 14,
+            "padding_bottom": 16,
+            "title_color": ""
+          }
+        },
+        "text_a6WAyt": {
+          "type": "text",
+          "settings": {
+            "text_max_width": 700,
+            "icon_width": 40,
+            "text": "<p>A clear creative direction and layout, so you can move forward with confidence.</p>",
+            "text_size": 5,
+            "text_style": "font-body",
+            "padding_bottom": 16,
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
+          }
+        },
+        "buttons_jxFk7U": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "From £495 per space, ex VAT",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 40,
+            "hide_underline": false,
+            "button_text_transform": "unset"
+          }
+        },
+        "subheading_CXJ6h7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Discover what is included",
+            "text_size": 1,
+            "subheading_letter_spacing": 2,
+            "padding_bottom": 16,
+            "subheading_color": ""
+          }
+        },
+        "down_arrow_button_aV63tG": {
+          "type": "down_arrow_button",
+          "settings": {
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8QJb6D",
+        "heading_qXeqcy",
+        "text_a6WAyt",
+        "buttons_jxFk7U",
+        "subheading_CXJ6h7",
+        "down_arrow_button_aV63tG"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_rich_text_ehpmkT": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_X7ndwF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Book online",
+            "text_size": 1,
+            "subheading_letter_spacing": 2,
+            "padding_bottom": 16,
+            "subheading_color": "#7a5f32"
+          }
+        },
+        "heading_ziKccx": {
+          "type": "heading",
+          "settings": {
+            "title": "Book your Concept package.",
+            "text_size": 11,
+            "padding_bottom": 16,
+            "title_color": ""
+          }
+        },
+        "text_Qzxrbf": {
+          "type": "text",
+          "settings": {
+            "text_max_width": 600,
+            "icon_width": 40,
+            "text": "<p>Add it to your cart, check out securely, and we will be in touch to arrange your brainstorming call.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16,
+            "text_color": "#574840",
+            "border_top_color": "",
+            "show_top_border": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_X7ndwF",
+        "heading_ziKccx",
+        "text_Qzxrbf"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "align_text": "text-center",
+        "bg_color": "#F2EDE7",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "main": {
       "type": "product",
       "blocks": {
@@ -16,8 +153,14 @@
           "type": "title",
           "settings": {
             "subheading_option": "none",
-            "text_size": 6,
+            "text_size": 8,
             "padding_bottom": 8
+          }
+        },
+        "price_fT8g4k": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
           }
         },
         "text_q7dtKg": {
@@ -33,7 +176,7 @@
           "type": "text",
           "settings": {
             "title": "£495.00 ex VAT",
-            "text": "<p>Price per room. Use code DESIGNMYSPACE for 10% off your first order.  </p>",
+            "text": "<p>Price per room. Use code DESIGNMYSPACE for 10% off your first order. &nbsp;</p>",
             "layout": "left",
             "padding_bottom": 16
           }
@@ -68,6 +211,7 @@
       },
       "block_order": [
         "title",
+        "price_fT8g4k",
         "text_q7dtKg",
         "text_aBJkAk",
         "buttons",
@@ -75,14 +219,14 @@
       ],
       "settings": {
         "product_sticky_enable": true,
-        "image_layout": "thumbnails",
+        "image_layout": "stacked",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
-        "padding_top": 35,
-        "padding_bottom": 25
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_accordion_group_UFhwX8": {
@@ -137,6 +281,7 @@
         "question_BTjFPr",
         "question_MpELDN"
       ],
+      "disabled": true,
       "name": "Accordion group",
       "settings": {
         "width": "wrapper",
@@ -156,25 +301,36 @@
           "settings": {
             "title": "It's probably not the right fit if:",
             "text_size": 6,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "title_color": ""
           }
         },
         "text_P8tPcY": {
           "type": "text",
           "settings": {
+            "text_max_width": 500,
+            "icon_width": 40,
             "text": "<p>You need an entire multi-room designed and project-managed (start at Tier 3)</p>",
             "text_size": 3,
             "text_style": "font-body",
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "text_color": "",
+            "border_top_color": "",
+            "show_top_border": false
           }
         },
         "text_jFUKFR": {
           "type": "text",
           "settings": {
+            "text_max_width": 500,
+            "icon_width": 40,
             "text": "<p>You only want help picking furniture, not designing the space (start at Tier 2)</p>",
             "text_size": 3,
             "text_style": "font-body",
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "text_color": "",
+            "border_top_color": "",
+            "show_top_border": false
           }
         }
       },
@@ -183,6 +339,7 @@
         "text_P8tPcY",
         "text_jFUKFR"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "width": "wrapper",
@@ -201,16 +358,22 @@
           "settings": {
             "title": "How it Works:",
             "text_size": 5,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "title_color": ""
           }
         },
         "text_VnHHpg": {
           "type": "text",
           "settings": {
+            "text_max_width": 500,
+            "icon_width": 40,
             "text": "<p>A simple, structured four-step process from brief to delivery in two weeks:</p>",
             "text_size": 3,
             "text_style": "font-body",
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "text_color": "",
+            "border_top_color": "",
+            "show_top_border": false
           }
         }
       },
@@ -218,6 +381,7 @@
         "heading_wHhKkH",
         "text_VnHHpg"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "width": "wrapper",
@@ -286,6 +450,7 @@
         "icon_hYgtbw",
         "icon_AVhR3c"
       ],
+      "disabled": true,
       "name": "Text columns with icons",
       "settings": {
         "title": "",
@@ -311,7 +476,9 @@
           "type": "subheading",
           "settings": {
             "subheading": "recent 5-star",
+            "subheading_color": "#000000",
             "text_size": 3,
+            "sub_title_letter_spacing": 0,
             "padding_bottom": 8
           }
         },
@@ -320,12 +487,15 @@
           "settings": {
             "title": "Testimonials",
             "text_size": 7,
+            "letter_spacing": 0,
             "padding_bottom": 16
           }
         },
         "text_3TNaBC": {
           "type": "text",
           "settings": {
+            "icon_width": 40,
+            "text_color": "#000000",
             "text": "<p><em>\"We had an excellent experience working with Simran Design Services on the design and fit-out of the Infinitum Entertainment & Creator office on Carnaby Street.<br/><br/>From the initial design concepts through to full project management, the team were exceptional. They managed the entire process seamlessly, coordinating all tradesmen, overseeing regulations and compliance, and making what could have been a stressful project feel easy and well organised throughout.<br/><br/>Their approach was highly collaborative - they really listened to what we wanted as a business and translated it into a space that feels creative, welcoming and functional. The attention to detail, communication and professionalism were outstanding from start to finish.\"<br/><br/>The final office space has completely transformed the way we work. It’s a space the whole team genuinely loves being in every day, and we constantly receive compliments on the design.<br/><br/>We loved working with Simran and Shreya and would use them again in a heartbeat.<br/><br/>Infinitum Entertainment</em></p>",
             "text_size": 2,
             "text_style": "font-body",
@@ -341,7 +511,8 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": true,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "hide_underline": false
           }
         }
       },
@@ -351,6 +522,7 @@
         "text_3TNaBC",
         "buttons_t7preW"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "layout": "",
@@ -358,8 +530,22 @@
         "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/Shopify_Design_Packages_4a18ebfd-ad66-4b31-9d0d-b7536a8caacc.jpg",
+        "image_link": "",
+        "button_text": "Learn more",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
         "image_width": "one-half",
+        "subtitle": "",
+        "subtitle_color": "#000000",
+        "sub_title_size": 8,
+        "title": "",
+        "title_size": 8,
         "text_alignment": "text-left",
+        "text_placement": "center",
+        "text_bg_color": "",
         "reverse_blocks": true,
         "bg_color": "#ab8c52",
         "color": "#ffffff",
@@ -375,16 +561,22 @@
           "settings": {
             "title": "FAQs:",
             "text_size": 5,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "title_color": ""
           }
         },
         "text_C68CAh": {
           "type": "text",
           "settings": {
+            "text_max_width": 500,
+            "icon_width": 40,
             "text": "<p>Answers to your questions...</p>",
             "text_size": 3,
             "text_style": "font-body",
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "text_color": "",
+            "border_top_color": "",
+            "show_top_border": false
           }
         }
       },
@@ -392,6 +584,7 @@
         "heading_zJzeVn",
         "text_C68CAh"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "width": "wrapper",
@@ -493,6 +686,7 @@
         "question_EECeGp",
         "question_NygnfM"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "width": "wrapper",
@@ -511,25 +705,32 @@
           "type": "heading",
           "settings": {
             "title": "Ready to see what your space could become?",
-            "heading_size": 7
+            "heading_size": 7,
+            "heading_max_width": 600
           }
         },
         "button_3eNCXP": {
           "type": "button",
           "settings": {
+            "width_full": false,
             "link_text": "Book the Concept Design Package - £595",
             "link": "shopify://products/commercial-interior-concept-design-package",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": true
+            "arrow_first": false,
+            "show_arrow": true,
+            "hide_underline": false
           }
         },
         "text_7BCqKt": {
           "type": "text",
           "settings": {
+            "text_max_width": 1000,
             "description": "<p>Use code WELCOME10 for 10% off your first order.</p>",
             "text_size": 4,
+            "description_letter_spacing": 0,
+            "description_text_color": "#000000",
             "text_style": "font-body"
           }
         }
@@ -539,6 +740,7 @@
         "button_3eNCXP",
         "text_7BCqKt"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "height": "screen-height-one-half",
@@ -546,6 +748,9 @@
         "image_1": "shopify://shop_images/Screenshot_2026-04-16_at_12.52.34.png",
         "link": "shopify://products/commercial-interior-concept-design-package",
         "mobile_height": "screen-height-one-half--mobile",
+        "image_marign_bottom_desktop": 0,
+        "text_box_max_width": 600,
+        "text_box_full_width": false,
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 70,
@@ -598,6 +803,7 @@
         "highlight_TK9we8",
         "highlight_zqqeUP"
       ],
+      "disabled": true,
       "name": "Highlights",
       "settings": {
         "style": "rectangle",
@@ -961,16 +1167,22 @@
           "settings": {
             "title": "what you will receive...",
             "text_size": 4,
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "title_color": ""
           }
         },
         "text_PqApUC": {
           "type": "text",
           "settings": {
+            "text_max_width": 500,
+            "icon_width": 40,
             "text": "<p>(Examples below are from our Soho Office full design and install project for Infinitum Group, London. Check out the full project in our portfolio)</p>",
             "text_size": 2,
             "text_style": "font-body",
-            "padding_bottom": 16
+            "padding_bottom": 16,
+            "text_color": "",
+            "border_top_color": "",
+            "show_top_border": false
           }
         }
       },
@@ -1191,9 +1403,275 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
+    },
+    "section_rich_text_pHdqna": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_ntfLK9": {
+          "type": "text",
+          "settings": {
+            "text_max_width": 1050,
+            "icon_width": 40,
+            "text": "<p>Use this text to share information about your Several spaces or a larger project? <a href=\"/pages/begin-your-project\">Get a tailored quote</a> &nbsp; &nbsp;Not sure which package? <a href=\"/pages/clarity-review\">Start with a Clarity Review</a></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16,
+            "text_color": "",
+            "border_top_color": "",
+            "show_top_border": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ntfLK9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_multicolumn_PRjPw7": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_RHBenQ": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "01",
+            "heading_size": 3,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Add to cart and check out",
+            "heading_size_2": 5,
+            "title_2_color": "",
+            "text": "<p>Pay securely by card. Your booking is confirmed by email.</p>",
+            "text_size": 3,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        },
+        "text_38ciKn": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "02",
+            "heading_size": 3,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Share your brief",
+            "heading_size_2": 5,
+            "title_2_color": "",
+            "text": "<p>Complete our short questionnaire with photos and measurements.</p>",
+            "text_size": 3,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        },
+        "text_b6WJHa": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "03",
+            "heading_size": 3,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Brainstorming call",
+            "heading_size_2": 5,
+            "title_2_color": "",
+            "text": "<p>A call with Simran to explore your brand, clients and space.</p>",
+            "text_size": 3,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        },
+        "text_U3m4zj": {
+          "type": "text",
+          "settings": {
+            "column_bg_color": "",
+            "column_border_top": "#2b1e19",
+            "column_border_top_mobile_hide": false,
+            "padding_left_desktop_zero": false,
+            "padding_right_desktop_zero": false,
+            "column_width": 25,
+            "enable_custom_padding_top": false,
+            "padding_top_desktop": 0,
+            "padding_top_mobile": 0,
+            "title": "04",
+            "heading_size": 3,
+            "heading_letter_spacing": 2,
+            "title_color": "#7a5f32",
+            "title_2": "Your design, delivered",
+            "heading_size_2": 5,
+            "title_2_color": "",
+            "text": "<p>Presented within 1 to 2 weeks, with a revision round included.</p>",
+            "text_size": 3,
+            "text_max_width": 600,
+            "text_style": "font-body",
+            "text_color": "#574840",
+            "text_top_border_color": "",
+            "text_2": "",
+            "text_size_2": 3,
+            "text_style_2": "font-body",
+            "text_2_color": "",
+            "text_2_top_border_color": "",
+            "text_2_letter_spacing": 0,
+            "text_2_margin_top": 10,
+            "text_2_right_text": "",
+            "text_2_right_text_color": "",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button_2_text": "",
+            "button_url_2": "",
+            "button_type_2": "btn--primary hero__btn",
+            "button_style_2": "btn--solid",
+            "show_arrow__button_2": false,
+            "text_3": "",
+            "text_size_3": 3,
+            "text_3_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_RHBenQ",
+        "text_38ciKn",
+        "text_b6WJHa",
+        "text_U3m4zj"
+      ],
+      "name": "Multicolumn",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 1,
+        "subtitle_color": "#7a5f32",
+        "title": "",
+        "heading_size": 9,
+        "heading_max_width": 1500,
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "main_bg_color": "",
+        "bg_color": "",
+        "color": "",
+        "first_button_text": "",
+        "first_button_url": "",
+        "second_button_text": "",
+        "second_button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "layout_mobile": "1",
+        "equal_spacing_blocks": false,
+        "mobile_flex_row": false
+      }
     }
   },
   "order": [
+    "section_rich_text_aDiT4h",
+    "section_rich_text_ehpmkT",
     "main",
     "section_accordion_group_UFhwX8",
     "section_rich_text_Cx8nhN",
@@ -1211,6 +1689,8 @@
     "section_rich_text_JctL6p",
     "section_columns_QfJLnJ",
     "section_announcement_fPgM6B",
-    "related"
+    "related",
+    "section_rich_text_pHdqna",
+    "section_multicolumn_PRjPw7"
   ]
 }
