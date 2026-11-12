@@ -14786,9 +14786,9 @@ body.has-header-transparent.has-first-section-overlay-header .product__content {
 
 @media only screen and (max-width: 749px) {
   .product__thumbs__holder {
-    margin-left: var(--outer-offset);
+    /* margin-left: var(--outer-offset);
     margin-right: var(--outer-offset);
-    padding-left: var(--outer);
+    padding-left: var(--outer); */
     scroll-padding: var(--outer);
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
@@ -15037,7 +15037,7 @@ body.has-header-transparent.has-first-section-overlay-header .product__content {
 
 .product__price {
   margin: 0;
-  font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));
+  font-size: calc(var(--font-10));
   line-height: var(--line-height-normal);
   align-items: flex-start;
   padding: calc(4px * var(--FONT-ADJUST-BODY)) 0;

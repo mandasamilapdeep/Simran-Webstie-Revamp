@@ -54,6 +54,10 @@
       font-family: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
       color: #2b1e19;
       margin-top: 10px;
+      {% if block.settings.background_color != blank %}
+        background-color: {{ block.settings.background_color }};
+        padding: 20px;
+      {% endif %}
     }
 
     .new-product-buttons *,
@@ -405,12 +409,25 @@
         let currentVariantId = '{{ current_variant.id }}';
 
         function formatMoneyWithoutZeros(cents) {
-          if (window.themeCurrency && window.themeCurrency.formatMoney && window.theme && window.theme.moneyFormat) {
-            const formatted = window.themeCurrency.formatMoney(cents, window.theme.moneyFormat);
-            return formatted.replace(/\.00(?!\d)/, '');
+          const currencyFormatter = (window.themeVendor && window.themeVendor.themeCurrency) || window.themeCurrency;
+          let formatted = '';
+
+          if (currencyFormatter && typeof currencyFormatter.formatMoney === 'function' && window.theme && window.theme.moneyFormat) {
+            formatted = currencyFormatter.formatMoney(cents, window.theme.moneyFormat);
+            formatted = formatted.replace(/\.00(?!\d)/, '');
+          } else {
+            const amount = cents / 100;
+            const isWhole = (amount % 1 === 0);
+            const parts = (isWhole ? amount.toFixed(0) : amount.toFixed(2)).split('.');
+            parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+            const currencySymbol = '{{ 0 | money }}'.replace(/[0-9.,\s]/g, '') || '£';
+            formatted = currencySymbol + parts.join('.');
           }
-          const amount = cents / 100;
-          return '£' + (amount % 1 === 0 ? amount.toFixed(0) : amount.toFixed(2));
+
+          // Ensure thousands comma separator is present on the integer portion (e.g. £3465 -> £3,465)
+          const decimalSplit = formatted.split('.');
+          decimalSplit[0] = decimalSplit[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+          return decimalSplit.join('.');
         }
 
         function calculateTotal() {
@@ -569,4 +586,14 @@
       document.addEventListener('shopify:section:load', initNewProductButtons);
     })();
   </script>
+
+  {% if shop.enabled_payment_types.size > 0 %}
+    <ul class="payment-icons">
+      {% for type in shop.enabled_payment_types %}
+        <li class="payment-icons__item">
+          {{ type | payment_type_svg_tag: class: 'payment-icon' }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>

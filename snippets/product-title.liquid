@@ -3,13 +3,15 @@
   assign text_size = text_size | prepend: 'heading-size-'
 -%}
 
-<div class="product__block product__head block-padding"
+<div
+  class="product__block product__head block-padding"
   {{ block_style }}
   {% if animation_name %}
     data-animation="{{ animation_name }}"
     data-animation-duration="{{ animation_duration }}"
     data-animation-delay="{{ animation_delay }}"
-  {% endif %}>
+  {% endif %}
+>
   {%- case block.settings.subheading_option -%}
     {%- when 'vendor' -%}
       {%- if product.vendor -%}
@@ -25,8 +27,8 @@
           <a href="{{ current_collection.url }}">{{ current_collection.title }}</a>
         </nav>
       {%- endif -%}
-    {%- when 'breadcrumb'  -%}
-      {% render 'breadcrumbs' breadcrumbs_modifier: 'breadcrumbs--no-padding product__breadcrumbs' %}
+    {%- when 'breadcrumb' -%}
+      {% render 'breadcrumbs', breadcrumbs_modifier: 'breadcrumbs--no-padding product__breadcrumbs' %}
   {%- endcase -%}
 
   <div class="product__title__wrapper" {{ block.shopify_attributes }}>
@@ -39,5 +41,17 @@
         </a>
       {%- endunless -%}
     </h1>
+    <div class="product__title__after">
+      <span class="star_rating" style="color: {{ block.settings.star_color }}">
+        <span aria-hidden="true">
+          {% for rating in (1..block.settings.star_rating_size) %}
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21.2l1.6-7L2 9.5l7.1-.6z"></path>
+            </svg>
+          {% endfor %}
+        </span>
+      </span>
+      <span> {{ block.settings.after_title }}</span>
+    </div>
   </div>
 </div>

@@ -64,6 +64,7 @@
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
     "form_style": "modern",
+    "variant_lines": true,
     "swatch_style": "circle",
     "favicon": "shopify://shop_images/FINAL_GOLD_LOGO_copy.png",
     "cart_type": "page",

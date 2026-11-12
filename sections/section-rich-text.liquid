@@ -127,6 +127,7 @@
                   }
                 {% endstyle %}
                 <div
+                  id="{{ block.settings.block_custom_id }}"
                   class="hero__rte {{ font_size_class }} {{ block.settings.text_style }} block-padding hero__rte_{{ section.id }}_{{ block.id }}"
                   data-aos="hero"
                   data-aos-anchor="{{ animation_anchor }}"
@@ -268,7 +269,7 @@
                   {% else %}
                     <span
                       style="{% if block.settings.hide_underline %}border-bottom: none;{% endif %} text-transform: {{ block.settings.button_text_transform }};"
-                      class="btn {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
+                      class="btn hover_no_effect {{ button_style }} {{ block.settings.button_size }} {{ block.settings.button_type }}"
                     >
                       <span>{{ block.settings.button_text }}</span>
 
@@ -518,6 +519,11 @@
       "type": "text",
       "name": "Text",
       "settings": [
+        {
+          "type": "text",
+          "id": "block_custom_id",
+          "label": "Block custom ID"
+        },
         {
           "type": "range",
           "id": "text_max_width",

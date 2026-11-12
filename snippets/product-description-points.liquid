@@ -1,0 +1,20 @@
+<div class="product_description_points_main">
+  {% for des in product.metafields.custom.description_points.value %}
+    <div class="product_description_point">
+      <span class="icon">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          stroke="#7A5F32"
+          stroke-width="1.5"
+          aria-hidden="true"
+        >
+          <path d="M2 8.5l4 4 8-9"></path>
+        </svg>
+      </span>
+      <span class="text">{{ des }}</span>
+    </div>
+  {% endfor %}
+</div>

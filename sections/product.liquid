@@ -133,7 +133,7 @@
     class="product__wrapper {{ product_wrapper_modifier }}"
     data-product
   >
-    <div class="product__wrapper__inner">
+    <div class="product__wrapper__inner" style="background-color: {{ section.settings.section_background_color }};">
       <div class="product__page">
         <product-images
           class="{{ product_images_classlist }}"
@@ -247,7 +247,7 @@
           {%- endif -%}
         </product-images>
 
-        <div class="product__content">
+        <div class="product__content" id="product__content">
           <div
             class="form__wrapper{% unless show_buy_buttons %} form__wrapper--no-buttons{% endunless %}{% unless current_variant.available %} variant--soldout{% endunless %}{% if settings.form_style == 'classic' %} form__wrapper--classic{% else %} form__wrapper--modern{% endif %}"
             data-form-wrapper
@@ -306,6 +306,8 @@
                 -%}
 
                 {%- case block.type -%}
+                  {%- when 'description_points' -%}
+                    {%- render 'product-description-points', product: product, block: block -%}
                   {%- when '@app' -%}
                     {%- render block -%}
 
@@ -1222,6 +1224,11 @@
   "class": "section-overlay-header",
   "settings": [
     {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Section background color"
+    },
+    {
       "type": "text",
       "id": "section_custom_id",
       "label": "Section custom ID"
@@ -1344,6 +1351,10 @@
   ],
   "blocks": [
     {
+      "type": "description_points",
+      "name": "Description points"
+    },
+    {
       "type": "@app"
     },
     {
@@ -1385,6 +1396,26 @@
           "unit": "px",
           "label": "Padding bottom",
           "default": 8
+        },
+        {
+          "type": "range",
+          "id": "star_rating_size",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "unit": "px",
+          "label": "Star rating size",
+          "default": 5
+        },
+        {
+          "type": "color",
+          "id": "star_color",
+          "label": "Star color"
+        },
+        {
+          "type": "text",
+          "id": "after_title",
+          "label": "After title"
         }
       ]
     },
@@ -1406,6 +1437,11 @@
           "unit": "px",
           "label": "Padding bottom",
           "default": 16
+        },
+        {
+          "type": "inline_richtext",
+          "id": "price_text",
+          "label": "Price text"
         }
       ]
     },
@@ -1468,6 +1504,11 @@
       "name": "Buy buttons",
       "limit": 1,
       "settings": [
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background color"
+        },
         {
           "type": "text",
           "id": "spaces_label",
@@ -1964,7 +2005,7 @@
           "default": "#545454"
         },
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "title",
           "label": "Heading",
           "default": "Title"

@@ -26,7 +26,7 @@
           "type": "heading",
           "settings": {
             "title": "Concept.",
-            "text_size": 14,
+            "text_size": 15,
             "padding_bottom": 16,
             "title_color": ""
           }
@@ -34,6 +34,7 @@
         "text_a6WAyt": {
           "type": "text",
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 700,
             "icon_width": 40,
             "text": "<p>A clear creative direction and layout, so you can move forward with confidence.</p>",
@@ -120,6 +121,7 @@
         "text_Qzxrbf": {
           "type": "text",
           "settings": {
+            "block_custom_id": "book_online_last_block",
             "text_max_width": 600,
             "icon_width": 40,
             "text": "<p>Add it to your cart, check out securely, and we will be in touch to arrange your brainstorming call.</p>",
@@ -156,17 +158,22 @@
           "settings": {
             "subheading_option": "none",
             "text_size": 8,
-            "padding_bottom": 8
+            "padding_bottom": 20,
+            "star_rating_size": 5,
+            "star_color": "#ab8c52",
+            "after_title": "Rated 5 stars by clients on Google"
           }
         },
         "price_fT8g4k": {
           "type": "price",
           "settings": {
-            "padding_bottom": 16
+            "padding_bottom": 22,
+            "price_text": "per space, ex VAT"
           }
         },
         "text_q7dtKg": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "The fastest way to see what your commercial space could become. Ideal for a first project together.",
             "text": "",
@@ -176,16 +183,42 @@
         },
         "text_aBJkAk": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "title": "£495.00 ex VAT",
-            "text": "<p>Price per room. Use code DESIGNMYSPACE for 10% off your first order. &nbsp;</p>",
+            "text": "",
             "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "divider_WXVtar": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "description_points_6VbTzV": {
+          "type": "description_points",
+          "settings": {}
+        },
+        "icon_CyMAzA": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify://shop_images/clock.png",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Delivered in <strong>1 to 2 weeks</strong>",
+            "text_size": 3,
+            "width": "full",
             "padding_bottom": 16
           }
         },
         "buttons": {
           "type": "buttons",
           "settings": {
+            "background_color": "#ffffff",
             "spaces_label": "NUMBER OF SPACES",
             "total_label": "Total, ex VAT",
             "show_quantity": true,
@@ -194,8 +227,48 @@
             "padding_bottom": 26
           }
         },
+        "icon_GdYXci": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify://shop_images/lock_1.png",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Secure Shopify checkout",
+            "text_size": 3,
+            "width": "third",
+            "padding_bottom": 16
+          }
+        },
+        "icon_PiVg8B": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify://shop_images/tag.png",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Fixed fee, no hidden costs",
+            "text_size": 3,
+            "width": "third",
+            "padding_bottom": 16
+          }
+        },
+        "icon_DPkFVD": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify://shop_images/clock.png",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Reply within 1 working day",
+            "text_size": 3,
+            "width": "third",
+            "padding_bottom": 16
+          }
+        },
         "tabs": {
           "type": "tab_richtext",
+          "disabled": true,
           "settings": {
             "show_read_more": false,
             "style": "accordions",
@@ -218,20 +291,27 @@
         "price_fT8g4k",
         "text_q7dtKg",
         "text_aBJkAk",
+        "divider_WXVtar",
+        "description_points_6VbTzV",
+        "icon_CyMAzA",
         "buttons",
+        "icon_GdYXci",
+        "icon_PiVg8B",
+        "icon_DPkFVD",
         "tabs"
       ],
       "settings": {
+        "section_background_color": "#f2ede7",
         "section_custom_id": "prd_sec_main",
         "product_sticky_enable": true,
-        "image_layout": "stacked",
-        "image_size": "small",
-        "show_cart_bar": true,
+        "image_layout": "grid-1",
+        "image_size": "normal",
+        "show_cart_bar": false,
         "enable_zoom": true,
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
-        "padding_top": 140,
-        "padding_bottom": 100
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "section_accordion_group_UFhwX8": {
@@ -313,6 +393,7 @@
         "text_P8tPcY": {
           "type": "text",
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 500,
             "icon_width": 40,
             "text": "<p>You need an entire multi-room designed and project-managed (start at Tier 3)</p>",
@@ -327,6 +408,7 @@
         "text_jFUKFR": {
           "type": "text",
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 500,
             "icon_width": 40,
             "text": "<p>You only want help picking furniture, not designing the space (start at Tier 2)</p>",
@@ -371,6 +453,7 @@
         "text_VnHHpg": {
           "type": "text",
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 500,
             "icon_width": 40,
             "text": "<p>A simple, structured four-step process from brief to delivery in two weeks:</p>",
@@ -575,6 +658,7 @@
         "text_C68CAh": {
           "type": "text",
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 500,
             "icon_width": 40,
             "text": "<p>Answers to your questions...</p>",
@@ -1182,6 +1266,7 @@
         "text_PqApUC": {
           "type": "text",
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 500,
             "icon_width": 40,
             "text": "<p>(Examples below are from our Soho Office full design and install project for Infinitum Group, London. Check out the full project in our portfolio)</p>",
@@ -1416,12 +1501,24 @@
     "section_rich_text_pHdqna": {
       "type": "section-rich-text",
       "blocks": {
+        "columns_WBLeXd": {
+          "type": "columns",
+          "settings": {
+            "text": "<p>Several spaces or a larger project? <a href=\"/pages/begin-your-project\">Get a tailored quote</a></p><p>Not sure which package? <a href=\"/pages/clarity-review\">Start with a Clarity Review</a></p>",
+            "text_columns": 2,
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
         "text_ntfLK9": {
           "type": "text",
+          "disabled": true,
           "settings": {
+            "block_custom_id": "",
             "text_max_width": 1050,
             "icon_width": 40,
-            "text": "<p>Use this text to share information about your Several spaces or a larger project? <a href=\"/pages/begin-your-project\">Get a tailored quote</a> &nbsp; &nbsp;Not sure which package? <a href=\"/pages/clarity-review\">Start with a Clarity Review</a></p>",
+            "text": "<p>Several spaces or a larger project? <a href=\"/pages/begin-your-project\">Get a tailored quote</a> &nbsp; &nbsp;Not sure which package? <a href=\"/pages/clarity-review\">Start with a Clarity Review</a></p>",
             "text_size": 3,
             "text_style": "font-body",
             "padding_bottom": 16,
@@ -1432,6 +1529,7 @@
         }
       },
       "block_order": [
+        "columns_WBLeXd",
         "text_ntfLK9"
       ],
       "name": "Rich text",

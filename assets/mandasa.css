@@ -575,6 +575,83 @@ p.article__excerpt {
     }
 }
 
+.product__wrapper__inner {
+    max-width: 100%;
+}
+
+.product__wrapper__inner .product__title {
+    font-weight: 400;
+}
+
+.product__wrapper__inner .product__title__wrapper {
+    position: relative;
+    padding-right: 0;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product__wrapper__inner .product__title__after {
+    display: flex;
+    width: max-content;
+    gap: 7px;
+    align-items: center;
+}
+
+.product__wrapper__inner .product__price__wrap {
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.product__wrapper__inner .product__price__wrap .product__price {
+    padding: 0;
+    line-height: 1;
+}
+
+.product_description_points_main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.product_description_point {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+ul.payment-icons {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.hover_no_effect::after,
+.hover_no_effect::after {
+    display: none;
+}
+
+.hero__rte.columns--2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero__rte.columns--2 p {
+    margin-top: 0;
+}
+
+.hero__rte.columns--2 p a {
+    font-weight: 400;
+}
 
 @media only screen and (min-width: 901px) {
     .hero__text-group_four-desktop {
@@ -607,6 +684,18 @@ p.article__excerpt {
 }
 
 @media screen and (min-width: 750px) {
+
+    .product__wrapper__inner .product__content .form__width {
+        max-width: 100%;
+    }
+
+    .product__wrapper__inner .product__content {
+        padding: 80px;
+    }
+
+    .product__wrapper__inner .product__page {
+        grid-template-columns: 0.9fr 1.1fr;
+    }
 
     .brick__block.brick__block--sixty {
         flex: 1 1 60%;
@@ -729,6 +818,10 @@ p.article__excerpt {
 }
 
 @media only screen and (max-width: 749px) {
+    .product__content {
+        padding: 0 20px 20px;
+    }
+
     .header__mobile_buttons .btn_third {
         display: none;
     }
@@ -764,6 +857,13 @@ p.article__excerpt {
 }
 
 @media only screen and (max-width: 480px) {
+    .product__wrapper__inner .product__title__after {
+        width: 100%;
+    }
+
+    .product__wrapper__inner .product__title__wrapper {
+        gap: 15px;
+    }
 
     .hero__content__wrapper .hero__button {
         width: 100%
